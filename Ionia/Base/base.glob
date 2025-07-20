@@ -1,0 +1,883 @@
+DIGEST 9e786dfb73f35cea941937bd13cc64b6
+FIonia.Base.base
+R15:19 Coq.Arith.Arith <> <> lib
+R21:25 Coq.Reals.Reals <> <> lib
+R27:29 Coq.Init.Nat <> <> lib
+R31:34 Coq.Bool.Bool <> <> lib
+R36:41 Coq.Strings.String <> <> lib
+R43:46 Coq.Lists.List <> <> lib
+R48:50 Coq.micromega.Lia <> <> lib
+R52:54 Coq.micromega.Lra <> <> lib
+R72:101 Coq.Logic.FunctionalExtensionality <> <> lib
+R119:144 Coq.Logic.ProofIrrelevance <> <> lib
+R425:449 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+prf 540:546 <> if_same
+binder 558:558 <> A:1
+R572:575 Coq.Init.Datatypes <> bool ind
+binder 568:568 <> b:2
+R583:583 Ionia.Base.base <> A:1 var
+binder 579:579 <> a:3
+R589:589 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R608:611 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R593:593 Ionia.Base.base <> b:2 var
+R607:607 Ionia.Base.base <> a:3 var
+R600:600 Ionia.Base.base <> a:3 var
+R612:612 Ionia.Base.base <> a:3 var
+R1053:1057 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1053:1057 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1080:1083 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1080:1083 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1166:1169 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1166:1169 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1191:1197 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1199:1200 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1191:1197 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1199:1200 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1233:1236 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1233:1236 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1340:1343 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1340:1343 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1317:1323 Ionia.Base.base <> if_same thm
+R1149:1155 Ionia.Base.base <> if_same thm
+R1717:1719 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1713:1716 Coq.Init.Datatypes <> true constr
+R1717:1719 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1713:1716 Coq.Init.Datatypes <> true constr
+R1761:1763 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1756:1760 Coq.Init.Datatypes <> false constr
+R1761:1763 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1756:1760 Coq.Init.Datatypes <> false constr
+R1806:1808 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1801:1804 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R1809:1812 Coq.Init.Datatypes <> true constr
+R1806:1808 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1801:1804 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R1809:1812 Coq.Init.Datatypes <> true constr
+R1866:1868 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1861:1864 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R1869:1873 Coq.Init.Datatypes <> false constr
+R1866:1868 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1861:1864 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R1869:1873 Coq.Init.Datatypes <> false constr
+R1928:1930 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1923:1926 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R1931:1934 Coq.Init.Datatypes <> true constr
+R1928:1930 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1923:1926 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R1931:1934 Coq.Init.Datatypes <> true constr
+R1988:1990 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1983:1986 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R1991:1995 Coq.Init.Datatypes <> false constr
+R1988:1990 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1983:1986 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R1991:1995 Coq.Init.Datatypes <> false constr
+R2050:2052 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2045:2048 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2053:2056 Coq.Init.Datatypes <> true constr
+R2050:2052 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2045:2048 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2053:2056 Coq.Init.Datatypes <> true constr
+R2121:2123 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2116:2119 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2124:2128 Coq.Init.Datatypes <> false constr
+R2121:2123 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2116:2119 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2124:2128 Coq.Init.Datatypes <> false constr
+R2200:2203 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2196:2199 Coq.Init.Datatypes <> true constr
+R2200:2203 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2196:2199 Coq.Init.Datatypes <> true constr
+R2263:2266 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2267:2270 Coq.Init.Datatypes <> true constr
+R2263:2266 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2267:2270 Coq.Init.Datatypes <> true constr
+R2331:2334 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2326:2330 Coq.Init.Datatypes <> false constr
+R2331:2334 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2326:2330 Coq.Init.Datatypes <> false constr
+R2395:2398 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2399:2403 Coq.Init.Datatypes <> false constr
+R2395:2398 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2399:2403 Coq.Init.Datatypes <> false constr
+R2455:2457 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2451:2454 Coq.Init.Datatypes <> true constr
+R2455:2457 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2451:2454 Coq.Init.Datatypes <> true constr
+R2487:2489 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2482:2486 Coq.Init.Datatypes <> false constr
+R2487:2489 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2482:2486 Coq.Init.Datatypes <> false constr
+R2521:2523 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2516:2519 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R2524:2527 Coq.Init.Datatypes <> true constr
+R2521:2523 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2516:2519 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R2524:2527 Coq.Init.Datatypes <> true constr
+R2571:2573 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2566:2569 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R2574:2578 Coq.Init.Datatypes <> false constr
+R2571:2573 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2566:2569 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R2574:2578 Coq.Init.Datatypes <> false constr
+R2623:2625 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2618:2621 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R2626:2629 Coq.Init.Datatypes <> true constr
+R2623:2625 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2618:2621 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R2626:2629 Coq.Init.Datatypes <> true constr
+R2673:2675 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2668:2671 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R2676:2680 Coq.Init.Datatypes <> false constr
+R2673:2675 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2668:2671 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R2676:2680 Coq.Init.Datatypes <> false constr
+R2725:2727 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2720:2723 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2728:2731 Coq.Init.Datatypes <> true constr
+R2725:2727 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2720:2723 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2728:2731 Coq.Init.Datatypes <> true constr
+R2783:2785 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2778:2781 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2786:2790 Coq.Init.Datatypes <> false constr
+R2783:2785 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2778:2781 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2786:2790 Coq.Init.Datatypes <> false constr
+R2840:2843 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2836:2839 Coq.Init.Datatypes <> true constr
+R2840:2843 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2836:2839 Coq.Init.Datatypes <> true constr
+R2893:2896 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2897:2900 Coq.Init.Datatypes <> true constr
+R2893:2896 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2897:2900 Coq.Init.Datatypes <> true constr
+R2951:2954 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2946:2950 Coq.Init.Datatypes <> false constr
+R2951:2954 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2946:2950 Coq.Init.Datatypes <> false constr
+R3005:3008 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R3009:3013 Coq.Init.Datatypes <> false constr
+R3005:3008 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R3009:3013 Coq.Init.Datatypes <> false constr
+R3063:3066 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R3063:3066 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R3109:3112 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R3030:3041 Coq.Bool.Bool <> andb_false_r thm
+R2973:2984 Coq.Bool.Bool <> andb_false_l thm
+R2917:2927 Coq.Bool.Bool <> andb_true_r thm
+R2862:2872 Coq.Bool.Bool <> andb_true_l thm
+R2804:2817 Coq.Bool.Bool <> andb_false_iff thm
+R2745:2759 Coq.Init.Datatypes <> andb_true_intro thm
+R2698:2708 Coq.Arith.PeanoNat Nat eqb_neq thm
+R2647:2656 Coq.Arith.PeanoNat Nat eqb_eq thm
+R2596:2606 Coq.Arith.PeanoNat Nat ltb_nlt thm
+R2545:2554 Coq.Arith.PeanoNat Nat ltb_lt thm
+R2425:2436 Coq.Bool.Bool <> andb_false_r thm
+R2358:2369 Coq.Bool.Bool <> andb_false_l thm
+R2292:2302 Coq.Bool.Bool <> andb_true_r thm
+R2227:2237 Coq.Bool.Bool <> andb_true_l thm
+R2147:2160 Coq.Bool.Bool <> andb_false_iff thm
+R2075:2087 Coq.Bool.Bool <> andb_true_iff thm
+R2018:2028 Coq.Arith.PeanoNat Nat eqb_neq thm
+R1957:1966 Coq.Arith.PeanoNat Nat eqb_eq thm
+R1896:1906 Coq.Arith.PeanoNat Nat ltb_nlt thm
+R1835:1844 Coq.Arith.PeanoNat Nat ltb_lt thm
+R3325:3327 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3319:3322 Coq.Init.Datatypes <> Some constr
+R3328:3331 Coq.Init.Datatypes <> Some constr
+R3325:3327 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3319:3322 Coq.Init.Datatypes <> Some constr
+R3328:3331 Coq.Init.Datatypes <> Some constr
+R3374:3376 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3368:3371 Coq.Init.Datatypes <> Some constr
+R3377:3380 Coq.Init.Datatypes <> None constr
+R3374:3376 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3368:3371 Coq.Init.Datatypes <> Some constr
+R3377:3380 Coq.Init.Datatypes <> None constr
+R3410:3412 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3406:3409 Coq.Init.Datatypes <> None constr
+R3413:3416 Coq.Init.Datatypes <> Some constr
+R3410:3412 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3406:3409 Coq.Init.Datatypes <> None constr
+R3413:3416 Coq.Init.Datatypes <> Some constr
+R3450:3452 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3444:3447 Coq.Init.Datatypes <> Some constr
+R3453:3456 Coq.Init.Datatypes <> Some constr
+R3450:3452 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3444:3447 Coq.Init.Datatypes <> Some constr
+R3453:3456 Coq.Init.Datatypes <> Some constr
+R3648:3650 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3642:3642 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3644:3645 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3647:3647 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3651:3651 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3653:3654 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3656:3656 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3648:3650 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3642:3642 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3644:3645 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3647:3647 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3651:3651 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3653:3654 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3656:3656 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3700:3702 Coq.Init.Datatypes <> fst def
+R3704:3704 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3706:3706 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3708:3708 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3700:3702 Coq.Init.Datatypes <> fst def
+R3704:3704 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3706:3706 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3708:3708 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3754:3756 Coq.Init.Datatypes <> snd def
+R3758:3758 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3760:3760 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3762:3762 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3754:3756 Coq.Init.Datatypes <> snd def
+R3758:3758 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3760:3760 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3762:3762 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3805:3807 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3799:3799 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3801:3802 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3804:3804 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3808:3808 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3810:3811 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3813:3813 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3805:3807 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3799:3799 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3801:3802 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3804:3804 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3808:3808 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3810:3811 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3813:3813 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3845:3847 Coq.Init.Datatypes <> fst def
+R3849:3849 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3851:3852 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3854:3854 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3845:3847 Coq.Init.Datatypes <> fst def
+R3849:3849 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3851:3852 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3854:3854 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3889:3891 Coq.Init.Datatypes <> snd def
+R3893:3893 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3895:3896 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3898:3898 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3889:3891 Coq.Init.Datatypes <> snd def
+R3893:3893 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3895:3896 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3898:3898 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3912:3914 Coq.Init.Datatypes <> snd def
+R3868:3870 Coq.Init.Datatypes <> fst def
+R3782:3784 Coq.Init.Datatypes <> snd def
+R3728:3730 Coq.Init.Datatypes <> fst def
+R4046:4046 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4057:4062 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4073:4073 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4046:4046 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4057:4062 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4073:4073 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4086:4110 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R4316:4332 Coq.Logic.ProofIrrelevance <> proof_irrelevance prfax
+sec 4441:4445 <> Utils
+prf 4506:4512 <> add_2_r
+binder 4522:4522 <> n:4
+R4530:4532 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4526:4528 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4525:4525 Ionia.Base.base <> n:4 var
+R4533:4533 Coq.Init.Datatypes <> S constr
+R4536:4536 Coq.Init.Datatypes <> S constr
+R4538:4538 Ionia.Base.base <> n:4 var
+prf 4654:4664 <> pow_0_mul_1
+binder 4674:4674 <> i:5
+binder 4676:4676 <> j:6
+R4688:4690 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4684:4686 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4680:4682 Coq.Init.Nat <> ::nat_scope:x_'^'_x not
+R4679:4679 Ionia.Base.base <> i:5 var
+R4683:4683 Coq.Init.Datatypes <> O constr
+R4687:4687 Ionia.Base.base <> j:6 var
+R4691:4691 Ionia.Base.base <> j:6 var
+prf 4845:4854 <> pow_Sn_mul
+binder 4864:4864 <> n:7
+binder 4866:4866 <> i:8
+binder 4868:4868 <> j:9
+R4882:4884 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4878:4880 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4872:4874 Coq.Init.Nat <> ::nat_scope:x_'^'_x not
+R4871:4871 Ionia.Base.base <> i:8 var
+R4875:4875 Coq.Init.Datatypes <> S constr
+R4877:4877 Ionia.Base.base <> n:7 var
+R4881:4881 Ionia.Base.base <> j:9 var
+R4886:4889 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4899:4899 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4885:4885 Ionia.Base.base <> i:8 var
+R4895:4897 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4891:4893 Coq.Init.Nat <> ::nat_scope:x_'^'_x not
+R4890:4890 Ionia.Base.base <> i:8 var
+R4894:4894 Ionia.Base.base <> n:7 var
+R4898:4898 Ionia.Base.base <> j:9 var
+R4925:4939 Coq.Arith.PeanoNat Nat pow_succ_r' thm
+R4925:4939 Coq.Arith.PeanoNat Nat pow_succ_r' thm
+R4925:4939 Coq.Arith.PeanoNat Nat pow_succ_r' thm
+prf 5026:5037 <> offset_proof
+binder 5047:5049 <> val:10
+binder 5051:5051 <> m:11
+binder 5053:5053 <> n:12
+R5068:5071 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5060:5062 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R5057:5059 Ionia.Base.base <> val:10 var
+R5064:5066 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R5063:5063 Ionia.Base.base <> m:11 var
+R5067:5067 Ionia.Base.base <> n:12 var
+R5083:5086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5072:5074 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5082:5082 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5078:5080 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R5075:5077 Ionia.Base.base <> val:10 var
+R5081:5081 Ionia.Base.base <> m:11 var
+R5094:5096 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R5090:5092 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R5087:5089 Ionia.Base.base <> val:10 var
+R5093:5093 Ionia.Base.base <> m:11 var
+R5097:5097 Ionia.Base.base <> n:12 var
+prf 5169:5177 <> sub_proof
+binder 5187:5187 <> n:13
+binder 5189:5189 <> k:14
+R5198:5201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5193:5196 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5192:5192 Ionia.Base.base <> k:14 var
+R5197:5197 Ionia.Base.base <> n:13 var
+R5213:5215 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5203:5206 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R5212:5212 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R5202:5202 Ionia.Base.base <> k:14 var
+R5208:5210 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R5207:5207 Ionia.Base.base <> n:13 var
+R5211:5211 Ionia.Base.base <> k:14 var
+R5216:5216 Ionia.Base.base <> n:13 var
+prf 5281:5286 <> leS_le
+binder 5297:5297 <> i:15
+binder 5299:5299 <> n:16
+R5310:5313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5305:5308 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5302:5302 Coq.Init.Datatypes <> S constr
+R5304:5304 Ionia.Base.base <> i:15 var
+R5309:5309 Ionia.Base.base <> n:16 var
+R5315:5318 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5314:5314 Ionia.Base.base <> i:15 var
+R5319:5319 Ionia.Base.base <> n:16 var
+prf 5376:5381 <> ltS_lt
+binder 5392:5392 <> i:17
+binder 5394:5394 <> n:18
+R5404:5407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5400:5402 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R5397:5397 Coq.Init.Datatypes <> S constr
+R5399:5399 Ionia.Base.base <> i:17 var
+R5403:5403 Ionia.Base.base <> n:18 var
+R5409:5411 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R5408:5408 Ionia.Base.base <> i:17 var
+R5412:5412 Ionia.Base.base <> n:18 var
+prf 5473:5483 <> _0lt0_False
+R5492:5495 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5488:5490 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R5496:5500 Coq.Init.Logic <> False ind
+prf 5527:5538 <> sub_le_trans
+binder 5549:5549 <> a:19
+binder 5551:5551 <> b:20
+binder 5553:5553 <> c:21
+R5566:5569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5561:5564 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5557:5559 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R5556:5556 Ionia.Base.base <> a:19 var
+R5560:5560 Ionia.Base.base <> b:20 var
+R5565:5565 Ionia.Base.base <> c:21 var
+R5571:5574 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5570:5570 Ionia.Base.base <> a:19 var
+R5576:5578 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R5575:5575 Ionia.Base.base <> c:21 var
+R5579:5579 Ionia.Base.base <> b:20 var
+prf 5649:5656 <> nat_lem1
+binder 5668:5668 <> x:22
+R5673:5676 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5682:5684 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R5678:5680 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R5677:5677 Ionia.Base.base <> x:22 var
+R5686:5688 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 5716:5723 <> nat_lem2
+binder 5735:5735 <> x:23
+R5740:5743 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5749:5751 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R5745:5747 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R5744:5744 Ionia.Base.base <> x:23 var
+R5753:5755 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 5783:5791 <> nat_lem2'
+binder 5803:5803 <> x:24
+R5808:5811 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5817:5819 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R5813:5815 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R5812:5812 Ionia.Base.base <> x:24 var
+R5821:5823 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 5851:5858 <> nat_lem3
+binder 5870:5870 <> x:25
+R5875:5878 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5884:5886 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R5880:5882 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R5879:5879 Ionia.Base.base <> x:25 var
+R5888:5890 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 5918:5925 <> nat_lem4
+R5930:5932 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+prf 5959:5966 <> nat_lem5
+R5971:5973 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+prf 6000:6007 <> nat_lem6
+R6012:6014 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+prf 6042:6050 <> nat_lem4'
+binder 6062:6062 <> x:26
+R6067:6069 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R6071:6073 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R6070:6070 Ionia.Base.base <> x:26 var
+prf 6100:6108 <> nat_lem5'
+binder 6120:6120 <> x:27
+R6125:6127 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R6129:6131 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R6128:6128 Ionia.Base.base <> x:27 var
+prf 6158:6166 <> nat_lem6'
+binder 6178:6178 <> x:28
+R6183:6185 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R6187:6189 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R6186:6186 Ionia.Base.base <> x:28 var
+prf 6217:6224 <> nat_lem7
+binder 6235:6235 <> x:29
+R6244:6247 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6239:6242 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R6243:6243 Ionia.Base.base <> x:29 var
+R6249:6251 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R6252:6252 Ionia.Base.base <> x:29 var
+prf 6345:6353 <> unit_elem
+R6367:6370 Coq.Init.Datatypes <> unit ind
+binder 6364:6364 <> u:30
+R6375:6377 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6374:6374 Ionia.Base.base <> u:30 var
+R6378:6379 Coq.Init.Datatypes <> tt constr
+prf 6470:6480 <> unit_unique
+R6498:6501 Coq.Init.Datatypes <> unit ind
+binder 6491:6492 <> u1:31
+binder 6494:6495 <> u2:32
+R6507:6509 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6505:6506 Ionia.Base.base <> u1:31 var
+R6510:6511 Ionia.Base.base <> u2:32 var
+R6538:6546 Ionia.Base.base <> unit_elem thm
+R6538:6546 Ionia.Base.base <> unit_elem thm
+R6538:6546 Ionia.Base.base <> unit_elem thm
+R6538:6546 Ionia.Base.base <> unit_elem thm
+R6555:6563 Ionia.Base.base <> unit_elem thm
+R6555:6563 Ionia.Base.base <> unit_elem thm
+def 6689:6696 <> n_reduce
+binder 6699:6699 <> B:33
+R6713:6716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6710:6712 Coq.Init.Datatypes <> nat ind
+R6718:6721 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6717:6717 Ionia.Base.base <> B:33 var
+R6722:6722 Ionia.Base.base <> B:33 var
+binder 6707:6707 <> f:34
+R6731:6731 Ionia.Base.base <> B:33 var
+binder 6726:6728 <> val:35
+R6738:6740 Coq.Init.Datatypes <> nat ind
+binder 6735:6735 <> n:36
+R6744:6744 Ionia.Base.base <> B:33 var
+R6755:6755 Ionia.Base.base <> n:36 var
+R6770:6772 Ionia.Base.base <> val:35 var
+R6777:6777 Coq.Init.Datatypes <> S constr
+R6785:6792 Ionia.Base.base <> n_reduce:37 def
+R6797:6797 Ionia.Base.base <> f:34 var
+R6802:6804 Ionia.Base.base <> val:35 var
+R6794:6794 Ionia.Base.base <> f:34 var
+prf 6870:6880 <> n_reduce_Sn
+binder 6891:6891 <> B:39
+R6906:6909 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6903:6905 Coq.Init.Datatypes <> nat ind
+R6911:6914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6910:6910 Ionia.Base.base <> B:39 var
+R6915:6915 Ionia.Base.base <> B:39 var
+binder 6900:6900 <> f:40
+binder 6918:6920 <> val:41
+binder 6922:6922 <> n:42
+R6946:6948 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6926:6933 Ionia.Base.base <> n_reduce def
+R6942:6942 Coq.Init.Datatypes <> S constr
+R6944:6944 Ionia.Base.base <> n:42 var
+R6937:6939 Ionia.Base.base <> val:41 var
+R6935:6935 Ionia.Base.base <> f:40 var
+R6949:6956 Ionia.Base.base <> n_reduce def
+R6970:6970 Ionia.Base.base <> n:42 var
+R6961:6961 Ionia.Base.base <> f:40 var
+R6965:6967 Ionia.Base.base <> val:41 var
+R6963:6963 Ionia.Base.base <> n:42 var
+R6958:6958 Ionia.Base.base <> f:40 var
+prf 7028:7037 <> n_reduce_0
+binder 7048:7048 <> B:43
+R7063:7066 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7060:7062 Coq.Init.Datatypes <> nat ind
+R7068:7071 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7067:7067 Ionia.Base.base <> B:43 var
+R7072:7072 Ionia.Base.base <> B:43 var
+binder 7057:7057 <> f:44
+binder 7075:7077 <> val:45
+R7097:7099 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7081:7088 Ionia.Base.base <> n_reduce def
+R7092:7094 Ionia.Base.base <> val:45 var
+R7090:7090 Ionia.Base.base <> f:44 var
+R7100:7102 Ionia.Base.base <> val:45 var
+prf 7207:7219 <> n_reduce_true
+R7233:7235 Coq.Init.Datatypes <> nat ind
+binder 7230:7230 <> n:46
+R7245:7248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7242:7244 Coq.Init.Datatypes <> nat ind
+R7249:7252 Coq.Init.Datatypes <> bool ind
+binder 7239:7239 <> f:47
+binder 7255:7257 <> val:48
+R7306:7309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7299:7301 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7261:7268 Ionia.Base.base <> n_reduce def
+R7298:7298 Ionia.Base.base <> n:46 var
+R7294:7296 Ionia.Base.base <> val:48 var
+binder 7275:7275 <> i:49
+binder 7277:7277 <> y:50
+R7284:7287 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R7283:7283 Ionia.Base.base <> y:50 var
+R7288:7288 Ionia.Base.base <> f:47 var
+R7290:7290 Ionia.Base.base <> i:49 var
+R7302:7305 Coq.Init.Datatypes <> true constr
+R7313:7315 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7310:7312 Ionia.Base.base <> val:48 var
+R7316:7319 Coq.Init.Datatypes <> true constr
+prf 7495:7505 <> n_reduce_eq
+binder 7516:7516 <> B:51
+binder 7525:7525 <> n:52
+R7538:7541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7535:7537 Coq.Init.Datatypes <> nat ind
+R7543:7546 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7542:7542 Ionia.Base.base <> B:51 var
+R7547:7547 Ionia.Base.base <> B:51 var
+binder 7529:7529 <> f:53
+binder 7531:7532 <> f':54
+binder 7550:7552 <> val:55
+R7556:7556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7586:7590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 7564:7564 <> i:56
+R7572:7575 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7568:7570 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R7567:7567 Ionia.Base.base <> i:56 var
+R7571:7571 Ionia.Base.base <> n:52 var
+R7579:7581 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7576:7576 Ionia.Base.base <> f:53 var
+R7578:7578 Ionia.Base.base <> i:56 var
+R7582:7583 Ionia.Base.base <> f':54 var
+R7585:7585 Ionia.Base.base <> i:56 var
+R7607:7609 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7591:7598 Ionia.Base.base <> n_reduce def
+R7606:7606 Ionia.Base.base <> n:52 var
+R7602:7604 Ionia.Base.base <> val:55 var
+R7600:7600 Ionia.Base.base <> f:53 var
+R7610:7617 Ionia.Base.base <> n_reduce def
+R7626:7626 Ionia.Base.base <> n:52 var
+R7622:7624 Ionia.Base.base <> val:55 var
+R7619:7620 Ionia.Base.base <> f':54 var
+def 7829:7845 <> n_reduce_example1
+R7869:7871 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7849:7856 Ionia.Base.base <> n_reduce def
+R7858:7864 Coq.Arith.PeanoNat Nat add def
+def 7977:7993 <> n_reduce_example2
+R8040:8042 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7997:8004 Ionia.Base.base <> n_reduce def
+binder 8011:8011 <> x:57
+binder 8013:8013 <> y:58
+R8018:8024 Coq.Arith.PeanoNat Nat mul def
+R8028:8030 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R8027:8027 Ionia.Base.base <> x:57 var
+R8034:8034 Ionia.Base.base <> y:58 var
+def 8229:8236 <> n_forall
+R8241:8243 Coq.Init.Datatypes <> nat ind
+binder 8239:8239 <> n:59
+R8253:8256 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8250:8252 Coq.Init.Datatypes <> nat ind
+R8257:8260 Coq.Init.Datatypes <> bool ind
+binder 8247:8247 <> f:60
+R8264:8267 Coq.Init.Datatypes <> bool ind
+R8272:8279 Ionia.Base.base <> n_reduce def
+R8308:8308 Ionia.Base.base <> n:59 var
+R8303:8306 Coq.Init.Datatypes <> true constr
+binder 8286:8286 <> x:61
+binder 8288:8288 <> y:62
+R8294:8297 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R8293:8293 Ionia.Base.base <> y:62 var
+R8298:8298 Ionia.Base.base <> f:60 var
+R8300:8300 Ionia.Base.base <> x:61 var
+prf 8365:8375 <> n_forall_Sn
+binder 8385:8385 <> n:63
+R8394:8397 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8391:8393 Coq.Init.Datatypes <> nat ind
+R8398:8401 Coq.Init.Datatypes <> bool ind
+binder 8388:8388 <> f:64
+R8422:8424 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8406:8413 Ionia.Base.base <> n_forall def
+R8421:8421 Ionia.Base.base <> f:64 var
+R8416:8416 Coq.Init.Datatypes <> S constr
+R8418:8418 Ionia.Base.base <> n:63 var
+R8428:8431 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R8425:8425 Ionia.Base.base <> f:64 var
+R8427:8427 Ionia.Base.base <> n:63 var
+R8432:8439 Ionia.Base.base <> n_forall def
+R8443:8443 Ionia.Base.base <> f:64 var
+R8441:8441 Ionia.Base.base <> n:63 var
+R8483:8490 Ionia.Base.base <> n_forall def
+prf 8565:8574 <> n_forall_0
+R8591:8594 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8588:8590 Coq.Init.Datatypes <> nat ind
+R8595:8598 Coq.Init.Datatypes <> bool ind
+binder 8585:8585 <> f:65
+R8615:8617 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8603:8610 Ionia.Base.base <> n_forall def
+R8614:8614 Ionia.Base.base <> f:65 var
+R8618:8621 Coq.Init.Datatypes <> true constr
+prf 8734:8746 <> n_forall_eq_r
+binder 8756:8756 <> n:66
+R8765:8768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8762:8764 Coq.Init.Datatypes <> nat ind
+R8769:8772 Coq.Init.Datatypes <> bool ind
+binder 8759:8759 <> f:67
+R8778:8778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8808:8812 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8786:8786 <> i:68
+R8794:8797 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8790:8792 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R8789:8789 Ionia.Base.base <> i:68 var
+R8793:8793 Ionia.Base.base <> n:66 var
+R8801:8803 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8798:8798 Ionia.Base.base <> f:67 var
+R8800:8800 Ionia.Base.base <> i:68 var
+R8804:8807 Coq.Init.Datatypes <> true constr
+R8825:8827 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8813:8820 Ionia.Base.base <> n_forall def
+R8824:8824 Ionia.Base.base <> f:67 var
+R8822:8822 Ionia.Base.base <> n:66 var
+R8828:8831 Coq.Init.Datatypes <> true constr
+R8880:8890 Ionia.Base.base <> n_forall_Sn thm
+R8880:8890 Ionia.Base.base <> n_forall_Sn thm
+R8880:8890 Ionia.Base.base <> n_forall_Sn thm
+prf 8991:9003 <> n_forall_eq_l
+binder 9013:9013 <> n:69
+R9022:9025 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9019:9021 Coq.Init.Datatypes <> nat ind
+R9026:9029 Coq.Init.Datatypes <> bool ind
+binder 9016:9016 <> f:70
+R9054:9058 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9088:9088 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9047:9049 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9035:9042 Ionia.Base.base <> n_forall def
+R9046:9046 Ionia.Base.base <> f:70 var
+R9044:9044 Ionia.Base.base <> n:69 var
+R9050:9053 Coq.Init.Datatypes <> true constr
+binder 9066:9066 <> i:71
+R9074:9077 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9070:9072 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R9069:9069 Ionia.Base.base <> i:71 var
+R9073:9073 Ionia.Base.base <> n:69 var
+R9081:9083 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9078:9078 Ionia.Base.base <> f:70 var
+R9080:9080 Ionia.Base.base <> i:71 var
+R9084:9087 Coq.Init.Datatypes <> true constr
+R9138:9148 Ionia.Base.base <> n_forall_Sn thm
+R9138:9148 Ionia.Base.base <> n_forall_Sn thm
+R9138:9148 Ionia.Base.base <> n_forall_Sn thm
+R9170:9173 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R9170:9173 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+prf 9307:9317 <> n_forall_eq
+binder 9327:9327 <> n:72
+R9336:9339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9333:9335 Coq.Init.Datatypes <> nat ind
+R9340:9343 Coq.Init.Datatypes <> bool ind
+binder 9330:9330 <> f:73
+R9348:9348 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9378:9383 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+binder 9356:9356 <> i:74
+R9364:9367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9360:9362 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R9359:9359 Ionia.Base.base <> i:74 var
+R9363:9363 Ionia.Base.base <> n:72 var
+R9371:9373 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9368:9368 Ionia.Base.base <> f:73 var
+R9370:9370 Ionia.Base.base <> i:74 var
+R9374:9377 Coq.Init.Datatypes <> true constr
+R9396:9398 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9384:9391 Ionia.Base.base <> n_forall def
+R9395:9395 Ionia.Base.base <> f:73 var
+R9393:9393 Ionia.Base.base <> n:72 var
+R9399:9402 Coq.Init.Datatypes <> true constr
+R9426:9438 Ionia.Base.base <> n_forall_eq_r thm
+R9426:9438 Ionia.Base.base <> n_forall_eq_r thm
+R9447:9459 Ionia.Base.base <> n_forall_eq_l thm
+R9447:9459 Ionia.Base.base <> n_forall_eq_l thm
+prf 9578:9590 <> n_forall_true
+binder 9600:9600 <> n:75
+binder 9602:9602 <> m:76
+R9611:9614 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9608:9610 Coq.Init.Datatypes <> nat ind
+R9615:9618 Coq.Init.Datatypes <> bool ind
+binder 9605:9605 <> f:77
+R9628:9631 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9624:9626 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R9623:9623 Ionia.Base.base <> n:75 var
+R9627:9627 Ionia.Base.base <> m:76 var
+R9651:9654 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9644:9646 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9632:9639 Ionia.Base.base <> n_forall def
+R9643:9643 Ionia.Base.base <> f:77 var
+R9641:9641 Ionia.Base.base <> m:76 var
+R9647:9650 Coq.Init.Datatypes <> true constr
+R9667:9669 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9655:9662 Ionia.Base.base <> n_forall def
+R9666:9666 Ionia.Base.base <> f:77 var
+R9664:9664 Ionia.Base.base <> n:75 var
+R9670:9673 Coq.Init.Datatypes <> true constr
+R9716:9726 Ionia.Base.base <> n_forall_eq thm
+R9716:9726 Ionia.Base.base <> n_forall_eq thm
+R9737:9749 Ionia.Base.base <> n_forall_eq_l thm
+R9737:9749 Ionia.Base.base <> n_forall_eq_l thm
+prf 9892:9905 <> n_forall_false
+binder 9915:9915 <> n:78
+binder 9917:9917 <> m:79
+R9926:9929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9923:9925 Coq.Init.Datatypes <> nat ind
+R9930:9933 Coq.Init.Datatypes <> bool ind
+binder 9920:9920 <> f:80
+R9943:9946 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9939:9941 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R9938:9938 Ionia.Base.base <> n:78 var
+R9942:9942 Ionia.Base.base <> m:79 var
+R9967:9970 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9959:9961 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9947:9954 Ionia.Base.base <> n_forall def
+R9958:9958 Ionia.Base.base <> f:80 var
+R9956:9956 Ionia.Base.base <> n:78 var
+R9962:9966 Coq.Init.Datatypes <> false constr
+R9983:9985 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9971:9978 Ionia.Base.base <> n_forall def
+R9982:9982 Ionia.Base.base <> f:80 var
+R9980:9980 Ionia.Base.base <> m:79 var
+R9986:9990 Coq.Init.Datatypes <> false constr
+R10018:10034 Coq.Bool.Bool <> not_true_is_false thm
+R10018:10034 Coq.Bool.Bool <> not_true_is_false thm
+R10091:10103 Ionia.Base.base <> n_forall_true thm
+R10091:10103 Ionia.Base.base <> n_forall_true thm
+def 10241:10257 <> n_forall_example1
+R10289:10291 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10261:10268 Ionia.Base.base <> n_forall def
+binder 10277:10277 <> x:81
+R10283:10286 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R10282:10282 Ionia.Base.base <> x:81 var
+R10292:10295 Coq.Init.Datatypes <> true constr
+def 10389:10405 <> n_forall_example2
+R10437:10439 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10409:10416 Ionia.Base.base <> n_forall def
+binder 10425:10425 <> x:82
+R10431:10434 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R10430:10430 Ionia.Base.base <> x:82 var
+R10440:10444 Coq.Init.Datatypes <> false constr
+def 10537:10539 <> cur
+binder 10542:10542 <> A:83
+binder 10544:10544 <> B:84
+binder 10546:10546 <> C:85
+R10558:10561 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10557:10557 Ionia.Base.base <> A:83 var
+R10563:10566 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10562:10562 Ionia.Base.base <> B:84 var
+R10567:10567 Ionia.Base.base <> C:85 var
+binder 10554:10554 <> f:86
+R10576:10579 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10572:10574 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R10571:10571 Ionia.Base.base <> A:83 var
+R10575:10575 Ionia.Base.base <> B:84 var
+R10580:10580 Ionia.Base.base <> C:85 var
+R10594:10596 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R10593:10593 Ionia.Base.base <> A:83 var
+R10597:10597 Ionia.Base.base <> B:84 var
+binder 10589:10590 <> xy:87
+R10602:10602 Ionia.Base.base <> f:86 var
+R10614:10616 Coq.Init.Datatypes <> snd def
+R10618:10619 Ionia.Base.base <> xy:87 var
+R10605:10607 Coq.Init.Datatypes <> fst def
+R10609:10610 Ionia.Base.base <> xy:87 var
+def 10663:10667 <> uncur
+binder 10670:10670 <> A:88
+binder 10672:10672 <> B:89
+binder 10674:10674 <> C:90
+R10690:10693 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10686:10688 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R10685:10685 Ionia.Base.base <> A:88 var
+R10689:10689 Ionia.Base.base <> B:89 var
+R10694:10694 Ionia.Base.base <> C:90 var
+binder 10682:10682 <> f:91
+R10699:10702 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10698:10698 Ionia.Base.base <> A:88 var
+R10704:10707 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10703:10703 Ionia.Base.base <> B:89 var
+R10708:10708 Ionia.Base.base <> C:90 var
+binder 10717:10717 <> x:92
+binder 10719:10719 <> y:93
+R10724:10724 Ionia.Base.base <> f:91 var
+R10726:10726 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10728:10728 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10730:10730 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10727:10727 Ionia.Base.base <> x:92 var
+R10729:10729 Ionia.Base.base <> y:93 var
+prf 10816:10824 <> uncur_cur
+binder 10835:10835 <> A:94
+binder 10837:10837 <> B:95
+binder 10839:10839 <> C:96
+R10852:10855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10851:10851 Ionia.Base.base <> A:94 var
+R10857:10860 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10856:10856 Ionia.Base.base <> B:95 var
+R10861:10861 Ionia.Base.base <> C:96 var
+binder 10848:10848 <> f:97
+R10878:10880 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10865:10869 Ionia.Base.base <> uncur def
+R10872:10874 Ionia.Base.base <> cur def
+R10876:10876 Ionia.Base.base <> f:97 var
+R10881:10881 Ionia.Base.base <> f:97 var
+prf 10981:10989 <> cur_uncur
+binder 11000:11000 <> A:98
+binder 11002:11002 <> B:99
+binder 11004:11004 <> C:100
+R11021:11024 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11017:11019 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11016:11016 Ionia.Base.base <> A:98 var
+R11020:11020 Ionia.Base.base <> B:99 var
+R11025:11025 Ionia.Base.base <> C:100 var
+binder 11013:11013 <> f:101
+R11042:11044 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11029:11031 Ionia.Base.base <> cur def
+R11034:11038 Ionia.Base.base <> uncur def
+R11040:11040 Ionia.Base.base <> f:101 var
+R11045:11045 Ionia.Base.base <> f:101 var
+R11108:11112 Ionia.Base.base Utils <> sec
+R11156:11164 Ionia.Base.base <> unit_elem thm
+R11166:11176 Ionia.Base.base <> n_reduce_Sn thm
+R11178:11187 Ionia.Base.base <> n_reduce_0 thm
+R11189:11199 Ionia.Base.base <> n_forall_Sn thm
+R11201:11210 Ionia.Base.base <> n_forall_0 thm
+R11212:11220 Ionia.Base.base <> uncur_cur thm
+R11222:11230 Ionia.Base.base <> cur_uncur thm
+R11546:11550 Coq.Init.Specif <> exist constr
+not 11532:11532 <> :::'['_x_'|'_']'
+R11586:11590 Coq.Init.Specif <> exist constr
+not 11570:11570 <> :::'['_x_'|'_x_']'
+R11646:11646 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11660:11661 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11664:11664 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11650:11650 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11653:11653 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11656:11656 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11651:11652 Coq.Init.Datatypes <> tt constr
+not 11625:11625 <> :::'['_x_','_'..'_','_x_']'
+R12001:12017 Coq.Logic.ProofIrrelevance <> proof_irrelevance prfax

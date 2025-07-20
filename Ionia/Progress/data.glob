@@ -1,0 +1,3705 @@
+DIGEST a3840a779a791d99f893e25a7e2c25f1
+FIonia.Progress.data
+R15:40 Coq.Logic.ProofIrrelevance <> <> lib
+R42:65 Coq.Logic.FunctionalExtensionality <> <> lib
+R83:96 Coq.Logic.Classical_Prop <> <> lib
+R114:119 Ionia.Base.vector <> <> lib
+sec 302:305 <> Data
+ind 596:599 <> data
+constr 612:614 <> num
+constr 625:627 <> ary
+R617:620 Ionia.Progress.data <> data:1 ind
+binder 629:629 <> m:3
+R635:637 Ionia.Base.fle <> fle def
+R639:639 Ionia.Progress.data <> m:3 var
+binder 632:632 <> n:4
+R646:649 Ionia.Progress.data <> data:1 ind
+binder 643:643 <> d:5
+R653:656 Ionia.Progress.data <> data:1 ind
+scheme 596:599 <> data_rect
+scheme 596:599 <> data_ind
+scheme 596:599 <> data_rec
+scheme 596:599 <> data_sind
+prf 748:757 <> data_fle_0
+R771:773 Ionia.Base.fle <> fle def
+binder 768:768 <> n:6
+binder 778:778 <> d:7
+R789:791 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R782:784 Ionia.Progress.data <> ary constr
+R788:788 Ionia.Progress.data <> d:7 var
+R786:786 Ionia.Progress.data <> n:6 var
+R792:794 Ionia.Progress.data <> ary constr
+R801:801 Ionia.Progress.data <> d:7 var
+R796:797 Ionia.Base.fle <> :::'''{'_x_'}' not
+R799:799 Ionia.Base.fle <> :::'''{'_x_'}' not
+def 905:907 <> myd
+R910:913 Ionia.Progress.data <> data ind
+R917:919 Ionia.Progress.data <> ary constr
+R927:929 Ionia.Progress.data <> ary constr
+R936:938 Ionia.Progress.data <> num constr
+R931:932 Ionia.Base.fle <> :::'''{'_x_'}' not
+R934:934 Ionia.Base.fle <> :::'''{'_x_'}' not
+R921:922 Ionia.Base.fle <> :::'''{'_x_'}' not
+R924:924 Ionia.Base.fle <> :::'''{'_x_'}' not
+def 1223:1229 <> optdata
+R1235:1238 Ionia.Progress.data <> data ind
+binder 1232:1232 <> d:8
+R1242:1247 Coq.Init.Datatypes <> option ind
+R1249:1252 Ionia.Progress.data <> data ind
+R1264:1264 Ionia.Progress.data <> d:8 var
+R1274:1276 Ionia.Progress.data <> num constr
+R1281:1284 Coq.Init.Datatypes <> Some constr
+R1286:1286 Ionia.Progress.data <> d:8 var
+R1292:1294 Ionia.Progress.data <> ary constr
+R1324:1330 Ionia.Progress.data <> optdata:9 def
+R1311:1317 Ionia.Base.fle <> fle2nat def
+R1353:1356 Coq.Init.Datatypes <> None constr
+R1364:1367 Coq.Init.Datatypes <> Some constr
+R1374:1377 Coq.Init.Datatypes <> Some constr
+R1379:1379 Ionia.Progress.data <> d:8 var
+R1392:1395 Coq.Init.Datatypes <> None constr
+prf 1479:1488 <> optdata_eq
+binder 1498:1499 <> d1:11
+binder 1501:1502 <> d2:12
+R1525:1528 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1515:1517 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1505:1511 Ionia.Progress.data <> optdata def
+R1513:1514 Ionia.Progress.data <> d1:11 var
+R1518:1521 Coq.Init.Datatypes <> Some constr
+R1523:1524 Ionia.Progress.data <> d2:12 var
+R1531:1533 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1529:1530 Ionia.Progress.data <> d1:11 var
+R1534:1535 Ionia.Progress.data <> d2:12 var
+R1633:1639 Ionia.Base.fle <> fle2nat def
+R1633:1639 Ionia.Base.fle <> fle2nat def
+R1657:1663 Ionia.Progress.data <> optdata def
+R1657:1663 Ionia.Progress.data <> optdata def
+prf 1723:1733 <> optdata_num
+R1747:1749 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1736:1742 Ionia.Progress.data <> optdata def
+R1744:1746 Ionia.Progress.data <> num constr
+R1750:1753 Coq.Init.Datatypes <> Some constr
+R1755:1757 Ionia.Progress.data <> num constr
+prf 1839:1851 <> optdata_ary_0
+binder 1861:1861 <> m:13
+R1867:1869 Ionia.Base.fle <> fle def
+R1871:1871 Ionia.Progress.data <> m:13 var
+binder 1864:1864 <> n:14
+binder 1874:1874 <> d:15
+R1891:1894 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1887:1889 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1878:1884 Ionia.Base.fle <> fle2nat def
+R1886:1886 Ionia.Progress.data <> n:14 var
+R1912:1914 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1895:1901 Ionia.Progress.data <> optdata def
+R1904:1906 Ionia.Progress.data <> ary constr
+R1910:1910 Ionia.Progress.data <> d:15 var
+R1908:1908 Ionia.Progress.data <> n:14 var
+R1915:1918 Coq.Init.Datatypes <> None constr
+prf 2043:2055 <> optdata_fle_0
+binder 2065:2065 <> d:16
+R2071:2073 Ionia.Base.fle <> fle def
+binder 2068:2068 <> n:17
+R2096:2098 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2079:2085 Ionia.Progress.data <> optdata def
+R2088:2090 Ionia.Progress.data <> ary constr
+R2094:2094 Ionia.Progress.data <> d:16 var
+R2092:2092 Ionia.Progress.data <> n:17 var
+R2099:2102 Coq.Init.Datatypes <> None constr
+R2136:2146 Ionia.Base.fle <> fle'_0_elem thm
+R2136:2146 Ionia.Base.fle <> fle'_0_elem thm
+R2136:2146 Ionia.Base.fle <> fle'_0_elem thm
+prf 2248:2258 <> optdata_sub
+binder 2269:2269 <> m:18
+binder 2271:2271 <> n:19
+binder 2273:2273 <> d:20
+R2315:2318 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2298:2300 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2278:2284 Ionia.Progress.data <> optdata def
+R2288:2290 Ionia.Progress.data <> ary constr
+R2292:2292 Ionia.Progress.data <> m:18 var
+R2294:2294 Ionia.Progress.data <> n:19 var
+R2296:2296 Ionia.Progress.data <> d:20 var
+R2301:2304 Coq.Init.Datatypes <> Some constr
+R2307:2309 Ionia.Progress.data <> ary constr
+R2313:2313 Ionia.Progress.data <> d:20 var
+R2311:2311 Ionia.Progress.data <> n:19 var
+R2328:2330 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2319:2325 Ionia.Progress.data <> optdata def
+R2327:2327 Ionia.Progress.data <> d:20 var
+R2331:2334 Coq.Init.Datatypes <> Some constr
+R2336:2336 Ionia.Progress.data <> d:20 var
+R2388:2394 Ionia.Base.fle <> fle2nat def
+R2388:2394 Ionia.Base.fle <> fle2nat def
+R2414:2420 Ionia.Progress.data <> optdata def
+R2414:2420 Ionia.Progress.data <> optdata def
+R2441:2450 Ionia.Progress.data <> optdata_eq thm
+R2441:2450 Ionia.Progress.data <> optdata_eq thm
+prf 2578:2588 <> optdata_par
+binder 2599:2599 <> m:21
+binder 2601:2601 <> d:22
+R2608:2610 Ionia.Base.fle <> fle def
+R2612:2612 Ionia.Progress.data <> m:21 var
+binder 2605:2605 <> n:23
+R2630:2633 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2618:2620 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R2621:2627 Ionia.Base.fle <> fle2nat def
+R2629:2629 Ionia.Progress.data <> n:23 var
+R2652:2655 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2643:2645 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2634:2640 Ionia.Progress.data <> optdata def
+R2642:2642 Ionia.Progress.data <> d:22 var
+R2646:2649 Coq.Init.Datatypes <> Some constr
+R2651:2651 Ionia.Progress.data <> d:22 var
+R2673:2675 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2656:2662 Ionia.Progress.data <> optdata def
+R2665:2667 Ionia.Progress.data <> ary constr
+R2671:2671 Ionia.Progress.data <> d:22 var
+R2669:2669 Ionia.Progress.data <> n:23 var
+R2676:2679 Coq.Init.Datatypes <> Some constr
+R2682:2684 Ionia.Progress.data <> ary constr
+R2688:2688 Ionia.Progress.data <> d:22 var
+R2686:2686 Ionia.Progress.data <> n:23 var
+R2736:2742 Ionia.Base.fle <> fle2nat def
+R2736:2742 Ionia.Base.fle <> fle2nat def
+prf 2876:2891 <> optdata_sub_none
+binder 2902:2902 <> m:24
+binder 2904:2904 <> d:25
+R2911:2913 Ionia.Base.fle <> fle def
+R2915:2915 Ionia.Progress.data <> m:24 var
+binder 2908:2908 <> n:26
+R2933:2936 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2921:2923 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R2924:2930 Ionia.Base.fle <> fle2nat def
+R2932:2932 Ionia.Progress.data <> n:26 var
+R2961:2964 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2954:2956 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2937:2943 Ionia.Progress.data <> optdata def
+R2946:2948 Ionia.Progress.data <> ary constr
+R2952:2952 Ionia.Progress.data <> d:25 var
+R2950:2950 Ionia.Progress.data <> n:26 var
+R2957:2960 Coq.Init.Datatypes <> None constr
+R2974:2976 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2965:2971 Ionia.Progress.data <> optdata def
+R2973:2973 Ionia.Progress.data <> d:25 var
+R2977:2980 Coq.Init.Datatypes <> None constr
+R3034:3040 Ionia.Base.fle <> fle2nat def
+R3034:3040 Ionia.Base.fle <> fle2nat def
+R3058:3064 Ionia.Progress.data <> optdata def
+R3058:3064 Ionia.Progress.data <> optdata def
+prf 3159:3174 <> optdata_par_none
+binder 3185:3185 <> m:27
+binder 3187:3187 <> n:28
+binder 3189:3189 <> d:29
+R3210:3213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3203:3205 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3194:3200 Ionia.Progress.data <> optdata def
+R3202:3202 Ionia.Progress.data <> d:29 var
+R3206:3209 Coq.Init.Datatypes <> None constr
+R3234:3236 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3214:3220 Ionia.Progress.data <> optdata def
+R3224:3226 Ionia.Progress.data <> ary constr
+R3228:3228 Ionia.Progress.data <> m:27 var
+R3230:3230 Ionia.Progress.data <> n:28 var
+R3232:3232 Ionia.Progress.data <> d:29 var
+R3237:3240 Coq.Init.Datatypes <> None constr
+R3286:3292 Ionia.Base.fle <> fle2nat def
+R3286:3292 Ionia.Base.fle <> fle2nat def
+prf 3441:3450 <> optdata_Sn
+binder 3461:3461 <> m:30
+binder 3463:3463 <> n:31
+binder 3465:3465 <> d:32
+R3475:3478 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3472:3472 Coq.Init.Datatypes <> S constr
+R3474:3474 Ionia.Progress.data <> n:31 var
+R3479:3479 Ionia.Progress.data <> m:30 var
+binder 3469:3469 <> E:33
+R3544:3549 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3514:3516 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3484:3490 Ionia.Progress.data <> optdata def
+R3493:3495 Ionia.Progress.data <> ary constr
+R3512:3512 Ionia.Progress.data <> d:32 var
+R3497:3497 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3499:3501 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3510:3510 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3498:3498 Ionia.Progress.data <> n:31 var
+R3502:3507 Ionia.Base.base <> leS_le thm
+R3509:3509 Ionia.Progress.data <> E:33 var
+R3517:3520 Coq.Init.Datatypes <> Some constr
+R3523:3525 Ionia.Progress.data <> ary constr
+R3542:3542 Ionia.Progress.data <> d:32 var
+R3527:3527 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3529:3531 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3540:3540 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3528:3528 Ionia.Progress.data <> n:31 var
+R3532:3537 Ionia.Base.base <> leS_le thm
+R3539:3539 Ionia.Progress.data <> E:33 var
+R3575:3577 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3550:3556 Ionia.Progress.data <> optdata def
+R3559:3561 Ionia.Progress.data <> ary constr
+R3573:3573 Ionia.Progress.data <> d:32 var
+R3563:3563 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3567:3569 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3571:3571 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3564:3564 Coq.Init.Datatypes <> S constr
+R3566:3566 Ionia.Progress.data <> n:31 var
+R3570:3570 Ionia.Progress.data <> E:33 var
+R3578:3581 Coq.Init.Datatypes <> Some constr
+R3584:3586 Ionia.Progress.data <> ary constr
+R3598:3598 Ionia.Progress.data <> d:32 var
+R3588:3588 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3592:3594 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3596:3596 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3589:3589 Coq.Init.Datatypes <> S constr
+R3591:3591 Ionia.Progress.data <> n:31 var
+R3595:3595 Ionia.Progress.data <> E:33 var
+R3666:3672 Ionia.Progress.data <> optdata def
+R3666:3672 Ionia.Progress.data <> optdata def
+prf 3829:3840 <> optdata_Pred
+binder 3851:3851 <> m:34
+binder 3853:3853 <> n:35
+binder 3855:3855 <> d:36
+R3865:3868 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3862:3862 Coq.Init.Datatypes <> S constr
+R3864:3864 Ionia.Progress.data <> n:35 var
+R3869:3869 Ionia.Progress.data <> m:34 var
+binder 3859:3859 <> E:37
+R3879:3882 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3875:3877 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R3878:3878 Ionia.Progress.data <> n:35 var
+R3933:3937 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3908:3910 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3883:3889 Ionia.Progress.data <> optdata def
+R3892:3894 Ionia.Progress.data <> ary constr
+R3906:3906 Ionia.Progress.data <> d:36 var
+R3896:3896 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3900:3902 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3904:3904 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3897:3897 Coq.Init.Datatypes <> S constr
+R3899:3899 Ionia.Progress.data <> n:35 var
+R3903:3903 Ionia.Progress.data <> E:37 var
+R3911:3914 Coq.Init.Datatypes <> Some constr
+R3917:3919 Ionia.Progress.data <> ary constr
+R3931:3931 Ionia.Progress.data <> d:36 var
+R3921:3921 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3925:3927 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3929:3929 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3922:3922 Coq.Init.Datatypes <> S constr
+R3924:3924 Ionia.Progress.data <> n:35 var
+R3928:3928 Ionia.Progress.data <> E:37 var
+R3968:3970 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3938:3944 Ionia.Progress.data <> optdata def
+R3947:3949 Ionia.Progress.data <> ary constr
+R3966:3966 Ionia.Progress.data <> d:36 var
+R3951:3951 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3953:3955 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3964:3964 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3952:3952 Ionia.Progress.data <> n:35 var
+R3956:3961 Ionia.Base.base <> leS_le thm
+R3963:3963 Ionia.Progress.data <> E:37 var
+R3971:3974 Coq.Init.Datatypes <> Some constr
+R3977:3979 Ionia.Progress.data <> ary constr
+R3996:3996 Ionia.Progress.data <> d:36 var
+R3981:3981 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3983:3985 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3994:3994 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R3982:3982 Ionia.Progress.data <> n:35 var
+R3986:3991 Ionia.Base.base <> leS_le thm
+R3993:3993 Ionia.Progress.data <> E:37 var
+R4049:4055 Ionia.Progress.data <> optdata def
+R4049:4055 Ionia.Progress.data <> optdata def
+prf 4117:4127 <> optdata_dec
+binder 4138:4138 <> d:38
+R4141:4141 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4160:4164 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4181:4181 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4151:4153 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4142:4148 Ionia.Progress.data <> optdata def
+R4150:4150 Ionia.Progress.data <> d:38 var
+R4154:4157 Coq.Init.Datatypes <> Some constr
+R4159:4159 Ionia.Progress.data <> d:38 var
+R4174:4176 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4165:4171 Ionia.Progress.data <> optdata def
+R4173:4173 Ionia.Progress.data <> d:38 var
+R4177:4180 Coq.Init.Datatypes <> None constr
+R4221:4227 Ionia.Progress.data <> optdata def
+R4221:4227 Ionia.Progress.data <> optdata def
+R4255:4264 Ionia.Progress.data <> optdata_eq thm
+R4255:4264 Ionia.Progress.data <> optdata_eq thm
+def 4373:4399 <> Unnamed_thm
+R4389:4391 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4378:4384 Ionia.Progress.data <> optdata def
+R4386:4388 Ionia.Progress.data <> myd ex
+R4392:4395 Coq.Init.Datatypes <> Some constr
+R4397:4399 Ionia.Progress.data <> myd ex
+def 4486:4530 <> Unnamed_thm0
+R4524:4526 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4491:4497 Ionia.Progress.data <> optdata def
+R4500:4502 Ionia.Progress.data <> ary constr
+R4510:4512 Ionia.Progress.data <> ary constr
+R4519:4521 Ionia.Progress.data <> num constr
+R4514:4515 Ionia.Base.fle <> :::'''{'_x_'}' not
+R4517:4517 Ionia.Base.fle <> :::'''{'_x_'}' not
+R4504:4505 Ionia.Base.fle <> :::'''{'_x_'}' not
+R4507:4507 Ionia.Base.fle <> :::'''{'_x_'}' not
+R4527:4530 Coq.Init.Datatypes <> None constr
+R4556:4559 Ionia.Progress.data Data <> sec
+R4602:4612 Ionia.Progress.data <> optdata_num thm
+R4614:4626 Ionia.Progress.data <> optdata_ary_0 thm
+R4628:4640 Ionia.Progress.data <> optdata_fle_0 thm
+sec 4881:4884 <> Path
+ind 5193:5196 <> path
+constr 5204:5206 <> Var
+constr 5227:5229 <> Ary
+R5215:5218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5209:5214 Coq.Strings.String <> string ind
+R5219:5222 Ionia.Progress.data <> path:39 ind
+R5235:5237 Coq.Init.Datatypes <> nat ind
+binder 5232:5232 <> n:41
+R5244:5246 Ionia.Base.fin <> fin def
+R5248:5248 Ionia.Progress.data <> n:41 var
+binder 5241:5241 <> i:42
+R5256:5259 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5252:5255 Ionia.Progress.data <> path:39 ind
+R5260:5263 Ionia.Progress.data <> path:39 ind
+scheme 5193:5196 <> path_rect
+scheme 5193:5196 <> path_ind
+scheme 5193:5196 <> path_rec
+scheme 5193:5196 <> path_sind
+def 5366:5369 <> mypt
+R5372:5375 Ionia.Progress.data <> path ind
+R5379:5381 Ionia.Progress.data <> Ary constr
+R5389:5391 Ionia.Progress.data <> Ary constr
+R5399:5401 Ionia.Progress.data <> Var constr
+R5393:5394 Ionia.Base.fin <> :::'''['_x_']' not
+R5396:5396 Ionia.Base.fin <> :::'''['_x_']' not
+R5383:5384 Ionia.Base.fin <> :::'''['_x_']' not
+R5386:5386 Ionia.Base.fin <> :::'''['_x_']' not
+def 5696:5702 <> optpath
+R5708:5711 Ionia.Progress.data <> path ind
+binder 5705:5705 <> p:43
+R5715:5720 Coq.Init.Datatypes <> option ind
+R5722:5725 Ionia.Progress.data <> path ind
+R5737:5737 Ionia.Progress.data <> p:43 var
+R5747:5749 Ionia.Progress.data <> Var constr
+R5756:5759 Coq.Init.Datatypes <> Some constr
+R5761:5761 Ionia.Progress.data <> p:43 var
+R5767:5769 Ionia.Progress.data <> Ary constr
+R5791:5797 Ionia.Progress.data <> optpath:44 def
+R5820:5823 Coq.Init.Datatypes <> None constr
+R5831:5834 Coq.Init.Datatypes <> Some constr
+R5841:5844 Coq.Init.Datatypes <> Some constr
+R5846:5846 Ionia.Progress.data <> p:43 var
+R5859:5862 Coq.Init.Datatypes <> None constr
+prf 5946:5955 <> optpath_eq
+binder 5965:5966 <> p1:47
+binder 5968:5969 <> p2:48
+R5992:5995 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5982:5984 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5972:5978 Ionia.Progress.data <> optpath def
+R5980:5981 Ionia.Progress.data <> p1:47 var
+R5985:5988 Coq.Init.Datatypes <> Some constr
+R5990:5991 Ionia.Progress.data <> p2:48 var
+R5998:6000 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5996:5997 Ionia.Progress.data <> p1:47 var
+R6001:6002 Ionia.Progress.data <> p2:48 var
+R6114:6120 Ionia.Progress.data <> optpath def
+R6114:6120 Ionia.Progress.data <> optpath def
+prf 6180:6190 <> optpath_Var
+binder 6200:6200 <> s:49
+R6218:6220 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6203:6209 Ionia.Progress.data <> optpath def
+R6212:6214 Ionia.Progress.data <> Var constr
+R6216:6216 Ionia.Progress.data <> s:49 var
+R6221:6224 Coq.Init.Datatypes <> Some constr
+R6227:6229 Ionia.Progress.data <> Var constr
+R6231:6231 Ionia.Progress.data <> s:49 var
+prf 6338:6348 <> optpath_sub
+binder 6359:6359 <> n:50
+binder 6361:6361 <> i:51
+binder 6363:6363 <> p:52
+R6405:6408 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6388:6390 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6368:6374 Ionia.Progress.data <> optpath def
+R6378:6380 Ionia.Progress.data <> Ary constr
+R6382:6382 Ionia.Progress.data <> n:50 var
+R6384:6384 Ionia.Progress.data <> i:51 var
+R6386:6386 Ionia.Progress.data <> p:52 var
+R6391:6394 Coq.Init.Datatypes <> Some constr
+R6397:6399 Ionia.Progress.data <> Ary constr
+R6403:6403 Ionia.Progress.data <> p:52 var
+R6401:6401 Ionia.Progress.data <> i:51 var
+R6418:6420 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6409:6415 Ionia.Progress.data <> optpath def
+R6417:6417 Ionia.Progress.data <> p:52 var
+R6421:6424 Coq.Init.Datatypes <> Some constr
+R6426:6426 Ionia.Progress.data <> p:52 var
+R6494:6500 Ionia.Progress.data <> optpath def
+R6494:6500 Ionia.Progress.data <> optpath def
+R6521:6530 Ionia.Progress.data <> optpath_eq thm
+R6521:6530 Ionia.Progress.data <> optpath_eq thm
+prf 6658:6668 <> optpath_par
+binder 6679:6679 <> n:53
+binder 6681:6681 <> p:54
+R6688:6690 Ionia.Base.fin <> fin def
+R6692:6692 Ionia.Progress.data <> n:53 var
+binder 6685:6685 <> i:55
+R6710:6713 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6698:6700 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R6701:6707 Ionia.Base.fin <> fin2nat def
+R6709:6709 Ionia.Progress.data <> i:55 var
+R6732:6735 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6723:6725 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6714:6720 Ionia.Progress.data <> optpath def
+R6722:6722 Ionia.Progress.data <> p:54 var
+R6726:6729 Coq.Init.Datatypes <> Some constr
+R6731:6731 Ionia.Progress.data <> p:54 var
+R6753:6755 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6736:6742 Ionia.Progress.data <> optpath def
+R6745:6747 Ionia.Progress.data <> Ary constr
+R6751:6751 Ionia.Progress.data <> p:54 var
+R6749:6749 Ionia.Progress.data <> i:55 var
+R6756:6759 Coq.Init.Datatypes <> Some constr
+R6762:6764 Ionia.Progress.data <> Ary constr
+R6768:6768 Ionia.Progress.data <> p:54 var
+R6766:6766 Ionia.Progress.data <> i:55 var
+prf 6946:6961 <> optpath_sub_none
+binder 6972:6972 <> n:56
+binder 6974:6974 <> p:57
+R6981:6983 Ionia.Base.fin <> fin def
+R6985:6985 Ionia.Progress.data <> n:56 var
+binder 6978:6978 <> i:58
+R6995:6998 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6991:6993 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R6994:6994 Ionia.Progress.data <> n:56 var
+R7023:7026 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7016:7018 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6999:7005 Ionia.Progress.data <> optpath def
+R7008:7010 Ionia.Progress.data <> Ary constr
+R7014:7014 Ionia.Progress.data <> p:57 var
+R7012:7012 Ionia.Progress.data <> i:58 var
+R7019:7022 Coq.Init.Datatypes <> None constr
+R7036:7038 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7027:7033 Ionia.Progress.data <> optpath def
+R7035:7035 Ionia.Progress.data <> p:57 var
+R7039:7042 Coq.Init.Datatypes <> None constr
+R7110:7116 Ionia.Progress.data <> optpath def
+R7110:7116 Ionia.Progress.data <> optpath def
+prf 7211:7226 <> optpath_par_none
+binder 7237:7237 <> n:59
+binder 7239:7239 <> i:60
+binder 7241:7241 <> p:61
+R7262:7265 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7255:7257 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7246:7252 Ionia.Progress.data <> optpath def
+R7254:7254 Ionia.Progress.data <> p:61 var
+R7258:7261 Coq.Init.Datatypes <> None constr
+R7286:7288 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7266:7272 Ionia.Progress.data <> optpath def
+R7276:7278 Ionia.Progress.data <> Ary constr
+R7280:7280 Ionia.Progress.data <> n:59 var
+R7282:7282 Ionia.Progress.data <> i:60 var
+R7284:7284 Ionia.Progress.data <> p:61 var
+R7289:7292 Coq.Init.Datatypes <> None constr
+prf 7483:7492 <> optpath_Sn
+binder 7503:7503 <> n:62
+binder 7505:7505 <> i:63
+binder 7507:7507 <> p:64
+R7517:7519 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R7514:7514 Coq.Init.Datatypes <> S constr
+R7516:7516 Ionia.Progress.data <> i:63 var
+R7520:7520 Ionia.Progress.data <> n:62 var
+binder 7511:7511 <> E:65
+R7585:7590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7555:7557 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7525:7531 Ionia.Progress.data <> optpath def
+R7534:7536 Ionia.Progress.data <> Ary constr
+R7553:7553 Ionia.Progress.data <> p:64 var
+R7538:7538 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7540:7542 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7551:7551 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7539:7539 Ionia.Progress.data <> i:63 var
+R7543:7548 Ionia.Base.base <> ltS_lt thm
+R7550:7550 Ionia.Progress.data <> E:65 var
+R7558:7561 Coq.Init.Datatypes <> Some constr
+R7564:7566 Ionia.Progress.data <> Ary constr
+R7583:7583 Ionia.Progress.data <> p:64 var
+R7568:7568 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7570:7572 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7581:7581 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7569:7569 Ionia.Progress.data <> i:63 var
+R7573:7578 Ionia.Base.base <> ltS_lt thm
+R7580:7580 Ionia.Progress.data <> E:65 var
+R7616:7618 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7591:7597 Ionia.Progress.data <> optpath def
+R7600:7602 Ionia.Progress.data <> Ary constr
+R7614:7614 Ionia.Progress.data <> p:64 var
+R7604:7604 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7608:7610 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7612:7612 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7605:7605 Coq.Init.Datatypes <> S constr
+R7607:7607 Ionia.Progress.data <> i:63 var
+R7611:7611 Ionia.Progress.data <> E:65 var
+R7619:7622 Coq.Init.Datatypes <> Some constr
+R7625:7627 Ionia.Progress.data <> Ary constr
+R7639:7639 Ionia.Progress.data <> p:64 var
+R7629:7629 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7633:7635 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7637:7637 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7630:7630 Coq.Init.Datatypes <> S constr
+R7632:7632 Ionia.Progress.data <> i:63 var
+R7636:7636 Ionia.Progress.data <> E:65 var
+R7707:7713 Ionia.Progress.data <> optpath def
+R7707:7713 Ionia.Progress.data <> optpath def
+prf 7870:7881 <> optpath_Pred
+binder 7892:7892 <> n:66
+binder 7894:7894 <> i:67
+binder 7896:7896 <> p:68
+R7906:7908 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R7903:7903 Coq.Init.Datatypes <> S constr
+R7905:7905 Ionia.Progress.data <> i:67 var
+R7909:7909 Ionia.Progress.data <> n:66 var
+binder 7900:7900 <> E:69
+R7919:7922 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7915:7917 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R7918:7918 Ionia.Progress.data <> n:66 var
+R7973:7977 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7948:7950 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7923:7929 Ionia.Progress.data <> optpath def
+R7932:7934 Ionia.Progress.data <> Ary constr
+R7946:7946 Ionia.Progress.data <> p:68 var
+R7936:7936 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7940:7942 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7944:7944 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7937:7937 Coq.Init.Datatypes <> S constr
+R7939:7939 Ionia.Progress.data <> i:67 var
+R7943:7943 Ionia.Progress.data <> E:69 var
+R7951:7954 Coq.Init.Datatypes <> Some constr
+R7957:7959 Ionia.Progress.data <> Ary constr
+R7971:7971 Ionia.Progress.data <> p:68 var
+R7961:7961 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7965:7967 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7969:7969 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7962:7962 Coq.Init.Datatypes <> S constr
+R7964:7964 Ionia.Progress.data <> i:67 var
+R7968:7968 Ionia.Progress.data <> E:69 var
+R8008:8010 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7978:7984 Ionia.Progress.data <> optpath def
+R7987:7989 Ionia.Progress.data <> Ary constr
+R8006:8006 Ionia.Progress.data <> p:68 var
+R7991:7991 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7993:7995 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R8004:8004 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R7992:7992 Ionia.Progress.data <> i:67 var
+R7996:8001 Ionia.Base.base <> ltS_lt thm
+R8003:8003 Ionia.Progress.data <> E:69 var
+R8011:8014 Coq.Init.Datatypes <> Some constr
+R8017:8019 Ionia.Progress.data <> Ary constr
+R8036:8036 Ionia.Progress.data <> p:68 var
+R8021:8021 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R8023:8025 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R8034:8034 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R8022:8022 Ionia.Progress.data <> i:67 var
+R8026:8031 Ionia.Base.base <> ltS_lt thm
+R8033:8033 Ionia.Progress.data <> E:69 var
+R8103:8109 Ionia.Progress.data <> optpath def
+R8103:8109 Ionia.Progress.data <> optpath def
+def 8221:8249 <> Unnamed_thm1
+R8238:8240 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8226:8232 Ionia.Progress.data <> optpath def
+R8234:8237 Ionia.Progress.data <> mypt ex
+R8241:8244 Coq.Init.Datatypes <> Some constr
+R8246:8249 Ionia.Progress.data <> mypt ex
+def 8360:8362 <> eqb
+R8372:8375 Ionia.Progress.data <> path ind
+binder 8365:8366 <> p1:70
+binder 8368:8369 <> p2:71
+R8379:8382 Coq.Init.Datatypes <> bool ind
+R8397:8398 Ionia.Progress.data <> p2:71 var
+R8394:8395 Ionia.Progress.data <> p1:70 var
+R8408:8410 Ionia.Progress.data <> Var constr
+R8417:8419 Ionia.Progress.data <> Var constr
+R8427:8436 Coq.Strings.String <> eqb def
+R8448:8450 Ionia.Progress.data <> Ary constr
+R8464:8466 Ionia.Progress.data <> Ary constr
+R8514:8518 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R8528:8528 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R8496:8499 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R8485:8488 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R8503:8506 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R8519:8521 Ionia.Progress.data <> eqb:72 def
+R8542:8546 Coq.Init.Datatypes <> false constr
+R8570:8572 Ionia.Progress.data <> eqb def
+not 8562:8562 Path ::path_scope:x_'=?'_x
+prf 8645:8652 <> eqb_refl
+R8666:8669 Ionia.Progress.data <> path ind
+binder 8663:8663 <> p:75
+R8679:8681 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8674:8677 Ionia.Progress.data Path ::path_scope:x_'=?'_x not
+R8673:8673 Ionia.Progress.data <> p:75 var
+R8678:8678 Ionia.Progress.data <> p:75 var
+R8682:8685 Coq.Init.Datatypes <> true constr
+R8725:8739 Coq.Strings.String <> eqb_refl thm
+R8725:8739 Coq.Strings.String <> eqb_refl thm
+R8758:8769 Coq.Arith.PeanoNat Nat eqb_refl thm
+R8758:8769 Coq.Arith.PeanoNat Nat eqb_refl thm
+R8758:8769 Coq.Arith.PeanoNat Nat eqb_refl thm
+R8758:8769 Coq.Arith.PeanoNat Nat eqb_refl thm
+R8758:8769 Coq.Arith.PeanoNat Nat eqb_refl thm
+prf 8856:8869 <> eqb_refl_false
+R8882:8885 Ionia.Progress.data <> path ind
+binder 8879:8879 <> p:76
+R8902:8905 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8894:8896 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8889:8892 Ionia.Progress.data Path ::path_scope:x_'=?'_x not
+R8888:8888 Ionia.Progress.data <> p:76 var
+R8893:8893 Ionia.Progress.data <> p:76 var
+R8897:8901 Coq.Init.Datatypes <> false constr
+R8906:8910 Coq.Init.Logic <> False ind
+R8936:8943 Ionia.Progress.data <> eqb_refl thm
+R8936:8943 Ionia.Progress.data <> eqb_refl thm
+R8936:8943 Ionia.Progress.data <> eqb_refl thm
+prf 9006:9011 <> eqb_eq
+R9029:9032 Ionia.Progress.data <> path ind
+binder 9022:9023 <> p1:77
+binder 9025:9026 <> p2:78
+R9052:9056 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9045:9047 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9039:9042 Ionia.Progress.data Path ::path_scope:x_'=?'_x not
+R9037:9038 Ionia.Progress.data <> p1:77 var
+R9043:9044 Ionia.Progress.data <> p2:78 var
+R9048:9051 Coq.Init.Datatypes <> true constr
+R9059:9061 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9057:9058 Ionia.Progress.data <> p1:77 var
+R9062:9063 Ionia.Progress.data <> p2:78 var
+R9103:9110 Ionia.Progress.data <> eqb_refl thm
+R9103:9110 Ionia.Progress.data <> eqb_refl thm
+R9211:9223 Coq.Strings.String <> eqb_eq thm
+R9211:9223 Coq.Strings.String <> eqb_eq thm
+prf 9320:9326 <> eqb_neq
+R9344:9347 Ionia.Progress.data <> path ind
+binder 9337:9338 <> p1:79
+binder 9340:9341 <> p2:80
+R9368:9372 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9360:9362 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9354:9357 Ionia.Progress.data Path ::path_scope:x_'=?'_x not
+R9352:9353 Ionia.Progress.data <> p1:79 var
+R9358:9359 Ionia.Progress.data <> p2:80 var
+R9363:9367 Coq.Init.Datatypes <> false constr
+R9375:9378 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R9373:9374 Ionia.Progress.data <> p1:79 var
+R9379:9380 Ionia.Progress.data <> p2:80 var
+R9435:9448 Ionia.Progress.data <> eqb_refl_false thm
+R9435:9448 Ionia.Progress.data <> eqb_refl_false thm
+R9497:9500 Ionia.Progress.data Path ::path_scope:x_'=?'_x not
+R9497:9500 Ionia.Progress.data Path ::path_scope:x_'=?'_x not
+R9543:9548 Ionia.Progress.data <> eqb_eq thm
+R9543:9548 Ionia.Progress.data <> eqb_eq thm
+prf 9598:9604 <> eqb_sym
+R9622:9625 Ionia.Progress.data <> path ind
+binder 9615:9616 <> p1:81
+binder 9618:9619 <> p2:82
+R9632:9635 Coq.Init.Datatypes <> bool ind
+binder 9629:9629 <> b:83
+R9652:9655 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9648:9650 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9642:9645 Ionia.Progress.data Path ::path_scope:x_'=?'_x not
+R9640:9641 Ionia.Progress.data <> p1:81 var
+R9646:9647 Ionia.Progress.data <> p2:82 var
+R9651:9651 Ionia.Progress.data <> b:83 var
+R9664:9666 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9658:9661 Ionia.Progress.data Path ::path_scope:x_'=?'_x not
+R9656:9657 Ionia.Progress.data <> p2:82 var
+R9662:9663 Ionia.Progress.data <> p1:81 var
+R9667:9667 Ionia.Progress.data <> b:83 var
+R9737:9742 Ionia.Progress.data <> eqb_eq thm
+R9737:9742 Ionia.Progress.data <> eqb_eq thm
+R9761:9766 Ionia.Progress.data <> eqb_eq thm
+R9761:9766 Ionia.Progress.data <> eqb_eq thm
+R9806:9812 Ionia.Progress.data <> eqb_neq thm
+R9806:9812 Ionia.Progress.data <> eqb_neq thm
+R9831:9837 Ionia.Progress.data <> eqb_neq thm
+R9831:9837 Ionia.Progress.data <> eqb_neq thm
+prf 9886:9894 <> eqb_trans
+R9915:9918 Ionia.Progress.data <> path ind
+binder 9905:9906 <> p1:84
+binder 9908:9909 <> p2:85
+binder 9911:9912 <> p3:86
+R9938:9941 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9931:9933 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9925:9928 Ionia.Progress.data Path ::path_scope:x_'=?'_x not
+R9923:9924 Ionia.Progress.data <> p1:84 var
+R9929:9930 Ionia.Progress.data <> p2:85 var
+R9934:9937 Coq.Init.Datatypes <> true constr
+R9957:9960 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9950:9952 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9944:9947 Ionia.Progress.data Path ::path_scope:x_'=?'_x not
+R9942:9943 Ionia.Progress.data <> p2:85 var
+R9948:9949 Ionia.Progress.data <> p3:86 var
+R9953:9956 Coq.Init.Datatypes <> true constr
+R9969:9971 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9963:9966 Ionia.Progress.data Path ::path_scope:x_'=?'_x not
+R9961:9962 Ionia.Progress.data <> p1:84 var
+R9967:9968 Ionia.Progress.data <> p3:86 var
+R9972:9975 Coq.Init.Datatypes <> true constr
+R10011:10016 Ionia.Progress.data <> eqb_eq thm
+R10011:10016 Ionia.Progress.data <> eqb_eq thm
+R10030:10035 Ionia.Progress.data <> eqb_eq thm
+R10030:10035 Ionia.Progress.data <> eqb_eq thm
+R10050:10055 Ionia.Progress.data <> eqb_eq thm
+R10050:10055 Ionia.Progress.data <> eqb_eq thm
+prf 10143:10150 <> Ary_eq_l
+binder 10160:10161 <> n1:87
+binder 10163:10164 <> n2:88
+R10171:10173 Ionia.Base.fin <> fin def
+R10175:10176 Ionia.Progress.data <> n1:87 var
+binder 10167:10168 <> i1:89
+R10184:10186 Ionia.Base.fin <> fin def
+R10188:10189 Ionia.Progress.data <> n2:88 var
+binder 10180:10181 <> i2:90
+binder 10192:10193 <> p1:91
+binder 10195:10196 <> p2:92
+R10207:10210 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10202:10204 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10200:10201 Ionia.Progress.data <> n1:87 var
+R10205:10206 Ionia.Progress.data <> n2:88 var
+R10240:10243 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10222:10224 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10212:10218 Ionia.Base.fin <> fin2nat def
+R10220:10221 Ionia.Progress.data <> i1:89 var
+R10225:10231 Ionia.Base.fin <> fin2nat def
+R10233:10234 Ionia.Progress.data <> i2:90 var
+R10251:10255 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10246:10248 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10244:10245 Ionia.Progress.data <> p1:91 var
+R10249:10250 Ionia.Progress.data <> p2:92 var
+R10265:10267 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10256:10258 Ionia.Progress.data <> Ary constr
+R10263:10264 Ionia.Progress.data <> p1:91 var
+R10260:10261 Ionia.Progress.data <> i1:89 var
+R10268:10270 Ionia.Progress.data <> Ary constr
+R10275:10276 Ionia.Progress.data <> p2:92 var
+R10272:10273 Ionia.Progress.data <> i2:90 var
+prf 10402:10409 <> Ary_eq_r
+binder 10419:10420 <> n1:93
+binder 10422:10423 <> n2:94
+R10430:10432 Ionia.Base.fin <> fin def
+R10434:10435 Ionia.Progress.data <> n1:93 var
+binder 10426:10427 <> i1:95
+R10443:10445 Ionia.Base.fin <> fin def
+R10447:10448 Ionia.Progress.data <> n2:94 var
+binder 10439:10440 <> i2:96
+binder 10451:10452 <> p1:97
+binder 10454:10455 <> p2:98
+R10480:10484 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10468:10470 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10459:10461 Ionia.Progress.data <> Ary constr
+R10466:10467 Ionia.Progress.data <> p1:97 var
+R10463:10464 Ionia.Progress.data <> i1:95 var
+R10471:10473 Ionia.Progress.data <> Ary constr
+R10478:10479 Ionia.Progress.data <> p2:98 var
+R10475:10476 Ionia.Progress.data <> i2:96 var
+R10492:10495 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10487:10489 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10485:10486 Ionia.Progress.data <> n1:93 var
+R10490:10491 Ionia.Progress.data <> n2:94 var
+R10525:10528 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10507:10509 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10497:10503 Ionia.Base.fin <> fin2nat def
+R10505:10506 Ionia.Progress.data <> i1:95 var
+R10510:10516 Ionia.Base.fin <> fin2nat def
+R10518:10519 Ionia.Progress.data <> i2:96 var
+R10531:10533 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10529:10530 Ionia.Progress.data <> p1:97 var
+R10534:10535 Ionia.Progress.data <> p2:98 var
+prf 10669:10674 <> Ary_eq
+binder 10684:10685 <> n1:99
+binder 10687:10688 <> n2:100
+R10695:10697 Ionia.Base.fin <> fin def
+R10699:10700 Ionia.Progress.data <> n1:99 var
+binder 10691:10692 <> i1:101
+R10708:10710 Ionia.Base.fin <> fin def
+R10712:10713 Ionia.Progress.data <> n2:100 var
+binder 10704:10705 <> i2:102
+binder 10716:10717 <> p1:103
+binder 10719:10720 <> p2:104
+R10777:10782 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10724:10724 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10732:10736 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10727:10729 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10725:10726 Ionia.Progress.data <> n1:99 var
+R10730:10731 Ionia.Progress.data <> n2:100 var
+R10766:10769 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10748:10750 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10738:10744 Ionia.Base.fin <> fin2nat def
+R10746:10747 Ionia.Progress.data <> i1:101 var
+R10751:10757 Ionia.Base.fin <> fin2nat def
+R10759:10760 Ionia.Progress.data <> i2:102 var
+R10772:10774 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10770:10771 Ionia.Progress.data <> p1:103 var
+R10775:10776 Ionia.Progress.data <> p2:104 var
+R10792:10794 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10783:10785 Ionia.Progress.data <> Ary constr
+R10790:10791 Ionia.Progress.data <> p1:103 var
+R10787:10788 Ionia.Progress.data <> i1:101 var
+R10795:10797 Ionia.Progress.data <> Ary constr
+R10802:10803 Ionia.Progress.data <> p2:104 var
+R10799:10800 Ionia.Progress.data <> i2:102 var
+R10845:10852 Ionia.Progress.data <> Ary_eq_l thm
+R10845:10852 Ionia.Progress.data <> Ary_eq_l thm
+R10863:10870 Ionia.Progress.data <> Ary_eq_r thm
+R10863:10870 Ionia.Progress.data <> Ary_eq_r thm
+prf 10957:10965 <> Ary_eq_l'
+binder 10975:10975 <> n:105
+R10982:10984 Ionia.Base.fin <> fin def
+R10986:10986 Ionia.Progress.data <> n:105 var
+binder 10978:10979 <> i1:106
+R10994:10996 Ionia.Base.fin <> fin def
+R10998:10998 Ionia.Progress.data <> n:105 var
+binder 10990:10991 <> i2:107
+binder 11001:11002 <> p1:108
+binder 11004:11005 <> p2:109
+R11016:11019 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11011:11013 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11009:11010 Ionia.Progress.data <> i1:106 var
+R11014:11015 Ionia.Progress.data <> i2:107 var
+R11027:11031 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11022:11024 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11020:11021 Ionia.Progress.data <> p1:108 var
+R11025:11026 Ionia.Progress.data <> p2:109 var
+R11041:11043 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11032:11034 Ionia.Progress.data <> Ary constr
+R11039:11040 Ionia.Progress.data <> p1:108 var
+R11036:11037 Ionia.Progress.data <> i1:106 var
+R11044:11046 Ionia.Progress.data <> Ary constr
+R11051:11052 Ionia.Progress.data <> p2:109 var
+R11048:11049 Ionia.Progress.data <> i2:107 var
+prf 11172:11180 <> Ary_eq_r'
+binder 11190:11190 <> n:110
+R11197:11199 Ionia.Base.fin <> fin def
+R11201:11201 Ionia.Progress.data <> n:110 var
+binder 11193:11194 <> i1:111
+R11209:11211 Ionia.Base.fin <> fin def
+R11213:11213 Ionia.Progress.data <> n:110 var
+binder 11205:11206 <> i2:112
+binder 11216:11217 <> p1:113
+binder 11219:11220 <> p2:114
+R11245:11249 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11233:11235 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11224:11226 Ionia.Progress.data <> Ary constr
+R11231:11232 Ionia.Progress.data <> p1:113 var
+R11228:11229 Ionia.Progress.data <> i1:111 var
+R11236:11238 Ionia.Progress.data <> Ary constr
+R11243:11244 Ionia.Progress.data <> p2:114 var
+R11240:11241 Ionia.Progress.data <> i2:112 var
+R11257:11260 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11252:11254 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11250:11251 Ionia.Progress.data <> i1:111 var
+R11255:11256 Ionia.Progress.data <> i2:112 var
+R11263:11265 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11261:11262 Ionia.Progress.data <> p1:113 var
+R11266:11267 Ionia.Progress.data <> p2:114 var
+R11291:11298 Ionia.Progress.data <> Ary_eq_r thm
+R11291:11298 Ionia.Progress.data <> Ary_eq_r thm
+prf 11409:11415 <> Ary_eq'
+binder 11425:11425 <> n:115
+R11432:11434 Ionia.Base.fin <> fin def
+R11436:11436 Ionia.Progress.data <> n:115 var
+binder 11428:11429 <> i1:116
+R11444:11446 Ionia.Base.fin <> fin def
+R11448:11448 Ionia.Progress.data <> n:115 var
+binder 11440:11441 <> i2:117
+binder 11451:11452 <> p1:118
+binder 11454:11455 <> p2:119
+R11477:11481 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11466:11469 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11461:11463 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11459:11460 Ionia.Progress.data <> i1:116 var
+R11464:11465 Ionia.Progress.data <> i2:117 var
+R11472:11474 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11470:11471 Ionia.Progress.data <> p1:118 var
+R11475:11476 Ionia.Progress.data <> p2:119 var
+R11491:11493 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11482:11484 Ionia.Progress.data <> Ary constr
+R11489:11490 Ionia.Progress.data <> p1:118 var
+R11486:11487 Ionia.Progress.data <> i1:116 var
+R11494:11496 Ionia.Progress.data <> Ary constr
+R11501:11502 Ionia.Progress.data <> p2:119 var
+R11498:11499 Ionia.Progress.data <> i2:117 var
+R11544:11552 Ionia.Progress.data <> Ary_eq_l' thm
+R11544:11552 Ionia.Progress.data <> Ary_eq_l' thm
+R11563:11571 Ionia.Progress.data <> Ary_eq_r' thm
+R11563:11571 Ionia.Progress.data <> Ary_eq_r' thm
+prf 11642:11651 <> Ary_neq_l1
+binder 11661:11662 <> n1:120
+binder 11664:11665 <> n2:121
+R11672:11674 Ionia.Base.fin <> fin def
+R11676:11677 Ionia.Progress.data <> n1:120 var
+binder 11668:11669 <> i1:122
+R11685:11687 Ionia.Base.fin <> fin def
+R11689:11690 Ionia.Progress.data <> n2:121 var
+binder 11681:11682 <> i2:123
+binder 11693:11694 <> p1:124
+binder 11696:11697 <> p2:125
+R11709:11712 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11703:11706 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11701:11702 Ionia.Progress.data <> n1:120 var
+R11707:11708 Ionia.Progress.data <> n2:121 var
+R11722:11725 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11713:11715 Ionia.Progress.data <> Ary constr
+R11720:11721 Ionia.Progress.data <> p1:124 var
+R11717:11718 Ionia.Progress.data <> i1:122 var
+R11726:11728 Ionia.Progress.data <> Ary constr
+R11733:11734 Ionia.Progress.data <> p2:125 var
+R11730:11731 Ionia.Progress.data <> i2:123 var
+R11751:11753 Coq.Init.Logic <> not def
+R11770:11775 Ionia.Progress.data <> Ary_eq thm
+R11770:11775 Ionia.Progress.data <> Ary_eq thm
+prf 11866:11875 <> Ary_neq_l2
+binder 11885:11886 <> n1:126
+binder 11888:11889 <> n2:127
+R11896:11898 Ionia.Base.fin <> fin def
+R11900:11901 Ionia.Progress.data <> n1:126 var
+binder 11892:11893 <> i1:128
+R11909:11911 Ionia.Base.fin <> fin def
+R11913:11914 Ionia.Progress.data <> n2:127 var
+binder 11905:11906 <> i2:129
+binder 11917:11918 <> p1:130
+binder 11920:11921 <> p2:131
+R11949:11952 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11935:11938 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11925:11931 Ionia.Base.fin <> fin2nat def
+R11933:11934 Ionia.Progress.data <> i1:128 var
+R11939:11945 Ionia.Base.fin <> fin2nat def
+R11947:11948 Ionia.Progress.data <> i2:129 var
+R11962:11965 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11953:11955 Ionia.Progress.data <> Ary constr
+R11960:11961 Ionia.Progress.data <> p1:130 var
+R11957:11958 Ionia.Progress.data <> i1:128 var
+R11966:11968 Ionia.Progress.data <> Ary constr
+R11973:11974 Ionia.Progress.data <> p2:131 var
+R11970:11971 Ionia.Progress.data <> i2:129 var
+R11991:11993 Coq.Init.Logic <> not def
+R12010:12015 Ionia.Progress.data <> Ary_eq thm
+R12010:12015 Ionia.Progress.data <> Ary_eq thm
+prf 12106:12115 <> Ary_neq_l3
+binder 12125:12126 <> n1:132
+binder 12128:12129 <> n2:133
+R12136:12138 Ionia.Base.fin <> fin def
+R12140:12141 Ionia.Progress.data <> n1:132 var
+binder 12132:12133 <> i1:134
+R12149:12151 Ionia.Base.fin <> fin def
+R12153:12154 Ionia.Progress.data <> n2:133 var
+binder 12145:12146 <> i2:135
+binder 12157:12158 <> p1:136
+binder 12160:12161 <> p2:137
+R12173:12176 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12167:12170 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R12165:12166 Ionia.Progress.data <> p1:136 var
+R12171:12172 Ionia.Progress.data <> p2:137 var
+R12186:12189 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R12177:12179 Ionia.Progress.data <> Ary constr
+R12184:12185 Ionia.Progress.data <> p1:136 var
+R12181:12182 Ionia.Progress.data <> i1:134 var
+R12190:12192 Ionia.Progress.data <> Ary constr
+R12197:12198 Ionia.Progress.data <> p2:137 var
+R12194:12195 Ionia.Progress.data <> i2:135 var
+R12215:12217 Coq.Init.Logic <> not def
+R12234:12239 Ionia.Progress.data <> Ary_eq thm
+R12234:12239 Ionia.Progress.data <> Ary_eq thm
+prf 12338:12348 <> Ary_neq_l1'
+binder 12358:12358 <> n:138
+R12365:12367 Ionia.Base.fin <> fin def
+R12369:12369 Ionia.Progress.data <> n:138 var
+binder 12361:12362 <> i1:139
+R12377:12379 Ionia.Base.fin <> fin def
+R12381:12381 Ionia.Progress.data <> n:138 var
+binder 12373:12374 <> i2:140
+binder 12384:12385 <> p1:141
+binder 12387:12388 <> p2:142
+R12400:12403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12394:12397 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R12392:12393 Ionia.Progress.data <> i1:139 var
+R12398:12399 Ionia.Progress.data <> i2:140 var
+R12413:12416 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R12404:12406 Ionia.Progress.data <> Ary constr
+R12411:12412 Ionia.Progress.data <> p1:141 var
+R12408:12409 Ionia.Progress.data <> i1:139 var
+R12417:12419 Ionia.Progress.data <> Ary constr
+R12424:12425 Ionia.Progress.data <> p2:142 var
+R12421:12422 Ionia.Progress.data <> i2:140 var
+R12442:12444 Coq.Init.Logic <> not def
+R12461:12467 Ionia.Progress.data <> Ary_eq' thm
+R12461:12467 Ionia.Progress.data <> Ary_eq' thm
+prf 12552:12562 <> Ary_neq_l2'
+binder 12572:12572 <> n:143
+R12579:12581 Ionia.Base.fin <> fin def
+R12583:12583 Ionia.Progress.data <> n:143 var
+binder 12575:12576 <> i1:144
+R12591:12593 Ionia.Base.fin <> fin def
+R12595:12595 Ionia.Progress.data <> n:143 var
+binder 12587:12588 <> i2:145
+binder 12598:12599 <> p1:146
+binder 12601:12602 <> p2:147
+R12614:12617 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12608:12611 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R12606:12607 Ionia.Progress.data <> p1:146 var
+R12612:12613 Ionia.Progress.data <> p2:147 var
+R12627:12630 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R12618:12620 Ionia.Progress.data <> Ary constr
+R12625:12626 Ionia.Progress.data <> p1:146 var
+R12622:12623 Ionia.Progress.data <> i1:144 var
+R12631:12633 Ionia.Progress.data <> Ary constr
+R12638:12639 Ionia.Progress.data <> p2:147 var
+R12635:12636 Ionia.Progress.data <> i2:145 var
+R12656:12658 Coq.Init.Logic <> not def
+R12675:12680 Ionia.Progress.data <> Ary_eq thm
+R12675:12680 Ionia.Progress.data <> Ary_eq thm
+def 12767:12817 <> Unnamed_thm2
+R12811:12813 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12776:12779 Ionia.Progress.data Path ::path_scope:x_'=?'_x not
+R12772:12775 Ionia.Progress.data <> mypt ex
+R12780:12782 Ionia.Progress.data <> Ary constr
+R12790:12792 Ionia.Progress.data <> Ary constr
+R12800:12802 Ionia.Progress.data <> Var constr
+R12794:12795 Ionia.Base.fin <> :::'''['_x_']' not
+R12797:12797 Ionia.Base.fin <> :::'''['_x_']' not
+R12784:12785 Ionia.Base.fin <> :::'''['_x_']' not
+R12787:12787 Ionia.Base.fin <> :::'''['_x_']' not
+R12814:12817 Coq.Init.Datatypes <> true constr
+def 12888:12940 <> Unnamed_thm3
+R12933:12935 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12897:12900 Ionia.Progress.data Path ::path_scope:x_'=?'_x not
+R12893:12896 Ionia.Progress.data <> mypt ex
+R12901:12903 Ionia.Progress.data <> Ary constr
+R12911:12913 Ionia.Progress.data <> Ary constr
+R12921:12923 Ionia.Progress.data <> Var constr
+R12915:12916 Ionia.Base.fin <> :::'''['_x_']' not
+R12918:12918 Ionia.Base.fin <> :::'''['_x_']' not
+R12905:12906 Ionia.Base.fin <> :::'''['_x_']' not
+R12908:12908 Ionia.Base.fin <> :::'''['_x_']' not
+R12936:12940 Coq.Init.Datatypes <> false constr
+def 13010:13068 <> Unnamed_thm4
+R13061:13063 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13019:13022 Ionia.Progress.data Path ::path_scope:x_'=?'_x not
+R13015:13018 Ionia.Progress.data <> mypt ex
+R13023:13025 Ionia.Progress.data <> Ary constr
+R13033:13035 Ionia.Progress.data <> Ary constr
+R13050:13052 Ionia.Progress.data <> Var constr
+R13039:13044 Ionia.Base.fin <> fin_0S def
+R13027:13028 Ionia.Base.fin <> :::'''['_x_']' not
+R13030:13030 Ionia.Base.fin <> :::'''['_x_']' not
+R13064:13068 Coq.Init.Datatypes <> false constr
+def 13144:13229 <> Unnamed_thm5
+R13222:13224 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13180:13183 Ionia.Progress.data Path ::path_scope:x_'=?'_x not
+R13149:13151 Ionia.Progress.data <> Ary constr
+R13159:13161 Ionia.Progress.data <> Ary constr
+R13169:13171 Ionia.Progress.data <> Var constr
+R13163:13164 Ionia.Base.fin <> :::'''['_x_']' not
+R13166:13166 Ionia.Base.fin <> :::'''['_x_']' not
+R13153:13154 Ionia.Base.fin <> :::'''['_x_']' not
+R13156:13156 Ionia.Base.fin <> :::'''['_x_']' not
+R13184:13186 Ionia.Progress.data <> Ary constr
+R13194:13196 Ionia.Progress.data <> Ary constr
+R13211:13213 Ionia.Progress.data <> Var constr
+R13200:13205 Ionia.Base.fin <> fin_0S def
+R13188:13189 Ionia.Base.fin <> :::'''['_x_']' not
+R13191:13191 Ionia.Base.fin <> :::'''['_x_']' not
+R13225:13229 Coq.Init.Datatypes <> false constr
+R13255:13258 Ionia.Progress.data Path <> sec
+R13296:13298 Ionia.Progress.data <> eqb def
+not 13288:13288 <> ::path_scope:x_'=?'_x
+R13353:13358 Ionia.Progress.data <> eqb_eq thm
+R13360:13366 Ionia.Progress.data <> eqb_neq thm
+R13743:13745 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13739:13742 Coq.Init.Datatypes <> true constr
+R13743:13745 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13739:13742 Coq.Init.Datatypes <> true constr
+R13787:13789 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13782:13786 Coq.Init.Datatypes <> false constr
+R13787:13789 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13782:13786 Coq.Init.Datatypes <> false constr
+R13837:13840 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R13837:13840 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R13894:13896 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13888:13891 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R13897:13900 Coq.Init.Datatypes <> true constr
+R13894:13896 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13888:13891 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R13897:13900 Coq.Init.Datatypes <> true constr
+R13936:13938 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13930:13933 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R13939:13943 Coq.Init.Datatypes <> false constr
+R13936:13938 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13930:13933 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R13939:13943 Coq.Init.Datatypes <> false constr
+R14001:14003 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13996:13999 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R14004:14007 Coq.Init.Datatypes <> true constr
+R14001:14003 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13996:13999 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R14004:14007 Coq.Init.Datatypes <> true constr
+R14053:14055 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14048:14051 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R14056:14060 Coq.Init.Datatypes <> false constr
+R14053:14055 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14048:14051 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R14056:14060 Coq.Init.Datatypes <> false constr
+R14104:14106 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14100:14103 Coq.Init.Datatypes <> true constr
+R14104:14106 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14100:14103 Coq.Init.Datatypes <> true constr
+R14136:14138 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14131:14135 Coq.Init.Datatypes <> false constr
+R14136:14138 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14131:14135 Coq.Init.Datatypes <> false constr
+R14175:14178 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R14175:14178 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R14221:14223 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14215:14218 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R14224:14227 Coq.Init.Datatypes <> true constr
+R14221:14223 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14215:14218 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R14224:14227 Coq.Init.Datatypes <> true constr
+R14264:14266 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14259:14262 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R14267:14270 Coq.Init.Datatypes <> true constr
+R14264:14266 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14259:14262 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R14267:14270 Coq.Init.Datatypes <> true constr
+R14306:14308 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14301:14304 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R14309:14313 Coq.Init.Datatypes <> false constr
+R14306:14308 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14301:14304 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R14309:14313 Coq.Init.Datatypes <> false constr
+R14355:14358 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R14355:14358 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R14401:14404 Ionia.Progress.data <> ::path_scope:x_'=?'_x not
+R14327:14333 Ionia.Progress.data <> eqb_neq thm
+R14284:14289 Ionia.Progress.data <> eqb_eq thm
+R14240:14247 Ionia.Progress.data <> eqb_refl thm
+R14196:14203 Ionia.Progress.data <> eqb_refl thm
+R14079:14085 Ionia.Progress.data <> eqb_neq thm
+R14026:14031 Ionia.Progress.data <> eqb_eq thm
+R13965:13978 Ionia.Progress.data <> eqb_refl_false thm
+R13864:13871 Ionia.Progress.data <> eqb_refl thm
+sec 14532:14540 <> Expersion
+def 14684:14686 <> exp
+R14692:14695 Ionia.Progress.data <> data ind
+binder 14689:14689 <> d:148
+R14713:14713 Ionia.Progress.data <> d:148 var
+R14723:14725 Ionia.Progress.data <> num constr
+R14730:14730 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R14735:14737 Ionia.Progress.data <> ary constr
+R14746:14751 Ionia.Base.vector <> vector def
+R14754:14756 Ionia.Progress.data <> exp:149 def
+R14758:14758 Ionia.Progress.data <> d:148 var
+prf 14855:14861 <> exp'_eq
+binder 14872:14872 <> A:151
+binder 14881:14882 <> d1:152
+binder 14884:14885 <> d2:153
+R14896:14899 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14891:14893 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14889:14890 Ionia.Progress.data <> d1:152 var
+R14894:14895 Ionia.Progress.data <> d2:153 var
+R14906:14908 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14900:14902 Ionia.Progress.data <> exp def
+R14904:14905 Ionia.Progress.data <> d1:152 var
+R14909:14911 Ionia.Progress.data <> exp def
+R14913:14914 Ionia.Progress.data <> d2:153 var
+prf 14983:14988 <> exp'_0
+binder 14998:14998 <> d:154
+R15018:15020 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15002:15004 Ionia.Progress.data <> exp def
+R15007:15009 Ionia.Progress.data <> ary constr
+R15016:15016 Ionia.Progress.data <> d:154 var
+R15011:15012 Ionia.Base.fle <> :::'''{'_x_'}' not
+R15014:15014 Ionia.Base.fle <> :::'''{'_x_'}' not
+R15021:15024 Coq.Init.Datatypes <> unit ind
+prf 15102:15112 <> exp'_0_elem
+binder 15122:15122 <> d:155
+R15128:15130 Ionia.Progress.data <> exp def
+R15133:15135 Ionia.Progress.data <> ary constr
+R15142:15142 Ionia.Progress.data <> d:155 var
+R15137:15138 Ionia.Base.fle <> :::'''{'_x_'}' not
+R15140:15140 Ionia.Base.fle <> :::'''{'_x_'}' not
+binder 15125:15125 <> e:156
+R15148:15151 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15172:15172 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15147:15147 Ionia.Progress.data <> e:156 var
+R15156:15161 Ionia.Base.vector <> vector def
+R15164:15166 Ionia.Progress.data <> exp def
+R15168:15168 Ionia.Progress.data <> d:155 var
+R15152:15153 Coq.Init.Datatypes <> tt constr
+prf 15262:15274 <> exp'_0_unique
+binder 15285:15285 <> d:157
+R15295:15297 Ionia.Progress.data <> exp def
+R15300:15302 Ionia.Progress.data <> ary constr
+R15309:15309 Ionia.Progress.data <> d:157 var
+R15304:15305 Ionia.Base.fle <> :::'''{'_x_'}' not
+R15307:15307 Ionia.Base.fle <> :::'''{'_x_'}' not
+binder 15289:15289 <> e:158
+binder 15291:15292 <> e':159
+R15315:15317 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15314:15314 Ionia.Progress.data <> e:158 var
+R15318:15319 Ionia.Progress.data <> e':159 var
+R15346:15356 Ionia.Progress.data <> exp'_0_elem thm
+R15346:15356 Ionia.Progress.data <> exp'_0_elem thm
+R15346:15356 Ionia.Progress.data <> exp'_0_elem thm
+R15346:15356 Ionia.Progress.data <> exp'_0_elem thm
+R15365:15375 Ionia.Progress.data <> exp'_0_elem thm
+R15365:15375 Ionia.Progress.data <> exp'_0_elem thm
+def 15457:15461 <> myexp
+R15464:15466 Ionia.Progress.data <> exp def
+R15468:15470 Ionia.Progress.data <> myd ex
+R15474:15474 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R15482:15482 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R15490:15490 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R15475:15475 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R15477:15477 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R15479:15479 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R15481:15481 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R15483:15483 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R15485:15485 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R15487:15487 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R15489:15489 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+def 15595:15604 <> exp_unfold
+binder 15607:15607 <> m:160
+binder 15609:15609 <> n:161
+binder 15611:15611 <> d:162
+R15620:15623 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R15619:15619 Ionia.Progress.data <> n:161 var
+R15624:15624 Ionia.Progress.data <> m:160 var
+binder 15615:15615 <> E:163
+R15631:15633 Ionia.Progress.data <> exp def
+R15636:15638 Ionia.Progress.data <> ary constr
+R15646:15646 Ionia.Progress.data <> d:162 var
+R15640:15640 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R15642:15642 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R15644:15644 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R15641:15641 Ionia.Progress.data <> n:161 var
+R15643:15643 Ionia.Progress.data <> E:163 var
+binder 15628:15628 <> e:164
+R15652:15657 Ionia.Base.vector <> vector def
+R15667:15667 Ionia.Progress.data <> n:161 var
+R15660:15662 Ionia.Progress.data <> exp def
+R15664:15664 Ionia.Progress.data <> d:162 var
+R15671:15671 Ionia.Progress.data <> e:164 var
+def 15751:15763 <> exp_unfold_eq
+binder 15774:15774 <> m:165
+binder 15776:15776 <> n:166
+binder 15778:15778 <> d:167
+R15787:15790 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R15786:15786 Ionia.Progress.data <> n:166 var
+R15791:15791 Ionia.Progress.data <> m:165 var
+binder 15782:15782 <> E:168
+R15798:15800 Ionia.Progress.data <> exp def
+R15803:15805 Ionia.Progress.data <> ary constr
+R15813:15813 Ionia.Progress.data <> d:167 var
+R15807:15807 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R15809:15809 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R15811:15811 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R15808:15808 Ionia.Progress.data <> n:166 var
+R15810:15810 Ionia.Progress.data <> E:168 var
+binder 15795:15795 <> e:169
+R15831:15833 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15819:15828 Ionia.Progress.data <> exp_unfold def
+R15830:15830 Ionia.Progress.data <> e:169 var
+R15834:15834 Ionia.Progress.data <> e:169 var
+def 15936:16003 <> Unnamed_thm6
+R15941:15941 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15981:15984 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15960:15965 Ionia.Base.vector <> vector def
+R15968:15973 Ionia.Base.vector <> vector def
+R15975:15975 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R15942:15951 Ionia.Progress.data <> exp_unfold def
+R15953:15957 Ionia.Progress.data <> myexp ex
+R15985:15985 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R15993:15993 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R16001:16001 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R15986:15986 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R15988:15988 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R15990:15990 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R15992:15992 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R15994:15994 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R15996:15996 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R15998:15998 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R16000:16000 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+def 16121:16128 <> exp_fold
+binder 16131:16131 <> m:170
+binder 16133:16133 <> n:171
+binder 16135:16135 <> d:172
+R16143:16146 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R16142:16142 Ionia.Progress.data <> n:171 var
+R16147:16147 Ionia.Progress.data <> m:170 var
+binder 16139:16139 <> E:173
+R16154:16159 Ionia.Base.vector <> vector def
+R16169:16169 Ionia.Progress.data <> n:171 var
+R16162:16164 Ionia.Progress.data <> exp def
+R16166:16166 Ionia.Progress.data <> d:172 var
+binder 16151:16151 <> e:174
+R16173:16175 Ionia.Progress.data <> exp def
+R16178:16180 Ionia.Progress.data <> ary constr
+R16190:16190 Ionia.Progress.data <> d:172 var
+R16182:16182 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R16184:16186 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R16188:16188 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R16183:16183 Ionia.Progress.data <> n:171 var
+R16187:16187 Ionia.Progress.data <> E:173 var
+R16195:16195 Ionia.Progress.data <> e:174 var
+prf 16269:16279 <> exp_fold_eq
+binder 16290:16290 <> m:175
+binder 16292:16292 <> n:176
+binder 16294:16294 <> d:177
+R16301:16306 Ionia.Base.vector <> vector def
+R16316:16316 Ionia.Progress.data <> n:176 var
+R16309:16311 Ionia.Progress.data <> exp def
+R16313:16313 Ionia.Progress.data <> d:177 var
+binder 16298:16298 <> e:178
+R16324:16327 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R16323:16323 Ionia.Progress.data <> n:176 var
+R16328:16328 Ionia.Progress.data <> m:175 var
+binder 16320:16320 <> E:179
+R16345:16347 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16333:16340 Ionia.Progress.data <> exp_fold def
+R16344:16344 Ionia.Progress.data <> e:178 var
+R16342:16342 Ionia.Progress.data <> E:179 var
+R16348:16348 Ionia.Progress.data <> e:178 var
+prf 16441:16455 <> exp_unfold_fold
+binder 16465:16465 <> m:180
+binder 16467:16467 <> n:181
+binder 16469:16469 <> d:182
+R16476:16479 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R16475:16475 Ionia.Progress.data <> n:181 var
+R16480:16480 Ionia.Progress.data <> m:180 var
+binder 16472:16472 <> E:183
+R16487:16492 Ionia.Base.vector <> vector def
+R16502:16502 Ionia.Progress.data <> n:181 var
+R16495:16497 Ionia.Progress.data <> exp def
+R16499:16499 Ionia.Progress.data <> d:182 var
+binder 16484:16484 <> e:184
+R16532:16534 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16507:16516 Ionia.Progress.data <> exp_unfold def
+R16519:16526 Ionia.Progress.data <> exp_fold def
+R16530:16530 Ionia.Progress.data <> e:184 var
+R16528:16528 Ionia.Progress.data <> E:183 var
+R16535:16535 Ionia.Progress.data <> e:184 var
+prf 16628:16642 <> exp_fold_unfold
+binder 16652:16652 <> m:185
+binder 16654:16654 <> n:186
+binder 16656:16656 <> d:187
+R16663:16666 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R16662:16662 Ionia.Progress.data <> n:186 var
+R16667:16667 Ionia.Progress.data <> m:185 var
+binder 16659:16659 <> E:188
+R16674:16676 Ionia.Progress.data <> exp def
+R16679:16681 Ionia.Progress.data <> ary constr
+R16691:16691 Ionia.Progress.data <> d:187 var
+R16683:16683 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R16685:16687 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R16689:16689 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R16684:16684 Ionia.Progress.data <> n:186 var
+R16688:16688 Ionia.Progress.data <> E:188 var
+binder 16671:16671 <> e:189
+R16722:16724 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16697:16704 Ionia.Progress.data <> exp_fold def
+R16709:16718 Ionia.Progress.data <> exp_unfold def
+R16720:16720 Ionia.Progress.data <> e:189 var
+R16706:16706 Ionia.Progress.data <> E:188 var
+R16725:16725 Ionia.Progress.data <> e:189 var
+def 16846:16908 <> Unnamed_thm7
+R16887:16889 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16851:16858 Ionia.Progress.data <> exp_fold def
+R16870:16879 Ionia.Progress.data <> exp_unfold def
+R16881:16885 Ionia.Progress.data <> myexp ex
+R16861:16864 Coq.Init.Peano <> le_n constr
+R16890:16890 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R16898:16898 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R16906:16906 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R16891:16891 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R16893:16893 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R16895:16895 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R16897:16897 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R16899:16899 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R16901:16901 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R16903:16903 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R16905:16905 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+def 17066:17072 <> exp_des
+binder 17075:17075 <> m:190
+binder 17077:17077 <> n:191
+binder 17079:17079 <> d:192
+R17089:17092 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17086:17086 Coq.Init.Datatypes <> S constr
+R17088:17088 Ionia.Progress.data <> n:191 var
+R17093:17093 Ionia.Progress.data <> m:190 var
+binder 17083:17083 <> E:193
+R17100:17102 Ionia.Progress.data <> exp def
+R17105:17107 Ionia.Progress.data <> ary constr
+R17119:17119 Ionia.Progress.data <> d:192 var
+R17109:17109 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R17113:17115 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R17117:17117 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R17110:17110 Coq.Init.Datatypes <> S constr
+R17112:17112 Ionia.Progress.data <> n:191 var
+R17116:17116 Ionia.Progress.data <> E:193 var
+binder 17097:17097 <> e:194
+R17153:17155 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17124:17126 Ionia.Progress.data <> exp def
+R17130:17132 Ionia.Progress.data <> ary constr
+R17134:17134 Ionia.Progress.data <> m:190 var
+R17136:17136 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R17138:17140 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R17149:17149 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R17137:17137 Ionia.Progress.data <> n:191 var
+R17141:17146 Ionia.Base.base <> leS_le thm
+R17148:17148 Ionia.Progress.data <> E:193 var
+R17151:17151 Ionia.Progress.data <> d:192 var
+R17156:17158 Ionia.Progress.data <> exp def
+R17160:17160 Ionia.Progress.data <> d:192 var
+R17200:17200 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17202:17203 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17205:17205 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17200:17200 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17202:17203 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17205:17205 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+prf 17311:17324 <> exp_unfold_des
+binder 17336:17336 <> m:195
+binder 17338:17338 <> n:196
+binder 17340:17340 <> d:197
+R17351:17354 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17348:17348 Coq.Init.Datatypes <> S constr
+R17350:17350 Ionia.Progress.data <> n:196 var
+R17355:17355 Ionia.Progress.data <> m:195 var
+binder 17344:17344 <> E:198
+R17363:17365 Ionia.Progress.data <> exp def
+R17368:17370 Ionia.Progress.data <> ary constr
+R17382:17382 Ionia.Progress.data <> d:197 var
+R17372:17372 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R17376:17378 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R17380:17380 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R17373:17373 Coq.Init.Datatypes <> S constr
+R17375:17375 Ionia.Progress.data <> n:196 var
+R17379:17379 Ionia.Progress.data <> E:198 var
+binder 17359:17359 <> e:199
+R17401:17403 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17389:17398 Ionia.Progress.data <> exp_unfold def
+R17400:17400 Ionia.Progress.data <> e:199 var
+R17404:17404 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17433:17435 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17451:17452 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17405:17414 Ionia.Progress.data <> exp_unfold def
+R17417:17419 Coq.Init.Datatypes <> fst def
+R17422:17428 Ionia.Progress.data <> exp_des def
+R17430:17430 Ionia.Progress.data <> e:199 var
+R17436:17438 Coq.Init.Datatypes <> snd def
+R17441:17447 Ionia.Progress.data <> exp_des def
+R17449:17449 Ionia.Progress.data <> e:199 var
+prf 17567:17578 <> exp_des_fold
+binder 17590:17590 <> m:200
+binder 17592:17592 <> n:201
+binder 17594:17594 <> d:202
+R17605:17608 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17602:17602 Coq.Init.Datatypes <> S constr
+R17604:17604 Ionia.Progress.data <> n:201 var
+R17609:17609 Ionia.Progress.data <> m:200 var
+binder 17598:17598 <> E:203
+R17618:17623 Ionia.Base.vector <> vector def
+R17634:17634 Coq.Init.Datatypes <> S constr
+R17636:17636 Ionia.Progress.data <> n:201 var
+R17626:17628 Ionia.Progress.data <> exp def
+R17630:17630 Ionia.Progress.data <> d:202 var
+binder 17613:17614 <> ve:204
+R17666:17668 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17643:17649 Ionia.Progress.data <> exp_des def
+R17652:17659 Ionia.Progress.data <> exp_fold def
+R17663:17664 Ionia.Progress.data <> ve:204 var
+R17661:17661 Ionia.Progress.data <> E:203 var
+R17669:17669 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17698:17700 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17707:17708 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17670:17677 Ionia.Progress.data <> exp_fold def
+R17691:17693 Coq.Init.Datatypes <> fst def
+R17695:17696 Ionia.Progress.data <> ve:204 var
+R17680:17685 Ionia.Base.base <> leS_le thm
+R17687:17687 Ionia.Progress.data <> E:203 var
+R17701:17703 Coq.Init.Datatypes <> snd def
+R17705:17706 Ionia.Progress.data <> ve:204 var
+def 17831:17872 <> Unnamed_thm8
+R17849:17851 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17836:17842 Ionia.Progress.data <> exp_des def
+R17844:17848 Ionia.Progress.data <> myexp ex
+R17852:17852 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17862:17862 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17870:17870 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17853:17853 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R17861:17861 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R17854:17854 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R17856:17856 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R17858:17858 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R17860:17860 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R17863:17863 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R17865:17865 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R17867:17867 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R17869:17869 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+def 17992:17998 <> exp_con
+binder 18001:18001 <> m:205
+binder 18003:18003 <> n:206
+binder 18005:18005 <> d:207
+R18015:18018 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R18012:18012 Coq.Init.Datatypes <> S constr
+R18014:18014 Ionia.Progress.data <> n:206 var
+R18019:18019 Ionia.Progress.data <> m:205 var
+binder 18009:18009 <> E:208
+R18055:18057 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18026:18028 Ionia.Progress.data <> exp def
+R18032:18034 Ionia.Progress.data <> ary constr
+R18036:18036 Ionia.Progress.data <> m:205 var
+R18038:18038 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R18040:18042 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R18051:18051 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R18039:18039 Ionia.Progress.data <> n:206 var
+R18043:18048 Ionia.Base.base <> leS_le thm
+R18050:18050 Ionia.Progress.data <> E:208 var
+R18053:18053 Ionia.Progress.data <> d:207 var
+R18058:18060 Ionia.Progress.data <> exp def
+R18062:18062 Ionia.Progress.data <> d:207 var
+binder 18023:18023 <> e:209
+R18066:18068 Ionia.Progress.data <> exp def
+R18071:18073 Ionia.Progress.data <> ary constr
+R18085:18085 Ionia.Progress.data <> d:207 var
+R18075:18075 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R18079:18081 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R18083:18083 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R18076:18076 Coq.Init.Datatypes <> S constr
+R18078:18078 Ionia.Progress.data <> n:206 var
+R18082:18082 Ionia.Progress.data <> E:208 var
+prf 18208:18221 <> exp_unfold_con
+binder 18233:18233 <> m:210
+binder 18235:18235 <> n:211
+binder 18237:18237 <> d:212
+R18248:18251 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R18245:18245 Coq.Init.Datatypes <> S constr
+R18247:18247 Ionia.Progress.data <> n:211 var
+R18252:18252 Ionia.Progress.data <> m:210 var
+binder 18241:18241 <> E:213
+R18264:18266 Ionia.Progress.data <> exp def
+R18269:18271 Ionia.Progress.data <> ary constr
+R18288:18288 Ionia.Progress.data <> d:212 var
+R18273:18273 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R18275:18277 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R18286:18286 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R18274:18274 Ionia.Progress.data <> n:211 var
+R18278:18283 Ionia.Base.base <> leS_le thm
+R18285:18285 Ionia.Progress.data <> E:213 var
+binder 18259:18260 <> ve:214
+R18297:18299 Ionia.Progress.data <> exp def
+R18301:18301 Ionia.Progress.data <> d:212 var
+binder 18293:18293 <> e:215
+R18335:18337 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18307:18316 Ionia.Progress.data <> exp_unfold def
+R18319:18325 Ionia.Progress.data <> exp_con def
+R18327:18327 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18330:18331 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18333:18333 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18328:18329 Ionia.Progress.data <> ve:214 var
+R18332:18332 Ionia.Progress.data <> e:215 var
+R18338:18338 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18352:18353 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18355:18355 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18339:18348 Ionia.Progress.data <> exp_unfold def
+R18350:18351 Ionia.Progress.data <> ve:214 var
+R18354:18354 Ionia.Progress.data <> e:215 var
+prf 18458:18469 <> exp_con_fold
+binder 18481:18481 <> m:216
+binder 18483:18483 <> n:217
+binder 18485:18485 <> d:218
+R18496:18499 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R18493:18493 Coq.Init.Datatypes <> S constr
+R18495:18495 Ionia.Progress.data <> n:217 var
+R18500:18500 Ionia.Progress.data <> m:216 var
+binder 18489:18489 <> E:219
+R18512:18517 Ionia.Base.vector <> vector def
+R18527:18527 Ionia.Progress.data <> n:217 var
+R18520:18522 Ionia.Progress.data <> exp def
+R18524:18524 Ionia.Progress.data <> d:218 var
+binder 18507:18508 <> ve:220
+R18535:18537 Ionia.Progress.data <> exp def
+R18539:18539 Ionia.Progress.data <> d:218 var
+binder 18531:18531 <> e:221
+R18580:18582 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18545:18551 Ionia.Progress.data <> exp_con def
+R18553:18553 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18576:18577 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18579:18579 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18554:18561 Ionia.Progress.data <> exp_fold def
+R18574:18575 Ionia.Progress.data <> ve:220 var
+R18564:18569 Ionia.Base.base <> leS_le thm
+R18571:18571 Ionia.Progress.data <> E:219 var
+R18578:18578 Ionia.Progress.data <> e:221 var
+R18583:18590 Ionia.Progress.data <> exp_fold def
+R18594:18594 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18597:18598 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18600:18600 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18595:18596 Ionia.Progress.data <> ve:220 var
+R18599:18599 Ionia.Progress.data <> e:221 var
+R18592:18592 Ionia.Progress.data <> E:219 var
+prf 18705:18715 <> exp_con_des
+binder 18725:18725 <> m:222
+binder 18727:18727 <> n:223
+binder 18729:18729 <> d:224
+R18738:18741 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R18735:18735 Coq.Init.Datatypes <> S constr
+R18737:18737 Ionia.Progress.data <> n:223 var
+R18742:18742 Ionia.Progress.data <> m:222 var
+binder 18732:18732 <> E:225
+R18749:18751 Ionia.Progress.data <> exp def
+R18754:18756 Ionia.Progress.data <> ary constr
+R18767:18767 Ionia.Progress.data <> d:224 var
+R18758:18758 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R18762:18763 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R18765:18765 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R18759:18759 Coq.Init.Datatypes <> S constr
+R18761:18761 Ionia.Progress.data <> n:223 var
+R18764:18764 Ionia.Progress.data <> E:225 var
+binder 18746:18746 <> e:226
+R18792:18794 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18773:18779 Ionia.Progress.data <> exp_con def
+R18782:18788 Ionia.Progress.data <> exp_des def
+R18790:18790 Ionia.Progress.data <> e:226 var
+R18795:18795 Ionia.Progress.data <> e:226 var
+R18812:18818 Ionia.Progress.data <> exp_des def
+R18821:18827 Ionia.Progress.data <> exp_con def
+prf 18943:18953 <> exp_des_con
+binder 18963:18963 <> m:227
+binder 18965:18965 <> n:228
+binder 18967:18967 <> d:229
+R18976:18979 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R18973:18973 Coq.Init.Datatypes <> S constr
+R18975:18975 Ionia.Progress.data <> n:228 var
+R18980:18980 Ionia.Progress.data <> m:227 var
+binder 18970:18970 <> E:230
+R19016:19018 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18987:18989 Ionia.Progress.data <> exp def
+R18993:18995 Ionia.Progress.data <> ary constr
+R18997:18997 Ionia.Progress.data <> m:227 var
+R18999:18999 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R19001:19003 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R19012:19012 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R19000:19000 Ionia.Progress.data <> n:228 var
+R19004:19009 Ionia.Base.base <> leS_le thm
+R19011:19011 Ionia.Progress.data <> E:230 var
+R19014:19014 Ionia.Progress.data <> d:229 var
+R19019:19021 Ionia.Progress.data <> exp def
+R19023:19023 Ionia.Progress.data <> d:229 var
+binder 18984:18984 <> e:231
+R19048:19050 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19029:19035 Ionia.Progress.data <> exp_des def
+R19038:19044 Ionia.Progress.data <> exp_con def
+R19046:19046 Ionia.Progress.data <> e:231 var
+R19051:19051 Ionia.Progress.data <> e:231 var
+R19068:19074 Ionia.Progress.data <> exp_des def
+R19077:19083 Ionia.Progress.data <> exp_con def
+def 19202:19251 <> Unnamed_thm9
+R19230:19232 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19207:19213 Ionia.Progress.data <> exp_con def
+R19216:19222 Ionia.Progress.data <> exp_des def
+R19224:19228 Ionia.Progress.data <> myexp ex
+R19233:19233 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R19241:19241 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R19249:19249 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R19234:19234 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R19236:19236 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R19238:19238 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R19240:19240 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R19242:19242 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R19244:19244 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R19246:19246 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R19248:19248 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+def 19404:19414 <> exp_default
+binder 19417:19417 <> d:232
+R19421:19423 Ionia.Progress.data <> exp def
+R19425:19425 Ionia.Progress.data <> d:232 var
+R19437:19437 Ionia.Progress.data <> d:232 var
+R19447:19449 Ionia.Progress.data <> num constr
+R19454:19455 Coq.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+R19460:19462 Ionia.Progress.data <> ary constr
+R19471:19476 Ionia.Base.vector <> v_make def
+R19486:19488 Ionia.Base.fin <> fin def
+binder 19483:19483 <> i:235
+R19495:19505 Ionia.Progress.data <> exp_default:233 def
+prf 19580:19594 <> exp_default_num
+R19613:19615 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19598:19608 Ionia.Progress.data <> exp_default def
+R19610:19612 Ionia.Progress.data <> num constr
+R19616:19617 Coq.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+prf 19721:19735 <> exp_default_ary
+binder 19746:19746 <> m:236
+binder 19748:19748 <> n:237
+binder 19750:19750 <> d:238
+R19780:19782 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19756:19766 Ionia.Progress.data <> exp_default def
+R19770:19772 Ionia.Progress.data <> ary constr
+R19774:19774 Ionia.Progress.data <> m:236 var
+R19776:19776 Ionia.Progress.data <> n:237 var
+R19778:19778 Ionia.Progress.data <> d:238 var
+R19783:19790 Ionia.Progress.data <> exp_fold def
+R19807:19812 Ionia.Base.vector <> v_make def
+R19822:19824 Ionia.Base.fin <> fin def
+R19826:19826 Ionia.Progress.data <> n:237 var
+binder 19819:19819 <> i:239
+R19831:19841 Ionia.Progress.data <> exp_default def
+R19793:19801 Ionia.Base.fle <> fle_proof thm
+R19803:19803 Ionia.Progress.data <> n:237 var
+def 19970:20016 <> Unnamed_thm10
+R19991:19993 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19976:19986 Ionia.Progress.data <> exp_default def
+R19988:19990 Ionia.Progress.data <> myd ex
+R19994:19994 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R20005:20005 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R20016:20016 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R19995:19995 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R19998:19998 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R20001:20001 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R20004:20004 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R19996:19997 Coq.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+R19999:20000 Coq.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+R20002:20003 Coq.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+R20006:20006 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R20009:20009 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R20012:20012 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R20015:20015 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R20007:20008 Coq.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+R20010:20011 Coq.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+R20013:20014 Coq.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+def 20149:20153 <> e_idx
+binder 20156:20156 <> m:240
+binder 20158:20158 <> n:241
+binder 20160:20160 <> d:242
+R20167:20169 Ionia.Progress.data <> exp def
+R20173:20175 Ionia.Progress.data <> ary constr
+R20177:20177 Ionia.Progress.data <> m:240 var
+R20179:20179 Ionia.Progress.data <> n:241 var
+R20181:20181 Ionia.Progress.data <> d:242 var
+binder 20164:20164 <> v:243
+binder 20185:20185 <> i:244
+R20188:20190 Ionia.Progress.data <> exp def
+R20192:20192 Ionia.Progress.data <> d:242 var
+R20198:20202 Ionia.Base.vector <> v_idx def
+R20223:20223 Ionia.Progress.data <> i:244 var
+R20221:20221 Ionia.Progress.data <> v:243 var
+R20206:20216 Ionia.Progress.data <> exp_default def
+R20218:20218 Ionia.Progress.data <> d:242 var
+R20252:20256 Ionia.Progress.data <> e_idx def
+not 20236:20236 Expersion :::x_'|['_x_']'
+prf 20368:20377 <> e_idx_head
+binder 20387:20387 <> m:245
+binder 20389:20389 <> n:246
+binder 20391:20391 <> d:247
+R20400:20403 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R20397:20397 Coq.Init.Datatypes <> S constr
+R20399:20399 Ionia.Progress.data <> n:246 var
+R20404:20404 Ionia.Progress.data <> m:245 var
+binder 20394:20394 <> E:248
+R20412:20414 Ionia.Progress.data <> exp def
+R20418:20420 Ionia.Progress.data <> ary constr
+R20422:20422 Ionia.Progress.data <> m:245 var
+R20424:20424 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R20426:20428 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R20437:20437 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R20425:20425 Ionia.Progress.data <> n:246 var
+R20429:20434 Ionia.Base.base <> leS_le thm
+R20436:20436 Ionia.Progress.data <> E:248 var
+R20439:20439 Ionia.Progress.data <> d:247 var
+binder 20408:20409 <> ve:249
+R20447:20449 Ionia.Progress.data <> exp def
+R20451:20451 Ionia.Progress.data <> d:247 var
+binder 20444:20444 <> e:250
+binder 20454:20454 <> i:251
+R20484:20486 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20458:20458 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R20474:20477 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R20483:20483 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R20459:20465 Ionia.Progress.data <> exp_con def
+R20467:20467 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20470:20471 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20473:20473 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20468:20469 Ionia.Progress.data <> ve:249 var
+R20472:20472 Ionia.Progress.data <> e:250 var
+R20478:20480 Ionia.Base.fin <> :::'FS['_x_']' not
+R20482:20482 Ionia.Base.fin <> :::'FS['_x_']' not
+R20481:20481 Ionia.Progress.data <> i:251 var
+R20489:20491 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R20493:20493 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R20487:20488 Ionia.Progress.data <> ve:249 var
+R20492:20492 Ionia.Progress.data <> i:251 var
+R20518:20524 Ionia.Progress.data <> exp_con def
+R20527:20531 Ionia.Progress.data <> e_idx def
+R20540:20549 Ionia.Base.vector <> v_idx_head thm
+R20540:20549 Ionia.Base.vector <> v_idx_head thm
+prf 20630:20641 <> e_idx_head_H
+binder 20651:20651 <> m:252
+binder 20653:20653 <> n:253
+binder 20655:20655 <> d:254
+R20664:20667 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R20661:20661 Coq.Init.Datatypes <> S constr
+R20663:20663 Ionia.Progress.data <> n:253 var
+R20668:20668 Ionia.Progress.data <> m:252 var
+binder 20658:20658 <> E:255
+R20676:20678 Ionia.Progress.data <> exp def
+R20682:20684 Ionia.Progress.data <> ary constr
+R20686:20686 Ionia.Progress.data <> m:252 var
+R20688:20688 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R20690:20692 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R20701:20701 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R20689:20689 Ionia.Progress.data <> n:253 var
+R20693:20698 Ionia.Base.base <> leS_le thm
+R20700:20700 Ionia.Progress.data <> E:255 var
+R20703:20703 Ionia.Progress.data <> d:254 var
+binder 20672:20673 <> ve:256
+R20711:20713 Ionia.Progress.data <> exp def
+R20715:20715 Ionia.Progress.data <> d:254 var
+binder 20708:20708 <> e:257
+R20724:20726 Ionia.Base.fin <> fin def
+R20729:20729 Coq.Init.Datatypes <> S constr
+R20731:20731 Ionia.Progress.data <> n:253 var
+binder 20721:20721 <> i:258
+R20741:20743 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R20740:20740 Ionia.Progress.data <> i:258 var
+R20744:20744 Ionia.Progress.data <> n:253 var
+binder 20736:20737 <> E1:259
+R20771:20773 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20749:20749 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R20765:20768 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R20770:20770 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R20750:20756 Ionia.Progress.data <> exp_con def
+R20758:20758 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20761:20762 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20764:20764 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20759:20760 Ionia.Progress.data <> ve:256 var
+R20763:20763 Ionia.Progress.data <> e:257 var
+R20769:20769 Ionia.Progress.data <> i:258 var
+R20776:20778 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R20785:20785 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R20774:20775 Ionia.Progress.data <> ve:256 var
+R20779:20781 Ionia.Base.fin <> :::'FP['_x_']' not
+R20784:20784 Ionia.Base.fin <> :::'FP['_x_']' not
+R20782:20783 Ionia.Progress.data <> E1:259 var
+R20810:20816 Ionia.Progress.data <> exp_con def
+R20819:20823 Ionia.Progress.data <> e_idx def
+R20832:20843 Ionia.Base.vector <> v_idx_head_H thm
+R20832:20843 Ionia.Base.vector <> v_idx_head_H thm
+prf 20924:20933 <> e_idx_tail
+binder 20943:20943 <> m:260
+binder 20945:20945 <> n:261
+binder 20947:20947 <> d:262
+R20956:20959 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R20953:20953 Coq.Init.Datatypes <> S constr
+R20955:20955 Ionia.Progress.data <> n:261 var
+R20960:20960 Ionia.Progress.data <> m:260 var
+binder 20950:20950 <> E:263
+R20968:20970 Ionia.Progress.data <> exp def
+R20974:20976 Ionia.Progress.data <> ary constr
+R20978:20978 Ionia.Progress.data <> m:260 var
+R20980:20980 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R20982:20984 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R20993:20993 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R20981:20981 Ionia.Progress.data <> n:261 var
+R20985:20990 Ionia.Base.base <> leS_le thm
+R20992:20992 Ionia.Progress.data <> E:263 var
+R20995:20995 Ionia.Progress.data <> d:262 var
+binder 20964:20965 <> ve:264
+R21003:21005 Ionia.Progress.data <> exp def
+R21007:21007 Ionia.Progress.data <> d:262 var
+binder 21000:21000 <> e:265
+R21037:21039 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21012:21012 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R21028:21031 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R21036:21036 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R21013:21019 Ionia.Progress.data <> exp_con def
+R21021:21021 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21024:21025 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21027:21027 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21022:21023 Ionia.Progress.data <> ve:264 var
+R21026:21026 Ionia.Progress.data <> e:265 var
+R21032:21033 Ionia.Base.fin <> :::'''['_x_']' not
+R21035:21035 Ionia.Base.fin <> :::'''['_x_']' not
+R21034:21034 Ionia.Progress.data <> n:261 var
+R21040:21040 Ionia.Progress.data <> e:265 var
+R21065:21071 Ionia.Progress.data <> exp_con def
+R21074:21078 Ionia.Progress.data <> e_idx def
+R21087:21096 Ionia.Base.vector <> v_idx_tail thm
+R21087:21096 Ionia.Base.vector <> v_idx_tail thm
+prf 21219:21228 <> e_idx_eq_e
+binder 21239:21239 <> m:266
+binder 21241:21241 <> n:267
+binder 21243:21243 <> d:268
+R21254:21256 Ionia.Progress.data <> exp def
+R21260:21262 Ionia.Progress.data <> ary constr
+R21264:21264 Ionia.Progress.data <> m:266 var
+R21266:21266 Ionia.Progress.data <> n:267 var
+R21268:21268 Ionia.Progress.data <> d:268 var
+binder 21247:21248 <> e1:269
+binder 21250:21251 <> e2:270
+R21281:21286 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R21314:21314 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R21276:21278 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21274:21275 Ionia.Progress.data <> e1:269 var
+R21279:21280 Ionia.Progress.data <> e2:270 var
+binder 21294:21294 <> i:271
+R21304:21306 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21299:21301 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R21303:21303 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R21297:21298 Ionia.Progress.data <> e1:269 var
+R21302:21302 Ionia.Progress.data <> i:271 var
+R21309:21311 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R21313:21313 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R21307:21308 Ionia.Progress.data <> e2:270 var
+R21312:21312 Ionia.Progress.data <> i:271 var
+R21338:21347 Ionia.Base.vector <> v_idx_eq_v thm
+R21338:21347 Ionia.Base.vector <> v_idx_eq_v thm
+def 21423:21432 <> e_idx_test
+R21461:21463 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21453:21455 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R21460:21460 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R21441:21444 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R21451:21452 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R21436:21440 Ionia.Progress.data <> myexp ex
+R21445:21450 Ionia.Base.fin <> fin_0S def
+R21456:21457 Ionia.Base.fin <> :::'''['_x_']' not
+R21459:21459 Ionia.Base.fin <> :::'''['_x_']' not
+def 21582:21588 <> exp2exp
+binder 21591:21591 <> m:272
+binder 21593:21594 <> m':273
+binder 21596:21596 <> n:274
+binder 21598:21598 <> d:275
+R21607:21610 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R21606:21606 Ionia.Progress.data <> n:274 var
+R21611:21611 Ionia.Progress.data <> m:272 var
+binder 21602:21602 <> E:276
+R21619:21621 Ionia.Progress.data <> exp def
+R21624:21626 Ionia.Progress.data <> ary constr
+R21636:21636 Ionia.Progress.data <> d:275 var
+R21628:21628 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R21630:21632 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R21634:21634 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R21629:21629 Ionia.Progress.data <> n:274 var
+R21633:21633 Ionia.Progress.data <> E:276 var
+binder 21615:21615 <> e:277
+R21647:21650 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R21646:21646 Ionia.Progress.data <> n:274 var
+R21651:21652 Ionia.Progress.data <> m':273 var
+binder 21641:21642 <> E':278
+R21659:21661 Ionia.Progress.data <> exp def
+R21664:21666 Ionia.Progress.data <> ary constr
+R21677:21677 Ionia.Progress.data <> d:275 var
+R21668:21668 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R21670:21672 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R21675:21675 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R21669:21669 Ionia.Progress.data <> n:274 var
+R21673:21674 Ionia.Progress.data <> E':278 var
+R21733:21739 Ionia.Progress.data <> exp2exp def
+not 21716:21716 Expersion :::'EE['_x_'|'_x_']'
+prf 21821:21830 <> exp2exp_eq
+binder 21841:21841 <> m:279
+binder 21843:21844 <> m':280
+binder 21846:21846 <> n:281
+binder 21848:21848 <> d:282
+R21857:21860 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R21856:21856 Ionia.Progress.data <> n:281 var
+R21861:21861 Ionia.Progress.data <> m:279 var
+binder 21852:21852 <> E:283
+R21869:21871 Ionia.Progress.data <> exp def
+R21874:21876 Ionia.Progress.data <> ary constr
+R21886:21886 Ionia.Progress.data <> d:282 var
+R21878:21878 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R21880:21882 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R21884:21884 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R21879:21879 Ionia.Progress.data <> n:281 var
+R21883:21883 Ionia.Progress.data <> E:283 var
+binder 21865:21865 <> e:284
+R21897:21900 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R21896:21896 Ionia.Progress.data <> n:281 var
+R21901:21902 Ionia.Progress.data <> m':280 var
+binder 21891:21892 <> E':285
+R21919:21921 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21908:21911 Ionia.Progress.data Expersion :::'EE['_x_'|'_x_']' not
+R21913:21915 Ionia.Progress.data Expersion :::'EE['_x_'|'_x_']' not
+R21917:21918 Ionia.Progress.data Expersion :::'EE['_x_'|'_x_']' not
+R21912:21912 Ionia.Progress.data <> e:284 var
+R21916:21916 Ionia.Progress.data <> E:283 var
+R21922:21929 Ionia.Progress.data <> exp_fold def
+R21935:21944 Ionia.Progress.data <> exp_unfold def
+R21946:21946 Ionia.Progress.data <> e:284 var
+R21931:21932 Ionia.Progress.data <> E':285 var
+prf 22037:22049 <> e_idx_exp2exp
+binder 22059:22059 <> m:286
+binder 22061:22062 <> m':287
+binder 22064:22064 <> n:288
+binder 22066:22066 <> d:289
+R22074:22077 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R22073:22073 Ionia.Progress.data <> n:288 var
+R22078:22078 Ionia.Progress.data <> m:286 var
+binder 22069:22069 <> E:290
+R22086:22088 Ionia.Progress.data <> exp def
+R22091:22093 Ionia.Progress.data <> ary constr
+R22103:22103 Ionia.Progress.data <> d:289 var
+R22095:22095 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R22097:22099 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R22101:22101 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R22096:22096 Ionia.Progress.data <> n:288 var
+R22100:22100 Ionia.Progress.data <> E:290 var
+binder 22082:22082 <> e:291
+R22114:22117 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R22113:22113 Ionia.Progress.data <> n:288 var
+R22118:22119 Ionia.Progress.data <> m':287 var
+binder 22108:22109 <> E':292
+binder 22122:22122 <> i:293
+R22143:22145 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22138:22140 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R22142:22142 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R22127:22130 Ionia.Progress.data Expersion :::'EE['_x_'|'_x_']' not
+R22132:22134 Ionia.Progress.data Expersion :::'EE['_x_'|'_x_']' not
+R22137:22137 Ionia.Progress.data Expersion :::'EE['_x_'|'_x_']' not
+R22131:22131 Ionia.Progress.data <> e:291 var
+R22135:22136 Ionia.Progress.data <> E':292 var
+R22141:22141 Ionia.Progress.data <> i:293 var
+R22147:22149 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R22151:22151 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R22146:22146 Ionia.Progress.data <> e:291 var
+R22150:22150 Ionia.Progress.data <> i:293 var
+def 22258:22269 <> exp2exp_test
+R22326:22328 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22318:22320 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R22325:22325 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R22306:22309 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R22316:22317 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R22273:22276 Ionia.Progress.data Expersion :::'EE['_x_'|'_x_']' not
+R22282:22284 Ionia.Progress.data Expersion :::'EE['_x_'|'_x_']' not
+R22305:22305 Ionia.Progress.data Expersion :::'EE['_x_'|'_x_']' not
+R22277:22281 Ionia.Progress.data <> myexp ex
+R22285:22302 Coq.Arith.PeanoNat Nat le_succ_diag_r thm
+R22310:22315 Ionia.Base.fin <> fin_0S def
+R22321:22322 Ionia.Base.fin <> :::'''['_x_']' not
+R22324:22324 Ionia.Base.fin <> :::'''['_x_']' not
+def 22458:22463 <> optexp
+R22470:22473 Ionia.Progress.data <> data ind
+binder 22466:22466 <> d:294
+R22481:22483 Ionia.Progress.data <> exp def
+R22485:22485 Ionia.Progress.data <> d:294 var
+binder 22477:22477 <> e:295
+R22490:22495 Coq.Init.Datatypes <> option ind
+R22498:22500 Ionia.Progress.data <> exp def
+R22502:22502 Ionia.Progress.data <> d:294 var
+R22517:22523 Ionia.Progress.data <> optdata def
+R22525:22525 Ionia.Progress.data <> d:294 var
+R22537:22540 Coq.Init.Datatypes <> Some constr
+R22547:22550 Coq.Init.Datatypes <> Some constr
+R22552:22552 Ionia.Progress.data <> e:295 var
+R22558:22561 Coq.Init.Datatypes <> None constr
+R22566:22569 Coq.Init.Datatypes <> None constr
+prf 22648:22656 <> optexp_eq
+binder 22666:22666 <> d:296
+R22678:22680 Ionia.Progress.data <> exp def
+R22682:22682 Ionia.Progress.data <> d:296 var
+binder 22670:22671 <> e1:297
+binder 22673:22674 <> e2:298
+R22705:22708 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22695:22697 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22686:22691 Ionia.Progress.data <> optexp def
+R22693:22694 Ionia.Progress.data <> e1:297 var
+R22698:22701 Coq.Init.Datatypes <> Some constr
+R22703:22704 Ionia.Progress.data <> e2:298 var
+R22711:22713 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22709:22710 Ionia.Progress.data <> e1:297 var
+R22714:22715 Ionia.Progress.data <> e2:298 var
+R22752:22757 Ionia.Progress.data <> optexp def
+R22775:22781 Ionia.Progress.data <> optdata def
+R22775:22781 Ionia.Progress.data <> optdata def
+prf 22875:22888 <> optexp_Some_eq
+binder 22899:22899 <> d:299
+R22906:22908 Ionia.Progress.data <> exp def
+R22910:22910 Ionia.Progress.data <> d:299 var
+binder 22902:22902 <> e:300
+R22934:22938 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R22925:22927 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22916:22922 Ionia.Progress.data <> optdata def
+R22924:22924 Ionia.Progress.data <> d:299 var
+R22928:22931 Coq.Init.Datatypes <> Some constr
+R22933:22933 Ionia.Progress.data <> d:299 var
+R22947:22949 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22939:22944 Ionia.Progress.data <> optexp def
+R22946:22946 Ionia.Progress.data <> e:300 var
+R22950:22953 Coq.Init.Datatypes <> Some constr
+R22955:22955 Ionia.Progress.data <> e:300 var
+R22985:22990 Ionia.Progress.data <> optexp def
+R23027:23033 Ionia.Progress.data <> optdata def
+R23027:23033 Ionia.Progress.data <> optdata def
+R23064:23073 Ionia.Progress.data <> optdata_eq thm
+R23064:23073 Ionia.Progress.data <> optdata_eq thm
+prf 23155:23170 <> optexp_Some_eq_l
+binder 23181:23181 <> d:301
+R23188:23190 Ionia.Progress.data <> exp def
+R23192:23192 Ionia.Progress.data <> d:301 var
+binder 23184:23184 <> e:302
+R23216:23219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23207:23209 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23198:23204 Ionia.Progress.data <> optdata def
+R23206:23206 Ionia.Progress.data <> d:301 var
+R23210:23213 Coq.Init.Datatypes <> Some constr
+R23215:23215 Ionia.Progress.data <> d:301 var
+R23228:23230 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23220:23225 Ionia.Progress.data <> optexp def
+R23227:23227 Ionia.Progress.data <> e:302 var
+R23231:23234 Coq.Init.Datatypes <> Some constr
+R23236:23236 Ionia.Progress.data <> e:302 var
+R23260:23273 Ionia.Progress.data <> optexp_Some_eq thm
+R23260:23273 Ionia.Progress.data <> optexp_Some_eq thm
+prf 23348:23364 <> opt_exp_Some_eq_r
+binder 23375:23375 <> d:303
+R23382:23384 Ionia.Progress.data <> exp def
+R23386:23386 Ionia.Progress.data <> d:303 var
+binder 23378:23378 <> e:304
+R23409:23412 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23400:23402 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23392:23397 Ionia.Progress.data <> optexp def
+R23399:23399 Ionia.Progress.data <> e:304 var
+R23403:23406 Coq.Init.Datatypes <> Some constr
+R23408:23408 Ionia.Progress.data <> e:304 var
+R23422:23424 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23413:23419 Ionia.Progress.data <> optdata def
+R23421:23421 Ionia.Progress.data <> d:303 var
+R23425:23428 Coq.Init.Datatypes <> Some constr
+R23430:23430 Ionia.Progress.data <> d:303 var
+R23454:23467 Ionia.Progress.data <> optexp_Some_eq thm
+R23454:23467 Ionia.Progress.data <> optexp_Some_eq thm
+prf 23557:23570 <> optexp_None_eq
+binder 23581:23581 <> d:305
+R23588:23590 Ionia.Progress.data <> exp def
+R23592:23592 Ionia.Progress.data <> d:305 var
+binder 23584:23584 <> e:306
+R23614:23618 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R23607:23609 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23598:23604 Ionia.Progress.data <> optdata def
+R23606:23606 Ionia.Progress.data <> d:305 var
+R23610:23613 Coq.Init.Datatypes <> None constr
+R23627:23629 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23619:23624 Ionia.Progress.data <> optexp def
+R23626:23626 Ionia.Progress.data <> e:306 var
+R23630:23633 Coq.Init.Datatypes <> None constr
+R23663:23668 Ionia.Progress.data <> optexp def
+R23705:23711 Ionia.Progress.data <> optdata def
+R23705:23711 Ionia.Progress.data <> optdata def
+prf 23788:23803 <> optexp_None_eq_l
+binder 23814:23814 <> d:307
+R23821:23823 Ionia.Progress.data <> exp def
+R23825:23825 Ionia.Progress.data <> d:307 var
+binder 23817:23817 <> e:308
+R23847:23850 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23840:23842 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23831:23837 Ionia.Progress.data <> optdata def
+R23839:23839 Ionia.Progress.data <> d:307 var
+R23843:23846 Coq.Init.Datatypes <> None constr
+R23859:23861 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23851:23856 Ionia.Progress.data <> optexp def
+R23858:23858 Ionia.Progress.data <> e:308 var
+R23862:23865 Coq.Init.Datatypes <> None constr
+R23889:23902 Ionia.Progress.data <> optexp_None_eq thm
+R23889:23902 Ionia.Progress.data <> optexp_None_eq thm
+prf 23973:23988 <> optexp_None_eq_r
+binder 23999:23999 <> d:309
+R24006:24008 Ionia.Progress.data <> exp def
+R24010:24010 Ionia.Progress.data <> d:309 var
+binder 24002:24002 <> e:310
+R24031:24034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24024:24026 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24016:24021 Ionia.Progress.data <> optexp def
+R24023:24023 Ionia.Progress.data <> e:310 var
+R24027:24030 Coq.Init.Datatypes <> None constr
+R24044:24046 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24035:24041 Ionia.Progress.data <> optdata def
+R24043:24043 Ionia.Progress.data <> d:309 var
+R24047:24050 Coq.Init.Datatypes <> None constr
+R24074:24087 Ionia.Progress.data <> optexp_None_eq thm
+R24074:24087 Ionia.Progress.data <> optexp_None_eq thm
+prf 24165:24183 <> optexp_None_default
+binder 24194:24194 <> d:311
+R24201:24203 Ionia.Progress.data <> exp def
+R24205:24205 Ionia.Progress.data <> d:311 var
+binder 24197:24197 <> e:312
+R24226:24229 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24219:24221 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24211:24216 Ionia.Progress.data <> optexp def
+R24218:24218 Ionia.Progress.data <> e:312 var
+R24222:24225 Coq.Init.Datatypes <> None constr
+R24231:24233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24230:24230 Ionia.Progress.data <> e:312 var
+R24235:24245 Ionia.Progress.data <> exp_default def
+R24247:24247 Ionia.Progress.data <> d:311 var
+R24295:24308 Ionia.Progress.data <> optexp_None_eq thm
+R24295:24308 Ionia.Progress.data <> optexp_None_eq thm
+R24333:24346 Ionia.Progress.data <> optexp_None_eq thm
+R24333:24346 Ionia.Progress.data <> optexp_None_eq thm
+R24368:24374 Coq.Logic.Classical_Prop <> classic prfax
+R24378:24380 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R24381:24387 Ionia.Base.fle <> fle2nat def
+R24368:24374 Coq.Logic.Classical_Prop <> classic prfax
+R24378:24380 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R24381:24387 Ionia.Base.fle <> fle2nat def
+R24406:24421 Ionia.Progress.data <> optdata_sub_none thm
+R24406:24421 Ionia.Progress.data <> optdata_sub_none thm
+R24437:24446 Ionia.Progress.data <> e_idx_eq_e thm
+R24437:24446 Ionia.Progress.data <> e_idx_eq_e thm
+R24465:24479 Ionia.Progress.data <> exp_default_ary thm
+R24465:24479 Ionia.Progress.data <> exp_default_ary thm
+R24465:24479 Ionia.Progress.data <> exp_default_ary thm
+R24489:24496 Ionia.Progress.data <> exp_fold def
+R24508:24512 Ionia.Progress.data <> e_idx def
+R24529:24538 Ionia.Base.vector <> v_idx_make thm
+R24529:24538 Ionia.Base.vector <> v_idx_make thm
+R24529:24538 Ionia.Base.vector <> v_idx_make thm
+R24560:24573 Ionia.Progress.data <> optexp_None_eq thm
+R24560:24573 Ionia.Progress.data <> optexp_None_eq thm
+R24637:24639 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24637:24639 Coq.Init.Logic <> ::type_scope:x_'='_x not
+def 24783:24790 <> seq_make
+binder 24793:24793 <> n:313
+binder 24795:24795 <> d:314
+R24808:24811 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24803:24805 Ionia.Base.fin <> fin def
+R24807:24807 Ionia.Progress.data <> n:313 var
+R24812:24814 Ionia.Progress.data <> exp def
+R24816:24816 Ionia.Progress.data <> d:314 var
+binder 24799:24799 <> f:315
+R24821:24823 Ionia.Progress.data <> exp def
+R24826:24828 Ionia.Progress.data <> ary constr
+R24835:24835 Ionia.Progress.data <> d:314 var
+R24830:24831 Ionia.Base.fle <> :::'''{'_x_'}' not
+R24833:24833 Ionia.Base.fle <> :::'''{'_x_'}' not
+R24832:24832 Ionia.Progress.data <> n:313 var
+R24841:24846 Ionia.Base.vector <> v_make def
+R24848:24848 Ionia.Progress.data <> f:315 var
+prf 24899:24913 <> seq_make_unfold
+binder 24924:24924 <> n:316
+binder 24926:24926 <> d:317
+R24938:24941 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24933:24935 Ionia.Base.fin <> fin def
+R24937:24937 Ionia.Progress.data <> n:316 var
+R24942:24944 Ionia.Progress.data <> exp def
+R24946:24946 Ionia.Progress.data <> d:317 var
+binder 24930:24930 <> f:318
+R24962:24964 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24952:24959 Ionia.Progress.data <> seq_make def
+R24961:24961 Ionia.Progress.data <> f:318 var
+R24965:24972 Ionia.Progress.data <> exp_fold def
+R24984:24989 Ionia.Base.vector <> v_make def
+R24991:24991 Ionia.Progress.data <> f:318 var
+R24975:24978 Coq.Init.Peano <> le_n constr
+R24980:24980 Ionia.Progress.data <> n:316 var
+prf 25049:25059 <> seq_make_Sn
+binder 25069:25069 <> n:319
+binder 25071:25071 <> d:320
+R25086:25089 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25077:25079 Ionia.Base.fin <> fin def
+R25082:25082 Coq.Init.Datatypes <> S constr
+R25084:25084 Ionia.Progress.data <> n:319 var
+R25090:25092 Ionia.Progress.data <> exp def
+R25094:25094 Ionia.Progress.data <> d:320 var
+binder 25074:25074 <> f:321
+R25110:25112 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25100:25107 Ionia.Progress.data <> seq_make def
+R25109:25109 Ionia.Progress.data <> f:321 var
+R25113:25119 Ionia.Progress.data <> exp_con def
+R25121:25121 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25149:25150 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25157:25157 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25122:25129 Ionia.Progress.data <> seq_make def
+binder 25136:25136 <> i:322
+R25141:25141 Ionia.Progress.data <> f:321 var
+R25143:25145 Ionia.Base.fin <> :::'FS['_x_']' not
+R25147:25147 Ionia.Base.fin <> :::'FS['_x_']' not
+R25146:25146 Ionia.Progress.data <> i:322 var
+R25151:25151 Ionia.Progress.data <> f:321 var
+R25153:25154 Ionia.Base.fin <> :::'''['_x_']' not
+R25156:25156 Ionia.Base.fin <> :::'''['_x_']' not
+R25155:25155 Ionia.Progress.data <> n:319 var
+prf 25210:25219 <> seq_make_0
+binder 25230:25230 <> d:323
+R25242:25245 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25237:25239 Ionia.Base.fin <> fin def
+R25246:25248 Ionia.Progress.data <> exp def
+R25250:25250 Ionia.Progress.data <> d:323 var
+binder 25233:25233 <> f:324
+R25266:25269 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25291:25291 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25256:25263 Ionia.Progress.data <> seq_make def
+R25265:25265 Ionia.Progress.data <> f:324 var
+R25275:25277 Ionia.Progress.data <> exp def
+R25280:25282 Ionia.Progress.data <> ary constr
+R25289:25289 Ionia.Progress.data <> d:323 var
+R25284:25285 Ionia.Base.fle <> :::'''{'_x_'}' not
+R25287:25287 Ionia.Base.fle <> :::'''{'_x_'}' not
+R25270:25271 Coq.Init.Datatypes <> tt constr
+prf 25373:25384 <> seq_make_idx
+binder 25395:25395 <> d:325
+binder 25397:25397 <> n:326
+R25408:25411 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25403:25405 Ionia.Base.fin <> fin def
+R25407:25407 Ionia.Progress.data <> n:326 var
+R25412:25414 Ionia.Progress.data <> exp def
+R25416:25416 Ionia.Progress.data <> d:325 var
+binder 25400:25400 <> f:327
+binder 25419:25419 <> i:328
+R25439:25441 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25423:25423 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R25434:25436 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R25438:25438 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R25424:25431 Ionia.Progress.data <> seq_make def
+R25433:25433 Ionia.Progress.data <> f:327 var
+R25437:25437 Ionia.Progress.data <> i:328 var
+R25442:25442 Ionia.Progress.data <> f:327 var
+R25444:25444 Ionia.Progress.data <> i:328 var
+R25467:25476 Ionia.Base.vector <> v_idx_make thm
+R25467:25476 Ionia.Base.vector <> v_idx_make thm
+def 25539:25546 <> par_make
+binder 25549:25549 <> n:329
+binder 25551:25551 <> d:330
+R25564:25567 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25559:25561 Ionia.Base.fin <> fin def
+R25563:25563 Ionia.Progress.data <> n:329 var
+R25568:25570 Ionia.Progress.data <> exp def
+R25572:25572 Ionia.Progress.data <> d:330 var
+binder 25555:25555 <> f:331
+R25577:25579 Ionia.Progress.data <> exp def
+R25582:25584 Ionia.Progress.data <> ary constr
+R25591:25591 Ionia.Progress.data <> d:330 var
+R25586:25587 Ionia.Base.fle <> :::'''{'_x_'}' not
+R25589:25589 Ionia.Base.fle <> :::'''{'_x_'}' not
+R25588:25588 Ionia.Progress.data <> n:329 var
+R25597:25602 Ionia.Base.vector <> v_make def
+R25604:25604 Ionia.Progress.data <> f:331 var
+prf 25655:25669 <> par_make_unfold
+binder 25680:25680 <> n:332
+binder 25682:25682 <> d:333
+R25694:25697 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25689:25691 Ionia.Base.fin <> fin def
+R25693:25693 Ionia.Progress.data <> n:332 var
+R25698:25700 Ionia.Progress.data <> exp def
+R25702:25702 Ionia.Progress.data <> d:333 var
+binder 25686:25686 <> f:334
+R25718:25720 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25708:25715 Ionia.Progress.data <> par_make def
+R25717:25717 Ionia.Progress.data <> f:334 var
+R25721:25728 Ionia.Progress.data <> exp_fold def
+R25740:25745 Ionia.Base.vector <> v_make def
+R25747:25747 Ionia.Progress.data <> f:334 var
+R25731:25734 Coq.Init.Peano <> le_n constr
+R25736:25736 Ionia.Progress.data <> n:332 var
+prf 25805:25815 <> par_make_Sn
+binder 25825:25825 <> n:335
+binder 25827:25827 <> d:336
+R25842:25845 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25833:25835 Ionia.Base.fin <> fin def
+R25838:25838 Coq.Init.Datatypes <> S constr
+R25840:25840 Ionia.Progress.data <> n:335 var
+R25846:25848 Ionia.Progress.data <> exp def
+R25850:25850 Ionia.Progress.data <> d:336 var
+binder 25830:25830 <> f:337
+R25866:25868 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25856:25863 Ionia.Progress.data <> par_make def
+R25865:25865 Ionia.Progress.data <> f:337 var
+R25869:25875 Ionia.Progress.data <> exp_con def
+R25877:25877 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25932:25933 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25940:25940 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25878:25880 Ionia.Progress.data Expersion :::'EE['_x_'|'_x_']' not
+R25908:25910 Ionia.Progress.data Expersion :::'EE['_x_'|'_x_']' not
+R25931:25931 Ionia.Progress.data Expersion :::'EE['_x_'|'_x_']' not
+R25881:25888 Ionia.Progress.data <> par_make def
+binder 25895:25895 <> i:338
+R25900:25900 Ionia.Progress.data <> f:337 var
+R25902:25904 Ionia.Base.fin <> :::'FS['_x_']' not
+R25906:25906 Ionia.Base.fin <> :::'FS['_x_']' not
+R25905:25905 Ionia.Progress.data <> i:338 var
+R25911:25928 Coq.Arith.PeanoNat Nat le_succ_diag_r thm
+R25930:25930 Ionia.Progress.data <> n:335 var
+R25934:25934 Ionia.Progress.data <> f:337 var
+R25936:25937 Ionia.Base.fin <> :::'''['_x_']' not
+R25939:25939 Ionia.Base.fin <> :::'''['_x_']' not
+R25938:25938 Ionia.Progress.data <> n:335 var
+prf 25997:26009 <> par_make_Sn_H
+binder 26019:26019 <> m:339
+binder 26021:26021 <> n:340
+binder 26023:26023 <> d:341
+R26033:26036 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R26030:26030 Coq.Init.Datatypes <> S constr
+R26032:26032 Ionia.Progress.data <> n:340 var
+R26037:26037 Ionia.Progress.data <> m:339 var
+binder 26026:26026 <> E:342
+R26053:26056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26044:26046 Ionia.Base.fin <> fin def
+R26049:26049 Coq.Init.Datatypes <> S constr
+R26051:26051 Ionia.Progress.data <> n:340 var
+R26057:26059 Ionia.Progress.data <> exp def
+R26061:26061 Ionia.Progress.data <> d:341 var
+binder 26041:26041 <> f:343
+R26077:26079 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26067:26074 Ionia.Progress.data <> par_make def
+R26076:26076 Ionia.Progress.data <> f:343 var
+R26080:26086 Ionia.Progress.data <> exp_con def
+R26088:26088 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26131:26132 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26139:26139 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26089:26091 Ionia.Progress.data Expersion :::'EE['_x_'|'_x_']' not
+R26119:26121 Ionia.Progress.data Expersion :::'EE['_x_'|'_x_']' not
+R26130:26130 Ionia.Progress.data Expersion :::'EE['_x_'|'_x_']' not
+R26092:26099 Ionia.Progress.data <> par_make def
+binder 26106:26106 <> i:344
+R26111:26111 Ionia.Progress.data <> f:343 var
+R26113:26115 Ionia.Base.fin <> :::'FS['_x_']' not
+R26117:26117 Ionia.Base.fin <> :::'FS['_x_']' not
+R26116:26116 Ionia.Progress.data <> i:344 var
+R26122:26127 Ionia.Base.base <> leS_le thm
+R26129:26129 Ionia.Progress.data <> E:342 var
+R26133:26133 Ionia.Progress.data <> f:343 var
+R26135:26136 Ionia.Base.fin <> :::'''['_x_']' not
+R26138:26138 Ionia.Base.fin <> :::'''['_x_']' not
+R26137:26137 Ionia.Progress.data <> n:340 var
+prf 26192:26201 <> par_make_0
+binder 26212:26212 <> d:345
+R26224:26227 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26219:26221 Ionia.Base.fin <> fin def
+R26228:26230 Ionia.Progress.data <> exp def
+R26232:26232 Ionia.Progress.data <> d:345 var
+binder 26215:26215 <> f:346
+R26248:26251 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26273:26273 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26238:26245 Ionia.Progress.data <> par_make def
+R26247:26247 Ionia.Progress.data <> f:346 var
+R26257:26259 Ionia.Progress.data <> exp def
+R26262:26264 Ionia.Progress.data <> ary constr
+R26271:26271 Ionia.Progress.data <> d:345 var
+R26266:26267 Ionia.Base.fle <> :::'''{'_x_'}' not
+R26269:26269 Ionia.Base.fle <> :::'''{'_x_'}' not
+R26252:26253 Coq.Init.Datatypes <> tt constr
+prf 26355:26366 <> par_make_idx
+binder 26377:26377 <> d:347
+binder 26379:26379 <> n:348
+R26390:26393 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26385:26387 Ionia.Base.fin <> fin def
+R26389:26389 Ionia.Progress.data <> n:348 var
+R26394:26396 Ionia.Progress.data <> exp def
+R26398:26398 Ionia.Progress.data <> d:347 var
+binder 26382:26382 <> f:349
+binder 26401:26401 <> i:350
+R26421:26423 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26405:26405 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R26416:26418 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R26420:26420 Ionia.Progress.data Expersion :::x_'|['_x_']' not
+R26406:26413 Ionia.Progress.data <> par_make def
+R26415:26415 Ionia.Progress.data <> f:349 var
+R26419:26419 Ionia.Progress.data <> i:350 var
+R26424:26424 Ionia.Progress.data <> f:349 var
+R26426:26426 Ionia.Progress.data <> i:350 var
+R26449:26458 Ionia.Base.vector <> v_idx_make thm
+R26449:26458 Ionia.Base.vector <> v_idx_make thm
+R26471:26479 Ionia.Progress.data Expersion <> sec
+R26528:26532 Ionia.Progress.data <> e_idx def
+not 26512:26512 <> :::x_'|['_x_']'
+R26580:26586 Ionia.Progress.data <> exp2exp def
+not 26563:26563 <> :::'EE['_x_'|'_x_']'
+R26634:26639 Ionia.Progress.data <> exp'_0 thm
+R26641:26651 Ionia.Progress.data <> exp'_0_elem thm
+R26653:26667 Ionia.Progress.data <> exp_unfold_fold thm
+R26669:26683 Ionia.Progress.data <> exp_fold_unfold thm
+R26685:26695 Ionia.Progress.data <> exp_con_des thm
+R26697:26707 Ionia.Progress.data <> exp_des_con thm
+R26709:26723 Ionia.Progress.data <> exp_default_num thm
+R26725:26734 Ionia.Progress.data <> e_idx_head thm
+R26736:26747 Ionia.Progress.data <> e_idx_head_H thm
+R26749:26758 Ionia.Progress.data <> e_idx_tail thm
+R26760:26772 Ionia.Progress.data <> e_idx_exp2exp thm
+R26774:26784 Ionia.Progress.data <> seq_make_Sn thm
+R26787:26799 Ionia.Progress.data <> par_make_Sn_H thm
+R26801:26810 Ionia.Progress.data <> seq_make_0 thm
+R26812:26823 Ionia.Progress.data <> seq_make_idx thm
+R26825:26835 Ionia.Progress.data <> par_make_Sn thm
+R26837:26846 Ionia.Progress.data <> par_make_0 thm
+R26848:26859 Ionia.Progress.data <> par_make_idx thm
+sec 27181:27188 <> Accessor
+def 27344:27346 <> acc
+R27352:27355 Ionia.Progress.data <> data ind
+binder 27349:27349 <> d:351
+R27373:27373 Ionia.Progress.data <> d:351 var
+R27383:27385 Ionia.Progress.data <> num constr
+R27390:27393 Ionia.Progress.data <> path ind
+R27399:27401 Ionia.Progress.data <> ary constr
+R27410:27415 Ionia.Base.vector <> vector def
+R27418:27420 Ionia.Progress.data <> acc:352 def
+R27422:27422 Ionia.Progress.data <> d:351 var
+prf 27519:27525 <> acc'_eq
+binder 27536:27536 <> A:354
+binder 27545:27546 <> d1:355
+binder 27548:27549 <> d2:356
+R27560:27563 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27555:27557 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27553:27554 Ionia.Progress.data <> d1:355 var
+R27558:27559 Ionia.Progress.data <> d2:356 var
+R27570:27572 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27564:27566 Ionia.Progress.data <> acc def
+R27568:27569 Ionia.Progress.data <> d1:355 var
+R27573:27575 Ionia.Progress.data <> acc def
+R27577:27578 Ionia.Progress.data <> d2:356 var
+prf 27647:27652 <> acc'_0
+binder 27662:27662 <> d:357
+R27682:27684 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27666:27668 Ionia.Progress.data <> acc def
+R27671:27673 Ionia.Progress.data <> ary constr
+R27680:27680 Ionia.Progress.data <> d:357 var
+R27675:27676 Ionia.Base.fle <> :::'''{'_x_'}' not
+R27678:27678 Ionia.Base.fle <> :::'''{'_x_'}' not
+R27685:27688 Coq.Init.Datatypes <> unit ind
+prf 27766:27776 <> acc'_0_elem
+binder 27786:27786 <> d:358
+R27792:27794 Ionia.Progress.data <> acc def
+R27797:27799 Ionia.Progress.data <> ary constr
+R27806:27806 Ionia.Progress.data <> d:358 var
+R27801:27802 Ionia.Base.fle <> :::'''{'_x_'}' not
+R27804:27804 Ionia.Base.fle <> :::'''{'_x_'}' not
+binder 27789:27789 <> a:359
+R27812:27815 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27836:27836 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27811:27811 Ionia.Progress.data <> a:359 var
+R27820:27825 Ionia.Base.vector <> vector def
+R27828:27830 Ionia.Progress.data <> exp def
+R27832:27832 Ionia.Progress.data <> d:358 var
+R27816:27817 Coq.Init.Datatypes <> tt constr
+prf 27926:27938 <> acc'_0_unique
+binder 27949:27949 <> d:360
+R27959:27961 Ionia.Progress.data <> acc def
+R27964:27966 Ionia.Progress.data <> ary constr
+R27973:27973 Ionia.Progress.data <> d:360 var
+R27968:27969 Ionia.Base.fle <> :::'''{'_x_'}' not
+R27971:27971 Ionia.Base.fle <> :::'''{'_x_'}' not
+binder 27953:27953 <> a:361
+binder 27955:27956 <> a':362
+R27979:27981 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27978:27978 Ionia.Progress.data <> a:361 var
+R27982:27983 Ionia.Progress.data <> a':362 var
+R28010:28020 Ionia.Progress.data <> acc'_0_elem thm
+R28010:28020 Ionia.Progress.data <> acc'_0_elem thm
+R28010:28020 Ionia.Progress.data <> acc'_0_elem thm
+R28010:28020 Ionia.Progress.data <> acc'_0_elem thm
+R28029:28039 Ionia.Progress.data <> acc'_0_elem thm
+R28029:28039 Ionia.Progress.data <> acc'_0_elem thm
+def 28089:28093 <> _0lt2
+R28097:28099 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+def 28142:28146 <> _1lt2
+R28150:28152 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+def 28195:28199 <> _0lt3
+R28203:28205 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+def 28248:28252 <> _1lt3
+R28256:28258 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+def 28301:28305 <> _2lt3
+R28309:28311 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+def 28384:28389 <> arr_00
+R28394:28396 Ionia.Progress.data <> Ary constr
+R28408:28410 Ionia.Progress.data <> Ary constr
+R28422:28424 Ionia.Progress.data <> Var constr
+R28412:28413 Ionia.Base.fin <> :::'F['_x_']' not
+R28419:28419 Ionia.Base.fin <> :::'F['_x_']' not
+R28414:28418 Ionia.Progress.data <> _0lt2 ex
+R28398:28399 Ionia.Base.fin <> :::'F['_x_']' not
+R28405:28405 Ionia.Base.fin <> :::'F['_x_']' not
+R28400:28404 Ionia.Progress.data <> _0lt3 ex
+def 28488:28493 <> arr_01
+R28498:28500 Ionia.Progress.data <> Ary constr
+R28512:28514 Ionia.Progress.data <> Ary constr
+R28526:28528 Ionia.Progress.data <> Var constr
+R28516:28517 Ionia.Base.fin <> :::'F['_x_']' not
+R28523:28523 Ionia.Base.fin <> :::'F['_x_']' not
+R28518:28522 Ionia.Progress.data <> _0lt2 ex
+R28502:28503 Ionia.Base.fin <> :::'F['_x_']' not
+R28509:28509 Ionia.Base.fin <> :::'F['_x_']' not
+R28504:28508 Ionia.Progress.data <> _1lt3 ex
+def 28592:28597 <> arr_02
+R28602:28604 Ionia.Progress.data <> Ary constr
+R28616:28618 Ionia.Progress.data <> Ary constr
+R28630:28632 Ionia.Progress.data <> Var constr
+R28620:28621 Ionia.Base.fin <> :::'F['_x_']' not
+R28627:28627 Ionia.Base.fin <> :::'F['_x_']' not
+R28622:28626 Ionia.Progress.data <> _0lt2 ex
+R28606:28607 Ionia.Base.fin <> :::'F['_x_']' not
+R28613:28613 Ionia.Base.fin <> :::'F['_x_']' not
+R28608:28612 Ionia.Progress.data <> _2lt3 ex
+def 28696:28701 <> arr_10
+R28706:28708 Ionia.Progress.data <> Ary constr
+R28720:28722 Ionia.Progress.data <> Ary constr
+R28734:28736 Ionia.Progress.data <> Var constr
+R28724:28725 Ionia.Base.fin <> :::'F['_x_']' not
+R28731:28731 Ionia.Base.fin <> :::'F['_x_']' not
+R28726:28730 Ionia.Progress.data <> _1lt2 ex
+R28710:28711 Ionia.Base.fin <> :::'F['_x_']' not
+R28717:28717 Ionia.Base.fin <> :::'F['_x_']' not
+R28712:28716 Ionia.Progress.data <> _0lt3 ex
+def 28800:28805 <> arr_11
+R28810:28812 Ionia.Progress.data <> Ary constr
+R28824:28826 Ionia.Progress.data <> Ary constr
+R28838:28840 Ionia.Progress.data <> Var constr
+R28828:28829 Ionia.Base.fin <> :::'F['_x_']' not
+R28835:28835 Ionia.Base.fin <> :::'F['_x_']' not
+R28830:28834 Ionia.Progress.data <> _1lt2 ex
+R28814:28815 Ionia.Base.fin <> :::'F['_x_']' not
+R28821:28821 Ionia.Base.fin <> :::'F['_x_']' not
+R28816:28820 Ionia.Progress.data <> _1lt3 ex
+def 28904:28909 <> arr_12
+R28914:28916 Ionia.Progress.data <> Ary constr
+R28928:28930 Ionia.Progress.data <> Ary constr
+R28942:28944 Ionia.Progress.data <> Var constr
+R28932:28933 Ionia.Base.fin <> :::'F['_x_']' not
+R28939:28939 Ionia.Base.fin <> :::'F['_x_']' not
+R28934:28938 Ionia.Progress.data <> _1lt2 ex
+R28918:28919 Ionia.Base.fin <> :::'F['_x_']' not
+R28925:28925 Ionia.Base.fin <> :::'F['_x_']' not
+R28920:28924 Ionia.Progress.data <> _2lt3 ex
+def 29051:29063 <> acc23_example
+R29066:29068 Ionia.Progress.data <> acc def
+R29070:29072 Ionia.Progress.data <> myd ex
+R29078:29078 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29103:29103 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29127:29127 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29079:29079 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29086:29087 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29094:29095 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29102:29102 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29080:29085 Ionia.Progress.data <> arr_00 ex
+R29088:29093 Ionia.Progress.data <> arr_01 ex
+R29096:29101 Ionia.Progress.data <> arr_02 ex
+R29104:29104 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29111:29112 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29119:29119 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29126:29126 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29105:29110 Ionia.Progress.data <> arr_10 ex
+R29113:29118 Ionia.Progress.data <> arr_11 ex
+R29120:29125 Ionia.Progress.data <> arr_12 ex
+def 29236:29245 <> acc_unfold
+binder 29248:29248 <> m:363
+binder 29250:29250 <> n:364
+binder 29252:29252 <> d:365
+R29259:29261 Ionia.Progress.data <> acc def
+R29265:29267 Ionia.Progress.data <> ary constr
+R29269:29269 Ionia.Progress.data <> m:363 var
+R29271:29271 Ionia.Progress.data <> n:364 var
+R29273:29273 Ionia.Progress.data <> d:365 var
+binder 29256:29256 <> a:366
+R29278:29283 Ionia.Base.vector <> vector def
+R29293:29293 Ionia.Progress.data <> n:364 var
+R29286:29288 Ionia.Progress.data <> acc def
+R29290:29290 Ionia.Progress.data <> d:365 var
+R29297:29297 Ionia.Progress.data <> a:366 var
+def 29377:29389 <> acc_unfold_eq
+binder 29400:29400 <> m:367
+binder 29402:29402 <> n:368
+binder 29404:29404 <> d:369
+R29411:29413 Ionia.Progress.data <> acc def
+R29417:29419 Ionia.Progress.data <> ary constr
+R29421:29421 Ionia.Progress.data <> m:367 var
+R29423:29423 Ionia.Progress.data <> n:368 var
+R29425:29425 Ionia.Progress.data <> d:369 var
+binder 29408:29408 <> a:370
+R29443:29445 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29431:29440 Ionia.Progress.data <> acc_unfold def
+R29442:29442 Ionia.Progress.data <> a:370 var
+R29446:29446 Ionia.Progress.data <> a:370 var
+def 29556:29570 <> acc_unfold_test
+R29573:29573 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29624:29629 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29600:29605 Ionia.Base.vector <> vector def
+R29608:29613 Ionia.Base.vector <> vector def
+R29615:29618 Ionia.Progress.data <> path ind
+R29574:29583 Ionia.Progress.data <> acc_unfold def
+R29585:29597 Ionia.Progress.data <> acc23_example ex
+R29630:29630 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29655:29655 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29679:29679 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29631:29631 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29638:29639 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29646:29647 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29654:29654 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29632:29637 Ionia.Progress.data <> arr_00 ex
+R29640:29645 Ionia.Progress.data <> arr_01 ex
+R29648:29653 Ionia.Progress.data <> arr_02 ex
+R29656:29656 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29663:29664 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29671:29671 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29678:29678 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R29657:29662 Ionia.Progress.data <> arr_10 ex
+R29665:29670 Ionia.Progress.data <> arr_11 ex
+R29672:29677 Ionia.Progress.data <> arr_12 ex
+def 29803:29810 <> acc_fold
+binder 29813:29813 <> m:371
+binder 29815:29815 <> n:372
+binder 29817:29817 <> d:373
+R29825:29828 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R29824:29824 Ionia.Progress.data <> n:372 var
+R29829:29829 Ionia.Progress.data <> m:371 var
+binder 29821:29821 <> E:374
+R29836:29841 Ionia.Base.vector <> vector def
+R29851:29851 Ionia.Progress.data <> n:372 var
+R29844:29846 Ionia.Progress.data <> acc def
+R29848:29848 Ionia.Progress.data <> d:373 var
+binder 29833:29833 <> a:375
+R29855:29857 Ionia.Progress.data <> acc def
+R29860:29862 Ionia.Progress.data <> ary constr
+R29872:29872 Ionia.Progress.data <> d:373 var
+R29864:29864 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R29866:29868 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R29870:29870 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R29865:29865 Ionia.Progress.data <> n:372 var
+R29869:29869 Ionia.Progress.data <> E:374 var
+R29877:29877 Ionia.Progress.data <> a:375 var
+prf 29951:29961 <> acc_fold_eq
+binder 29972:29972 <> m:376
+binder 29974:29974 <> n:377
+binder 29976:29976 <> d:378
+R29983:29988 Ionia.Base.vector <> vector def
+R29998:29998 Ionia.Progress.data <> n:377 var
+R29991:29993 Ionia.Progress.data <> acc def
+R29995:29995 Ionia.Progress.data <> d:378 var
+binder 29980:29980 <> a:379
+R30006:30009 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R30005:30005 Ionia.Progress.data <> n:377 var
+R30010:30010 Ionia.Progress.data <> m:376 var
+binder 30002:30002 <> E:380
+R30027:30029 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30015:30022 Ionia.Progress.data <> acc_fold def
+R30026:30026 Ionia.Progress.data <> a:379 var
+R30024:30024 Ionia.Progress.data <> E:380 var
+R30030:30030 Ionia.Progress.data <> a:379 var
+prf 30123:30137 <> acc_unfold_fold
+binder 30147:30147 <> m:381
+binder 30149:30149 <> n:382
+binder 30151:30151 <> d:383
+R30158:30161 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R30157:30157 Ionia.Progress.data <> n:382 var
+R30162:30162 Ionia.Progress.data <> m:381 var
+binder 30154:30154 <> E:384
+R30169:30174 Ionia.Base.vector <> vector def
+R30184:30184 Ionia.Progress.data <> n:382 var
+R30177:30179 Ionia.Progress.data <> acc def
+R30181:30181 Ionia.Progress.data <> d:383 var
+binder 30166:30166 <> e:385
+R30214:30216 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30189:30198 Ionia.Progress.data <> acc_unfold def
+R30201:30208 Ionia.Progress.data <> acc_fold def
+R30212:30212 Ionia.Progress.data <> e:385 var
+R30210:30210 Ionia.Progress.data <> E:384 var
+R30217:30217 Ionia.Progress.data <> e:385 var
+prf 30310:30324 <> acc_fold_unfold
+binder 30334:30334 <> m:386
+binder 30336:30336 <> n:387
+binder 30338:30338 <> d:388
+R30345:30348 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R30344:30344 Ionia.Progress.data <> n:387 var
+R30349:30349 Ionia.Progress.data <> m:386 var
+binder 30341:30341 <> E:389
+R30356:30358 Ionia.Progress.data <> acc def
+R30361:30363 Ionia.Progress.data <> ary constr
+R30373:30373 Ionia.Progress.data <> d:388 var
+R30365:30365 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R30367:30369 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R30371:30371 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R30366:30366 Ionia.Progress.data <> n:387 var
+R30370:30370 Ionia.Progress.data <> E:389 var
+binder 30353:30353 <> a:390
+R30404:30406 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30379:30386 Ionia.Progress.data <> acc_fold def
+R30391:30400 Ionia.Progress.data <> acc_unfold def
+R30402:30402 Ionia.Progress.data <> a:390 var
+R30388:30388 Ionia.Progress.data <> E:389 var
+R30407:30407 Ionia.Progress.data <> a:390 var
+def 30536:30548 <> acc_fold_test
+R30595:30599 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30551:30558 Ionia.Progress.data <> acc_fold def
+R30570:30579 Ionia.Progress.data <> acc_unfold def
+R30581:30593 Ionia.Progress.data <> acc23_example ex
+R30561:30564 Coq.Init.Peano <> le_n constr
+R30600:30600 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R30625:30625 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R30649:30649 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R30601:30601 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R30608:30609 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R30616:30617 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R30624:30624 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R30602:30607 Ionia.Progress.data <> arr_00 ex
+R30610:30615 Ionia.Progress.data <> arr_01 ex
+R30618:30623 Ionia.Progress.data <> arr_02 ex
+R30626:30626 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R30633:30634 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R30641:30641 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R30648:30648 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R30627:30632 Ionia.Progress.data <> arr_10 ex
+R30635:30640 Ionia.Progress.data <> arr_11 ex
+R30642:30647 Ionia.Progress.data <> arr_12 ex
+def 30807:30813 <> acc_des
+binder 30816:30816 <> m:391
+binder 30818:30818 <> n:392
+binder 30820:30820 <> d:393
+R30830:30833 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R30827:30827 Coq.Init.Datatypes <> S constr
+R30829:30829 Ionia.Progress.data <> n:392 var
+R30834:30834 Ionia.Progress.data <> m:391 var
+binder 30824:30824 <> E:394
+R30841:30843 Ionia.Progress.data <> acc def
+R30846:30848 Ionia.Progress.data <> ary constr
+R30860:30860 Ionia.Progress.data <> d:393 var
+R30850:30850 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R30854:30856 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R30858:30858 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R30851:30851 Coq.Init.Datatypes <> S constr
+R30853:30853 Ionia.Progress.data <> n:392 var
+R30857:30857 Ionia.Progress.data <> E:394 var
+binder 30838:30838 <> a:395
+R30894:30896 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R30865:30867 Ionia.Progress.data <> acc def
+R30871:30873 Ionia.Progress.data <> ary constr
+R30875:30875 Ionia.Progress.data <> m:391 var
+R30877:30877 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R30879:30881 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R30890:30890 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R30878:30878 Ionia.Progress.data <> n:392 var
+R30882:30887 Ionia.Base.base <> leS_le thm
+R30889:30889 Ionia.Progress.data <> E:394 var
+R30892:30892 Ionia.Progress.data <> d:393 var
+R30897:30899 Ionia.Progress.data <> acc def
+R30901:30901 Ionia.Progress.data <> d:393 var
+R30941:30941 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30943:30944 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30946:30946 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30941:30941 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30943:30944 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30946:30946 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 31046:31057 <> acc_des_test
+R31081:31085 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31060:31066 Ionia.Progress.data <> acc_des def
+R31068:31080 Ionia.Progress.data <> acc23_example ex
+R31086:31086 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31113:31113 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31137:31137 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31087:31087 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R31112:31112 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R31088:31088 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R31095:31096 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R31103:31104 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R31111:31111 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R31089:31094 Ionia.Progress.data <> arr_00 ex
+R31097:31102 Ionia.Progress.data <> arr_01 ex
+R31105:31110 Ionia.Progress.data <> arr_02 ex
+R31114:31114 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R31121:31122 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R31129:31129 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R31136:31136 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R31115:31120 Ionia.Progress.data <> arr_10 ex
+R31123:31128 Ionia.Progress.data <> arr_11 ex
+R31130:31135 Ionia.Progress.data <> arr_12 ex
+def 31263:31269 <> acc_con
+binder 31272:31272 <> m:396
+binder 31274:31274 <> n:397
+binder 31276:31276 <> d:398
+R31286:31289 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R31283:31283 Coq.Init.Datatypes <> S constr
+R31285:31285 Ionia.Progress.data <> n:397 var
+R31290:31290 Ionia.Progress.data <> m:396 var
+binder 31280:31280 <> E:399
+R31326:31328 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R31297:31299 Ionia.Progress.data <> acc def
+R31303:31305 Ionia.Progress.data <> ary constr
+R31307:31307 Ionia.Progress.data <> m:396 var
+R31309:31309 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R31311:31313 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R31322:31322 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R31310:31310 Ionia.Progress.data <> n:397 var
+R31314:31319 Ionia.Base.base <> leS_le thm
+R31321:31321 Ionia.Progress.data <> E:399 var
+R31324:31324 Ionia.Progress.data <> d:398 var
+R31329:31331 Ionia.Progress.data <> acc def
+R31333:31333 Ionia.Progress.data <> d:398 var
+binder 31294:31294 <> a:400
+R31337:31339 Ionia.Progress.data <> acc def
+R31342:31344 Ionia.Progress.data <> ary constr
+R31356:31356 Ionia.Progress.data <> d:398 var
+R31346:31346 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R31350:31352 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R31354:31354 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R31347:31347 Coq.Init.Datatypes <> S constr
+R31349:31349 Ionia.Progress.data <> n:397 var
+R31353:31353 Ionia.Progress.data <> E:399 var
+prf 31478:31488 <> acc_con_des
+binder 31498:31498 <> m:401
+binder 31500:31500 <> n:402
+binder 31502:31502 <> d:403
+R31511:31514 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R31508:31508 Coq.Init.Datatypes <> S constr
+R31510:31510 Ionia.Progress.data <> n:402 var
+R31515:31515 Ionia.Progress.data <> m:401 var
+binder 31505:31505 <> E:404
+R31522:31524 Ionia.Progress.data <> acc def
+R31527:31529 Ionia.Progress.data <> ary constr
+R31540:31540 Ionia.Progress.data <> d:403 var
+R31531:31531 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R31535:31536 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R31538:31538 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R31532:31532 Coq.Init.Datatypes <> S constr
+R31534:31534 Ionia.Progress.data <> n:402 var
+R31537:31537 Ionia.Progress.data <> E:404 var
+binder 31519:31519 <> a:405
+R31565:31567 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31546:31552 Ionia.Progress.data <> acc_con def
+R31555:31561 Ionia.Progress.data <> acc_des def
+R31563:31563 Ionia.Progress.data <> a:405 var
+R31568:31568 Ionia.Progress.data <> a:405 var
+R31585:31591 Ionia.Progress.data <> acc_des def
+R31594:31600 Ionia.Progress.data <> acc_con def
+prf 31716:31726 <> acc_des_con
+binder 31736:31736 <> m:406
+binder 31738:31738 <> n:407
+binder 31740:31740 <> d:408
+R31749:31752 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R31746:31746 Coq.Init.Datatypes <> S constr
+R31748:31748 Ionia.Progress.data <> n:407 var
+R31753:31753 Ionia.Progress.data <> m:406 var
+binder 31743:31743 <> E:409
+R31789:31791 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R31760:31762 Ionia.Progress.data <> acc def
+R31766:31768 Ionia.Progress.data <> ary constr
+R31770:31770 Ionia.Progress.data <> m:406 var
+R31772:31772 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R31774:31776 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R31785:31785 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R31773:31773 Ionia.Progress.data <> n:407 var
+R31777:31782 Ionia.Base.base <> leS_le thm
+R31784:31784 Ionia.Progress.data <> E:409 var
+R31787:31787 Ionia.Progress.data <> d:408 var
+R31792:31794 Ionia.Progress.data <> acc def
+R31796:31796 Ionia.Progress.data <> d:408 var
+binder 31757:31757 <> a:410
+R31821:31823 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31802:31808 Ionia.Progress.data <> acc_des def
+R31811:31817 Ionia.Progress.data <> acc_con def
+R31819:31819 Ionia.Progress.data <> a:410 var
+R31824:31824 Ionia.Progress.data <> a:410 var
+R31841:31847 Ionia.Progress.data <> acc_des def
+R31850:31856 Ionia.Progress.data <> acc_con def
+def 31983:31994 <> acc_con_test
+R32028:32032 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31997:32003 Ionia.Progress.data <> acc_con def
+R32006:32012 Ionia.Progress.data <> acc_des def
+R32014:32026 Ionia.Progress.data <> acc23_example ex
+R32033:32033 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32058:32058 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32082:32082 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32034:32034 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32041:32042 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32049:32050 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32057:32057 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32035:32040 Ionia.Progress.data <> arr_00 ex
+R32043:32048 Ionia.Progress.data <> arr_01 ex
+R32051:32056 Ionia.Progress.data <> arr_02 ex
+R32059:32059 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32066:32067 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32074:32074 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32081:32081 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32060:32065 Ionia.Progress.data <> arr_10 ex
+R32068:32073 Ionia.Progress.data <> arr_11 ex
+R32075:32080 Ionia.Progress.data <> arr_12 ex
+def 32234:32244 <> acc_default
+binder 32247:32247 <> d:411
+R32251:32253 Ionia.Progress.data <> acc def
+R32255:32255 Ionia.Progress.data <> d:411 var
+R32267:32267 Ionia.Progress.data <> d:411 var
+R32277:32279 Ionia.Progress.data <> num constr
+R32284:32286 Ionia.Progress.data <> Var constr
+R32294:32296 Ionia.Progress.data <> ary constr
+R32305:32310 Ionia.Base.vector <> v_make def
+R32320:32322 Ionia.Base.fin <> fin def
+binder 32317:32317 <> i:414
+R32329:32339 Ionia.Progress.data <> acc_default:412 def
+prf 32418:32432 <> acc_default_num
+R32451:32453 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32436:32446 Ionia.Progress.data <> acc_default def
+R32448:32450 Ionia.Progress.data <> num constr
+R32454:32456 Ionia.Progress.data <> Var constr
+prf 32563:32577 <> acc_default_ary
+binder 32588:32588 <> m:415
+binder 32590:32590 <> n:416
+binder 32592:32592 <> d:417
+R32622:32624 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32598:32608 Ionia.Progress.data <> acc_default def
+R32612:32614 Ionia.Progress.data <> ary constr
+R32616:32616 Ionia.Progress.data <> m:415 var
+R32618:32618 Ionia.Progress.data <> n:416 var
+R32620:32620 Ionia.Progress.data <> d:417 var
+R32625:32632 Ionia.Progress.data <> acc_fold def
+R32649:32654 Ionia.Base.vector <> v_make def
+R32664:32666 Ionia.Base.fin <> fin def
+R32668:32668 Ionia.Progress.data <> n:416 var
+binder 32661:32661 <> i:418
+R32673:32683 Ionia.Progress.data <> acc_default def
+R32635:32643 Ionia.Base.fle <> fle_proof thm
+R32645:32645 Ionia.Progress.data <> n:416 var
+def 32753:32761 <> p_default
+R32765:32767 Ionia.Progress.data <> Var constr
+def 32908:32923 <> acc_default_test
+R32942:32946 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32927:32937 Ionia.Progress.data <> acc_default def
+R32939:32941 Ionia.Progress.data <> myd ex
+R32947:32947 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32979:32979 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R33011:33011 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32948:32948 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32958:32958 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32968:32968 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32978:32978 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32949:32957 Ionia.Progress.data <> p_default ex
+R32959:32967 Ionia.Progress.data <> p_default ex
+R32969:32977 Ionia.Progress.data <> p_default ex
+R32980:32980 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32990:32990 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R33000:33000 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R33010:33010 Ionia.Base.base <> :::'['_x_','_'..'_','_x_']' not
+R32981:32989 Ionia.Progress.data <> p_default ex
+R32991:32999 Ionia.Progress.data <> p_default ex
+R33001:33009 Ionia.Progress.data <> p_default ex
+def 33144:33148 <> a_idx
+binder 33151:33151 <> m:419
+binder 33153:33153 <> n:420
+binder 33155:33155 <> d:421
+R33162:33164 Ionia.Progress.data <> acc def
+R33168:33170 Ionia.Progress.data <> ary constr
+R33172:33172 Ionia.Progress.data <> m:419 var
+R33174:33174 Ionia.Progress.data <> n:420 var
+R33176:33176 Ionia.Progress.data <> d:421 var
+binder 33159:33159 <> v:422
+binder 33180:33180 <> i:423
+R33183:33185 Ionia.Progress.data <> acc def
+R33187:33187 Ionia.Progress.data <> d:421 var
+R33193:33197 Ionia.Base.vector <> v_idx def
+R33218:33218 Ionia.Progress.data <> i:423 var
+R33216:33216 Ionia.Progress.data <> v:422 var
+R33201:33211 Ionia.Progress.data <> acc_default def
+R33213:33213 Ionia.Progress.data <> d:421 var
+R33247:33251 Ionia.Progress.data <> a_idx def
+not 33231:33231 Accessor :::x_'|{'_x_'}'
+prf 33363:33372 <> a_idx_head
+binder 33382:33382 <> m:424
+binder 33384:33384 <> n:425
+binder 33386:33386 <> d:426
+R33395:33398 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R33392:33392 Coq.Init.Datatypes <> S constr
+R33394:33394 Ionia.Progress.data <> n:425 var
+R33399:33399 Ionia.Progress.data <> m:424 var
+binder 33389:33389 <> E:427
+R33407:33409 Ionia.Progress.data <> acc def
+R33413:33415 Ionia.Progress.data <> ary constr
+R33417:33417 Ionia.Progress.data <> m:424 var
+R33419:33419 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R33421:33423 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R33432:33432 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R33420:33420 Ionia.Progress.data <> n:425 var
+R33424:33429 Ionia.Base.base <> leS_le thm
+R33431:33431 Ionia.Progress.data <> E:427 var
+R33434:33434 Ionia.Progress.data <> d:426 var
+binder 33403:33404 <> va:428
+R33442:33444 Ionia.Progress.data <> acc def
+R33446:33446 Ionia.Progress.data <> d:426 var
+binder 33439:33439 <> a:429
+binder 33449:33449 <> i:430
+R33479:33481 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33453:33453 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R33469:33472 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R33478:33478 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R33454:33460 Ionia.Progress.data <> acc_con def
+R33462:33462 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33465:33466 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33468:33468 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33463:33464 Ionia.Progress.data <> va:428 var
+R33467:33467 Ionia.Progress.data <> a:429 var
+R33473:33475 Ionia.Base.fin <> :::'FS['_x_']' not
+R33477:33477 Ionia.Base.fin <> :::'FS['_x_']' not
+R33476:33476 Ionia.Progress.data <> i:430 var
+R33484:33486 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R33488:33488 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R33482:33483 Ionia.Progress.data <> va:428 var
+R33487:33487 Ionia.Progress.data <> i:430 var
+R33513:33519 Ionia.Progress.data <> acc_con def
+R33522:33526 Ionia.Progress.data <> a_idx def
+R33535:33544 Ionia.Base.vector <> v_idx_head thm
+R33535:33544 Ionia.Base.vector <> v_idx_head thm
+prf 33625:33636 <> a_idx_head_H
+binder 33646:33646 <> m:431
+binder 33648:33648 <> n:432
+binder 33650:33650 <> d:433
+R33659:33662 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R33656:33656 Coq.Init.Datatypes <> S constr
+R33658:33658 Ionia.Progress.data <> n:432 var
+R33663:33663 Ionia.Progress.data <> m:431 var
+binder 33653:33653 <> E:434
+R33671:33673 Ionia.Progress.data <> acc def
+R33677:33679 Ionia.Progress.data <> ary constr
+R33681:33681 Ionia.Progress.data <> m:431 var
+R33683:33683 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R33685:33687 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R33696:33696 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R33684:33684 Ionia.Progress.data <> n:432 var
+R33688:33693 Ionia.Base.base <> leS_le thm
+R33695:33695 Ionia.Progress.data <> E:434 var
+R33698:33698 Ionia.Progress.data <> d:433 var
+binder 33667:33668 <> va:435
+R33706:33708 Ionia.Progress.data <> acc def
+R33710:33710 Ionia.Progress.data <> d:433 var
+binder 33703:33703 <> a:436
+R33719:33721 Ionia.Base.fin <> fin def
+R33724:33724 Coq.Init.Datatypes <> S constr
+R33726:33726 Ionia.Progress.data <> n:432 var
+binder 33716:33716 <> i:437
+R33736:33738 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R33735:33735 Ionia.Progress.data <> i:437 var
+R33739:33739 Ionia.Progress.data <> n:432 var
+binder 33731:33732 <> E1:438
+R33766:33768 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33744:33744 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R33760:33763 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R33765:33765 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R33745:33751 Ionia.Progress.data <> acc_con def
+R33753:33753 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33756:33757 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33759:33759 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33754:33755 Ionia.Progress.data <> va:435 var
+R33758:33758 Ionia.Progress.data <> a:436 var
+R33764:33764 Ionia.Progress.data <> i:437 var
+R33771:33773 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R33780:33780 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R33769:33770 Ionia.Progress.data <> va:435 var
+R33774:33776 Ionia.Base.fin <> :::'FP['_x_']' not
+R33779:33779 Ionia.Base.fin <> :::'FP['_x_']' not
+R33777:33778 Ionia.Progress.data <> E1:438 var
+R33805:33811 Ionia.Progress.data <> acc_con def
+R33814:33818 Ionia.Progress.data <> a_idx def
+R33827:33838 Ionia.Base.vector <> v_idx_head_H thm
+R33827:33838 Ionia.Base.vector <> v_idx_head_H thm
+prf 33919:33928 <> a_idx_tail
+binder 33938:33938 <> m:439
+binder 33940:33940 <> n:440
+binder 33942:33942 <> d:441
+R33951:33954 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R33948:33948 Coq.Init.Datatypes <> S constr
+R33950:33950 Ionia.Progress.data <> n:440 var
+R33955:33955 Ionia.Progress.data <> m:439 var
+binder 33945:33945 <> E:442
+R33963:33965 Ionia.Progress.data <> acc def
+R33969:33971 Ionia.Progress.data <> ary constr
+R33973:33973 Ionia.Progress.data <> m:439 var
+R33975:33975 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R33977:33979 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R33988:33988 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R33976:33976 Ionia.Progress.data <> n:440 var
+R33980:33985 Ionia.Base.base <> leS_le thm
+R33987:33987 Ionia.Progress.data <> E:442 var
+R33990:33990 Ionia.Progress.data <> d:441 var
+binder 33959:33960 <> va:443
+R33998:34000 Ionia.Progress.data <> acc def
+R34002:34002 Ionia.Progress.data <> d:441 var
+binder 33995:33995 <> a:444
+R34032:34034 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34007:34007 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R34023:34026 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R34031:34031 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R34008:34014 Ionia.Progress.data <> acc_con def
+R34016:34016 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34019:34020 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34022:34022 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34017:34018 Ionia.Progress.data <> va:443 var
+R34021:34021 Ionia.Progress.data <> a:444 var
+R34027:34028 Ionia.Base.fin <> :::'''['_x_']' not
+R34030:34030 Ionia.Base.fin <> :::'''['_x_']' not
+R34029:34029 Ionia.Progress.data <> n:440 var
+R34035:34035 Ionia.Progress.data <> a:444 var
+R34060:34066 Ionia.Progress.data <> acc_con def
+R34069:34073 Ionia.Progress.data <> a_idx def
+R34082:34091 Ionia.Base.vector <> v_idx_tail thm
+R34082:34091 Ionia.Base.vector <> v_idx_tail thm
+prf 34214:34223 <> a_idx_eq_a
+binder 34234:34234 <> m:445
+binder 34236:34236 <> n:446
+binder 34238:34238 <> d:447
+R34249:34251 Ionia.Progress.data <> acc def
+R34255:34257 Ionia.Progress.data <> ary constr
+R34259:34259 Ionia.Progress.data <> m:445 var
+R34261:34261 Ionia.Progress.data <> n:446 var
+R34263:34263 Ionia.Progress.data <> d:447 var
+binder 34242:34243 <> a1:448
+binder 34245:34246 <> a2:449
+R34276:34281 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R34309:34309 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R34271:34273 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34269:34270 Ionia.Progress.data <> a1:448 var
+R34274:34275 Ionia.Progress.data <> a2:449 var
+binder 34289:34289 <> i:450
+R34299:34301 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34294:34296 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R34298:34298 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R34292:34293 Ionia.Progress.data <> a1:448 var
+R34297:34297 Ionia.Progress.data <> i:450 var
+R34304:34306 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R34308:34308 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R34302:34303 Ionia.Progress.data <> a2:449 var
+R34307:34307 Ionia.Progress.data <> i:450 var
+R34333:34342 Ionia.Base.vector <> v_idx_eq_v thm
+R34333:34342 Ionia.Base.vector <> v_idx_eq_v thm
+def 34418:34427 <> a_idx_test
+R34463:34465 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34455:34457 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R34462:34462 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R34443:34446 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R34453:34454 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R34430:34442 Ionia.Progress.data <> acc23_example ex
+R34447:34452 Ionia.Base.fin <> fin_0S def
+R34458:34459 Ionia.Base.fin <> :::'''['_x_']' not
+R34461:34461 Ionia.Base.fin <> :::'''['_x_']' not
+R34466:34471 Ionia.Progress.data <> arr_02 ex
+def 34587:34593 <> acc2acc
+binder 34596:34596 <> m:451
+binder 34598:34599 <> m':452
+binder 34601:34601 <> n:453
+binder 34603:34603 <> d:454
+R34612:34615 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R34611:34611 Ionia.Progress.data <> n:453 var
+R34616:34616 Ionia.Progress.data <> m:451 var
+binder 34607:34607 <> E:455
+R34624:34626 Ionia.Progress.data <> acc def
+R34629:34631 Ionia.Progress.data <> ary constr
+R34641:34641 Ionia.Progress.data <> d:454 var
+R34633:34633 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R34635:34637 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R34639:34639 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R34634:34634 Ionia.Progress.data <> n:453 var
+R34638:34638 Ionia.Progress.data <> E:455 var
+binder 34620:34620 <> a:456
+R34652:34655 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R34651:34651 Ionia.Progress.data <> n:453 var
+R34656:34657 Ionia.Progress.data <> m':452 var
+binder 34646:34647 <> E':457
+R34664:34666 Ionia.Progress.data <> acc def
+R34669:34671 Ionia.Progress.data <> ary constr
+R34682:34682 Ionia.Progress.data <> d:454 var
+R34673:34673 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R34675:34677 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R34680:34680 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R34674:34674 Ionia.Progress.data <> n:453 var
+R34678:34679 Ionia.Progress.data <> E':457 var
+R34738:34744 Ionia.Progress.data <> acc2acc def
+not 34721:34721 Accessor :::'AA['_x_'|'_x_']'
+prf 34826:34835 <> acc2acc_eq
+binder 34846:34846 <> m:458
+binder 34848:34849 <> m':459
+binder 34851:34851 <> n:460
+binder 34853:34853 <> d:461
+R34862:34865 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R34861:34861 Ionia.Progress.data <> n:460 var
+R34866:34866 Ionia.Progress.data <> m:458 var
+binder 34857:34857 <> E:462
+R34874:34876 Ionia.Progress.data <> acc def
+R34879:34881 Ionia.Progress.data <> ary constr
+R34891:34891 Ionia.Progress.data <> d:461 var
+R34883:34883 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R34885:34887 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R34889:34889 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R34884:34884 Ionia.Progress.data <> n:460 var
+R34888:34888 Ionia.Progress.data <> E:462 var
+binder 34870:34870 <> e:463
+R34902:34905 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R34901:34901 Ionia.Progress.data <> n:460 var
+R34906:34907 Ionia.Progress.data <> m':459 var
+binder 34896:34897 <> E':464
+R34924:34926 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34913:34916 Ionia.Progress.data Accessor :::'AA['_x_'|'_x_']' not
+R34918:34920 Ionia.Progress.data Accessor :::'AA['_x_'|'_x_']' not
+R34922:34923 Ionia.Progress.data Accessor :::'AA['_x_'|'_x_']' not
+R34917:34917 Ionia.Progress.data <> e:463 var
+R34921:34921 Ionia.Progress.data <> E:462 var
+R34927:34934 Ionia.Progress.data <> acc_fold def
+R34940:34949 Ionia.Progress.data <> acc_unfold def
+R34951:34951 Ionia.Progress.data <> e:463 var
+R34936:34937 Ionia.Progress.data <> E':464 var
+prf 35042:35054 <> a_idx_acc2acc
+binder 35064:35064 <> m:465
+binder 35066:35067 <> m':466
+binder 35069:35069 <> n:467
+binder 35071:35071 <> d:468
+R35079:35082 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R35078:35078 Ionia.Progress.data <> n:467 var
+R35083:35083 Ionia.Progress.data <> m:465 var
+binder 35074:35074 <> E:469
+R35091:35093 Ionia.Progress.data <> acc def
+R35096:35098 Ionia.Progress.data <> ary constr
+R35108:35108 Ionia.Progress.data <> d:468 var
+R35100:35100 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R35102:35104 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R35106:35106 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R35101:35101 Ionia.Progress.data <> n:467 var
+R35105:35105 Ionia.Progress.data <> E:469 var
+binder 35087:35087 <> e:470
+R35119:35122 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R35118:35118 Ionia.Progress.data <> n:467 var
+R35123:35124 Ionia.Progress.data <> m':466 var
+binder 35113:35114 <> E':471
+binder 35127:35127 <> i:472
+R35148:35150 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35143:35145 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R35147:35147 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R35132:35135 Ionia.Progress.data Accessor :::'AA['_x_'|'_x_']' not
+R35137:35139 Ionia.Progress.data Accessor :::'AA['_x_'|'_x_']' not
+R35142:35142 Ionia.Progress.data Accessor :::'AA['_x_'|'_x_']' not
+R35136:35136 Ionia.Progress.data <> e:470 var
+R35140:35141 Ionia.Progress.data <> E':471 var
+R35146:35146 Ionia.Progress.data <> i:472 var
+R35152:35154 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R35156:35156 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R35151:35151 Ionia.Progress.data <> e:470 var
+R35155:35155 Ionia.Progress.data <> i:472 var
+def 35276:35287 <> acc2acc_test
+R35352:35354 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35344:35346 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R35351:35351 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R35332:35335 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R35342:35343 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R35291:35294 Ionia.Progress.data Accessor :::'AA['_x_'|'_x_']' not
+R35308:35310 Ionia.Progress.data Accessor :::'AA['_x_'|'_x_']' not
+R35331:35331 Ionia.Progress.data Accessor :::'AA['_x_'|'_x_']' not
+R35295:35307 Ionia.Progress.data <> acc23_example ex
+R35311:35328 Coq.Arith.PeanoNat Nat le_succ_diag_r thm
+R35336:35341 Ionia.Base.fin <> fin_0S def
+R35347:35348 Ionia.Base.fin <> :::'''['_x_']' not
+R35350:35350 Ionia.Base.fin <> :::'''['_x_']' not
+R35355:35360 Ionia.Progress.data <> arr_02 ex
+def 35488:35493 <> optacc
+R35500:35503 Ionia.Progress.data <> data ind
+binder 35496:35496 <> d:473
+R35511:35513 Ionia.Progress.data <> acc def
+R35515:35515 Ionia.Progress.data <> d:473 var
+binder 35507:35507 <> e:474
+R35520:35525 Coq.Init.Datatypes <> option ind
+R35528:35530 Ionia.Progress.data <> acc def
+R35532:35532 Ionia.Progress.data <> d:473 var
+R35547:35553 Ionia.Progress.data <> optdata def
+R35555:35555 Ionia.Progress.data <> d:473 var
+R35567:35570 Coq.Init.Datatypes <> Some constr
+R35577:35580 Coq.Init.Datatypes <> Some constr
+R35582:35582 Ionia.Progress.data <> e:474 var
+R35588:35591 Coq.Init.Datatypes <> None constr
+R35596:35599 Coq.Init.Datatypes <> None constr
+prf 35678:35686 <> optacc_eq
+binder 35696:35696 <> d:475
+R35708:35710 Ionia.Progress.data <> acc def
+R35712:35712 Ionia.Progress.data <> d:475 var
+binder 35700:35701 <> a1:476
+binder 35703:35704 <> a2:477
+R35735:35738 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35725:35727 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35716:35721 Ionia.Progress.data <> optacc def
+R35723:35724 Ionia.Progress.data <> a1:476 var
+R35728:35731 Coq.Init.Datatypes <> Some constr
+R35733:35734 Ionia.Progress.data <> a2:477 var
+R35741:35743 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35739:35740 Ionia.Progress.data <> a1:476 var
+R35744:35745 Ionia.Progress.data <> a2:477 var
+R35782:35787 Ionia.Progress.data <> optacc def
+R35805:35811 Ionia.Progress.data <> optdata def
+R35805:35811 Ionia.Progress.data <> optdata def
+prf 35905:35918 <> optacc_Some_eq
+binder 35929:35929 <> d:478
+R35936:35938 Ionia.Progress.data <> acc def
+R35940:35940 Ionia.Progress.data <> d:478 var
+binder 35932:35932 <> e:479
+R35964:35968 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R35955:35957 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35946:35952 Ionia.Progress.data <> optdata def
+R35954:35954 Ionia.Progress.data <> d:478 var
+R35958:35961 Coq.Init.Datatypes <> Some constr
+R35963:35963 Ionia.Progress.data <> d:478 var
+R35977:35979 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35969:35974 Ionia.Progress.data <> optacc def
+R35976:35976 Ionia.Progress.data <> e:479 var
+R35980:35983 Coq.Init.Datatypes <> Some constr
+R35985:35985 Ionia.Progress.data <> e:479 var
+R36015:36020 Ionia.Progress.data <> optacc def
+R36057:36063 Ionia.Progress.data <> optdata def
+R36057:36063 Ionia.Progress.data <> optdata def
+R36094:36103 Ionia.Progress.data <> optdata_eq thm
+R36094:36103 Ionia.Progress.data <> optdata_eq thm
+prf 36185:36200 <> optacc_Some_eq_l
+binder 36211:36211 <> d:480
+R36218:36220 Ionia.Progress.data <> acc def
+R36222:36222 Ionia.Progress.data <> d:480 var
+binder 36214:36214 <> e:481
+R36246:36249 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36237:36239 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36228:36234 Ionia.Progress.data <> optdata def
+R36236:36236 Ionia.Progress.data <> d:480 var
+R36240:36243 Coq.Init.Datatypes <> Some constr
+R36245:36245 Ionia.Progress.data <> d:480 var
+R36258:36260 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36250:36255 Ionia.Progress.data <> optacc def
+R36257:36257 Ionia.Progress.data <> e:481 var
+R36261:36264 Coq.Init.Datatypes <> Some constr
+R36266:36266 Ionia.Progress.data <> e:481 var
+R36290:36303 Ionia.Progress.data <> optacc_Some_eq thm
+R36290:36303 Ionia.Progress.data <> optacc_Some_eq thm
+prf 36378:36394 <> opt_acc_Some_eq_r
+binder 36405:36405 <> d:482
+R36412:36414 Ionia.Progress.data <> acc def
+R36416:36416 Ionia.Progress.data <> d:482 var
+binder 36408:36408 <> e:483
+R36439:36442 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36430:36432 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36422:36427 Ionia.Progress.data <> optacc def
+R36429:36429 Ionia.Progress.data <> e:483 var
+R36433:36436 Coq.Init.Datatypes <> Some constr
+R36438:36438 Ionia.Progress.data <> e:483 var
+R36452:36454 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36443:36449 Ionia.Progress.data <> optdata def
+R36451:36451 Ionia.Progress.data <> d:482 var
+R36455:36458 Coq.Init.Datatypes <> Some constr
+R36460:36460 Ionia.Progress.data <> d:482 var
+R36484:36497 Ionia.Progress.data <> optacc_Some_eq thm
+R36484:36497 Ionia.Progress.data <> optacc_Some_eq thm
+prf 36587:36600 <> optacc_None_eq
+binder 36611:36611 <> d:484
+R36618:36620 Ionia.Progress.data <> acc def
+R36622:36622 Ionia.Progress.data <> d:484 var
+binder 36614:36614 <> e:485
+R36644:36648 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R36637:36639 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36628:36634 Ionia.Progress.data <> optdata def
+R36636:36636 Ionia.Progress.data <> d:484 var
+R36640:36643 Coq.Init.Datatypes <> None constr
+R36657:36659 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36649:36654 Ionia.Progress.data <> optacc def
+R36656:36656 Ionia.Progress.data <> e:485 var
+R36660:36663 Coq.Init.Datatypes <> None constr
+R36693:36698 Ionia.Progress.data <> optacc def
+R36735:36741 Ionia.Progress.data <> optdata def
+R36735:36741 Ionia.Progress.data <> optdata def
+prf 36818:36833 <> optacc_None_eq_l
+binder 36844:36844 <> d:486
+R36851:36853 Ionia.Progress.data <> acc def
+R36855:36855 Ionia.Progress.data <> d:486 var
+binder 36847:36847 <> e:487
+R36877:36880 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36870:36872 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36861:36867 Ionia.Progress.data <> optdata def
+R36869:36869 Ionia.Progress.data <> d:486 var
+R36873:36876 Coq.Init.Datatypes <> None constr
+R36889:36891 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36881:36886 Ionia.Progress.data <> optacc def
+R36888:36888 Ionia.Progress.data <> e:487 var
+R36892:36895 Coq.Init.Datatypes <> None constr
+R36919:36932 Ionia.Progress.data <> optacc_None_eq thm
+R36919:36932 Ionia.Progress.data <> optacc_None_eq thm
+prf 37003:37018 <> optacc_None_eq_r
+binder 37029:37029 <> d:488
+R37036:37038 Ionia.Progress.data <> acc def
+R37040:37040 Ionia.Progress.data <> d:488 var
+binder 37032:37032 <> e:489
+R37061:37064 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37054:37056 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37046:37051 Ionia.Progress.data <> optacc def
+R37053:37053 Ionia.Progress.data <> e:489 var
+R37057:37060 Coq.Init.Datatypes <> None constr
+R37074:37076 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37065:37071 Ionia.Progress.data <> optdata def
+R37073:37073 Ionia.Progress.data <> d:488 var
+R37077:37080 Coq.Init.Datatypes <> None constr
+R37104:37117 Ionia.Progress.data <> optacc_None_eq thm
+R37104:37117 Ionia.Progress.data <> optacc_None_eq thm
+def 37253:37256 <> accp
+R37262:37265 Ionia.Progress.data <> data ind
+binder 37259:37259 <> d:490
+R37272:37275 Ionia.Progress.data <> path ind
+binder 37269:37269 <> p:491
+R37279:37281 Ionia.Progress.data <> acc def
+R37283:37283 Ionia.Progress.data <> d:490 var
+R37295:37295 Ionia.Progress.data <> d:490 var
+R37305:37307 Ionia.Progress.data <> num constr
+R37315:37317 Ionia.Progress.data <> acc def
+R37319:37321 Ionia.Progress.data <> num constr
+R37312:37312 Ionia.Progress.data <> p:491 var
+R37327:37329 Ionia.Progress.data <> ary constr
+R37341:37346 Ionia.Base.vector <> v_make def
+R37356:37358 Ionia.Base.fin <> fin def
+binder 37353:37353 <> i:494
+R37366:37369 Ionia.Progress.data <> accp:492 def
+R37376:37378 Ionia.Progress.data <> Ary constr
+R37382:37385 Ionia.Base.finfle <> :::'FF''['_x_'|'_x_']' not
+R37387:37389 Ionia.Base.finfle <> :::'FF''['_x_'|'_x_']' not
+R37391:37391 Ionia.Base.finfle <> :::'FF''['_x_'|'_x_']' not
+R37386:37386 Ionia.Progress.data <> i:494 var
+R37393:37393 Ionia.Progress.data <> p:491 var
+prf 37492:37499 <> accp_num
+binder 37509:37509 <> p:495
+R37523:37525 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37513:37516 Ionia.Progress.data <> accp def
+R37518:37520 Ionia.Progress.data <> num constr
+R37522:37522 Ionia.Progress.data <> p:495 var
+R37526:37526 Ionia.Progress.data <> p:495 var
+prf 37612:37619 <> accp_ary
+binder 37630:37630 <> m:496
+binder 37632:37632 <> n:497
+binder 37634:37634 <> d:498
+binder 37637:37637 <> p:499
+R37661:37663 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37642:37645 Ionia.Progress.data <> accp def
+R37649:37651 Ionia.Progress.data <> ary constr
+R37653:37653 Ionia.Progress.data <> m:496 var
+R37655:37655 Ionia.Progress.data <> n:497 var
+R37657:37657 Ionia.Progress.data <> d:498 var
+R37660:37660 Ionia.Progress.data <> p:499 var
+R37664:37671 Ionia.Progress.data <> acc_fold def
+R37688:37693 Ionia.Base.vector <> v_make def
+R37703:37705 Ionia.Base.fin <> fin def
+R37707:37707 Ionia.Progress.data <> n:497 var
+binder 37700:37700 <> i:500
+R37712:37715 Ionia.Progress.data <> accp def
+R37720:37722 Ionia.Progress.data <> Ary constr
+R37724:37724 Ionia.Progress.data <> m:496 var
+R37726:37729 Ionia.Base.finfle <> :::'FF''['_x_'|'_x_']' not
+R37731:37733 Ionia.Base.finfle <> :::'FF''['_x_'|'_x_']' not
+R37735:37735 Ionia.Base.finfle <> :::'FF''['_x_'|'_x_']' not
+R37734:37734 Ionia.Progress.data <> n:497 var
+R37730:37730 Ionia.Progress.data <> i:500 var
+R37737:37737 Ionia.Progress.data <> p:499 var
+R37674:37682 Ionia.Base.fle <> fle_proof thm
+R37684:37684 Ionia.Progress.data <> n:497 var
+prf 37791:37797 <> accp_Sn
+binder 37807:37807 <> m:501
+binder 37809:37809 <> n:502
+binder 37811:37811 <> d:503
+binder 37813:37813 <> p:504
+R37822:37825 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R37819:37819 Coq.Init.Datatypes <> S constr
+R37821:37821 Ionia.Progress.data <> n:502 var
+R37826:37826 Ionia.Progress.data <> m:501 var
+binder 37816:37816 <> E:505
+R37855:37858 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37914:37914 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37832:37835 Ionia.Progress.data <> accp def
+R37838:37840 Ionia.Progress.data <> ary constr
+R37851:37851 Ionia.Progress.data <> d:503 var
+R37842:37842 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R37846:37847 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R37849:37849 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R37843:37843 Coq.Init.Datatypes <> S constr
+R37845:37845 Ionia.Progress.data <> n:502 var
+R37848:37848 Ionia.Progress.data <> E:505 var
+R37854:37854 Ionia.Progress.data <> p:504 var
+R37859:37865 Ionia.Progress.data <> acc_con def
+R37867:37867 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37874:37876 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37913:37913 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37868:37871 Ionia.Progress.data <> accp def
+R37873:37873 Ionia.Progress.data <> p:504 var
+R37877:37880 Ionia.Progress.data <> accp def
+R37883:37885 Ionia.Progress.data <> Ary constr
+R37911:37911 Ionia.Progress.data <> p:504 var
+R37887:37891 Ionia.Base.finfle <> :::'FF''['_x_'|'_x_']' not
+R37897:37899 Ionia.Base.finfle <> :::'FF''['_x_'|'_x_']' not
+R37909:37909 Ionia.Base.finfle <> :::'FF''['_x_'|'_x_']' not
+R37900:37900 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R37904:37906 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R37908:37908 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R37901:37901 Coq.Init.Datatypes <> S constr
+R37903:37903 Ionia.Progress.data <> n:502 var
+R37907:37907 Ionia.Progress.data <> E:505 var
+R37892:37894 Ionia.Base.fin <> :::'''['_x_']' not
+R37896:37896 Ionia.Base.fin <> :::'''['_x_']' not
+R37895:37895 Ionia.Progress.data <> n:502 var
+R37940:37946 Ionia.Progress.data <> acc_con def
+R38007:38012 Ionia.Base.fin <> fin_eq thm
+R38007:38012 Ionia.Base.fin <> fin_eq thm
+prf 38059:38068 <> a_idx_accp
+binder 38079:38079 <> m:506
+binder 38081:38081 <> n:507
+binder 38083:38083 <> d:508
+binder 38085:38085 <> p:509
+R38094:38097 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R38093:38093 Ionia.Progress.data <> n:507 var
+R38098:38098 Ionia.Progress.data <> m:506 var
+binder 38088:38088 <> E:510
+binder 38101:38101 <> i:511
+R38136:38138 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R38106:38106 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R38130:38133 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R38135:38135 Ionia.Progress.data Accessor :::x_'|{'_x_'}' not
+R38108:38111 Ionia.Progress.data <> accp def
+R38114:38116 Ionia.Progress.data <> ary constr
+R38126:38126 Ionia.Progress.data <> d:508 var
+R38118:38118 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R38120:38122 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R38124:38124 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R38119:38119 Ionia.Progress.data <> n:507 var
+R38123:38123 Ionia.Progress.data <> E:510 var
+R38129:38129 Ionia.Progress.data <> p:509 var
+R38134:38134 Ionia.Progress.data <> i:511 var
+R38139:38142 Ionia.Progress.data <> accp def
+R38145:38147 Ionia.Progress.data <> Ary constr
+R38166:38166 Ionia.Progress.data <> p:509 var
+R38149:38152 Ionia.Base.finfle <> :::'FF''['_x_'|'_x_']' not
+R38154:38156 Ionia.Base.finfle <> :::'FF''['_x_'|'_x_']' not
+R38164:38164 Ionia.Base.finfle <> :::'FF''['_x_'|'_x_']' not
+R38157:38157 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R38159:38161 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R38163:38163 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R38158:38158 Ionia.Progress.data <> n:507 var
+R38162:38162 Ionia.Progress.data <> E:510 var
+R38153:38153 Ionia.Progress.data <> i:511 var
+R38199:38203 Ionia.Progress.data <> a_idx def
+R38214:38223 Ionia.Base.vector <> v_idx_make thm
+R38214:38223 Ionia.Base.vector <> v_idx_make thm
+R38214:38223 Ionia.Base.vector <> v_idx_make thm
+def 38347:38351 <> myacc
+R38357:38360 Ionia.Progress.data <> accp def
+R38362:38364 Ionia.Progress.data <> myd ex
+R38367:38369 Ionia.Progress.data <> Var constr
+def 38388:38396 <> accp_test
+R38404:38406 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R38399:38403 Ionia.Progress.data <> myacc ex
+R38407:38419 Ionia.Progress.data <> acc23_example ex
+R38436:38440 Ionia.Progress.data <> myacc ex
+R38443:38455 Ionia.Progress.data <> acc23_example ex
+R38472:38477 Ionia.Progress.data <> arr_00 ex
+R38479:38484 Ionia.Progress.data <> arr_01 ex
+R38487:38492 Ionia.Progress.data <> arr_02 ex
+R38495:38500 Ionia.Progress.data <> arr_10 ex
+R38503:38508 Ionia.Progress.data <> arr_11 ex
+R38511:38516 Ionia.Progress.data <> arr_12 ex
+R38554:38561 Ionia.Progress.data Accessor <> sec
+R38610:38614 Ionia.Progress.data <> a_idx def
+not 38594:38594 <> :::x_'|{'_x_'}'
+R38662:38668 Ionia.Progress.data <> acc2acc def
+not 38645:38645 <> :::'AA['_x_'|'_x_']'
+R38716:38721 Ionia.Progress.data <> acc'_0 thm
+R38723:38733 Ionia.Progress.data <> acc'_0_elem thm
+R38735:38749 Ionia.Progress.data <> acc_unfold_fold thm
+R38751:38765 Ionia.Progress.data <> acc_fold_unfold thm
+R38767:38777 Ionia.Progress.data <> acc_con_des thm
+R38779:38789 Ionia.Progress.data <> acc_des_con thm
+R38791:38805 Ionia.Progress.data <> acc_default_num thm
+R38807:38816 Ionia.Progress.data <> a_idx_head thm
+R38818:38829 Ionia.Progress.data <> a_idx_head_H thm
+R38831:38840 Ionia.Progress.data <> a_idx_tail thm
+R38842:38854 Ionia.Progress.data <> a_idx_acc2acc thm
+R38857:38864 Ionia.Progress.data <> accp_num thm
+R38866:38872 Ionia.Progress.data <> accp_Sn thm
+R38874:38883 Ionia.Progress.data <> a_idx_accp thm
+R39697:39713 Coq.Logic.Classical_Prop <> proof_irrelevance thm

@@ -1,0 +1,433 @@
+DIGEST be62a0ecb01861bca7b1cc6155c4e538
+FIonia.NN.tensor
+R15:18 Ionia.Progress.rule <> <> lib
+def 129:135 <> Tensor1
+R148:150 Coq.Init.Datatypes <> nat ind
+binder 138:138 <> m:1
+R156:158 Ionia.Progress.data <> exp def
+R161:163 Ionia.Progress.data <> ary constr
+R170:172 Ionia.Progress.data <> num constr
+R165:166 Ionia.Base.fle <> :::'''{'_x_'}' not
+R168:168 Ionia.Base.fle <> :::'''{'_x_'}' not
+R167:167 Ionia.NN.tensor <> m:1 var
+def 188:201 <> Tensor1_unfold
+binder 204:204 <> m:2
+R216:222 Ionia.NN.tensor <> Tensor1 def
+R224:224 Ionia.NN.tensor <> m:2 var
+binder 208:212 <> input:3
+R229:231 Ionia.Progress.data <> exp def
+R234:236 Ionia.Progress.data <> ary constr
+R243:245 Ionia.Progress.data <> num constr
+R238:239 Ionia.Base.fle <> :::'''{'_x_'}' not
+R241:241 Ionia.Base.fle <> :::'''{'_x_'}' not
+R240:240 Ionia.NN.tensor <> m:2 var
+def 289:300 <> Tensor1_fold
+binder 303:303 <> m:4
+R315:317 Ionia.Progress.data <> exp def
+R320:322 Ionia.Progress.data <> ary constr
+R329:331 Ionia.Progress.data <> num constr
+R324:325 Ionia.Base.fle <> :::'''{'_x_'}' not
+R327:327 Ionia.Base.fle <> :::'''{'_x_'}' not
+R326:326 Ionia.NN.tensor <> m:4 var
+binder 307:311 <> input:5
+R337:343 Ionia.NN.tensor <> Tensor1 def
+R345:345 Ionia.NN.tensor <> m:4 var
+def 389:395 <> Tensor2
+R408:410 Coq.Init.Datatypes <> nat ind
+binder 398:398 <> m:6
+binder 400:400 <> n:7
+R416:418 Ionia.Progress.data <> exp def
+R421:423 Ionia.Progress.data <> ary constr
+R431:433 Ionia.Progress.data <> ary constr
+R440:442 Ionia.Progress.data <> num constr
+R435:436 Ionia.Base.fle <> :::'''{'_x_'}' not
+R438:438 Ionia.Base.fle <> :::'''{'_x_'}' not
+R437:437 Ionia.NN.tensor <> n:7 var
+R425:426 Ionia.Base.fle <> :::'''{'_x_'}' not
+R428:428 Ionia.Base.fle <> :::'''{'_x_'}' not
+R427:427 Ionia.NN.tensor <> m:6 var
+def 459:472 <> Tensor2_unfold
+binder 475:475 <> m:8
+binder 477:477 <> n:9
+R489:495 Ionia.NN.tensor <> Tensor2 def
+R499:499 Ionia.NN.tensor <> n:9 var
+R497:497 Ionia.NN.tensor <> m:8 var
+binder 481:485 <> input:10
+R504:506 Ionia.Progress.data <> exp def
+R509:511 Ionia.Progress.data <> ary constr
+R519:521 Ionia.Progress.data <> ary constr
+R528:530 Ionia.Progress.data <> num constr
+R523:524 Ionia.Base.fle <> :::'''{'_x_'}' not
+R526:526 Ionia.Base.fle <> :::'''{'_x_'}' not
+R525:525 Ionia.NN.tensor <> n:9 var
+R513:514 Ionia.Base.fle <> :::'''{'_x_'}' not
+R516:516 Ionia.Base.fle <> :::'''{'_x_'}' not
+R515:515 Ionia.NN.tensor <> m:8 var
+def 575:586 <> Tensor2_fold
+binder 589:589 <> m:11
+binder 591:591 <> n:12
+R603:605 Ionia.Progress.data <> exp def
+R608:610 Ionia.Progress.data <> ary constr
+R618:620 Ionia.Progress.data <> ary constr
+R627:629 Ionia.Progress.data <> num constr
+R622:623 Ionia.Base.fle <> :::'''{'_x_'}' not
+R625:625 Ionia.Base.fle <> :::'''{'_x_'}' not
+R624:624 Ionia.NN.tensor <> n:12 var
+R612:613 Ionia.Base.fle <> :::'''{'_x_'}' not
+R615:615 Ionia.Base.fle <> :::'''{'_x_'}' not
+R614:614 Ionia.NN.tensor <> m:11 var
+binder 595:599 <> input:13
+R636:642 Ionia.NN.tensor <> Tensor2 def
+R646:646 Ionia.NN.tensor <> n:12 var
+R644:644 Ionia.NN.tensor <> m:11 var
+def 691:697 <> Tensor3
+R710:712 Coq.Init.Datatypes <> nat ind
+binder 700:700 <> m:14
+binder 702:702 <> n:15
+binder 704:704 <> p:16
+R718:720 Ionia.Progress.data <> exp def
+R723:725 Ionia.Progress.data <> ary constr
+R733:735 Ionia.Progress.data <> ary constr
+R743:745 Ionia.Progress.data <> ary constr
+R752:754 Ionia.Progress.data <> num constr
+R747:748 Ionia.Base.fle <> :::'''{'_x_'}' not
+R750:750 Ionia.Base.fle <> :::'''{'_x_'}' not
+R749:749 Ionia.NN.tensor <> p:16 var
+R737:738 Ionia.Base.fle <> :::'''{'_x_'}' not
+R740:740 Ionia.Base.fle <> :::'''{'_x_'}' not
+R739:739 Ionia.NN.tensor <> n:15 var
+R727:728 Ionia.Base.fle <> :::'''{'_x_'}' not
+R730:730 Ionia.Base.fle <> :::'''{'_x_'}' not
+R729:729 Ionia.NN.tensor <> m:14 var
+def 772:785 <> Tensor3_unfold
+binder 788:788 <> m:17
+binder 790:790 <> n:18
+binder 792:792 <> p:19
+R804:810 Ionia.NN.tensor <> Tensor3 def
+R816:816 Ionia.NN.tensor <> p:19 var
+R814:814 Ionia.NN.tensor <> n:18 var
+R812:812 Ionia.NN.tensor <> m:17 var
+binder 796:800 <> input:20
+R821:823 Ionia.Progress.data <> exp def
+R826:828 Ionia.Progress.data <> ary constr
+R836:838 Ionia.Progress.data <> ary constr
+R846:848 Ionia.Progress.data <> ary constr
+R855:857 Ionia.Progress.data <> num constr
+R850:851 Ionia.Base.fle <> :::'''{'_x_'}' not
+R853:853 Ionia.Base.fle <> :::'''{'_x_'}' not
+R852:852 Ionia.NN.tensor <> p:19 var
+R840:841 Ionia.Base.fle <> :::'''{'_x_'}' not
+R843:843 Ionia.Base.fle <> :::'''{'_x_'}' not
+R842:842 Ionia.NN.tensor <> n:18 var
+R830:831 Ionia.Base.fle <> :::'''{'_x_'}' not
+R833:833 Ionia.Base.fle <> :::'''{'_x_'}' not
+R832:832 Ionia.NN.tensor <> m:17 var
+def 903:914 <> Tensor3_fold
+binder 917:917 <> m:21
+binder 919:919 <> n:22
+binder 921:921 <> p:23
+R933:935 Ionia.Progress.data <> exp def
+R938:940 Ionia.Progress.data <> ary constr
+R948:950 Ionia.Progress.data <> ary constr
+R958:960 Ionia.Progress.data <> ary constr
+R967:969 Ionia.Progress.data <> num constr
+R962:963 Ionia.Base.fle <> :::'''{'_x_'}' not
+R965:965 Ionia.Base.fle <> :::'''{'_x_'}' not
+R964:964 Ionia.NN.tensor <> p:23 var
+R952:953 Ionia.Base.fle <> :::'''{'_x_'}' not
+R955:955 Ionia.Base.fle <> :::'''{'_x_'}' not
+R954:954 Ionia.NN.tensor <> n:22 var
+R942:943 Ionia.Base.fle <> :::'''{'_x_'}' not
+R945:945 Ionia.Base.fle <> :::'''{'_x_'}' not
+R944:944 Ionia.NN.tensor <> m:21 var
+binder 925:929 <> input:24
+R977:983 Ionia.NN.tensor <> Tensor3 def
+R989:989 Ionia.NN.tensor <> p:23 var
+R987:987 Ionia.NN.tensor <> n:22 var
+R985:985 Ionia.NN.tensor <> m:21 var
+def 1034:1040 <> Tensor4
+R1053:1055 Coq.Init.Datatypes <> nat ind
+binder 1043:1043 <> m:25
+binder 1045:1045 <> n:26
+binder 1047:1047 <> p:27
+binder 1049:1049 <> q:28
+R1061:1063 Ionia.Progress.data <> exp def
+R1066:1068 Ionia.Progress.data <> ary constr
+R1076:1078 Ionia.Progress.data <> ary constr
+R1086:1088 Ionia.Progress.data <> ary constr
+R1096:1098 Ionia.Progress.data <> ary constr
+R1105:1107 Ionia.Progress.data <> num constr
+R1100:1101 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1103:1103 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1102:1102 Ionia.NN.tensor <> q:28 var
+R1090:1091 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1093:1093 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1092:1092 Ionia.NN.tensor <> p:27 var
+R1080:1081 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1083:1083 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1082:1082 Ionia.NN.tensor <> n:26 var
+R1070:1071 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1073:1073 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1072:1072 Ionia.NN.tensor <> m:25 var
+def 1126:1139 <> Tensor4_unfold
+binder 1142:1142 <> m:29
+binder 1144:1144 <> n:30
+binder 1146:1146 <> p:31
+binder 1148:1148 <> q:32
+R1160:1166 Ionia.NN.tensor <> Tensor4 def
+R1174:1174 Ionia.NN.tensor <> q:32 var
+R1172:1172 Ionia.NN.tensor <> p:31 var
+R1170:1170 Ionia.NN.tensor <> n:30 var
+R1168:1168 Ionia.NN.tensor <> m:29 var
+binder 1152:1156 <> input:33
+R1179:1181 Ionia.Progress.data <> exp def
+R1184:1186 Ionia.Progress.data <> ary constr
+R1194:1196 Ionia.Progress.data <> ary constr
+R1204:1206 Ionia.Progress.data <> ary constr
+R1214:1216 Ionia.Progress.data <> ary constr
+R1223:1225 Ionia.Progress.data <> num constr
+R1218:1219 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1221:1221 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1220:1220 Ionia.NN.tensor <> q:32 var
+R1208:1209 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1211:1211 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1210:1210 Ionia.NN.tensor <> p:31 var
+R1198:1199 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1201:1201 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1200:1200 Ionia.NN.tensor <> n:30 var
+R1188:1189 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1191:1191 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1190:1190 Ionia.NN.tensor <> m:29 var
+def 1272:1283 <> Tensor4_fold
+binder 1286:1286 <> m:34
+binder 1288:1288 <> n:35
+binder 1290:1290 <> p:36
+binder 1292:1292 <> q:37
+R1304:1306 Ionia.Progress.data <> exp def
+R1309:1311 Ionia.Progress.data <> ary constr
+R1319:1321 Ionia.Progress.data <> ary constr
+R1329:1331 Ionia.Progress.data <> ary constr
+R1339:1341 Ionia.Progress.data <> ary constr
+R1348:1350 Ionia.Progress.data <> num constr
+R1343:1344 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1346:1346 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1345:1345 Ionia.NN.tensor <> q:37 var
+R1333:1334 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1336:1336 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1335:1335 Ionia.NN.tensor <> p:36 var
+R1323:1324 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1326:1326 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1325:1325 Ionia.NN.tensor <> n:35 var
+R1313:1314 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1316:1316 Ionia.Base.fle <> :::'''{'_x_'}' not
+R1315:1315 Ionia.NN.tensor <> m:34 var
+binder 1296:1300 <> input:38
+R1359:1365 Ionia.NN.tensor <> Tensor4 def
+R1373:1373 Ionia.NN.tensor <> q:37 var
+R1371:1371 Ionia.NN.tensor <> p:36 var
+R1369:1369 Ionia.NN.tensor <> n:35 var
+R1367:1367 Ionia.NN.tensor <> m:34 var
+def 1418:1426 <> Default1d
+R1433:1435 Coq.Init.Datatypes <> nat ind
+binder 1429:1429 <> n:39
+R1440:1446 Ionia.NN.tensor <> Tensor1 def
+R1448:1448 Ionia.NN.tensor <> n:39 var
+R1453:1463 Ionia.Progress.data <> exp_default def
+def 1478:1486 <> Default2d
+R1495:1497 Coq.Init.Datatypes <> nat ind
+binder 1489:1489 <> m:40
+binder 1491:1491 <> n:41
+R1502:1508 Ionia.NN.tensor <> Tensor2 def
+R1512:1512 Ionia.NN.tensor <> n:41 var
+R1510:1510 Ionia.NN.tensor <> m:40 var
+R1517:1527 Ionia.Progress.data <> exp_default def
+def 1542:1550 <> Default3d
+R1567:1569 Coq.Init.Datatypes <> nat ind
+binder 1553:1559 <> channel:42
+binder 1561:1561 <> m:43
+binder 1563:1563 <> n:44
+R1574:1580 Ionia.NN.tensor <> Tensor3 def
+R1592:1592 Ionia.NN.tensor <> n:44 var
+R1590:1590 Ionia.NN.tensor <> m:43 var
+R1582:1588 Ionia.NN.tensor <> channel:42 var
+R1597:1607 Ionia.Progress.data <> exp_default def
+def 1622:1630 <> Default4d
+R1653:1655 Coq.Init.Datatypes <> nat ind
+binder 1633:1637 <> batch:45
+binder 1639:1645 <> channel:46
+binder 1647:1647 <> m:47
+binder 1649:1649 <> n:48
+R1660:1666 Ionia.NN.tensor <> Tensor4 def
+R1684:1684 Ionia.NN.tensor <> n:48 var
+R1682:1682 Ionia.NN.tensor <> m:47 var
+R1674:1680 Ionia.NN.tensor <> channel:46 var
+R1668:1672 Ionia.NN.tensor <> batch:45 var
+R1689:1699 Ionia.Progress.data <> exp_default def
+def 1714:1720 <> Randn1d
+R1727:1729 Coq.Init.Datatypes <> nat ind
+binder 1723:1723 <> n:49
+R1734:1740 Ionia.NN.tensor <> Tensor1 def
+R1742:1742 Ionia.NN.tensor <> n:49 var
+R1747:1754 Ionia.Progress.data <> seq_make def
+R1765:1767 Ionia.Base.fin <> fin def
+R1769:1769 Ionia.NN.tensor <> n:49 var
+binder 1761:1761 <> i:50
+R1774:1777 Ionia.Progress.rule <> rand defax
+def 1793:1799 <> Randn2d
+R1808:1810 Coq.Init.Datatypes <> nat ind
+binder 1802:1802 <> n:51
+binder 1804:1804 <> m:52
+R1815:1821 Ionia.NN.tensor <> Tensor2 def
+R1825:1825 Ionia.NN.tensor <> m:52 var
+R1823:1823 Ionia.NN.tensor <> n:51 var
+R1832:1839 Ionia.Progress.data <> seq_make def
+R1849:1851 Ionia.Base.fin <> fin def
+R1853:1853 Ionia.NN.tensor <> n:51 var
+binder 1846:1846 <> i:53
+R1858:1865 Ionia.Progress.data <> seq_make def
+R1875:1877 Ionia.Base.fin <> fin def
+R1879:1879 Ionia.NN.tensor <> m:52 var
+binder 1872:1872 <> j:54
+R1884:1887 Ionia.Progress.rule <> rand defax
+def 1904:1909 <> Rand3d
+R1926:1928 Coq.Init.Datatypes <> nat ind
+binder 1912:1918 <> channel:55
+binder 1920:1920 <> m:56
+binder 1922:1922 <> n:57
+R1933:1939 Ionia.NN.tensor <> Tensor3 def
+R1951:1951 Ionia.NN.tensor <> n:57 var
+R1949:1949 Ionia.NN.tensor <> m:56 var
+R1941:1947 Ionia.NN.tensor <> channel:55 var
+R1958:1965 Ionia.Progress.data <> seq_make def
+R1975:1977 Ionia.Base.fin <> fin def
+R1979:1985 Ionia.NN.tensor <> channel:55 var
+binder 1972:1972 <> c:58
+R1990:1997 Ionia.Progress.data <> seq_make def
+R2007:2009 Ionia.Base.fin <> fin def
+R2011:2011 Ionia.NN.tensor <> m:56 var
+binder 2004:2004 <> i:59
+R2018:2025 Ionia.Progress.data <> seq_make def
+R2035:2037 Ionia.Base.fin <> fin def
+R2039:2039 Ionia.NN.tensor <> n:57 var
+binder 2032:2032 <> j:60
+R2044:2047 Ionia.Progress.rule <> rand defax
+def 2065:2070 <> Rand4d
+R2093:2095 Coq.Init.Datatypes <> nat ind
+binder 2073:2077 <> batch:61
+binder 2079:2085 <> channel:62
+binder 2087:2087 <> m:63
+binder 2089:2089 <> n:64
+R2100:2106 Ionia.NN.tensor <> Tensor4 def
+R2124:2124 Ionia.NN.tensor <> n:64 var
+R2122:2122 Ionia.NN.tensor <> m:63 var
+R2114:2120 Ionia.NN.tensor <> channel:62 var
+R2108:2112 Ionia.NN.tensor <> batch:61 var
+R2131:2138 Ionia.Progress.data <> seq_make def
+R2148:2150 Ionia.Base.fin <> fin def
+R2152:2156 Ionia.NN.tensor <> batch:61 var
+binder 2145:2145 <> b:65
+R2161:2168 Ionia.Progress.data <> seq_make def
+R2178:2180 Ionia.Base.fin <> fin def
+R2182:2188 Ionia.NN.tensor <> channel:62 var
+binder 2175:2175 <> c:66
+R2195:2202 Ionia.Progress.data <> seq_make def
+R2212:2214 Ionia.Base.fin <> fin def
+R2216:2216 Ionia.NN.tensor <> m:63 var
+binder 2209:2209 <> i:67
+R2221:2228 Ionia.Progress.data <> seq_make def
+R2238:2240 Ionia.Base.fin <> fin def
+R2242:2242 Ionia.NN.tensor <> n:64 var
+binder 2235:2235 <> j:68
+R2247:2250 Ionia.Progress.rule <> rand defax
+def 2269:2274 <> Fill1d
+R2281:2283 Coq.Init.Datatypes <> nat ind
+binder 2277:2277 <> m:69
+R2290:2292 Ionia.Progress.data <> exp def
+R2294:2296 Ionia.Progress.data <> num constr
+binder 2287:2287 <> e:70
+R2301:2307 Ionia.NN.tensor <> Tensor1 def
+R2309:2309 Ionia.NN.tensor <> m:69 var
+R2314:2321 Ionia.Progress.data <> seq_make def
+R2332:2334 Ionia.Base.fin <> fin def
+R2336:2336 Ionia.NN.tensor <> m:69 var
+binder 2328:2328 <> i:71
+R2341:2341 Ionia.NN.tensor <> e:70 var
+def 2357:2362 <> Fill2d
+R2371:2373 Coq.Init.Datatypes <> nat ind
+binder 2365:2365 <> n:72
+binder 2367:2367 <> m:73
+R2380:2382 Ionia.Progress.data <> exp def
+R2384:2386 Ionia.Progress.data <> num constr
+binder 2377:2377 <> e:74
+R2391:2397 Ionia.NN.tensor <> Tensor2 def
+R2401:2401 Ionia.NN.tensor <> m:73 var
+R2399:2399 Ionia.NN.tensor <> n:72 var
+R2407:2414 Ionia.Progress.data <> seq_make def
+R2424:2426 Ionia.Base.fin <> fin def
+R2428:2428 Ionia.NN.tensor <> n:72 var
+binder 2421:2421 <> i:75
+R2433:2440 Ionia.Progress.data <> seq_make def
+R2450:2452 Ionia.Base.fin <> fin def
+R2454:2454 Ionia.NN.tensor <> m:73 var
+binder 2447:2447 <> j:76
+R2459:2459 Ionia.NN.tensor <> e:74 var
+def 2476:2481 <> Fill3d
+R2498:2500 Coq.Init.Datatypes <> nat ind
+binder 2484:2484 <> n:77
+binder 2486:2486 <> m:78
+binder 2488:2494 <> channel:79
+R2507:2509 Ionia.Progress.data <> exp def
+R2511:2513 Ionia.Progress.data <> num constr
+binder 2504:2504 <> e:80
+R2518:2524 Ionia.NN.tensor <> Tensor3 def
+R2536:2536 Ionia.NN.tensor <> m:78 var
+R2534:2534 Ionia.NN.tensor <> n:77 var
+R2526:2532 Ionia.NN.tensor <> channel:79 var
+R2542:2549 Ionia.Progress.data <> seq_make def
+R2560:2562 Ionia.Base.fin <> fin def
+R2564:2570 Ionia.NN.tensor <> channel:79 var
+binder 2556:2556 <> c:81
+R2575:2582 Ionia.Progress.data <> seq_make def
+R2592:2594 Ionia.Base.fin <> fin def
+R2596:2596 Ionia.NN.tensor <> n:77 var
+binder 2589:2589 <> i:82
+R2601:2608 Ionia.Progress.data <> seq_make def
+R2618:2620 Ionia.Base.fin <> fin def
+R2622:2622 Ionia.NN.tensor <> m:78 var
+binder 2615:2615 <> j:83
+R2627:2627 Ionia.NN.tensor <> e:80 var
+def 2645:2650 <> Fill4d
+R2673:2675 Coq.Init.Datatypes <> nat ind
+binder 2653:2653 <> n:84
+binder 2655:2655 <> m:85
+binder 2657:2661 <> batch:86
+binder 2663:2669 <> channel:87
+R2682:2684 Ionia.Progress.data <> exp def
+R2686:2688 Ionia.Progress.data <> num constr
+binder 2679:2679 <> e:88
+R2693:2699 Ionia.NN.tensor <> Tensor4 def
+R2717:2717 Ionia.NN.tensor <> m:85 var
+R2715:2715 Ionia.NN.tensor <> n:84 var
+R2707:2713 Ionia.NN.tensor <> channel:87 var
+R2701:2705 Ionia.NN.tensor <> batch:86 var
+R2723:2730 Ionia.Progress.data <> seq_make def
+R2741:2743 Ionia.Base.fin <> fin def
+R2745:2749 Ionia.NN.tensor <> batch:86 var
+binder 2737:2737 <> b:89
+R2755:2762 Ionia.Progress.data <> seq_make def
+R2773:2775 Ionia.Base.fin <> fin def
+R2777:2783 Ionia.NN.tensor <> channel:87 var
+binder 2769:2769 <> c:90
+R2791:2798 Ionia.Progress.data <> seq_make def
+R2808:2810 Ionia.Base.fin <> fin def
+R2812:2812 Ionia.NN.tensor <> n:84 var
+binder 2805:2805 <> i:91
+R2817:2824 Ionia.Progress.data <> seq_make def
+R2834:2836 Ionia.Base.fin <> fin def
+R2838:2838 Ionia.NN.tensor <> m:85 var
+binder 2831:2831 <> j:92
+R2843:2843 Ionia.NN.tensor <> e:88 var
+R2883:2896 Ionia.NN.tensor <> Tensor1_unfold def
+R2899:2912 Ionia.NN.tensor <> Tensor2_unfold def
+R2915:2928 Ionia.NN.tensor <> Tensor3_unfold def
+R2931:2944 Ionia.NN.tensor <> Tensor4_unfold def

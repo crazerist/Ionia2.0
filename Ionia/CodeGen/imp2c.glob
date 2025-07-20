@@ -1,0 +1,1441 @@
+DIGEST 97cd194217cfca3c8ad926fa31d4b3b6
+FIonia.CodeGen.imp2c
+R15:44 Coq.Logic.FunctionalExtensionality <> <> lib
+R62:87 Coq.Logic.ProofIrrelevance <> <> lib
+R105:109 Coq.Strings.Ascii <> <> lib
+R111:116 Coq.Strings.String <> <> lib
+R118:123 Coq.Floats.Floats <> <> lib
+R141:147 Ionia.CodeGen.fun2imp <> <> lib
+R158:170 Coq.Lists.List ListNotations <> mod
+prf 256:267 <> append_assoc
+R289:294 Coq.Strings.String <> string ind
+binder 278:279 <> s1:1
+binder 281:282 <> s2:2
+binder 284:285 <> s3:3
+R315:317 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R299:299 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R308:312 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R302:305 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R300:301 Ionia.CodeGen.imp2c <> s1:1 var
+R306:307 Ionia.CodeGen.imp2c <> s2:2 var
+R313:314 Ionia.CodeGen.imp2c <> s3:3 var
+R320:323 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R318:319 Ionia.CodeGen.imp2c <> s1:1 var
+R326:329 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R324:325 Ionia.CodeGen.imp2c <> s2:2 var
+R330:331 Ionia.CodeGen.imp2c <> s3:3 var
+sec 908:917 <> Nat2String
+def 932:941 <> natToDigit
+R948:950 Coq.Init.Datatypes <> nat ind
+binder 944:944 <> n:4
+R955:959 Coq.Strings.Ascii <> ascii ind
+R972:972 Ionia.CodeGen.imp2c <> n:4 var
+def 1148:1158 <> writeNatAux
+R1170:1172 Coq.Init.Datatypes <> nat ind
+binder 1161:1164 <> time:6
+binder 1166:1166 <> n:7
+R1182:1187 Coq.Strings.String <> string ind
+binder 1176:1178 <> acc:8
+R1192:1197 Coq.Strings.String <> string ind
+R1216:1221 Coq.Strings.String <> String constr
+R1224:1233 Ionia.CodeGen.imp2c <> natToDigit def
+R1237:1241 Coq.Init.Nat <> ::nat_scope:x_'mod'_x not
+R1236:1236 Ionia.CodeGen.imp2c <> n:7 var
+R1247:1249 Ionia.CodeGen.imp2c <> acc:8 var
+binder 1208:1211 <> acc':10
+R1262:1265 Ionia.CodeGen.imp2c <> time:6 var
+R1283:1286 Ionia.CodeGen.imp2c <> acc':10 var
+R1294:1294 Coq.Init.Datatypes <> S constr
+R1318:1320 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R1317:1317 Ionia.CodeGen.imp2c <> n:7 var
+R1344:1347 Ionia.CodeGen.imp2c <> acc':10 var
+R1365:1375 Ionia.CodeGen.imp2c <> writeNatAux:9 def
+R1386:1389 Ionia.CodeGen.imp2c <> acc':10 var
+def 1420:1427 <> writeNat
+R1434:1436 Coq.Init.Datatypes <> nat ind
+binder 1430:1430 <> n:12
+R1441:1446 Coq.Strings.String <> string ind
+R1453:1463 Ionia.CodeGen.imp2c <> writeNatAux def
+R1467:1467 Ionia.CodeGen.imp2c <> n:12 var
+R1465:1465 Ionia.CodeGen.imp2c <> n:12 var
+R1478:1487 Ionia.CodeGen.imp2c Nat2String <> sec
+sec 1622:1626 <> Imp2C
+var 1666:1670 Imp2C myenv
+R1674:1676 Ionia.Progress.command <> env def
+var 1690:1692 Imp2C vrd
+R1706:1709 Ionia.Progress.data <> data ind
+binder 1704:1704 <> d:15
+R1719:1722 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1713:1718 Coq.Strings.String <> string ind
+R1723:1725 Ionia.Progress.data <> exp def
+R1727:1727 Ionia.CodeGen.imp2c <> d:15 var
+var 1741:1743 Imp2C vwt
+R1757:1760 Ionia.Progress.data <> data ind
+binder 1755:1755 <> d:18
+R1770:1773 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1764:1769 Coq.Strings.String <> string ind
+R1774:1776 Ionia.Progress.data <> acc def
+R1778:1778 Ionia.CodeGen.imp2c <> d:18 var
+def 1792:1798 <> CG_data
+R1803:1806 Ionia.Progress.data <> data ind
+binder 1801:1801 <> d:21
+binder 1809:1809 <> s:22
+R1812:1817 Coq.Strings.String <> string ind
+R1830:1830 Ionia.CodeGen.imp2c <> d:21 var
+R1842:1844 Ionia.Progress.data <> num constr
+R1857:1859 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1860:1860 Ionia.CodeGen.imp2c <> s:22 var
+R1868:1870 Ionia.Progress.data <> ary constr
+R1882:1888 Ionia.CodeGen.imp2c <> CG_data:23 def
+R1894:1895 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1893:1893 Ionia.CodeGen.imp2c <> s:22 var
+R1899:1900 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1901:1901 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1912:1914 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1902:1909 Ionia.CodeGen.imp2c <> writeNat def
+R1890:1890 Ionia.CodeGen.imp2c <> d:21 var
+ind 1940:1944 <> Vpath
+constr 1949:1952 <> Aidx
+R1957:1959 Coq.Init.Datatypes <> nat ind
+binder 1955:1955 <> i:27
+scheme 1940:1944 <> Vpath_rect
+scheme 1940:1944 <> Vpath_ind
+scheme 1940:1944 <> Vpath_rec
+scheme 1940:1944 <> Vpath_sind
+def 1975:1980 <> pslist
+R1985:1988 Coq.Init.Datatypes <> list ind
+R1990:1994 Ionia.CodeGen.imp2c <> Vpath ind
+var 2053:2059 Imp2C str2nat
+R2069:2072 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2063:2068 Coq.Strings.String <> string ind
+R2073:2075 Coq.Init.Datatypes <> nat ind
+R2078:2110 Ionia.CodeGen.imp2c <> str2nat defax
+var 2124:2130 Imp2C CG_comm
+R2137:2140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2133:2136 Ionia.Progress.command <> comm def
+R2144:2147 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2141:2143 Coq.Init.Datatypes <> nat ind
+R2148:2153 Coq.Strings.String <> string ind
+var 2166:2171 Imp2C CG_acc
+R2190:2193 Ionia.Progress.data <> data ind
+binder 2188:2188 <> d:32
+R2204:2207 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2198:2203 Ionia.CodeGen.imp2c <> pslist def
+R2213:2216 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2208:2210 Ionia.Progress.data <> acc def
+R2212:2212 Ionia.CodeGen.imp2c <> d:32 var
+R2217:2222 Coq.Strings.String <> string ind
+var 2235:2240 Imp2C CG_exp
+R2259:2262 Ionia.Progress.data <> data ind
+binder 2257:2257 <> d:35
+R2273:2276 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2267:2272 Ionia.CodeGen.imp2c <> pslist def
+R2282:2285 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2277:2279 Ionia.Progress.data <> exp def
+R2281:2281 Ionia.CodeGen.imp2c <> d:35 var
+R2286:2291 Coq.Strings.String <> string ind
+def 2306:2309 <> vstr
+R2316:2318 Coq.Init.Datatypes <> nat ind
+binder 2312:2314 <> cnt:38
+R2323:2328 Coq.Strings.String <> string ind
+R2336:2338 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2351:2352 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2339:2346 Ionia.CodeGen.imp2c <> writeNat def
+R2348:2350 Ionia.CodeGen.imp2c <> cnt:38 var
+def 2366:2369 <> istr
+R2376:2378 Coq.Init.Datatypes <> nat ind
+binder 2372:2374 <> cnt:39
+R2383:2388 Coq.Strings.String <> string ind
+R2396:2398 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2411:2412 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2399:2406 Ionia.CodeGen.imp2c <> writeNat def
+R2408:2410 Ionia.CodeGen.imp2c <> cnt:39 var
+var 2426:2432 Imp2C str2fin
+R2446:2448 Coq.Init.Datatypes <> nat ind
+binder 2444:2444 <> n:40
+R2458:2461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2452:2457 Coq.Strings.String <> string ind
+R2462:2464 Ionia.Base.fin <> fin def
+R2466:2466 Ionia.CodeGen.imp2c <> n:40 var
+def 2513:2520 <> cnt_skip
+R2524:2526 Coq.Init.Datatypes <> nat ind
+def 2544:2550 <> applyps
+R2555:2560 Coq.Strings.String <> string ind
+binder 2553:2553 <> v:43
+R2567:2572 Ionia.CodeGen.imp2c <> pslist def
+binder 2564:2565 <> ps:44
+R2577:2582 Coq.Strings.String <> string ind
+R2595:2596 Ionia.CodeGen.imp2c <> ps:44 var
+R2608:2610 Coq.Init.Datatypes <> nil constr
+R2615:2615 Ionia.CodeGen.imp2c <> v:43 var
+R2622:2622 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2629:2631 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2623:2626 Ionia.CodeGen.imp2c <> Aidx constr
+R2638:2644 Ionia.CodeGen.imp2c <> applyps:45 def
+R2648:2650 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2647:2647 Ionia.CodeGen.imp2c <> v:43 var
+R2654:2655 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2656:2656 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2667:2669 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2657:2664 Ionia.CodeGen.imp2c <> writeNat def
+prf 2693:2703 <> applyps_nil
+binder 2713:2713 <> v:47
+R2731:2733 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2718:2724 Ionia.CodeGen.imp2c <> applyps def
+R2728:2730 Coq.Init.Datatypes <> nil constr
+R2726:2726 Ionia.CodeGen.imp2c <> v:47 var
+R2734:2734 Ionia.CodeGen.imp2c <> v:47 var
+prf 2762:2773 <> applyps_Aidx
+binder 2783:2783 <> v:48
+binder 2785:2786 <> tl:49
+binder 2788:2788 <> i:50
+R2817:2819 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2793:2799 Ionia.CodeGen.imp2c <> applyps def
+R2804:2804 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2811:2813 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2805:2808 Ionia.CodeGen.imp2c <> Aidx constr
+R2810:2810 Ionia.CodeGen.imp2c <> i:50 var
+R2814:2815 Ionia.CodeGen.imp2c <> tl:49 var
+R2801:2801 Ionia.CodeGen.imp2c <> v:48 var
+R2820:2826 Ionia.CodeGen.imp2c <> applyps def
+R2857:2858 Ionia.CodeGen.imp2c <> tl:49 var
+R2830:2832 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2829:2829 Ionia.CodeGen.imp2c <> v:48 var
+R2836:2837 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2838:2838 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2849:2851 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2839:2846 Ionia.CodeGen.imp2c <> writeNat def
+R2848:2848 Ionia.CodeGen.imp2c <> i:50 var
+var 2890:2898 Imp2C writeBool
+R2905:2908 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2901:2904 Coq.Init.Datatypes <> bool ind
+R2909:2914 Coq.Strings.String <> string ind
+var 2927:2932 Imp2C writeR
+R2936:2939 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2935:2935 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R2940:2945 Coq.Strings.String <> string ind
+var 2955:2960 Imp2C CGskip
+R2977:2979 Coq.Init.Datatypes <> nat ind
+binder 2973:2975 <> cnt:55
+R3002:3004 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2986:2992 Ionia.CodeGen.imp2c <> CG_comm defax
+R2999:3001 Ionia.CodeGen.imp2c <> cnt:55 var
+R2994:2997 Ionia.Progress.command <> skip def
+var 3026:3029 Imp2C CGif
+binder 3039:3039 <> b:58
+binder 3041:3042 <> c1:59
+binder 3044:3045 <> c2:60
+binder 3047:3049 <> cnt:61
+R3078:3081 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3054:3060 Ionia.CodeGen.imp2c <> CG_comm defax
+R3075:3077 Ionia.CodeGen.imp2c <> cnt:61 var
+R3063:3064 Ionia.Progress.command <> If def
+R3071:3072 Ionia.CodeGen.imp2c <> c2:60 var
+R3068:3069 Ionia.CodeGen.imp2c <> c1:59 var
+R3066:3066 Ionia.CodeGen.imp2c <> b:58 var
+R3088:3090 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3102:3103 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3091:3099 Ionia.CodeGen.imp2c <> writeBool defax
+R3101:3101 Ionia.CodeGen.imp2c <> b:58 var
+R3112:3115 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3130:3134 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3116:3122 Ionia.CodeGen.imp2c <> CG_comm defax
+R3127:3129 Ionia.CodeGen.imp2c <> cnt:61 var
+R3124:3125 Ionia.CodeGen.imp2c <> c1:59 var
+R3148:3151 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3166:3169 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3152:3158 Ionia.CodeGen.imp2c <> CG_comm defax
+R3163:3165 Ionia.CodeGen.imp2c <> cnt:61 var
+R3160:3161 Ionia.CodeGen.imp2c <> c2:60 var
+var 3182:3186 Imp2C CGseq
+R3205:3208 Ionia.Progress.command <> comm def
+binder 3199:3200 <> p1:64
+binder 3202:3203 <> p2:65
+R3216:3218 Coq.Init.Datatypes <> nat ind
+binder 3212:3214 <> cnt:66
+R3247:3253 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3225:3231 Ionia.CodeGen.imp2c <> CG_comm defax
+R3244:3246 Ionia.CodeGen.imp2c <> cnt:66 var
+R3236:3239 Ionia.Progress.command <> :::x_''';'_x not
+R3234:3235 Ionia.CodeGen.imp2c <> p1:64 var
+R3240:3241 Ionia.CodeGen.imp2c <> p2:65 var
+R3254:3254 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3269:3271 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3255:3261 Ionia.CodeGen.imp2c <> CG_comm defax
+R3266:3268 Ionia.CodeGen.imp2c <> cnt:66 var
+R3263:3264 Ionia.CodeGen.imp2c <> p1:64 var
+R3275:3277 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3294:3294 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3278:3284 Ionia.CodeGen.imp2c <> CG_comm defax
+R3290:3292 Ionia.CodeGen.imp2c <> cnt:66 var
+R3286:3287 Ionia.CodeGen.imp2c <> p2:65 var
+var 3304:3311 Imp2C CGassign
+R3325:3327 Ionia.Progress.data <> acc def
+R3329:3331 Ionia.Progress.data <> num constr
+binder 3323:3323 <> a:69
+R3337:3339 Ionia.Progress.data <> exp def
+R3341:3343 Ionia.Progress.data <> num constr
+binder 3335:3335 <> e:70
+R3351:3353 Coq.Init.Datatypes <> nat ind
+binder 3347:3349 <> cnt:71
+R3382:3388 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3361:3367 Ionia.CodeGen.imp2c <> CG_comm defax
+R3379:3381 Ionia.CodeGen.imp2c <> cnt:71 var
+R3371:3375 Ionia.Progress.command <> :::x_'|:='_x not
+R3370:3370 Ionia.CodeGen.imp2c <> a:69 var
+R3376:3376 Ionia.CodeGen.imp2c <> e:70 var
+R3389:3389 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3402:3405 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3390:3395 Ionia.CodeGen.imp2c <> CG_acc defax
+R3401:3401 Ionia.CodeGen.imp2c <> a:69 var
+R3397:3399 Coq.Init.Datatypes <> nil constr
+R3411:3414 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3415:3415 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3428:3430 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3416:3421 Ionia.CodeGen.imp2c <> CG_exp defax
+R3427:3427 Ionia.CodeGen.imp2c <> e:70 var
+R3423:3425 Coq.Init.Datatypes <> nil constr
+var 3444:3448 Imp2C CGnew
+R3462:3465 Ionia.Progress.data <> data ind
+binder 3460:3460 <> d:74
+R3476:3479 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3471:3473 Ionia.Progress.data <> acc def
+R3475:3475 Ionia.CodeGen.imp2c <> d:74 var
+R3480:3483 Ionia.Progress.command <> comm def
+binder 3469:3469 <> p:75
+R3488:3490 Ionia.Progress.data <> acc def
+R3492:3492 Ionia.CodeGen.imp2c <> d:74 var
+binder 3486:3486 <> a:76
+R3500:3502 Coq.Init.Datatypes <> nat ind
+binder 3496:3498 <> cnt:77
+R3530:3534 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3509:3515 Ionia.CodeGen.imp2c <> CG_comm defax
+R3527:3529 Ionia.CodeGen.imp2c <> cnt:77 var
+R3518:3520 Ionia.Progress.command <> new def
+R3524:3524 Ionia.CodeGen.imp2c <> a:76 var
+R3522:3522 Ionia.CodeGen.imp2c <> p:75 var
+R3557:3559 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3536:3542 Ionia.CodeGen.imp2c <> CG_data def
+R3544:3544 Ionia.CodeGen.imp2c <> d:74 var
+R3548:3551 Ionia.CodeGen.imp2c <> vstr def
+R3553:3555 Ionia.CodeGen.imp2c <> cnt:77 var
+R3564:3568 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3604:3604 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3569:3575 Ionia.CodeGen.imp2c <> CG_comm defax
+R3601:3601 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3598:3600 Ionia.CodeGen.imp2c <> cnt:77 var
+R3578:3578 Ionia.CodeGen.imp2c <> p:75 var
+R3580:3582 Ionia.CodeGen.imp2c <> vwt defax
+R3585:3588 Ionia.CodeGen.imp2c <> vstr def
+R3590:3592 Ionia.CodeGen.imp2c <> cnt:77 var
+var 3614:3618 Imp2C CGfor
+R3632:3634 Coq.Init.Datatypes <> nat ind
+binder 3630:3630 <> n:80
+R3645:3648 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3640:3642 Ionia.Base.fin <> fin def
+R3644:3644 Ionia.CodeGen.imp2c <> n:80 var
+R3649:3652 Ionia.Progress.command <> comm def
+binder 3638:3638 <> p:81
+R3660:3662 Coq.Init.Datatypes <> nat ind
+binder 3656:3658 <> cnt:82
+R3692:3694 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3668:3674 Ionia.CodeGen.imp2c <> CG_comm defax
+R3689:3691 Ionia.CodeGen.imp2c <> cnt:82 var
+R3677:3684 Ionia.Progress.command <> comm_seq def
+R3686:3686 Ionia.CodeGen.imp2c <> p:81 var
+R3705:3706 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3707:3707 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3716:3718 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3708:3711 Ionia.CodeGen.imp2c <> istr def
+R3713:3715 Ionia.CodeGen.imp2c <> cnt:82 var
+R3725:3726 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3727:3727 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3736:3738 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3728:3731 Ionia.CodeGen.imp2c <> istr def
+R3733:3735 Ionia.CodeGen.imp2c <> cnt:82 var
+R3742:3748 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3749:3749 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3760:3762 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3750:3757 Ionia.CodeGen.imp2c <> writeNat def
+R3759:3759 Ionia.CodeGen.imp2c <> n:80 var
+R3767:3768 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3769:3769 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3778:3780 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3770:3773 Ionia.CodeGen.imp2c <> istr def
+R3775:3777 Ionia.CodeGen.imp2c <> cnt:82 var
+R3795:3798 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3799:3799 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3841:3845 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3800:3806 Ionia.CodeGen.imp2c <> CG_comm defax
+R3838:3838 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3835:3837 Ionia.CodeGen.imp2c <> cnt:82 var
+R3809:3809 Ionia.CodeGen.imp2c <> p:81 var
+R3812:3818 Ionia.CodeGen.imp2c <> str2fin defax
+R3822:3825 Ionia.CodeGen.imp2c <> istr def
+R3827:3829 Ionia.CodeGen.imp2c <> cnt:82 var
+R3820:3820 Ionia.CodeGen.imp2c <> n:80 var
+var 3858:3865 Imp2C CGparfor
+R3879:3881 Coq.Init.Datatypes <> nat ind
+binder 3877:3877 <> n:85
+R3887:3890 Ionia.Progress.data <> data ind
+binder 3885:3885 <> d:86
+R3896:3898 Ionia.Progress.data <> acc def
+R3901:3903 Ionia.Progress.data <> ary constr
+R3910:3910 Ionia.CodeGen.imp2c <> d:86 var
+R3905:3906 Ionia.Base.fle <> :::'''{'_x_'}' not
+R3908:3908 Ionia.Base.fle <> :::'''{'_x_'}' not
+R3907:3907 Ionia.CodeGen.imp2c <> n:85 var
+binder 3894:3894 <> a:87
+R3925:3928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3920:3922 Ionia.Base.fin <> fin def
+R3924:3924 Ionia.CodeGen.imp2c <> n:85 var
+R3934:3937 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3929:3931 Ionia.Progress.data <> acc def
+R3933:3933 Ionia.CodeGen.imp2c <> d:86 var
+R3938:3941 Ionia.Progress.command <> comm def
+binder 3918:3918 <> p:88
+R3949:3951 Coq.Init.Datatypes <> nat ind
+binder 3945:3947 <> cnt:89
+R3983:3985 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3957:3963 Ionia.CodeGen.imp2c <> CG_comm defax
+R3980:3982 Ionia.CodeGen.imp2c <> cnt:89 var
+R3966:3973 Ionia.Progress.command <> comm_par def
+R3977:3977 Ionia.CodeGen.imp2c <> p:88 var
+R3975:3975 Ionia.CodeGen.imp2c <> a:87 var
+R4022:4023 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4024:4024 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4033:4035 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4025:4028 Ionia.CodeGen.imp2c <> istr def
+R4030:4032 Ionia.CodeGen.imp2c <> cnt:89 var
+R4042:4043 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4044:4044 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4053:4055 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4045:4048 Ionia.CodeGen.imp2c <> istr def
+R4050:4052 Ionia.CodeGen.imp2c <> cnt:89 var
+R4061:4067 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4068:4068 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4079:4081 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4069:4076 Ionia.CodeGen.imp2c <> writeNat def
+R4078:4078 Ionia.CodeGen.imp2c <> n:85 var
+R4086:4087 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4088:4088 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4097:4099 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4089:4092 Ionia.CodeGen.imp2c <> istr def
+R4094:4096 Ionia.CodeGen.imp2c <> cnt:89 var
+R4114:4117 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4118:4118 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4201:4205 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4119:4125 Ionia.CodeGen.imp2c <> CG_comm defax
+R4198:4198 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4195:4197 Ionia.CodeGen.imp2c <> cnt:89 var
+R4134:4134 Ionia.CodeGen.imp2c <> p:88 var
+R4166:4168 Ionia.Progress.data <> :::x_'|{'_x_'}' not
+R4189:4190 Ionia.Progress.data <> :::x_'|{'_x_'}' not
+R4165:4165 Ionia.CodeGen.imp2c <> a:87 var
+R4169:4175 Ionia.CodeGen.imp2c <> str2fin defax
+R4180:4183 Ionia.CodeGen.imp2c <> istr def
+R4185:4187 Ionia.CodeGen.imp2c <> cnt:89 var
+R4177:4177 Ionia.CodeGen.imp2c <> n:85 var
+R4137:4143 Ionia.CodeGen.imp2c <> str2fin defax
+R4148:4151 Ionia.CodeGen.imp2c <> istr def
+R4153:4155 Ionia.CodeGen.imp2c <> cnt:89 var
+R4145:4145 Ionia.CodeGen.imp2c <> n:85 var
+var 4218:4225 Imp2C CGaccvar
+R4239:4242 Ionia.Progress.data <> data ind
+binder 4237:4237 <> d:92
+R4248:4253 Coq.Strings.String <> string ind
+binder 4246:4246 <> a:93
+R4260:4265 Ionia.CodeGen.imp2c <> pslist def
+binder 4257:4258 <> ps:94
+R4293:4295 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4274:4279 Ionia.CodeGen.imp2c <> CG_acc defax
+R4281:4281 Ionia.CodeGen.imp2c <> d:92 var
+R4283:4284 Ionia.CodeGen.imp2c <> ps:94 var
+R4287:4289 Ionia.CodeGen.imp2c <> vwt defax
+R4291:4291 Ionia.CodeGen.imp2c <> a:93 var
+R4296:4302 Ionia.CodeGen.imp2c <> applyps def
+R4306:4307 Ionia.CodeGen.imp2c <> ps:94 var
+R4304:4304 Ionia.CodeGen.imp2c <> a:93 var
+var 4317:4324 Imp2C CGidxAcc
+R4338:4341 Ionia.Progress.data <> data ind
+binder 4336:4336 <> d:97
+R4347:4349 Coq.Init.Datatypes <> nat ind
+binder 4345:4345 <> n:98
+R4355:4357 Ionia.Progress.data <> acc def
+R4360:4362 Ionia.Progress.data <> ary constr
+R4369:4369 Ionia.CodeGen.imp2c <> d:97 var
+R4364:4365 Ionia.Base.fle <> :::'''{'_x_'}' not
+R4367:4367 Ionia.Base.fle <> :::'''{'_x_'}' not
+R4366:4366 Ionia.CodeGen.imp2c <> n:98 var
+binder 4353:4353 <> a:99
+R4376:4378 Ionia.Base.fin <> fin def
+R4380:4380 Ionia.CodeGen.imp2c <> n:98 var
+binder 4374:4374 <> i:100
+R4387:4392 Ionia.CodeGen.imp2c <> pslist def
+binder 4384:4385 <> ps:101
+R4416:4418 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4398:4403 Ionia.CodeGen.imp2c <> CG_acc defax
+R4410:4412 Ionia.Progress.data <> :::x_'|{'_x_'}' not
+R4414:4414 Ionia.Progress.data <> :::x_'|{'_x_'}' not
+R4409:4409 Ionia.CodeGen.imp2c <> a:99 var
+R4413:4413 Ionia.CodeGen.imp2c <> i:100 var
+R4405:4406 Ionia.CodeGen.imp2c <> ps:101 var
+R4419:4424 Ionia.CodeGen.imp2c <> CG_acc defax
+R4441:4441 Ionia.CodeGen.imp2c <> a:99 var
+R4433:4436 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4427:4430 Ionia.CodeGen.imp2c <> Aidx constr
+R4432:4432 Ionia.CodeGen.imp2c <> i:100 var
+R4437:4438 Ionia.CodeGen.imp2c <> ps:101 var
+prf 4451:4456 <> CGaccp
+R4472:4474 Ionia.Progress.data <> acc def
+R4476:4478 Ionia.Progress.data <> num constr
+binder 4468:4468 <> a:104
+R4495:4497 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4485:4488 Ionia.Progress.data <> accp def
+R4490:4492 Ionia.Progress.data <> num constr
+R4494:4494 Ionia.CodeGen.imp2c <> a:104 var
+R4498:4498 Ionia.CodeGen.imp2c <> a:104 var
+var 4543:4550 Imp2C CGexpvar
+R4564:4567 Ionia.Progress.data <> data ind
+binder 4562:4562 <> d:105
+R4573:4578 Coq.Strings.String <> string ind
+binder 4571:4571 <> x:106
+R4585:4590 Ionia.CodeGen.imp2c <> pslist def
+binder 4582:4583 <> ps:107
+R4618:4620 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4599:4604 Ionia.CodeGen.imp2c <> CG_exp defax
+R4606:4606 Ionia.CodeGen.imp2c <> d:105 var
+R4608:4609 Ionia.CodeGen.imp2c <> ps:107 var
+R4612:4614 Ionia.CodeGen.imp2c <> vrd defax
+R4616:4616 Ionia.CodeGen.imp2c <> x:106 var
+R4621:4627 Ionia.CodeGen.imp2c <> applyps def
+R4631:4632 Ionia.CodeGen.imp2c <> ps:107 var
+R4629:4629 Ionia.CodeGen.imp2c <> x:106 var
+var 4642:4646 Imp2C CGneg
+R4660:4662 Ionia.Progress.data <> exp def
+R4664:4666 Ionia.Progress.data <> num constr
+binder 4658:4658 <> e:110
+R4693:4695 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4672:4677 Ionia.CodeGen.imp2c <> CG_exp defax
+R4684:4689 Ionia.Progress.rule <> negate def
+R4691:4691 Ionia.CodeGen.imp2c <> e:110 var
+R4679:4681 Coq.Init.Datatypes <> nil constr
+R4701:4702 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4703:4703 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4716:4718 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4704:4709 Ionia.CodeGen.imp2c <> CG_exp defax
+R4715:4715 Ionia.CodeGen.imp2c <> e:110 var
+R4711:4713 Coq.Init.Datatypes <> nil constr
+var 4731:4735 Imp2C CGadd
+R4755:4757 Ionia.Progress.data <> exp def
+R4759:4761 Ionia.Progress.data <> num constr
+binder 4747:4748 <> e1:113
+binder 4750:4751 <> e2:114
+R4789:4793 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4767:4772 Ionia.CodeGen.imp2c <> CG_exp defax
+R4779:4781 Ionia.Progress.rule <> add def
+R4786:4787 Ionia.CodeGen.imp2c <> e2:114 var
+R4783:4784 Ionia.CodeGen.imp2c <> e1:113 var
+R4774:4776 Coq.Init.Datatypes <> nil constr
+R4797:4798 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4799:4799 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4813:4815 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4800:4805 Ionia.CodeGen.imp2c <> CG_exp defax
+R4811:4812 Ionia.CodeGen.imp2c <> e1:113 var
+R4807:4809 Coq.Init.Datatypes <> nil constr
+R4821:4822 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4823:4823 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4837:4839 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4824:4829 Ionia.CodeGen.imp2c <> CG_exp defax
+R4835:4836 Ionia.CodeGen.imp2c <> e2:114 var
+R4831:4833 Coq.Init.Datatypes <> nil constr
+var 4852:4856 Imp2C CGsub
+R4876:4878 Ionia.Progress.data <> exp def
+R4880:4882 Ionia.Progress.data <> num constr
+binder 4868:4869 <> e1:117
+binder 4871:4872 <> e2:118
+R4910:4914 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4888:4893 Ionia.CodeGen.imp2c <> CG_exp defax
+R4900:4902 Ionia.Progress.rule <> sub def
+R4907:4908 Ionia.CodeGen.imp2c <> e2:118 var
+R4904:4905 Ionia.CodeGen.imp2c <> e1:117 var
+R4895:4897 Coq.Init.Datatypes <> nil constr
+R4918:4919 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4920:4920 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4934:4936 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4921:4926 Ionia.CodeGen.imp2c <> CG_exp defax
+R4932:4933 Ionia.CodeGen.imp2c <> e1:117 var
+R4928:4930 Coq.Init.Datatypes <> nil constr
+R4942:4943 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4944:4944 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4958:4960 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4945:4950 Ionia.CodeGen.imp2c <> CG_exp defax
+R4956:4957 Ionia.CodeGen.imp2c <> e2:118 var
+R4952:4954 Coq.Init.Datatypes <> nil constr
+var 4973:4977 Imp2C CGmul
+R4997:4999 Ionia.Progress.data <> exp def
+R5001:5003 Ionia.Progress.data <> num constr
+binder 4989:4990 <> e1:121
+binder 4992:4993 <> e2:122
+R5031:5035 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5009:5014 Ionia.CodeGen.imp2c <> CG_exp defax
+R5021:5023 Ionia.Progress.rule <> mul def
+R5028:5029 Ionia.CodeGen.imp2c <> e2:122 var
+R5025:5026 Ionia.CodeGen.imp2c <> e1:121 var
+R5016:5018 Coq.Init.Datatypes <> nil constr
+R5039:5040 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5041:5041 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5055:5057 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5042:5047 Ionia.CodeGen.imp2c <> CG_exp defax
+R5053:5054 Ionia.CodeGen.imp2c <> e1:121 var
+R5049:5051 Coq.Init.Datatypes <> nil constr
+R5063:5064 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5065:5065 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5079:5081 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5066:5071 Ionia.CodeGen.imp2c <> CG_exp defax
+R5077:5078 Ionia.CodeGen.imp2c <> e2:122 var
+R5073:5075 Coq.Init.Datatypes <> nil constr
+var 5094:5098 Imp2C CGdiv
+R5118:5120 Ionia.Progress.data <> exp def
+R5122:5124 Ionia.Progress.data <> num constr
+binder 5110:5111 <> e1:125
+binder 5113:5114 <> e2:126
+R5152:5156 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5130:5135 Ionia.CodeGen.imp2c <> CG_exp defax
+R5142:5144 Ionia.Progress.rule <> div def
+R5149:5150 Ionia.CodeGen.imp2c <> e2:126 var
+R5146:5147 Ionia.CodeGen.imp2c <> e1:125 var
+R5137:5139 Coq.Init.Datatypes <> nil constr
+R5160:5161 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5162:5162 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5176:5178 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5163:5168 Ionia.CodeGen.imp2c <> CG_exp defax
+R5174:5175 Ionia.CodeGen.imp2c <> e1:125 var
+R5170:5172 Coq.Init.Datatypes <> nil constr
+R5186:5187 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5188:5188 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5202:5204 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5189:5194 Ionia.CodeGen.imp2c <> CG_exp defax
+R5200:5201 Ionia.CodeGen.imp2c <> e2:126 var
+R5196:5198 Coq.Init.Datatypes <> nil constr
+var 5217:5222 Imp2C CGdivn
+R5239:5241 Ionia.Progress.data <> exp def
+R5243:5245 Ionia.Progress.data <> num constr
+binder 5234:5235 <> e1:129
+R5251:5253 Coq.Init.Datatypes <> nat ind
+binder 5248:5249 <> e2:130
+R5282:5286 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5259:5264 Ionia.CodeGen.imp2c <> CG_exp defax
+R5271:5274 Ionia.Progress.rule <> divn def
+R5279:5280 Ionia.CodeGen.imp2c <> e2:130 var
+R5276:5277 Ionia.CodeGen.imp2c <> e1:129 var
+R5266:5268 Coq.Init.Datatypes <> nil constr
+R5291:5292 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5293:5293 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5307:5309 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5294:5299 Ionia.CodeGen.imp2c <> CG_exp defax
+R5305:5306 Ionia.CodeGen.imp2c <> e1:129 var
+R5301:5303 Coq.Init.Datatypes <> nil constr
+R5317:5318 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5319:5319 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5331:5333 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5320:5327 Ionia.CodeGen.imp2c <> writeNat def
+R5329:5330 Ionia.CodeGen.imp2c <> e2:130 var
+var 5347:5352 Imp2C CGscal
+R5367:5367 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5364:5365 <> e1:133
+R5375:5377 Ionia.Progress.data <> exp def
+R5379:5381 Ionia.Progress.data <> num constr
+binder 5370:5371 <> e2:134
+R5410:5414 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5387:5392 Ionia.CodeGen.imp2c <> CG_exp defax
+R5399:5402 Ionia.Progress.rule <> scal def
+R5407:5408 Ionia.CodeGen.imp2c <> e2:134 var
+R5404:5405 Ionia.CodeGen.imp2c <> e1:133 var
+R5394:5396 Coq.Init.Datatypes <> nil constr
+R5418:5420 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5421:5421 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5431:5434 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5422:5427 Ionia.CodeGen.imp2c <> writeR defax
+R5429:5430 Ionia.CodeGen.imp2c <> e1:133 var
+R5440:5441 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5442:5442 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5456:5458 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5443:5448 Ionia.CodeGen.imp2c <> CG_exp defax
+R5454:5455 Ionia.CodeGen.imp2c <> e2:134 var
+R5450:5452 Coq.Init.Datatypes <> nil constr
+var 5471:5476 Imp2C CGepow
+R5491:5493 Ionia.Progress.data <> exp def
+R5495:5497 Ionia.Progress.data <> num constr
+binder 5487:5487 <> e:137
+R5521:5523 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5502:5507 Ionia.CodeGen.imp2c <> CG_exp defax
+R5514:5517 Ionia.Progress.rule <> epow def
+R5519:5519 Ionia.CodeGen.imp2c <> e:137 var
+R5509:5511 Coq.Init.Datatypes <> nil constr
+R5530:5531 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5532:5532 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5545:5547 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5533:5538 Ionia.CodeGen.imp2c <> CG_exp defax
+R5544:5544 Ionia.CodeGen.imp2c <> e:137 var
+R5540:5542 Coq.Init.Datatypes <> nil constr
+var 5560:5563 Imp2C CGln
+R5577:5579 Ionia.Progress.data <> exp def
+R5581:5583 Ionia.Progress.data <> num constr
+binder 5575:5575 <> e:140
+R5606:5608 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5589:5594 Ionia.CodeGen.imp2c <> CG_exp defax
+R5601:5602 Ionia.Progress.rule <> ln def
+R5604:5604 Ionia.CodeGen.imp2c <> e:140 var
+R5596:5598 Coq.Init.Datatypes <> nil constr
+R5616:5617 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5618:5618 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5631:5633 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5619:5624 Ionia.CodeGen.imp2c <> CG_exp defax
+R5630:5630 Ionia.CodeGen.imp2c <> e:140 var
+R5626:5628 Coq.Init.Datatypes <> nil constr
+var 5647:5654 Imp2C wtStrNat
+R5668:5673 Coq.Strings.String <> string ind
+binder 5666:5666 <> s:143
+R5697:5699 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5677:5684 Ionia.CodeGen.imp2c <> writeNat def
+R5687:5693 Ionia.CodeGen.imp2c <> str2nat defax
+R5695:5695 Ionia.CodeGen.imp2c <> s:143 var
+R5700:5700 Ionia.CodeGen.imp2c <> s:143 var
+var 5710:5714 Imp2C CGidx
+R5728:5731 Ionia.Progress.data <> data ind
+binder 5726:5726 <> d:146
+R5737:5739 Coq.Init.Datatypes <> nat ind
+binder 5735:5735 <> n:147
+R5745:5747 Ionia.Progress.data <> exp def
+R5750:5752 Ionia.Progress.data <> ary constr
+R5759:5759 Ionia.CodeGen.imp2c <> d:146 var
+R5754:5755 Ionia.Base.fle <> :::'''{'_x_'}' not
+R5757:5757 Ionia.Base.fle <> :::'''{'_x_'}' not
+R5756:5756 Ionia.CodeGen.imp2c <> n:147 var
+binder 5743:5743 <> e:148
+R5770:5772 Ionia.Base.fin <> fin def
+R5774:5774 Ionia.CodeGen.imp2c <> n:147 var
+binder 5767:5767 <> i:149
+R5781:5786 Ionia.CodeGen.imp2c <> pslist def
+binder 5778:5779 <> ps:150
+R5810:5812 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5792:5797 Ionia.CodeGen.imp2c <> CG_exp defax
+R5804:5806 Ionia.Progress.data <> :::x_'|['_x_']' not
+R5808:5808 Ionia.Progress.data <> :::x_'|['_x_']' not
+R5803:5803 Ionia.CodeGen.imp2c <> e:148 var
+R5807:5807 Ionia.CodeGen.imp2c <> i:149 var
+R5799:5800 Ionia.CodeGen.imp2c <> ps:150 var
+R5813:5818 Ionia.CodeGen.imp2c <> CG_exp defax
+R5833:5833 Ionia.CodeGen.imp2c <> e:148 var
+R5827:5828 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5821:5824 Ionia.CodeGen.imp2c <> Aidx constr
+R5826:5826 Ionia.CodeGen.imp2c <> i:149 var
+R5829:5830 Ionia.CodeGen.imp2c <> ps:150 var
+var 5843:5860 Imp2C exp_default_simpl1
+R5879:5881 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5864:5874 Ionia.Progress.data <> exp_default def
+R5876:5878 Ionia.Progress.data <> num constr
+R5882:5884 Ionia.CodeGen.imp2c <> vrd defax
+var 5897:5904 Imp2C exp_zero
+R5911:5913 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5907:5910 Ionia.Progress.rule <> zero def
+R5914:5916 Ionia.CodeGen.imp2c <> vrd defax
+var 5929:5935 Imp2C exp_one
+R5941:5943 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5938:5940 Ionia.Progress.rule <> one def
+R5944:5946 Ionia.CodeGen.imp2c <> vrd defax
+prf 5960:5977 <> exp_default_simpl2
+binder 5987:5987 <> n:159
+binder 5989:5989 <> d:160
+R6020:6022 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5996:6006 Ionia.Progress.data <> exp_default def
+R6009:6011 Ionia.Progress.data <> ary constr
+R6018:6018 Ionia.CodeGen.imp2c <> d:160 var
+R6013:6014 Ionia.Base.fle <> :::'''{'_x_'}' not
+R6016:6016 Ionia.Base.fle <> :::'''{'_x_'}' not
+R6015:6015 Ionia.CodeGen.imp2c <> n:159 var
+R6023:6030 Ionia.Progress.data <> seq_make def
+binder 6037:6037 <> i:161
+R6042:6052 Ionia.Progress.data <> exp_default def
+var 6082:6086 Imp2C CGleb
+R6105:6107 Ionia.Progress.data <> exp def
+R6109:6111 Ionia.Progress.data <> num constr
+binder 6097:6098 <> e1:162
+binder 6100:6101 <> e2:163
+R6138:6142 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6117:6125 Ionia.CodeGen.imp2c <> writeBool defax
+R6128:6130 Ionia.Progress.rule <> leb def
+R6135:6136 Ionia.CodeGen.imp2c <> e2:163 var
+R6132:6133 Ionia.CodeGen.imp2c <> e1:162 var
+R6143:6143 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R6157:6159 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R6144:6149 Ionia.CodeGen.imp2c <> CG_exp defax
+R6155:6156 Ionia.CodeGen.imp2c <> e1:162 var
+R6151:6153 Coq.Init.Datatypes <> nil constr
+R6166:6168 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R6182:6182 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R6169:6174 Ionia.CodeGen.imp2c <> CG_exp defax
+R6180:6181 Ionia.CodeGen.imp2c <> e2:163 var
+R6176:6178 Coq.Init.Datatypes <> nil constr
+var 6192:6196 Imp2C CGgtb
+R6216:6218 Ionia.Progress.data <> exp def
+R6220:6222 Ionia.Progress.data <> num constr
+binder 6208:6209 <> e1:166
+binder 6211:6212 <> e2:167
+R6249:6253 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6228:6236 Ionia.CodeGen.imp2c <> writeBool defax
+R6239:6241 Ionia.Progress.rule <> gtb def
+R6246:6247 Ionia.CodeGen.imp2c <> e2:167 var
+R6243:6244 Ionia.CodeGen.imp2c <> e1:166 var
+R6254:6254 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R6268:6270 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R6255:6260 Ionia.CodeGen.imp2c <> CG_exp defax
+R6266:6267 Ionia.CodeGen.imp2c <> e1:166 var
+R6262:6264 Coq.Init.Datatypes <> nil constr
+R6276:6278 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R6292:6292 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R6279:6284 Ionia.CodeGen.imp2c <> CG_exp defax
+R6290:6291 Ionia.CodeGen.imp2c <> e2:167 var
+R6286:6288 Coq.Init.Datatypes <> nil constr
+var 6304:6309 Imp2C CGrand
+R6331:6333 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6314:6319 Ionia.CodeGen.imp2c <> CG_exp defax
+R6326:6329 Ionia.Progress.rule <> rand defax
+R6321:6323 Coq.Init.Datatypes <> nil constr
+var 6382:6389 Imp2C CGaccess
+binder 6399:6399 <> d:172
+R6407:6409 Ionia.Progress.command <> env def
+binder 6403:6405 <> eta:173
+R6415:6417 Coq.Init.Datatypes <> nat ind
+binder 6412:6412 <> i:174
+R6450:6453 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6422:6428 Ionia.CodeGen.fun2imp <> accessd def
+R6437:6439 Ionia.CodeGen.imp2c <> vwt defax
+R6442:6445 Ionia.CodeGen.imp2c <> vstr def
+R6447:6447 Ionia.CodeGen.imp2c <> i:174 var
+R6432:6434 Ionia.CodeGen.imp2c <> eta:173 var
+R6430:6430 Ionia.CodeGen.imp2c <> d:172 var
+R6455:6457 Ionia.CodeGen.imp2c <> vrd defax
+R6459:6459 Ionia.CodeGen.imp2c <> d:172 var
+R6462:6465 Ionia.CodeGen.imp2c <> vstr def
+R6467:6467 Ionia.CodeGen.imp2c <> i:174 var
+var 6478:6482 Imp2C CGenv
+R6498:6501 Ionia.Progress.command <> comm def
+binder 6494:6494 <> c:177
+R6537:6539 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6505:6511 Ionia.CodeGen.imp2c <> CG_comm defax
+R6524:6526 Ionia.Progress.command <> env def
+binder 6518:6520 <> eta:178
+R6531:6531 Ionia.CodeGen.imp2c <> c:177 var
+R6533:6535 Ionia.CodeGen.imp2c <> eta:178 var
+R6540:6546 Ionia.CodeGen.imp2c <> CG_comm defax
+R6549:6549 Ionia.CodeGen.imp2c <> c:177 var
+prf 6560:6567 <> CGenv_eq
+R6587:6590 Ionia.Progress.command <> comm def
+binder 6579:6580 <> c1:181
+binder 6582:6583 <> c2:182
+R6603:6606 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6598:6600 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6596:6597 Ionia.CodeGen.imp2c <> c1:181 var
+R6601:6602 Ionia.CodeGen.imp2c <> c2:182 var
+R6634:6636 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6607:6613 Ionia.CodeGen.imp2c <> CG_comm defax
+binder 6620:6622 <> env:183
+R6627:6628 Ionia.CodeGen.imp2c <> c1:181 var
+R6630:6632 Ionia.CodeGen.imp2c <> env:183 var
+R6637:6643 Ionia.CodeGen.imp2c <> CG_comm defax
+binder 6650:6652 <> env:184
+R6657:6658 Ionia.CodeGen.imp2c <> c2:182 var
+R6660:6662 Ionia.CodeGen.imp2c <> env:184 var
+var 6710:6712 Imp2C Vrd
+binder 6722:6722 <> d:185
+R6731:6734 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6726:6728 Ionia.Progress.data <> acc def
+R6730:6730 Ionia.CodeGen.imp2c <> d:185 var
+R6735:6737 Ionia.Progress.data <> exp def
+R6739:6739 Ionia.CodeGen.imp2c <> d:185 var
+var 6749:6753 Imp2C CGVrd
+R6766:6769 Ionia.Progress.data <> data ind
+binder 6764:6764 <> d:188
+R6775:6777 Ionia.Progress.data <> acc def
+R6779:6779 Ionia.CodeGen.imp2c <> d:188 var
+binder 6773:6773 <> a:189
+binder 6782:6783 <> ps:190
+R6805:6807 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6788:6793 Ionia.CodeGen.imp2c <> CG_exp defax
+R6799:6801 Ionia.CodeGen.imp2c <> Vrd defax
+R6803:6803 Ionia.CodeGen.imp2c <> a:189 var
+R6795:6796 Ionia.CodeGen.imp2c <> ps:190 var
+R6808:6813 Ionia.CodeGen.imp2c <> CG_acc defax
+R6818:6818 Ionia.CodeGen.imp2c <> a:189 var
+R6815:6816 Ionia.CodeGen.imp2c <> ps:190 var
+var 6828:6832 Imp2C CGVar
+R6845:6848 Ionia.Progress.data <> data ind
+binder 6843:6843 <> d:193
+R6854:6859 Coq.Strings.String <> string ind
+binder 6852:6852 <> s:194
+R6880:6882 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6866:6869 Ionia.Progress.data <> accp def
+R6871:6871 Ionia.CodeGen.imp2c <> d:193 var
+R6874:6876 Ionia.Progress.data <> Var constr
+R6878:6878 Ionia.CodeGen.imp2c <> s:194 var
+R6883:6885 Ionia.CodeGen.imp2c <> vwt defax
+R6887:6887 Ionia.CodeGen.imp2c <> s:194 var
+var 6899:6907 Imp2C CGenv_new
+R6921:6924 Ionia.Progress.data <> data ind
+binder 6919:6919 <> d:197
+R6935:6938 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6930:6932 Ionia.Progress.data <> acc def
+R6934:6934 Ionia.CodeGen.imp2c <> d:197 var
+R6939:6942 Ionia.Progress.command <> comm def
+binder 6928:6928 <> p:198
+R6947:6949 Ionia.Progress.data <> acc def
+R6951:6951 Ionia.CodeGen.imp2c <> d:197 var
+binder 6945:6945 <> a:199
+R6959:6961 Coq.Init.Datatypes <> nat ind
+binder 6955:6957 <> cnt:200
+R7010:7014 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6968:6974 Ionia.CodeGen.imp2c <> CG_comm defax
+R7007:7009 Ionia.CodeGen.imp2c <> cnt:200 var
+R6985:6987 Ionia.Progress.command <> env def
+binder 6981:6983 <> eta:201
+R6993:6995 Ionia.Progress.command <> new def
+R6999:6999 Ionia.CodeGen.imp2c <> a:199 var
+R6997:6997 Ionia.CodeGen.imp2c <> p:198 var
+R7002:7004 Ionia.CodeGen.imp2c <> eta:201 var
+R7037:7039 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7016:7022 Ionia.CodeGen.imp2c <> CG_data def
+R7024:7024 Ionia.CodeGen.imp2c <> d:197 var
+R7028:7031 Ionia.CodeGen.imp2c <> vstr def
+R7033:7035 Ionia.CodeGen.imp2c <> cnt:200 var
+R7044:7048 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7084:7084 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7049:7055 Ionia.CodeGen.imp2c <> CG_comm defax
+R7081:7081 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R7078:7080 Ionia.CodeGen.imp2c <> cnt:200 var
+R7058:7058 Ionia.CodeGen.imp2c <> p:198 var
+R7060:7062 Ionia.CodeGen.imp2c <> vwt defax
+R7065:7068 Ionia.CodeGen.imp2c <> vstr def
+R7070:7072 Ionia.CodeGen.imp2c <> cnt:200 var
+var 7094:7102 Imp2C CGenv_Sum
+binder 7114:7114 <> n:204
+R7122:7124 Ionia.Progress.data <> acc def
+R7127:7129 Ionia.Progress.data <> ary constr
+R7136:7138 Ionia.Progress.data <> num constr
+R7131:7132 Ionia.Base.fle <> :::'''{'_x_'}' not
+R7134:7134 Ionia.Base.fle <> :::'''{'_x_'}' not
+R7133:7133 Ionia.CodeGen.imp2c <> n:204 var
+binder 7118:7118 <> a:205
+binder 7142:7142 <> f:206
+binder 7144:7144 <> c:207
+R7150:7153 Ionia.Progress.data <> path ind
+binder 7147:7147 <> p:208
+binder 7156:7158 <> cnt:209
+R7244:7249 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7163:7169 Ionia.CodeGen.imp2c <> CG_comm defax
+R7241:7243 Ionia.CodeGen.imp2c <> cnt:209 var
+R7182:7184 Ionia.Progress.command <> env def
+binder 7176:7178 <> eta:210
+R7190:7192 Ionia.CodeGen.fun2imp <> Sum def
+R7233:7233 Ionia.CodeGen.imp2c <> p:208 var
+R7231:7231 Ionia.CodeGen.imp2c <> c:207 var
+R7229:7229 Ionia.CodeGen.imp2c <> f:206 var
+R7195:7201 Ionia.CodeGen.fun2imp <> accessd def
+R7222:7222 Ionia.CodeGen.imp2c <> a:205 var
+R7218:7220 Ionia.CodeGen.imp2c <> eta:210 var
+R7204:7206 Ionia.Progress.data <> ary constr
+R7213:7215 Ionia.Progress.data <> num constr
+R7208:7209 Ionia.Base.fle <> :::'''{'_x_'}' not
+R7211:7211 Ionia.Base.fle <> :::'''{'_x_'}' not
+R7210:7210 Ionia.CodeGen.imp2c <> n:204 var
+R7236:7238 Ionia.CodeGen.imp2c <> eta:210 var
+R7274:7277 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7250:7256 Ionia.CodeGen.imp2c <> CG_data def
+R7265:7268 Ionia.CodeGen.imp2c <> vstr def
+R7270:7272 Ionia.CodeGen.imp2c <> cnt:209 var
+R7259:7261 Ionia.Progress.data <> num constr
+R7284:7289 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7334:7337 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7290:7296 Ionia.CodeGen.imp2c <> CG_comm defax
+R7329:7331 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R7326:7328 Ionia.CodeGen.imp2c <> cnt:209 var
+R7299:7299 Ionia.CodeGen.fun2imp <> A def
+R7301:7301 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7316:7317 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7322:7322 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7302:7304 Ionia.CodeGen.imp2c <> vwt defax
+R7307:7310 Ionia.CodeGen.imp2c <> vstr def
+R7312:7314 Ionia.CodeGen.imp2c <> cnt:209 var
+R7318:7321 Ionia.Progress.rule <> zero def
+R7344:7349 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7488:7491 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7350:7356 Ionia.CodeGen.imp2c <> CG_comm defax
+R7483:7485 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R7480:7482 Ionia.CodeGen.imp2c <> cnt:209 var
+R7359:7366 Ionia.Progress.command <> comm_seq def
+R7377:7379 Ionia.Base.fin <> fin def
+R7381:7381 Ionia.CodeGen.imp2c <> n:204 var
+binder 7373:7373 <> i:211
+R7397:7399 Ionia.Progress.command <> env def
+binder 7391:7393 <> eta:212
+R7408:7408 Ionia.CodeGen.imp2c <> f:206 var
+R7411:7413 Ionia.Progress.rule <> add def
+R7428:7430 Ionia.CodeGen.imp2c <> Vrd defax
+R7433:7435 Ionia.CodeGen.imp2c <> vwt defax
+R7438:7441 Ionia.CodeGen.imp2c <> vstr def
+R7443:7445 Ionia.CodeGen.imp2c <> cnt:209 var
+R7415:7415 Ionia.Progress.data <> :::x_'|['_x_']' not
+R7421:7423 Ionia.Progress.data <> :::x_'|['_x_']' not
+R7425:7425 Ionia.Progress.data <> :::x_'|['_x_']' not
+R7416:7418 Ionia.CodeGen.imp2c <> Vrd defax
+R7420:7420 Ionia.CodeGen.imp2c <> a:205 var
+R7424:7424 Ionia.CodeGen.imp2c <> i:211 var
+R7452:7454 Ionia.CodeGen.imp2c <> vwt defax
+R7457:7460 Ionia.CodeGen.imp2c <> vstr def
+R7462:7464 Ionia.CodeGen.imp2c <> cnt:209 var
+R7473:7475 Ionia.CodeGen.imp2c <> eta:212 var
+R7499:7505 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7506:7512 Ionia.CodeGen.imp2c <> CG_comm defax
+R7559:7561 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R7556:7558 Ionia.CodeGen.imp2c <> cnt:209 var
+R7515:7515 Ionia.CodeGen.fun2imp <> A def
+R7518:7518 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7530:7531 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7552:7552 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7520:7523 Ionia.Progress.data <> accp def
+R7525:7527 Ionia.Progress.data <> num constr
+R7529:7529 Ionia.CodeGen.imp2c <> p:208 var
+R7532:7534 Ionia.CodeGen.imp2c <> Vrd defax
+R7537:7539 Ionia.CodeGen.imp2c <> vwt defax
+R7542:7545 Ionia.CodeGen.imp2c <> vstr def
+R7547:7549 Ionia.CodeGen.imp2c <> cnt:209 var
+var 7573:7581 Imp2C CGenv_Max
+binder 7593:7593 <> n:215
+R7601:7603 Ionia.Progress.data <> acc def
+R7606:7608 Ionia.Progress.data <> ary constr
+R7615:7617 Ionia.Progress.data <> num constr
+R7610:7611 Ionia.Base.fle <> :::'''{'_x_'}' not
+R7613:7613 Ionia.Base.fle <> :::'''{'_x_'}' not
+R7612:7612 Ionia.CodeGen.imp2c <> n:215 var
+binder 7597:7597 <> a:216
+binder 7621:7621 <> f:217
+binder 7623:7623 <> c:218
+binder 7625:7625 <> p:219
+R7633:7635 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R7636:7636 Ionia.CodeGen.imp2c <> n:215 var
+binder 7628:7628 <> E:220
+binder 7639:7641 <> cnt:221
+R7727:7731 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7646:7652 Ionia.CodeGen.imp2c <> CG_comm defax
+R7724:7726 Ionia.CodeGen.imp2c <> cnt:221 var
+R7665:7667 Ionia.Progress.command <> env def
+binder 7659:7661 <> eta:222
+R7673:7675 Ionia.CodeGen.fun2imp <> Max def
+R7716:7716 Ionia.CodeGen.imp2c <> E:220 var
+R7714:7714 Ionia.CodeGen.imp2c <> p:219 var
+R7712:7712 Ionia.CodeGen.imp2c <> c:218 var
+R7710:7710 Ionia.CodeGen.imp2c <> f:217 var
+R7678:7684 Ionia.CodeGen.fun2imp <> accessd def
+R7705:7705 Ionia.CodeGen.imp2c <> a:216 var
+R7701:7703 Ionia.CodeGen.imp2c <> eta:222 var
+R7687:7689 Ionia.Progress.data <> ary constr
+R7696:7698 Ionia.Progress.data <> num constr
+R7691:7692 Ionia.Base.fle <> :::'''{'_x_'}' not
+R7694:7694 Ionia.Base.fle <> :::'''{'_x_'}' not
+R7693:7693 Ionia.CodeGen.imp2c <> n:215 var
+R7719:7721 Ionia.CodeGen.imp2c <> eta:222 var
+R7756:7759 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7732:7738 Ionia.CodeGen.imp2c <> CG_data def
+R7747:7750 Ionia.CodeGen.imp2c <> vstr def
+R7752:7754 Ionia.CodeGen.imp2c <> cnt:221 var
+R7741:7743 Ionia.Progress.data <> num constr
+R7766:7772 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7827:7830 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7773:7779 Ionia.CodeGen.imp2c <> CG_comm defax
+R7822:7824 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R7819:7821 Ionia.CodeGen.imp2c <> cnt:221 var
+R7782:7782 Ionia.CodeGen.fun2imp <> A def
+R7784:7784 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7799:7800 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7815:7815 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7785:7787 Ionia.CodeGen.imp2c <> vwt defax
+R7790:7793 Ionia.CodeGen.imp2c <> vstr def
+R7795:7797 Ionia.CodeGen.imp2c <> cnt:221 var
+R7801:7801 Ionia.Progress.data <> :::x_'|['_x_']' not
+R7807:7809 Ionia.Progress.data <> :::x_'|['_x_']' not
+R7814:7814 Ionia.Progress.data <> :::x_'|['_x_']' not
+R7802:7804 Ionia.CodeGen.imp2c <> Vrd defax
+R7806:7806 Ionia.CodeGen.imp2c <> a:216 var
+R7810:7811 Ionia.Base.fin <> :::'F['_x_']' not
+R7813:7813 Ionia.Base.fin <> :::'F['_x_']' not
+R7812:7812 Ionia.CodeGen.imp2c <> E:220 var
+R7837:7842 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R8039:8042 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7843:7849 Ionia.CodeGen.imp2c <> CG_comm defax
+R8034:8036 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R8031:8033 Ionia.CodeGen.imp2c <> cnt:221 var
+R7852:7859 Ionia.Progress.command <> comm_seq def
+R7870:7872 Ionia.Base.fin <> fin def
+R7874:7874 Ionia.CodeGen.imp2c <> n:215 var
+binder 7866:7866 <> i:223
+R7889:7891 Ionia.Progress.command <> env def
+binder 7883:7885 <> eta:224
+R7900:7901 Ionia.Progress.command <> If def
+R7981:7981 Ionia.CodeGen.imp2c <> f:217 var
+R7984:7986 Ionia.CodeGen.imp2c <> Vrd defax
+R7989:7991 Ionia.CodeGen.imp2c <> vwt defax
+R7994:7997 Ionia.CodeGen.imp2c <> vstr def
+R7999:8001 Ionia.CodeGen.imp2c <> cnt:221 var
+R8007:8009 Ionia.CodeGen.imp2c <> vwt defax
+R8012:8015 Ionia.CodeGen.imp2c <> vstr def
+R8017:8019 Ionia.CodeGen.imp2c <> cnt:221 var
+R7945:7945 Ionia.CodeGen.imp2c <> f:217 var
+R7947:7947 Ionia.Progress.data <> :::x_'|['_x_']' not
+R7953:7955 Ionia.Progress.data <> :::x_'|['_x_']' not
+R7957:7957 Ionia.Progress.data <> :::x_'|['_x_']' not
+R7948:7950 Ionia.CodeGen.imp2c <> Vrd defax
+R7952:7952 Ionia.CodeGen.imp2c <> a:216 var
+R7956:7956 Ionia.CodeGen.imp2c <> i:223 var
+R7960:7962 Ionia.CodeGen.imp2c <> vwt defax
+R7965:7968 Ionia.CodeGen.imp2c <> vstr def
+R7970:7972 Ionia.CodeGen.imp2c <> cnt:221 var
+R7904:7906 Ionia.Progress.rule <> gtb def
+R7921:7923 Ionia.CodeGen.imp2c <> Vrd defax
+R7926:7928 Ionia.CodeGen.imp2c <> vwt defax
+R7931:7934 Ionia.CodeGen.imp2c <> vstr def
+R7936:7938 Ionia.CodeGen.imp2c <> cnt:221 var
+R7908:7908 Ionia.Progress.data <> :::x_'|['_x_']' not
+R7914:7916 Ionia.Progress.data <> :::x_'|['_x_']' not
+R7918:7918 Ionia.Progress.data <> :::x_'|['_x_']' not
+R7909:7911 Ionia.CodeGen.imp2c <> Vrd defax
+R7913:7913 Ionia.CodeGen.imp2c <> a:216 var
+R7917:7917 Ionia.CodeGen.imp2c <> i:223 var
+R8024:8026 Ionia.CodeGen.imp2c <> eta:224 var
+R8049:8056 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R8057:8063 Ionia.CodeGen.imp2c <> CG_comm defax
+R8110:8112 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R8107:8109 Ionia.CodeGen.imp2c <> cnt:221 var
+R8066:8066 Ionia.CodeGen.fun2imp <> A def
+R8069:8069 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8081:8082 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8103:8103 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8071:8074 Ionia.Progress.data <> accp def
+R8076:8078 Ionia.Progress.data <> num constr
+R8080:8080 Ionia.CodeGen.imp2c <> p:219 var
+R8083:8085 Ionia.CodeGen.imp2c <> Vrd defax
+R8088:8090 Ionia.CodeGen.imp2c <> vwt defax
+R8093:8096 Ionia.CodeGen.imp2c <> vstr def
+R8098:8100 Ionia.CodeGen.imp2c <> cnt:221 var
+R8123:8127 Ionia.CodeGen.imp2c Imp2C <> sec
+ax 8292:8303 <> writeBool_le
+binder 8313:8313 <> n:227
+binder 8315:8315 <> i:228
+R8335:8338 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8318:8326 Ionia.CodeGen.imp2c <> writeBool defax
+R8330:8332 Coq.Init.Nat <> ::nat_scope:x_'<=?'_x not
+R8329:8329 Ionia.CodeGen.imp2c <> i:228 var
+R8333:8333 Ionia.CodeGen.imp2c <> n:227 var
+R8349:8352 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R8339:8346 Ionia.CodeGen.imp2c <> writeNat def
+R8348:8348 Ionia.CodeGen.imp2c <> i:228 var
+R8359:8362 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R8363:8370 Ionia.CodeGen.imp2c <> writeNat def
+R8372:8372 Ionia.CodeGen.imp2c <> n:227 var
+ax 8382:8393 <> writeBool_lt
+binder 8403:8403 <> n:231
+binder 8405:8405 <> i:232
+R8424:8427 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8408:8416 Ionia.CodeGen.imp2c <> writeBool defax
+R8420:8421 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R8419:8419 Ionia.CodeGen.imp2c <> i:232 var
+R8422:8422 Ionia.CodeGen.imp2c <> n:231 var
+R8438:8441 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R8428:8435 Ionia.CodeGen.imp2c <> writeNat def
+R8437:8437 Ionia.CodeGen.imp2c <> i:232 var
+R8447:8450 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R8451:8458 Ionia.CodeGen.imp2c <> writeNat def
+R8460:8460 Ionia.CodeGen.imp2c <> n:231 var
+ax 8470:8481 <> writeBool_eq
+binder 8491:8491 <> n:235
+binder 8493:8493 <> i:236
+R8512:8515 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8496:8504 Ionia.CodeGen.imp2c <> writeBool defax
+R8508:8509 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R8507:8507 Ionia.CodeGen.imp2c <> i:236 var
+R8510:8510 Ionia.CodeGen.imp2c <> n:235 var
+R8526:8529 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R8516:8523 Ionia.CodeGen.imp2c <> writeNat def
+R8525:8525 Ionia.CodeGen.imp2c <> i:236 var
+R8536:8539 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R8540:8547 Ionia.CodeGen.imp2c <> writeNat def
+R8549:8549 Ionia.CodeGen.imp2c <> n:235 var
+ax 8559:8572 <> writeBool_andb
+binder 8582:8582 <> n:239
+binder 8584:8584 <> i:240
+R8603:8606 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8587:8595 Ionia.CodeGen.imp2c <> writeBool defax
+R8599:8600 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R8598:8598 Ionia.CodeGen.imp2c <> i:240 var
+R8601:8601 Ionia.CodeGen.imp2c <> n:239 var
+R8618:8621 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R8607:8615 Ionia.CodeGen.imp2c <> writeBool defax
+R8617:8617 Ionia.CodeGen.imp2c <> i:240 var
+R8628:8631 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R8632:8640 Ionia.CodeGen.imp2c <> writeBool defax
+R8642:8642 Ionia.CodeGen.imp2c <> n:239 var
+ax 8652:8664 <> writeBool_orb
+binder 8674:8674 <> n:243
+binder 8676:8676 <> i:244
+R8695:8698 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8679:8687 Ionia.CodeGen.imp2c <> writeBool defax
+R8691:8692 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R8690:8690 Ionia.CodeGen.imp2c <> i:244 var
+R8693:8693 Ionia.CodeGen.imp2c <> n:243 var
+R8710:8713 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R8699:8707 Ionia.CodeGen.imp2c <> writeBool defax
+R8709:8709 Ionia.CodeGen.imp2c <> i:244 var
+R8720:8723 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R8724:8732 Ionia.CodeGen.imp2c <> writeBool defax
+R8734:8734 Ionia.CodeGen.imp2c <> n:243 var
+ax 8743:8758 <> writeNat_nat2fin
+binder 8768:8768 <> m:247
+binder 8770:8770 <> n:248
+R8778:8780 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R8777:8777 Ionia.CodeGen.imp2c <> n:248 var
+R8781:8781 Ionia.CodeGen.imp2c <> m:247 var
+binder 8773:8773 <> E:249
+R8798:8800 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8785:8792 Ionia.CodeGen.imp2c <> writeNat def
+R8794:8795 Ionia.Base.fin <> :::'F['_x_']' not
+R8797:8797 Ionia.Base.fin <> :::'F['_x_']' not
+R8796:8796 Ionia.CodeGen.imp2c <> E:249 var
+R8801:8808 Ionia.CodeGen.imp2c <> writeNat def
+R8810:8810 Ionia.CodeGen.imp2c <> n:248 var
+ax 8820:8831 <> writeNat_fin
+binder 8842:8842 <> n:252
+R8858:8860 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8845:8852 Ionia.CodeGen.imp2c <> writeNat def
+R8854:8855 Ionia.Base.fle <> :::'''{'_x_'}' not
+R8857:8857 Ionia.Base.fle <> :::'''{'_x_'}' not
+R8856:8856 Ionia.CodeGen.imp2c <> n:252 var
+R8861:8868 Ionia.CodeGen.imp2c <> writeNat def
+R8870:8870 Ionia.CodeGen.imp2c <> n:252 var
+ax 8880:8895 <> writeNat_str2fin
+binder 8905:8905 <> n:255
+R8910:8915 Coq.Strings.String <> string ind
+binder 8908:8908 <> s:256
+R8941:8943 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8919:8926 Ionia.CodeGen.imp2c <> writeNat def
+R8929:8935 Ionia.CodeGen.imp2c <> str2fin defax
+R8939:8939 Ionia.CodeGen.imp2c <> s:256 var
+R8937:8937 Ionia.CodeGen.imp2c <> n:255 var
+R8944:8944 Ionia.CodeGen.imp2c <> s:256 var
+ax 8954:8965 <> writeNat_add
+R8980:8982 Coq.Init.Datatypes <> nat ind
+binder 8976:8976 <> m:259
+binder 8978:8978 <> n:260
+R8999:9004 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8985:8992 Ionia.CodeGen.imp2c <> writeNat def
+R8996:8996 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R8995:8995 Ionia.CodeGen.imp2c <> m:259 var
+R8997:8997 Ionia.CodeGen.imp2c <> n:260 var
+R9008:9011 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9022:9025 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9012:9019 Ionia.CodeGen.imp2c <> writeNat def
+R9021:9021 Ionia.CodeGen.imp2c <> m:259 var
+R9033:9036 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9047:9049 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9037:9044 Ionia.CodeGen.imp2c <> writeNat def
+R9046:9046 Ionia.CodeGen.imp2c <> n:260 var
+ax 9062:9073 <> writeNat_sub
+R9088:9090 Coq.Init.Datatypes <> nat ind
+binder 9084:9084 <> m:263
+binder 9086:9086 <> n:264
+R9107:9112 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9093:9100 Ionia.CodeGen.imp2c <> writeNat def
+R9104:9104 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R9103:9103 Ionia.CodeGen.imp2c <> m:263 var
+R9105:9105 Ionia.CodeGen.imp2c <> n:264 var
+R9116:9119 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9130:9133 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9120:9127 Ionia.CodeGen.imp2c <> writeNat def
+R9129:9129 Ionia.CodeGen.imp2c <> m:263 var
+R9141:9144 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9155:9157 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9145:9152 Ionia.CodeGen.imp2c <> writeNat def
+R9154:9154 Ionia.CodeGen.imp2c <> n:264 var
+ax 9170:9181 <> writeNat_mul
+R9196:9198 Coq.Init.Datatypes <> nat ind
+binder 9192:9192 <> m:267
+binder 9194:9194 <> n:268
+R9215:9220 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9201:9208 Ionia.CodeGen.imp2c <> writeNat def
+R9212:9212 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R9211:9211 Ionia.CodeGen.imp2c <> m:267 var
+R9213:9213 Ionia.CodeGen.imp2c <> n:268 var
+R9224:9227 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9238:9241 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9228:9235 Ionia.CodeGen.imp2c <> writeNat def
+R9237:9237 Ionia.CodeGen.imp2c <> m:267 var
+R9249:9252 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9263:9266 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9253:9260 Ionia.CodeGen.imp2c <> writeNat def
+R9262:9262 Ionia.CodeGen.imp2c <> n:268 var
+ax 9279:9290 <> writeNat_div
+R9305:9307 Coq.Init.Datatypes <> nat ind
+binder 9301:9301 <> m:271
+binder 9303:9303 <> n:272
+R9324:9328 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9310:9317 Ionia.CodeGen.imp2c <> writeNat def
+R9321:9321 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R9320:9320 Ionia.CodeGen.imp2c <> m:271 var
+R9322:9322 Ionia.CodeGen.imp2c <> n:272 var
+R9332:9335 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9346:9349 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9336:9343 Ionia.CodeGen.imp2c <> writeNat def
+R9345:9345 Ionia.CodeGen.imp2c <> m:271 var
+R9357:9360 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9371:9374 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9361:9368 Ionia.CodeGen.imp2c <> writeNat def
+R9370:9370 Ionia.CodeGen.imp2c <> n:272 var
+ax 9387:9398 <> writeNat_mod
+R9413:9415 Coq.Init.Datatypes <> nat ind
+binder 9409:9409 <> m:275
+binder 9411:9411 <> n:276
+R9436:9440 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9418:9425 Ionia.CodeGen.imp2c <> writeNat def
+R9429:9433 Coq.Init.Nat <> ::nat_scope:x_'mod'_x not
+R9428:9428 Ionia.CodeGen.imp2c <> m:275 var
+R9434:9434 Ionia.CodeGen.imp2c <> n:276 var
+R9444:9447 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9458:9461 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9448:9455 Ionia.CodeGen.imp2c <> writeNat def
+R9457:9457 Ionia.CodeGen.imp2c <> m:275 var
+R9469:9472 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9483:9486 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9473:9480 Ionia.CodeGen.imp2c <> writeNat def
+R9482:9482 Ionia.CodeGen.imp2c <> n:276 var
+ax 9499:9511 <> writeBool_leb
+R9531:9533 Ionia.Progress.data <> exp def
+R9535:9537 Ionia.Progress.data <> num constr
+binder 9523:9524 <> e1:279
+binder 9526:9527 <> e2:280
+R9564:9568 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9543:9551 Ionia.CodeGen.imp2c <> writeBool defax
+R9554:9556 Ionia.Progress.rule <> leb def
+R9561:9562 Ionia.CodeGen.imp2c <> e2:280 var
+R9558:9559 Ionia.CodeGen.imp2c <> e1:279 var
+R9572:9575 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9589:9593 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9576:9581 Ionia.CodeGen.imp2c <> CG_exp defax
+R9587:9588 Ionia.CodeGen.imp2c <> e1:279 var
+R9583:9585 Coq.Init.Datatypes <> nil constr
+R9602:9605 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9619:9621 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9606:9611 Ionia.CodeGen.imp2c <> CG_exp defax
+R9617:9618 Ionia.CodeGen.imp2c <> e2:280 var
+R9613:9615 Coq.Init.Datatypes <> nil constr
+ax 9634:9646 <> writeBool_gtb
+R9666:9668 Ionia.Progress.data <> exp def
+R9670:9672 Ionia.Progress.data <> num constr
+binder 9658:9659 <> e1:283
+binder 9661:9662 <> e2:284
+R9699:9703 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9678:9686 Ionia.CodeGen.imp2c <> writeBool defax
+R9689:9691 Ionia.Progress.rule <> gtb def
+R9696:9697 Ionia.CodeGen.imp2c <> e2:284 var
+R9693:9694 Ionia.CodeGen.imp2c <> e1:283 var
+R9707:9710 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9724:9728 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9711:9716 Ionia.CodeGen.imp2c <> CG_exp defax
+R9722:9723 Ionia.CodeGen.imp2c <> e1:283 var
+R9718:9720 Coq.Init.Datatypes <> nil constr
+R9736:9739 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9753:9755 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9740:9745 Ionia.CodeGen.imp2c <> CG_exp defax
+R9751:9752 Ionia.CodeGen.imp2c <> e2:284 var
+R9747:9749 Coq.Init.Datatypes <> nil constr
+ax 9768:9787 <> writeNat_str2fin_nat
+binder 9797:9797 <> n:287
+binder 9799:9799 <> m:288
+R9804:9809 Coq.Strings.String <> string ind
+binder 9802:9802 <> s:289
+R9839:9841 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9813:9820 Ionia.CodeGen.imp2c <> writeNat def
+R9834:9836 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R9823:9829 Ionia.CodeGen.imp2c <> str2fin defax
+R9833:9833 Ionia.CodeGen.imp2c <> s:289 var
+R9831:9831 Ionia.CodeGen.imp2c <> n:287 var
+R9837:9837 Ionia.CodeGen.imp2c <> m:288 var
+R9843:9846 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R9842:9842 Ionia.CodeGen.imp2c <> s:289 var
+prf 9860:9865 <> idx_if
+R9878:9881 Coq.Init.Datatypes <> bool ind
+binder 9876:9876 <> b:292
+binder 9884:9884 <> n:293
+binder 9886:9886 <> d:294
+R9895:9897 Ionia.Progress.data <> exp def
+R9900:9902 Ionia.Progress.data <> ary constr
+R9909:9909 Ionia.CodeGen.imp2c <> d:294 var
+R9904:9905 Ionia.Base.fle <> :::'''{'_x_'}' not
+R9907:9907 Ionia.Base.fle <> :::'''{'_x_'}' not
+R9906:9906 Ionia.CodeGen.imp2c <> n:293 var
+binder 9889:9890 <> e1:295
+binder 9892:9893 <> e2:296
+binder 9913:9913 <> i:297
+R9944:9949 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9918:9918 Ionia.Progress.data <> :::x_'|['_x_']' not
+R9939:9941 Ionia.Progress.data <> :::x_'|['_x_']' not
+R9943:9943 Ionia.Progress.data <> :::x_'|['_x_']' not
+R9922:9922 Ionia.CodeGen.imp2c <> b:292 var
+R9937:9938 Ionia.CodeGen.imp2c <> e2:296 var
+R9929:9930 Ionia.CodeGen.imp2c <> e1:295 var
+R9942:9942 Ionia.CodeGen.imp2c <> i:297 var
+R9953:9953 Ionia.CodeGen.imp2c <> b:292 var
+R9974:9975 Ionia.Progress.data <> :::x_'|['_x_']' not
+R9977:9977 Ionia.Progress.data <> :::x_'|['_x_']' not
+R9972:9973 Ionia.CodeGen.imp2c <> e2:296 var
+R9976:9976 Ionia.CodeGen.imp2c <> i:297 var
+R9962:9963 Ionia.Progress.data <> :::x_'|['_x_']' not
+R9965:9965 Ionia.Progress.data <> :::x_'|['_x_']' not
+R9960:9961 Ionia.CodeGen.imp2c <> e1:295 var
+R9964:9964 Ionia.CodeGen.imp2c <> i:297 var
+prf 10017:10023 <> add_ifl
+R10036:10039 Coq.Init.Datatypes <> bool ind
+binder 10034:10034 <> b:298
+binder 10042:10043 <> e1:299
+binder 10045:10046 <> e2:300
+binder 10048:10049 <> e3:301
+R10083:10088 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10054:10056 Ionia.Progress.rule <> add def
+R10081:10082 Ionia.CodeGen.imp2c <> e3:301 var
+R10062:10062 Ionia.CodeGen.imp2c <> b:298 var
+R10077:10078 Ionia.CodeGen.imp2c <> e2:300 var
+R10069:10070 Ionia.CodeGen.imp2c <> e1:299 var
+R10092:10092 Ionia.CodeGen.imp2c <> b:298 var
+R10114:10116 Ionia.Progress.rule <> add def
+R10121:10122 Ionia.CodeGen.imp2c <> e3:301 var
+R10118:10119 Ionia.CodeGen.imp2c <> e2:300 var
+R10099:10101 Ionia.Progress.rule <> add def
+R10106:10107 Ionia.CodeGen.imp2c <> e3:301 var
+R10103:10104 Ionia.CodeGen.imp2c <> e1:299 var
+prf 10161:10167 <> add_ifr
+R10180:10183 Coq.Init.Datatypes <> bool ind
+binder 10178:10178 <> b:302
+binder 10186:10187 <> e1:303
+binder 10189:10190 <> e2:304
+binder 10192:10193 <> e3:305
+R10227:10232 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10198:10200 Ionia.Progress.rule <> add def
+R10209:10209 Ionia.CodeGen.imp2c <> b:302 var
+R10224:10225 Ionia.CodeGen.imp2c <> e3:305 var
+R10216:10217 Ionia.CodeGen.imp2c <> e2:304 var
+R10202:10203 Ionia.CodeGen.imp2c <> e1:303 var
+R10236:10236 Ionia.CodeGen.imp2c <> b:302 var
+R10258:10260 Ionia.Progress.rule <> add def
+R10265:10266 Ionia.CodeGen.imp2c <> e3:305 var
+R10262:10263 Ionia.CodeGen.imp2c <> e1:303 var
+R10243:10245 Ionia.Progress.rule <> add def
+R10250:10251 Ionia.CodeGen.imp2c <> e2:304 var
+R10247:10248 Ionia.CodeGen.imp2c <> e1:303 var

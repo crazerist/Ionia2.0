@@ -1,0 +1,38 @@
+# ===================================================================
+# Copyright 2025 Zhou Kangqi
+#  This file is part of Ionia. It is distributed under the MIT
+#  "expat license". You should have recieved a LICENSE file with it.
+# ===================================================================
+
+-R ./Ionia Ionia
+
+# -arg -w -arg -notation-overridden
+# -arg -w -arg -hiding-delimiting-key
+# -arg -w -arg -deprecated-hint-without-locality
+# -arg -w -arg -redundant-canonical-projection
+# -arg -w -arg -ambiguous-paths
+# -arg -w -arg -local-declaration
+# -arg -w -arg -future-coercion-class-field
+# -arg -w -arg -extraction-logical-axiom
+
+# ========== Base ====================
+Ionia/Base/base.v
+Ionia/Base/fin.v
+Ionia/Base/fle.v
+Ionia/Base/finfle.v
+Ionia/Base/vector.v
+
+# ========== Progress ====================
+Ionia/Progress/data.v
+Ionia/Progress/command.v
+Ionia/Progress/rule.v
+
+# ========== NN ====================
+Ionia/NN/tensor.v
+Ionia/NN/operation.v
+Ionia/NN/model.v
+
+# ========== CodeGen ====================
+Ionia/CodeGen/fun2imp.v
+Ionia/CodeGen/imp2c.v
+Ionia/CodeGen/autogen.v

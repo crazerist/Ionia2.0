@@ -1,0 +1,4007 @@
+DIGEST 4dc7415102926333bbe08b1a4caf2ae1
+FIonia.NN.model
+R15:23 Ionia.NN.operation <> <> lib
+R41:58 Coq.Program.Basics <> <> lib
+R106:124 Coq.Arith.PeanoNat Nat le_add_le_sub_r thm
+R140:151 Ionia.Base.base <> sub_le_trans thm
+R165:186 Coq.Arith.PeanoNat Nat div_le_lower_bound def
+sec 207:212 <> LeNet5
+var 225:229 LeNet5 input
+R233:239 Ionia.NN.tensor <> Tensor3 def
+var 259:267 LeNet5 kernel_c1
+R270:276 Ionia.NN.tensor <> Tensor4 def
+var 296:302 LeNet5 bias_c1
+R305:311 Ionia.NN.tensor <> Tensor1 def
+var 325:333 LeNet5 kernel_c2
+R336:342 Ionia.NN.tensor <> Tensor4 def
+var 363:369 LeNet5 bias_c2
+R372:378 Ionia.NN.tensor <> Tensor1 def
+var 393:399 LeNet5 full_c1
+R402:408 Ionia.NN.tensor <> Tensor2 def
+R419:419 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R417:417 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+var 433:439 LeNet5 full_b1
+R442:448 Ionia.NN.tensor <> Tensor1 def
+var 464:470 LeNet5 full_c2
+R473:479 Ionia.NN.tensor <> Tensor2 def
+var 498:504 LeNet5 full_b2
+R507:513 Ionia.NN.tensor <> Tensor1 def
+var 528:534 LeNet5 full_c3
+R537:543 Ionia.NN.tensor <> Tensor2 def
+var 561:567 LeNet5 full_b3
+R570:576 Ionia.NN.tensor <> Tensor1 def
+prf 589:596 <> LeN_lem1
+R601:604 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R607:609 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R611:613 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 640:647 <> LeN_lem2
+R652:654 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+prf 681:688 <> LeN_lem3
+R693:696 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R727:729 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R697:697 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R722:725 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R718:720 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R698:698 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R713:716 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R709:711 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R701:703 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R705:707 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R731:733 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+def 771:777 <> LeNet_5
+R784:788 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R802:805 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R858:864 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R806:811 Ionia.NN.operation <> Conv3d def
+R850:857 Ionia.NN.model <> LeN_lem1 thm
+R841:848 Ionia.NN.model <> LeN_lem1 thm
+R835:839 Ionia.NN.model <> LeNet5.input var
+R825:833 Ionia.NN.model <> LeNet5.kernel_c1 var
+R817:823 Ionia.NN.model <> LeNet5.bias_c1 var
+binder 789:801 <> feature_map_1:23
+R865:869 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R880:883 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R904:909 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R884:889 Ionia.NN.operation <> ReLU3d def
+R891:903 Ionia.NN.model <> feature_map_1:23 var
+binder 870:879 <> relu_map_1:24
+R910:914 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R925:928 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R960:965 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R929:937 Ionia.NN.operation <> Maxpool3d def
+R952:959 Ionia.NN.model <> LeN_lem2 thm
+R941:950 Ionia.NN.model <> relu_map_1:24 var
+binder 915:924 <> pool_map_2:25
+R966:970 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R984:987 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1045:1050 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R988:993 Ionia.NN.operation <> Conv3d def
+R1037:1044 Ionia.NN.model <> LeN_lem3 thm
+R1028:1035 Ionia.NN.model <> LeN_lem3 thm
+R1017:1026 Ionia.NN.model <> pool_map_2:25 var
+R1007:1015 Ionia.NN.model <> LeNet5.kernel_c2 var
+R999:1005 Ionia.NN.model <> LeNet5.bias_c2 var
+binder 971:983 <> feature_map_3:26
+R1051:1055 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1066:1069 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1090:1095 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1070:1075 Ionia.NN.operation <> ReLU3d def
+R1077:1089 Ionia.NN.model <> feature_map_3:26 var
+binder 1056:1065 <> relu_map_3:27
+R1096:1100 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1111:1114 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1146:1152 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1115:1123 Ionia.NN.operation <> Maxpool3d def
+R1138:1145 Ionia.NN.model <> LeN_lem2 thm
+R1127:1136 Ionia.NN.model <> relu_map_3:27 var
+binder 1101:1110 <> pool_map_4:28
+R1153:1157 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1170:1173 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1194:1199 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1174:1182 Ionia.NN.operation <> Flatten3d def
+R1184:1193 Ionia.NN.model <> pool_map_4:28 var
+binder 1158:1169 <> flatten_map5:29
+R1200:1204 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1215:1218 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1256:1261 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1219:1226 Ionia.NN.operation <> Linear1d def
+R1244:1255 Ionia.NN.model <> flatten_map5:29 var
+R1236:1242 Ionia.NN.model <> LeNet5.full_b1 var
+R1228:1234 Ionia.NN.model <> LeNet5.full_c1 var
+binder 1205:1214 <> full_map_5:30
+R1262:1266 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1277:1280 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1298:1303 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1281:1286 Ionia.NN.operation <> ReLU1d def
+R1288:1297 Ionia.NN.model <> full_map_5:30 var
+binder 1267:1276 <> relu_map_5:31
+R1304:1308 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1319:1322 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1358:1363 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1323:1330 Ionia.NN.operation <> Linear1d def
+R1348:1357 Ionia.NN.model <> relu_map_5:31 var
+R1340:1346 Ionia.NN.model <> LeNet5.full_b2 var
+R1332:1338 Ionia.NN.model <> LeNet5.full_c2 var
+binder 1309:1318 <> full_map_6:32
+R1364:1368 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1379:1382 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1400:1406 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1383:1388 Ionia.NN.operation <> ReLU1d def
+R1390:1399 Ionia.NN.model <> full_map_6:32 var
+binder 1369:1378 <> relu_map_6:33
+R1407:1411 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1422:1425 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1461:1466 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R1426:1433 Ionia.NN.operation <> Linear1d def
+R1451:1460 Ionia.NN.model <> relu_map_6:33 var
+R1443:1449 Ionia.NN.model <> LeNet5.full_b3 var
+R1435:1441 Ionia.NN.model <> LeNet5.full_c3 var
+binder 1412:1421 <> full_map_7:34
+R1467:1475 Ionia.NN.operation <> Softmax1d def
+R1477:1486 Ionia.NN.model <> full_map_7:34 var
+R1494:1499 Ionia.NN.model LeNet5 <> sec
+sec 1511:1515 <> Mnist
+var 1528:1532 Mnist input
+R1535:1541 Ionia.NN.tensor <> Tensor4 def
+var 1564:1572 Mnist kernel_c1
+R1575:1581 Ionia.NN.tensor <> Tensor4 def
+var 1602:1608 Mnist bias_c1
+R1611:1617 Ionia.NN.tensor <> Tensor1 def
+var 1632:1640 Mnist kernel_c2
+R1643:1649 Ionia.NN.tensor <> Tensor4 def
+var 1671:1677 Mnist bias_c2
+R1680:1686 Ionia.NN.tensor <> Tensor1 def
+var 1701:1707 Mnist full_c1
+R1710:1716 Ionia.NN.tensor <> Tensor2 def
+R1728:1728 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R1725:1725 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+var 1743:1749 Mnist full_b1
+R1752:1758 Ionia.NN.tensor <> Tensor1 def
+var 1774:1780 Mnist full_c2
+R1783:1789 Ionia.NN.tensor <> Tensor2 def
+var 1808:1814 Mnist full_b2
+R1817:1823 Ionia.NN.tensor <> Tensor1 def
+prf 1836:1845 <> Mnist_lem1
+R1850:1853 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1856:1858 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R1860:1862 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 1889:1898 <> Mnist_lem2
+R1903:1906 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1931:1933 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R1927:1929 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R1907:1907 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R1922:1925 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R1918:1920 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R1910:1912 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R1914:1916 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R1935:1937 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 1969:1978 <> Mnist_lem3
+R1983:1985 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+prf 2012:2021 <> Mnist_lem4
+R2026:2028 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+def 2062:2066 <> mnist
+R2073:2077 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2091:2094 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2151:2157 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2095:2100 Ionia.NN.operation <> Conv4d def
+R2141:2150 Ionia.NN.model <> Mnist_lem1 thm
+R2130:2139 Ionia.NN.model <> Mnist_lem1 thm
+R2124:2128 Ionia.NN.model <> Mnist.input var
+R2114:2122 Ionia.NN.model <> Mnist.kernel_c1 var
+R2106:2112 Ionia.NN.model <> Mnist.bias_c1 var
+binder 2078:2090 <> feature_map_1:53
+R2158:2162 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2173:2176 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2197:2202 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2177:2182 Ionia.NN.operation <> ReLU4d def
+R2184:2196 Ionia.NN.model <> feature_map_1:53 var
+binder 2163:2172 <> relu_map_1:54
+R2203:2207 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2221:2224 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2286:2291 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2225:2230 Ionia.NN.operation <> Conv4d def
+R2276:2285 Ionia.NN.model <> Mnist_lem2 thm
+R2265:2274 Ionia.NN.model <> Mnist_lem2 thm
+R2254:2263 Ionia.NN.model <> relu_map_1:54 var
+R2244:2252 Ionia.NN.model <> Mnist.kernel_c2 var
+R2236:2242 Ionia.NN.model <> Mnist.bias_c2 var
+binder 2208:2220 <> feature_map_2:55
+R2292:2296 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2307:2310 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2331:2336 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2311:2316 Ionia.NN.operation <> ReLU4d def
+R2318:2330 Ionia.NN.model <> feature_map_2:55 var
+binder 2297:2306 <> relu_map_2:56
+R2337:2341 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2352:2355 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2389:2394 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2356:2364 Ionia.NN.operation <> Maxpool4d def
+R2379:2388 Ionia.NN.model <> Mnist_lem3 thm
+R2368:2377 Ionia.NN.model <> relu_map_2:56 var
+binder 2342:2351 <> pool_map_1:57
+R2395:2399 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2410:2413 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2441:2446 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2414:2422 Ionia.NN.operation <> Dropout4d def
+R2424:2433 Ionia.NN.model <> pool_map_1:57 var
+binder 2400:2409 <> drop_map_1:58
+R2447:2451 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2463:2466 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2487:2492 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2467:2475 Ionia.NN.operation <> Flatten4d def
+R2477:2486 Ionia.NN.model <> drop_map_1:58 var
+binder 2452:2462 <> flatten_map:59
+R2493:2497 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2506:2509 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2546:2551 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2510:2517 Ionia.NN.operation <> Linear2d def
+R2535:2545 Ionia.NN.model <> flatten_map:59 var
+R2527:2533 Ionia.NN.model <> Mnist.full_b1 var
+R2519:2525 Ionia.NN.model <> Mnist.full_c1 var
+binder 2498:2505 <> fc_map_1:60
+R2552:2556 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2567:2570 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2586:2591 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2571:2576 Ionia.NN.operation <> ReLU2d def
+R2578:2585 Ionia.NN.model <> fc_map_1:60 var
+binder 2557:2566 <> relu_map_3:61
+R2592:2596 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2607:2610 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2637:2642 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2611:2619 Ionia.NN.operation <> Dropout2d def
+R2621:2630 Ionia.NN.model <> relu_map_3:61 var
+binder 2597:2606 <> drop_map_2:62
+R2643:2647 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2656:2659 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2695:2700 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R2660:2667 Ionia.NN.operation <> Linear2d def
+R2685:2694 Ionia.NN.model <> drop_map_2:62 var
+R2677:2683 Ionia.NN.model <> Mnist.full_b2 var
+R2669:2675 Ionia.NN.model <> Mnist.full_c2 var
+binder 2648:2655 <> fc_map_2:63
+R2701:2713 Ionia.NN.operation <> Log_Softmax2d def
+R2715:2722 Ionia.NN.model <> fc_map_2:63 var
+R2730:2734 Ionia.NN.model Mnist <> sec
+sec 2746:2752 <> AlexNet
+var 2765:2769 AlexNet batch
+var 2771:2777 AlexNet channel
+var 2779:2780 AlexNet m1
+var 2782:2783 AlexNet m2
+R2787:2789 Coq.Init.Datatypes <> nat ind
+var 2801:2805 AlexNet input
+R2808:2814 Ionia.NN.tensor <> Tensor4 def
+R2833:2834 Ionia.NN.model <> AlexNet.m2 var
+R2830:2831 Ionia.NN.model <> AlexNet.m1 var
+R2822:2828 Ionia.NN.model <> AlexNet.channel var
+R2816:2820 Ionia.NN.model <> AlexNet.batch var
+var 2846:2849 AlexNet c1_w
+R2852:2858 Ionia.NN.tensor <> Tensor4 def
+R2863:2869 Ionia.NN.model <> AlexNet.channel var
+var 2887:2890 AlexNet c1_b
+R2893:2899 Ionia.NN.tensor <> Tensor1 def
+var 2914:2917 AlexNet c2_w
+R2920:2926 Ionia.NN.tensor <> Tensor4 def
+var 2949:2952 AlexNet c2_b
+R2955:2961 Ionia.NN.tensor <> Tensor1 def
+var 2977:2980 AlexNet c3_w
+R2983:2989 Ionia.NN.tensor <> Tensor4 def
+var 3013:3016 AlexNet c3_b
+R3019:3025 Ionia.NN.tensor <> Tensor1 def
+var 3041:3044 AlexNet c4_w
+R3047:3053 Ionia.NN.tensor <> Tensor4 def
+var 3077:3080 AlexNet c4_b
+R3083:3089 Ionia.NN.tensor <> Tensor1 def
+var 3105:3108 AlexNet c5_w
+R3111:3117 Ionia.NN.tensor <> Tensor4 def
+var 3141:3144 AlexNet c5_b
+R3147:3153 Ionia.NN.tensor <> Tensor1 def
+var 3169:3172 AlexNet f1_w
+R3175:3181 Ionia.NN.tensor <> Tensor2 def
+R3194:3194 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R3192:3192 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+var 3208:3211 AlexNet f1_b
+R3214:3220 Ionia.NN.tensor <> Tensor1 def
+var 3237:3240 AlexNet f2_w
+R3243:3249 Ionia.NN.tensor <> Tensor2 def
+var 3271:3274 AlexNet f2_b
+R3277:3283 Ionia.NN.tensor <> Tensor1 def
+var 3300:3303 AlexNet f3_w
+R3306:3312 Ionia.NN.tensor <> Tensor2 def
+var 3334:3337 AlexNet f3_b
+R3340:3346 Ionia.NN.tensor <> Tensor1 def
+var 3366:3375 AlexNet AlexN_hyp1
+R3381:3384 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3385:3386 Ionia.NN.model <> AlexNet.m1 var
+var 3400:3409 AlexNet AlexN_hyp2
+R3415:3418 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3419:3420 Ionia.NN.model <> AlexNet.m2 var
+prf 3430:3439 <> AlexN_lem1
+R3445:3448 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3451:3453 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3449:3450 Ionia.NN.model <> AlexNet.m1 var
+R3455:3457 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 3484:3493 <> AlexN_lem2
+R3499:3502 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3505:3507 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3503:3504 Ionia.NN.model <> AlexNet.m2 var
+R3509:3511 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 3538:3547 <> AlexN_lem3
+R3552:3555 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3581:3583 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3577:3579 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3556:3556 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R3572:3575 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R3567:3569 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R3559:3561 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3557:3558 Ionia.NN.model <> AlexNet.m1 var
+R3563:3565 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R3585:3587 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 3631:3640 <> AlexN_lem4
+R3645:3648 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3674:3676 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3670:3672 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3649:3649 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R3665:3668 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R3660:3662 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R3652:3654 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3650:3651 Ionia.NN.model <> AlexNet.m2 var
+R3656:3658 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R3678:3680 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 3724:3733 <> AlexN_lem5
+R3738:3740 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3810:3812 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3806:3808 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3741:3741 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R3801:3804 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R3797:3799 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R3789:3791 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3785:3787 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3742:3742 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R3780:3783 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R3776:3778 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R3768:3770 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3764:3766 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3743:3743 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R3759:3762 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R3754:3756 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R3746:3748 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3744:3745 Ionia.NN.model <> AlexNet.m1 var
+R3750:3752 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R3772:3774 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R3793:3795 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R3814:3816 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 3860:3869 <> AlexN_lem6
+R3874:3876 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3946:3948 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3942:3944 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3877:3877 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R3937:3940 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R3933:3935 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R3925:3927 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3921:3923 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3878:3878 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R3916:3919 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R3912:3914 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R3904:3906 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3900:3902 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3879:3879 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R3895:3898 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R3890:3892 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R3882:3884 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3880:3881 Ionia.NN.model <> AlexNet.m2 var
+R3886:3888 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R3908:3910 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R3929:3931 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R3950:3952 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 3996:4004 <> Alex_lem7
+R4009:4012 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4170:4172 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4166:4168 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4013:4013 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4161:4164 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4157:4159 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R4149:4151 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4145:4147 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4014:4014 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4140:4143 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4136:4138 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R4128:4130 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4124:4126 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4015:4015 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4119:4122 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4115:4117 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R4107:4109 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4103:4105 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4016:4016 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4098:4101 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4094:4096 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R4086:4088 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4082:4084 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4017:4017 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4077:4080 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4073:4075 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R4065:4067 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4061:4063 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4018:4018 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4056:4059 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4052:4054 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R4044:4046 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4040:4042 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4019:4019 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4035:4038 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4030:4032 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R4022:4024 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4020:4021 Ionia.NN.model <> AlexNet.m1 var
+R4026:4028 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4048:4050 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4069:4071 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4090:4092 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4111:4113 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4132:4134 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4153:4155 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4174:4176 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 4220:4228 <> Alex_lem8
+R4233:4236 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4394:4396 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4390:4392 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4237:4237 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4385:4388 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4381:4383 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R4373:4375 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4369:4371 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4238:4238 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4364:4367 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4360:4362 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R4352:4354 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4348:4350 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4239:4239 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4343:4346 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4339:4341 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R4331:4333 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4327:4329 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4240:4240 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4322:4325 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4318:4320 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R4310:4312 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4306:4308 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4241:4241 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4301:4304 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4297:4299 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R4289:4291 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4285:4287 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4242:4242 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4280:4283 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4276:4278 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R4268:4270 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4264:4266 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4243:4243 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4259:4262 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R4254:4256 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R4246:4248 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R4244:4245 Ionia.NN.model <> AlexNet.m2 var
+R4250:4252 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4272:4274 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4293:4295 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4314:4316 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4335:4337 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4356:4358 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4377:4379 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R4398:4400 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+def 4450:4456 <> AlexNet
+R4463:4467 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4473:4476 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4525:4530 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4477:4482 Ionia.NN.operation <> Conv4d def
+R4515:4524 Ionia.NN.model <> AlexN_lem2 thm
+R4504:4513 Ionia.NN.model <> AlexN_lem1 thm
+R4498:4502 Ionia.NN.model <> AlexNet.input var
+R4493:4496 Ionia.NN.model <> AlexNet.c1_w var
+R4488:4491 Ionia.NN.model <> AlexNet.c1_b var
+binder 4468:4472 <> conv1:110
+R4531:4535 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4546:4549 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4562:4567 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4550:4555 Ionia.NN.operation <> ReLU4d def
+R4557:4561 Ionia.NN.model <> conv1:110 var
+binder 4536:4545 <> conv1_relu:111
+R4568:4572 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4583:4586 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4648:4654 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4587:4599 Ionia.NN.operation <> Maxpool4d_pad def
+R4638:4647 Ionia.NN.model <> AlexN_lem4 thm
+R4627:4636 Ionia.NN.model <> AlexN_lem3 thm
+R4618:4625 Ionia.Base.base <> nat_lem6 thm
+R4607:4616 Ionia.NN.model <> conv1_relu:111 var
+binder 4573:4582 <> conv1_pool:112
+R4655:4659 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4665:4668 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4718:4723 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4669:4674 Ionia.NN.operation <> Conv4d def
+R4710:4717 Ionia.Base.base <> nat_lem3 thm
+R4701:4708 Ionia.Base.base <> nat_lem3 thm
+R4690:4699 Ionia.NN.model <> conv1_pool:112 var
+R4685:4688 Ionia.NN.model <> AlexNet.c2_w var
+R4680:4683 Ionia.NN.model <> AlexNet.c2_b var
+binder 4660:4664 <> conv2:113
+R4724:4728 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4739:4742 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4755:4760 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4743:4748 Ionia.NN.operation <> ReLU4d def
+R4750:4754 Ionia.NN.model <> conv2:113 var
+binder 4729:4738 <> conv2_relu:114
+R4761:4765 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4776:4779 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4841:4847 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4780:4792 Ionia.NN.operation <> Maxpool4d_pad def
+R4831:4840 Ionia.NN.model <> AlexN_lem6 thm
+R4820:4829 Ionia.NN.model <> AlexN_lem5 thm
+R4811:4818 Ionia.Base.base <> nat_lem6 thm
+R4800:4809 Ionia.NN.model <> conv2_relu:114 var
+binder 4766:4775 <> conv2_pool:115
+R4848:4852 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4858:4861 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4911:4917 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4862:4867 Ionia.NN.operation <> Conv4d def
+R4903:4910 Ionia.Base.base <> nat_lem2 thm
+R4894:4901 Ionia.Base.base <> nat_lem2 thm
+R4883:4892 Ionia.NN.model <> conv2_pool:115 var
+R4878:4881 Ionia.NN.model <> AlexNet.c3_w var
+R4873:4876 Ionia.NN.model <> AlexNet.c3_b var
+binder 4853:4857 <> conv3:116
+R4918:4922 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4933:4936 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4949:4954 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4937:4942 Ionia.NN.operation <> ReLU4d def
+R4944:4948 Ionia.NN.model <> conv3:116 var
+binder 4923:4932 <> conv3_relu:117
+R4955:4959 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4965:4968 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5018:5024 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R4969:4974 Ionia.NN.operation <> Conv4d def
+R5010:5017 Ionia.Base.base <> nat_lem2 thm
+R5001:5008 Ionia.Base.base <> nat_lem2 thm
+R4990:4999 Ionia.NN.model <> conv3_relu:117 var
+R4985:4988 Ionia.NN.model <> AlexNet.c4_w var
+R4980:4983 Ionia.NN.model <> AlexNet.c4_b var
+binder 4960:4964 <> conv4:118
+R5025:5029 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5040:5043 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5056:5061 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5044:5049 Ionia.NN.operation <> ReLU4d def
+R5051:5055 Ionia.NN.model <> conv4:118 var
+binder 5030:5039 <> conv4_relu:119
+R5062:5066 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5072:5075 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5125:5131 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5076:5081 Ionia.NN.operation <> Conv4d def
+R5117:5124 Ionia.Base.base <> nat_lem2 thm
+R5108:5115 Ionia.Base.base <> nat_lem2 thm
+R5097:5106 Ionia.NN.model <> conv4_relu:119 var
+R5092:5095 Ionia.NN.model <> AlexNet.c5_w var
+R5087:5090 Ionia.NN.model <> AlexNet.c5_b var
+binder 5067:5071 <> conv5:120
+R5132:5136 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5147:5150 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5163:5168 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5151:5156 Ionia.NN.operation <> ReLU4d def
+R5158:5162 Ionia.NN.model <> conv5:120 var
+binder 5137:5146 <> conv5_relu:121
+R5169:5173 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5184:5187 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5247:5252 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5188:5200 Ionia.NN.operation <> Maxpool4d_pad def
+R5238:5246 Ionia.NN.model <> Alex_lem8 thm
+R5228:5236 Ionia.NN.model <> Alex_lem7 thm
+R5219:5226 Ionia.Base.base <> nat_lem6 thm
+R5208:5217 Ionia.NN.model <> conv5_relu:121 var
+binder 5174:5183 <> conv5_pool:122
+R5253:5257 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5265:5268 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5301:5306 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5269:5285 Ionia.NN.operation <> AdaptiveAvgPool4d def
+R5291:5300 Ionia.NN.model <> conv5_pool:122 var
+binder 5258:5264 <> avgpool:123
+R5307:5311 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5317:5320 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5356:5361 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5321:5329 Ionia.NN.operation <> Dropout2d def
+R5332:5340 Ionia.NN.operation <> Flatten4d def
+R5342:5348 Ionia.NN.model <> avgpool:123 var
+binder 5312:5316 <> drop1:124
+R5362:5366 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5370:5373 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5398:5403 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5374:5381 Ionia.NN.operation <> Linear2d def
+R5393:5397 Ionia.NN.model <> drop1:124 var
+R5388:5391 Ionia.NN.model <> AlexNet.f1_b var
+R5383:5386 Ionia.NN.model <> AlexNet.f1_w var
+binder 5367:5369 <> fc1:125
+R5404:5408 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5417:5420 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5431:5436 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5421:5426 Ionia.NN.operation <> ReLU2d def
+R5428:5430 Ionia.NN.model <> fc1:125 var
+binder 5409:5416 <> fc1_relu:126
+R5437:5441 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5447:5450 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5475:5480 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5451:5459 Ionia.NN.operation <> Dropout2d def
+R5461:5468 Ionia.NN.model <> fc1_relu:126 var
+binder 5442:5446 <> drop2:127
+R5481:5485 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5489:5492 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5517:5522 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5493:5500 Ionia.NN.operation <> Linear2d def
+R5512:5516 Ionia.NN.model <> drop2:127 var
+R5507:5510 Ionia.NN.model <> AlexNet.f2_b var
+R5502:5505 Ionia.NN.model <> AlexNet.f2_w var
+binder 5486:5488 <> fc2:128
+R5523:5527 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5536:5539 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5550:5555 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R5540:5545 Ionia.NN.operation <> ReLU2d def
+R5547:5549 Ionia.NN.model <> fc2:128 var
+binder 5528:5535 <> fc2_relu:129
+R5556:5563 Ionia.NN.operation <> Linear2d def
+R5575:5582 Ionia.NN.model <> fc2_relu:129 var
+R5570:5573 Ionia.NN.model <> AlexNet.f3_b var
+R5565:5568 Ionia.NN.model <> AlexNet.f3_w var
+R5590:5596 Ionia.NN.model AlexNet <> sec
+sec 5621:5630 <> BasicBlock
+var  5643:5647 BasicBlock batch
+var  5649:5650 BasicBlock m1
+var  5652:5653 BasicBlock m2
+R5657:5659 Coq.Init.Datatypes <> nat ind
+var 5674:5683 BasicBlock in_channel
+var 5685:5695 BasicBlock out_channel
+var 5697:5702 BasicBlock stride
+R5704:5706 Coq.Init.Datatypes <> nat ind
+var 5718:5727 BasicBlock downsample
+R5730:5733 Coq.Init.Datatypes <> bool ind
+var 5746:5750 BasicBlock input
+R5753:5759 Ionia.NN.tensor <> Tensor4 def
+R5781:5782 Ionia.NN.model <> BasicBlock.m2 var
+R5778:5779 Ionia.NN.model <> BasicBlock.m1 var
+R5767:5776 Ionia.NN.model <> BasicBlock.in_channel var
+R5761:5765 Ionia.NN.model <> BasicBlock.batch var
+var 5797:5804 BasicBlock BasB_hyp
+R5826:5829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5818:5820 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5808:5817 Ionia.NN.model <> BasicBlock.downsample var
+R5821:5825 Coq.Init.Datatypes <> false constr
+R5841:5844 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5830:5840 Ionia.NN.model <> BasicBlock.out_channel var
+R5845:5854 Ionia.NN.model <> BasicBlock.in_channel var
+var 5868:5876 BasicBlock BasB_hyp1
+R5881:5883 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R5884:5885 Ionia.NN.model <> BasicBlock.m1 var
+var 5899:5907 BasicBlock BasB_hyp2
+R5912:5914 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R5915:5916 Ionia.NN.model <> BasicBlock.m2 var
+prf 5926:5934 <> BasB_lem1
+R5939:5942 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5945:5947 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R5943:5944 Ionia.NN.model <> BasicBlock.m1 var
+R5949:5951 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 5978:5986 <> BasB_lem2
+R5991:5994 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5997:5999 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R5995:5996 Ionia.NN.model <> BasicBlock.m2 var
+R6001:6003 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 6030:6038 <> BasB_lem3
+R6043:6046 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R6049:6051 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R6047:6048 Ionia.NN.model <> BasicBlock.m1 var
+R6053:6055 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 6082:6090 <> BasB_lem4
+R6095:6098 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R6101:6103 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R6099:6100 Ionia.NN.model <> BasicBlock.m2 var
+R6105:6107 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+def 6141:6150 <> BasicBlock
+R6172:6180 Ionia.NN.tensor <> Default4d def
+R6194:6203 Ionia.NN.model <> BasicBlock.in_channel var
+R6182:6192 Ionia.NN.model <> BasicBlock.out_channel var
+binder 6161:6167 <> conv1_w:149
+R6229:6237 Ionia.NN.tensor <> Default1d def
+R6239:6249 Ionia.NN.model <> BasicBlock.out_channel var
+binder 6218:6224 <> conv1_b:150
+R6271:6279 Ionia.NN.tensor <> Default4d def
+R6293:6303 Ionia.NN.model <> BasicBlock.out_channel var
+R6281:6291 Ionia.NN.model <> BasicBlock.out_channel var
+binder 6260:6266 <> conv2_w:151
+R6329:6337 Ionia.NN.tensor <> Default1d def
+R6339:6349 Ionia.NN.model <> BasicBlock.out_channel var
+binder 6318:6324 <> conv2_b:152
+R6357:6361 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R6367:6370 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R6428:6433 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R6371:6376 Ionia.NN.operation <> Conv4d def
+R6419:6427 Ionia.NN.model <> BasB_lem2 thm
+R6409:6417 Ionia.NN.model <> BasB_lem1 thm
+R6403:6407 Ionia.NN.model <> BasicBlock.input var
+R6395:6401 Ionia.NN.model <> conv1_w:149 var
+R6387:6393 Ionia.NN.model <> conv1_b:150 var
+R6380:6385 Ionia.NN.model <> BasicBlock.stride var
+binder 6362:6366 <> conv1:153
+R6434:6438 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R6442:6445 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R6472:6477 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R6446:6456 Ionia.NN.operation <> BatchNorm4d def
+R6468:6471 Ionia.Progress.rule <> zero def
+R6464:6466 Ionia.Progress.rule <> one def
+R6458:6462 Ionia.NN.model <> conv1:153 var
+binder 6439:6441 <> bn1:154
+R6478:6482 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R6488:6491 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R6502:6507 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R6492:6497 Ionia.NN.operation <> ReLU4d def
+R6499:6501 Ionia.NN.model <> bn1:154 var
+binder 6483:6487 <> relu1:155
+R6508:6512 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R6518:6521 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R6604:6609 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R6522:6530 Ionia.NN.operation <> convert_2 def
+R6595:6603 Ionia.Base.base <> nat_lem4' thm
+R6585:6593 Ionia.Base.base <> nat_lem4' thm
+R6533:6538 Ionia.NN.operation <> Conv4d def
+R6575:6582 Ionia.Base.base <> nat_lem2 thm
+R6566:6573 Ionia.Base.base <> nat_lem2 thm
+R6560:6564 Ionia.NN.model <> relu1:155 var
+R6552:6558 Ionia.NN.model <> conv2_w:151 var
+R6544:6550 Ionia.NN.model <> conv2_b:152 var
+binder 6513:6517 <> conv2:156
+R6610:6614 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R6618:6621 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R6648:6653 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R6622:6632 Ionia.NN.operation <> BatchNorm4d def
+R6644:6647 Ionia.Progress.rule <> zero def
+R6640:6642 Ionia.Progress.rule <> one def
+R6634:6638 Ionia.NN.model <> conv2:156 var
+binder 6615:6617 <> bn2:157
+R6660:6669 Ionia.NN.model <> BasicBlock.downsample var
+R6680:6683 Coq.Init.Datatypes <> true constr
+R6721:6729 Ionia.NN.tensor <> Default4d def
+R6743:6752 Ionia.NN.model <> BasicBlock.in_channel var
+R6731:6741 Ionia.NN.model <> BasicBlock.out_channel var
+binder 6707:6716 <> convdown_w:159
+R6785:6793 Ionia.NN.tensor <> Default1d def
+R6795:6805 Ionia.NN.model <> BasicBlock.out_channel var
+binder 6771:6780 <> convdown_b:160
+R6816:6820 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R6830:6833 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R6897:6906 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R6834:6839 Ionia.NN.operation <> Conv4d def
+R6888:6896 Ionia.NN.model <> BasB_lem4 thm
+R6878:6886 Ionia.NN.model <> BasB_lem3 thm
+R6872:6876 Ionia.NN.model <> BasicBlock.input var
+R6861:6870 Ionia.NN.model <> convdown_w:159 var
+R6850:6859 Ionia.NN.model <> convdown_b:160 var
+R6843:6848 Ionia.NN.model <> BasicBlock.stride var
+binder 6821:6829 <> identity1:161
+R6907:6917 Ionia.NN.operation <> BatchNorm4d def
+R6933:6936 Ionia.Progress.rule <> zero def
+R6929:6931 Ionia.Progress.rule <> one def
+R6919:6927 Ionia.NN.model <> identity1:161 var
+R6942:6946 Coq.Init.Datatypes <> false constr
+R6966:6968 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6961:6965 Coq.Init.Datatypes <> false constr
+R6969:6978 Ionia.NN.model <> BasicBlock.downsample var
+binder 6955:6957 <> eqd:162
+R6989:6998 Ionia.NN.operation <> convert_in def
+R7047:7055 Ionia.NN.model <> BasicBlock.BasB_hyp2 var
+R7037:7045 Ionia.NN.model <> BasicBlock.BasB_hyp1 var
+R7014:7021 Ionia.NN.model <> BasicBlock.BasB_hyp var
+R7024:7029 Coq.Init.Logic <> eq_sym thm
+R7031:7033 Ionia.NN.model <> eqd:162 var
+R7007:7011 Ionia.NN.model <> BasicBlock.input var
+R7000:7005 Ionia.NN.model <> BasicBlock.stride var
+R7063:7069 Coq.Init.Logic <> eq_refl constr
+R7078:7087 Ionia.NN.model BasicBlock <> sec
+sec 7202:7211 <> BottleNeck
+var  7224:7228 BottleNeck batch
+var  7230:7231 BottleNeck m1
+var  7233:7234 BottleNeck m2
+R7237:7239 Coq.Init.Datatypes <> nat ind
+var 7254:7263 BottleNeck in_channel
+var 7265:7275 BottleNeck out_channel
+var 7277:7277 BottleNeck s
+R7279:7281 Coq.Init.Datatypes <> nat ind
+var 7293:7302 BottleNeck downsample
+R7305:7308 Coq.Init.Datatypes <> bool ind
+var 7320:7324 BottleNeck input
+R7327:7333 Ionia.NN.tensor <> Tensor4 def
+R7355:7356 Ionia.NN.model <> BottleNeck.m2 var
+R7352:7353 Ionia.NN.model <> BottleNeck.m1 var
+R7341:7350 Ionia.NN.model <> BottleNeck.in_channel var
+R7335:7339 Ionia.NN.model <> BottleNeck.batch var
+var 7371:7378 BottleNeck BotN_hyp
+R7400:7403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7392:7394 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7382:7391 Ionia.NN.model <> BottleNeck.downsample var
+R7395:7399 Coq.Init.Datatypes <> false constr
+R7419:7422 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7415:7417 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R7404:7414 Ionia.NN.model <> BottleNeck.out_channel var
+R7423:7432 Ionia.NN.model <> BottleNeck.in_channel var
+var 7446:7454 BottleNeck BotN_hyp1
+R7459:7461 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R7462:7463 Ionia.NN.model <> BottleNeck.m1 var
+var 7478:7486 BottleNeck BotN_hyp2
+R7491:7493 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R7494:7495 Ionia.NN.model <> BottleNeck.m2 var
+prf 7505:7513 <> BotN_lem1
+R7518:7521 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7524:7526 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R7522:7523 Ionia.NN.model <> BottleNeck.m1 var
+R7528:7530 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 7557:7565 <> BotN_lem2
+R7570:7573 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7576:7578 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R7574:7575 Ionia.NN.model <> BottleNeck.m2 var
+R7580:7582 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 7609:7617 <> BotN_lem3
+R7622:7625 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7628:7630 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R7626:7627 Ionia.NN.model <> BottleNeck.m1 var
+R7632:7634 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 7661:7669 <> BotN_lem4
+R7674:7677 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7680:7682 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R7678:7679 Ionia.NN.model <> BottleNeck.m2 var
+R7684:7686 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+def 7719:7728 <> BottleNeck
+R7750:7758 Ionia.NN.tensor <> Default4d def
+R7772:7781 Ionia.NN.model <> BottleNeck.in_channel var
+R7760:7770 Ionia.NN.model <> BottleNeck.out_channel var
+binder 7739:7745 <> conv1_w:182
+R7807:7815 Ionia.NN.tensor <> Default1d def
+R7817:7827 Ionia.NN.model <> BottleNeck.out_channel var
+binder 7796:7802 <> conv1_b:183
+R7849:7857 Ionia.NN.tensor <> Default4d def
+R7871:7881 Ionia.NN.model <> BottleNeck.out_channel var
+R7859:7869 Ionia.NN.model <> BottleNeck.out_channel var
+binder 7838:7844 <> conv2_w:184
+R7907:7915 Ionia.NN.tensor <> Default1d def
+R7917:7927 Ionia.NN.model <> BottleNeck.out_channel var
+binder 7896:7902 <> conv2_b:185
+R7950:7958 Ionia.NN.tensor <> Default4d def
+R7976:7986 Ionia.NN.model <> BottleNeck.out_channel var
+R7972:7972 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R7961:7971 Ionia.NN.model <> BottleNeck.out_channel var
+binder 7939:7945 <> conv3_w:186
+R8012:8020 Ionia.NN.tensor <> Default1d def
+R8034:8034 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R8023:8033 Ionia.NN.model <> BottleNeck.out_channel var
+binder 8001:8007 <> conv3_b:187
+R8044:8048 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8054:8057 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8142:8147 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8058:8066 Ionia.NN.operation <> convert_1 def
+R8133:8141 Ionia.NN.model <> BottleNeck.BotN_hyp2 var
+R8123:8131 Ionia.NN.model <> BottleNeck.BotN_hyp1 var
+R8069:8074 Ionia.NN.operation <> Conv4d def
+R8112:8120 Ionia.NN.model <> BotN_lem2 thm
+R8102:8110 Ionia.NN.model <> BotN_lem1 thm
+R8096:8100 Ionia.NN.model <> BottleNeck.input var
+R8088:8094 Ionia.NN.model <> conv1_w:182 var
+R8080:8086 Ionia.NN.model <> conv1_b:183 var
+binder 8049:8053 <> conv1:188
+R8148:8152 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8156:8159 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8186:8191 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8160:8170 Ionia.NN.operation <> BatchNorm4d def
+R8182:8185 Ionia.Progress.rule <> zero def
+R8178:8180 Ionia.Progress.rule <> one def
+R8172:8176 Ionia.NN.model <> conv1:188 var
+binder 8153:8155 <> bn1:189
+R8192:8196 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8202:8205 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8216:8221 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8206:8211 Ionia.NN.operation <> ReLU4d def
+R8213:8215 Ionia.NN.model <> bn1:189 var
+binder 8197:8201 <> relu1:190
+R8222:8226 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8232:8235 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8288:8293 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8236:8241 Ionia.NN.operation <> Conv4d def
+R8279:8287 Ionia.NN.model <> BotN_lem4 thm
+R8269:8277 Ionia.NN.model <> BotN_lem3 thm
+R8263:8267 Ionia.NN.model <> relu1:190 var
+R8255:8261 Ionia.NN.model <> conv2_w:184 var
+R8247:8253 Ionia.NN.model <> conv2_b:185 var
+R8245:8245 Ionia.NN.model <> BottleNeck.s var
+binder 8227:8231 <> conv2:191
+R8294:8298 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8302:8305 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8332:8337 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8306:8316 Ionia.NN.operation <> BatchNorm4d def
+R8328:8331 Ionia.Progress.rule <> zero def
+R8324:8326 Ionia.Progress.rule <> one def
+R8318:8322 Ionia.NN.model <> conv2:191 var
+binder 8299:8301 <> bn2:192
+R8338:8342 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8348:8351 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8362:8367 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8352:8357 Ionia.NN.operation <> ReLU4d def
+R8359:8361 Ionia.NN.model <> bn2:192 var
+binder 8343:8347 <> relu2:193
+R8368:8372 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8378:8381 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8465:8470 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8382:8390 Ionia.NN.operation <> convert_1 def
+R8456:8464 Ionia.Base.base <> nat_lem4' thm
+R8446:8454 Ionia.Base.base <> nat_lem4' thm
+R8393:8398 Ionia.NN.operation <> Conv4d def
+R8436:8443 Ionia.Base.base <> nat_lem1 thm
+R8427:8434 Ionia.Base.base <> nat_lem1 thm
+R8420:8424 Ionia.NN.model <> relu2:193 var
+R8412:8418 Ionia.NN.model <> conv3_w:186 var
+R8404:8410 Ionia.NN.model <> conv3_b:187 var
+binder 8373:8377 <> conv3:194
+R8471:8475 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8479:8482 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8509:8514 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8483:8493 Ionia.NN.operation <> BatchNorm4d def
+R8505:8508 Ionia.Progress.rule <> zero def
+R8501:8503 Ionia.Progress.rule <> one def
+R8495:8499 Ionia.NN.model <> conv3:194 var
+binder 8476:8478 <> bn3:195
+R8521:8530 Ionia.NN.model <> BottleNeck.downsample var
+R8541:8544 Coq.Init.Datatypes <> true constr
+R8578:8586 Ionia.NN.tensor <> Default4d def
+R8604:8613 Ionia.NN.model <> BottleNeck.in_channel var
+R8600:8600 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R8589:8599 Ionia.NN.model <> BottleNeck.out_channel var
+binder 8564:8573 <> convdown_w:197
+R8642:8650 Ionia.NN.tensor <> Default1d def
+R8664:8664 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R8653:8663 Ionia.NN.model <> BottleNeck.out_channel var
+binder 8628:8637 <> convdown_b:198
+R8673:8677 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8687:8690 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8749:8754 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R8691:8696 Ionia.NN.operation <> Conv4d def
+R8740:8748 Ionia.NN.model <> BotN_lem2 thm
+R8730:8738 Ionia.NN.model <> BotN_lem1 thm
+R8724:8728 Ionia.NN.model <> BottleNeck.input var
+R8713:8722 Ionia.NN.model <> convdown_w:197 var
+R8702:8711 Ionia.NN.model <> convdown_b:198 var
+R8700:8700 Ionia.NN.model <> BottleNeck.s var
+binder 8678:8686 <> identity1:199
+R8755:8765 Ionia.NN.operation <> BatchNorm4d def
+R8782:8785 Ionia.Progress.rule <> zero def
+R8778:8780 Ionia.Progress.rule <> one def
+R8768:8776 Ionia.NN.model <> identity1:199 var
+R8791:8795 Coq.Init.Datatypes <> false constr
+R8815:8817 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8810:8814 Coq.Init.Datatypes <> false constr
+R8818:8827 Ionia.NN.model <> BottleNeck.downsample var
+binder 8804:8806 <> eqd:200
+R8838:8847 Ionia.NN.operation <> convert_in def
+R8891:8899 Ionia.NN.model <> BottleNeck.BotN_hyp2 var
+R8881:8889 Ionia.NN.model <> BottleNeck.BotN_hyp1 var
+R8858:8865 Ionia.NN.model <> BottleNeck.BotN_hyp var
+R8868:8873 Coq.Init.Logic <> eq_sym thm
+R8875:8877 Ionia.NN.model <> eqd:200 var
+R8851:8855 Ionia.NN.model <> BottleNeck.input var
+R8849:8849 Ionia.NN.model <> BottleNeck.s var
+R8907:8913 Coq.Init.Logic <> eq_refl constr
+R8921:8930 Ionia.NN.model BottleNeck <> sec
+sec 8942:8950 <> MakeLayer
+def 8963:8972 <> make_layer
+binder 8975:8979 <> batch:201
+binder 8981:8982 <> m1:202
+binder 8984:8985 <> m2:203
+binder 8987:8996 <> in_channel:204
+binder 8998:9008 <> out_channel:205
+R9023:9025 Coq.Init.Datatypes <> nat ind
+binder 9012:9020 <> num_block:206
+R9039:9045 Ionia.NN.tensor <> Tensor4 def
+R9067:9068 Ionia.NN.model <> m2:203 var
+R9064:9065 Ionia.NN.model <> m1:202 var
+R9053:9062 Ionia.NN.model <> in_channel:204 var
+R9047:9051 Ionia.NN.model <> batch:201 var
+binder 9031:9035 <> input:207
+R9087:9090 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9076:9086 Ionia.NN.model <> out_channel:205 var
+R9091:9100 Ionia.NN.model <> in_channel:204 var
+binder 9072:9072 <> E:208
+R9112:9114 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R9115:9116 Ionia.NN.model <> m1:202 var
+binder 9106:9107 <> E1:209
+R9126:9128 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R9129:9130 Ionia.NN.model <> m2:203 var
+binder 9120:9121 <> E2:210
+R9135:9141 Ionia.NN.tensor <> Tensor4 def
+R9164:9165 Ionia.NN.model <> m2:203 var
+R9161:9162 Ionia.NN.model <> m1:202 var
+R9149:9159 Ionia.NN.model <> out_channel:205 var
+R9143:9147 Ionia.NN.model <> batch:201 var
+R9178:9186 Ionia.NN.model <> num_block:206 var
+R9197:9197 Coq.Init.Datatypes <> O constr
+R9202:9210 Ionia.NN.operation <> convert_1 def
+R9281:9282 Ionia.NN.model <> E2:210 var
+R9278:9279 Ionia.NN.model <> E1:209 var
+R9213:9222 Ionia.NN.model <> BasicBlock def
+R9274:9275 Ionia.NN.model <> E2:210 var
+R9271:9272 Ionia.NN.model <> E1:209 var
+R9262:9266 Coq.Program.Basics <> const def
+R9268:9268 Ionia.NN.model <> E:208 var
+R9255:9259 Ionia.NN.model <> input:207 var
+R9249:9253 Coq.Init.Datatypes <> false constr
+R9235:9245 Ionia.NN.model <> out_channel:205 var
+R9224:9233 Ionia.NN.model <> in_channel:204 var
+R9288:9288 Coq.Init.Datatypes <> S constr
+R9296:9304 Ionia.NN.operation <> convert_1 def
+R9417:9418 Ionia.NN.model <> E2:210 var
+R9414:9415 Ionia.NN.model <> E1:209 var
+R9307:9316 Ionia.NN.model <> BasicBlock def
+R9409:9410 Ionia.NN.model <> E2:210 var
+R9406:9407 Ionia.NN.model <> E1:209 var
+R9397:9401 Coq.Program.Basics <> const def
+R9403:9403 Ionia.NN.model <> E:208 var
+R9350:9359 Ionia.NN.model <> make_layer:211 def
+R9392:9393 Ionia.NN.model <> E2:210 var
+R9389:9390 Ionia.NN.model <> E1:209 var
+R9372:9375 Coq.Init.Peano <> le_n constr
+R9377:9386 Ionia.NN.model <> in_channel:204 var
+R9364:9368 Ionia.NN.model <> input:207 var
+R9343:9347 Coq.Init.Datatypes <> false constr
+R9329:9339 Ionia.NN.model <> out_channel:205 var
+R9318:9327 Ionia.NN.model <> in_channel:204 var
+R9432:9440 Ionia.NN.model MakeLayer <> sec
+sec 9452:9459 <> ResNet34
+var  9472:9476 ResNet34 batch
+var  9478:9484 ResNet34 channel
+var  9486:9487 ResNet34 m1
+var  9489:9490 ResNet34 m2
+R9494:9496 Coq.Init.Datatypes <> nat ind
+var  9509:9513 ResNet34 input
+R9516:9522 Ionia.NN.tensor <> Tensor4 def
+R9541:9542 Ionia.NN.model <> ResNet34.m2 var
+R9538:9539 Ionia.NN.model <> ResNet34.m1 var
+R9530:9536 Ionia.NN.model <> ResNet34.channel var
+R9524:9528 Ionia.NN.model <> ResNet34.batch var
+var 9558:9566 ResNet34 ResN_hyp1
+R9571:9573 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R9574:9575 Ionia.NN.model <> ResNet34.m1 var
+var 9589:9597 ResNet34 ResN_hyp2
+R9602:9604 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R9605:9606 Ionia.NN.model <> ResNet34.m2 var
+prf 9616:9623 <> ResN_lem
+binder 9635:9635 <> P:222
+R9651:9654 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9643:9645 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9639:9642 Coq.Init.Datatypes <> true constr
+R9646:9650 Coq.Init.Datatypes <> false constr
+R9655:9655 Ionia.NN.model <> P:222 var
+prf 9691:9699 <> ResN_lem1
+R9704:9707 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9710:9712 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R9708:9709 Ionia.NN.model <> ResNet34.m1 var
+R9714:9716 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 9743:9751 <> ResN_lem2
+R9756:9759 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9762:9764 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R9760:9761 Ionia.NN.model <> ResNet34.m2 var
+R9766:9768 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+def 9801:9809 <> ResNet_34
+R9832:9840 Ionia.NN.tensor <> Default4d def
+R9845:9851 Ionia.NN.model <> ResNet34.channel var
+binder 9820:9827 <> b1_cv1_w:223
+R9878:9886 Ionia.NN.tensor <> Default1d def
+binder 9866:9873 <> b1_cv1_b:224
+R9908:9916 Ionia.NN.tensor <> Default2d def
+R9927:9927 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R9925:9925 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+binder 9900:9903 <> b6_w:225
+R9948:9956 Ionia.NN.tensor <> Default1d def
+binder 9940:9943 <> b6_b:226
+R9966:9970 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R9982:9985 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10040:10045 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R9986:9991 Ionia.NN.operation <> Conv4d def
+R10031:10039 Ionia.NN.model <> ResN_lem2 thm
+R10021:10029 Ionia.NN.model <> ResN_lem1 thm
+R10015:10019 Ionia.NN.model <> ResNet34.input var
+R10006:10013 Ionia.NN.model <> b1_cv1_w:223 var
+R9997:10004 Ionia.NN.model <> b1_cv1_b:224 var
+binder 9971:9981 <> block1_conv:227
+R10046:10050 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10060:10063 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10096:10101 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10064:10074 Ionia.NN.operation <> BatchNorm4d def
+R10092:10095 Ionia.Progress.rule <> zero def
+R10088:10090 Ionia.Progress.rule <> one def
+R10076:10086 Ionia.NN.model <> block1_conv:227 var
+binder 10051:10059 <> block1_bn:228
+R10102:10106 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10118:10121 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10138:10143 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10122:10127 Ionia.NN.operation <> ReLU4d def
+R10129:10137 Ionia.NN.model <> block1_bn:228 var
+binder 10107:10117 <> block1_relu:229
+R10144:10148 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10155:10158 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10217:10222 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10159:10171 Ionia.NN.operation <> Maxpool4d_pad def
+R10209:10216 Ionia.Base.base <> nat_lem2 thm
+R10200:10207 Ionia.Base.base <> nat_lem2 thm
+R10191:10198 Ionia.Base.base <> nat_lem6 thm
+R10179:10189 Ionia.NN.model <> block1_relu:229 var
+binder 10149:10154 <> block1:230
+R10223:10227 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10234:10237 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10286:10291 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10238:10247 Ionia.NN.model <> make_layer def
+R10277:10285 Ionia.Base.base <> nat_lem4' thm
+R10267:10275 Ionia.Base.base <> nat_lem4' thm
+R10259:10262 Coq.Init.Peano <> le_n constr
+R10251:10256 Ionia.NN.model <> block1:230 var
+binder 10228:10233 <> block2:231
+R10292:10296 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10305:10308 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10369:10374 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10309:10318 Ionia.NN.model <> BasicBlock def
+R10360:10368 Ionia.Base.base <> nat_lem4' thm
+R10350:10358 Ionia.Base.base <> nat_lem4' thm
+R10341:10348 Ionia.NN.model <> ResN_lem thm
+R10334:10339 Ionia.NN.model <> block2:231 var
+R10329:10332 Coq.Init.Datatypes <> true constr
+binder 10297:10304 <> block3_1:232
+R10375:10379 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10386:10389 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10440:10445 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10390:10399 Ionia.NN.model <> make_layer def
+R10431:10439 Ionia.Base.base <> nat_lem4' thm
+R10421:10429 Ionia.Base.base <> nat_lem4' thm
+R10413:10416 Coq.Init.Peano <> le_n constr
+R10403:10410 Ionia.NN.model <> block3_1:232 var
+binder 10380:10385 <> block3:233
+R10446:10450 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10459:10462 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10524:10529 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10463:10472 Ionia.NN.model <> BasicBlock def
+R10515:10523 Ionia.Base.base <> nat_lem4' thm
+R10505:10513 Ionia.Base.base <> nat_lem4' thm
+R10496:10503 Ionia.NN.model <> ResN_lem thm
+R10489:10494 Ionia.NN.model <> block3:233 var
+R10484:10487 Coq.Init.Datatypes <> true constr
+binder 10451:10458 <> block4_1:234
+R10530:10534 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10541:10544 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10595:10600 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10545:10554 Ionia.NN.model <> make_layer def
+R10586:10594 Ionia.Base.base <> nat_lem4' thm
+R10576:10584 Ionia.Base.base <> nat_lem4' thm
+R10568:10571 Coq.Init.Peano <> le_n constr
+R10558:10565 Ionia.NN.model <> block4_1:234 var
+binder 10535:10540 <> block4:235
+R10601:10605 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10614:10617 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10679:10684 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10618:10627 Ionia.NN.model <> BasicBlock def
+R10670:10678 Ionia.Base.base <> nat_lem4' thm
+R10660:10668 Ionia.Base.base <> nat_lem4' thm
+R10651:10658 Ionia.NN.model <> ResN_lem thm
+R10644:10649 Ionia.NN.model <> block4:235 var
+R10639:10642 Coq.Init.Datatypes <> true constr
+binder 10606:10613 <> block5_1:236
+R10685:10689 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10696:10699 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10750:10755 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10700:10709 Ionia.NN.model <> make_layer def
+R10741:10749 Ionia.Base.base <> nat_lem4' thm
+R10731:10739 Ionia.Base.base <> nat_lem4' thm
+R10723:10726 Coq.Init.Peano <> le_n constr
+R10713:10720 Ionia.NN.model <> block5_1:236 var
+binder 10690:10695 <> block5:237
+R10756:10760 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10772:10775 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10804:10827 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10776:10792 Ionia.NN.operation <> AdaptiveAvgPool4d def
+R10798:10803 Ionia.NN.model <> block5:237 var
+binder 10761:10771 <> block6_pool:238
+R10828:10832 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10845:10848 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10870:10895 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R10849:10857 Ionia.NN.operation <> Flatten4d def
+R10859:10869 Ionia.NN.model <> block6_pool:238 var
+binder 10833:10844 <> block6_flatt:239
+R10896:10903 Ionia.NN.operation <> Linear2d def
+R10915:10926 Ionia.NN.model <> block6_flatt:239 var
+R10910:10913 Ionia.NN.model <> b6_b:226 var
+R10905:10908 Ionia.NN.model <> b6_w:225 var
+R10934:10941 Ionia.NN.model ResNet34 <> sec
+sec 10953:10955 <> VGG
+var  10968:10972 VGG batch
+R10976:10978 Coq.Init.Datatypes <> nat ind
+var 10992:10996 VGG input
+R10999:11005 Ionia.NN.tensor <> Tensor4 def
+R11007:11011 Ionia.NN.model <> VGG.batch var
+var 11033:11036 VGG c1_w
+R11039:11045 Ionia.NN.tensor <> Tensor4 def
+var 11066:11069 VGG c1_b
+R11072:11078 Ionia.NN.tensor <> Tensor1 def
+var 11093:11096 VGG c2_w
+R11099:11105 Ionia.NN.tensor <> Tensor4 def
+var 11127:11130 VGG c2_b
+R11133:11139 Ionia.NN.tensor <> Tensor1 def
+var 11154:11157 VGG c3_w
+R11160:11166 Ionia.NN.tensor <> Tensor4 def
+var 11189:11192 VGG c3_b
+R11195:11201 Ionia.NN.tensor <> Tensor1 def
+var 11217:11220 VGG c4_w
+R11223:11229 Ionia.NN.tensor <> Tensor4 def
+var 11253:11256 VGG c4_b
+R11259:11265 Ionia.NN.tensor <> Tensor1 def
+var 11281:11284 VGG c5_w
+R11287:11293 Ionia.NN.tensor <> Tensor4 def
+var 11317:11320 VGG c5_b
+R11323:11329 Ionia.NN.tensor <> Tensor1 def
+var 11345:11348 VGG c6_w
+R11351:11357 Ionia.NN.tensor <> Tensor4 def
+var 11381:11384 VGG c6_b
+R11387:11393 Ionia.NN.tensor <> Tensor1 def
+var 11409:11412 VGG c7_w
+R11415:11421 Ionia.NN.tensor <> Tensor4 def
+var 11445:11448 VGG c7_b
+R11451:11457 Ionia.NN.tensor <> Tensor1 def
+var 11473:11476 VGG c8_w
+R11479:11485 Ionia.NN.tensor <> Tensor4 def
+var 11509:11512 VGG c8_b
+R11515:11521 Ionia.NN.tensor <> Tensor1 def
+var 11537:11540 VGG c9_w
+R11543:11549 Ionia.NN.tensor <> Tensor4 def
+var 11573:11576 VGG c9_b
+R11579:11585 Ionia.NN.tensor <> Tensor1 def
+var 11601:11605 VGG c10_w
+R11608:11614 Ionia.NN.tensor <> Tensor4 def
+var 11638:11642 VGG c10_b
+R11645:11651 Ionia.NN.tensor <> Tensor1 def
+var 11667:11671 VGG c11_w
+R11674:11680 Ionia.NN.tensor <> Tensor4 def
+var 11704:11708 VGG c11_b
+R11711:11717 Ionia.NN.tensor <> Tensor1 def
+var 11733:11737 VGG c12_w
+R11740:11746 Ionia.NN.tensor <> Tensor4 def
+var 11770:11774 VGG c12_b
+R11777:11783 Ionia.NN.tensor <> Tensor1 def
+var 11799:11803 VGG c13_w
+R11806:11812 Ionia.NN.tensor <> Tensor4 def
+var 11836:11840 VGG c13_b
+R11843:11849 Ionia.NN.tensor <> Tensor1 def
+var 11865:11868 VGG f1_w
+R11871:11877 Ionia.NN.tensor <> Tensor2 def
+R11890:11890 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R11888:11888 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+var 11904:11907 VGG f1_b
+R11910:11916 Ionia.NN.tensor <> Tensor1 def
+var 11933:11936 VGG f2_w
+R11939:11945 Ionia.NN.tensor <> Tensor2 def
+var 11967:11970 VGG f2_b
+R11973:11979 Ionia.NN.tensor <> Tensor1 def
+var 11996:11999 VGG f3_w
+R12002:12008 Ionia.NN.tensor <> Tensor2 def
+var 12030:12033 VGG f3_b
+R12036:12042 Ionia.NN.tensor <> Tensor1 def
+prf 12058:12062 <> VGG_1
+R12067:12070 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12074:12076 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12078:12080 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 12112:12116 <> VGG_2
+R12121:12124 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12178:12180 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12125:12125 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12173:12176 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12169:12171 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12126:12126 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12164:12167 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12160:12162 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12152:12154 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12148:12150 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12127:12127 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12143:12146 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12139:12141 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12131:12133 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12135:12137 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12156:12158 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12182:12184 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 12216:12220 <> VGG_3
+R12225:12228 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12332:12334 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12229:12229 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12327:12330 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12323:12325 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12230:12230 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12318:12321 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12314:12316 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12306:12308 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12302:12304 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12231:12231 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12297:12300 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12293:12295 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12285:12287 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12232:12232 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12280:12283 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12276:12278 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12233:12233 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12271:12274 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12267:12269 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12259:12261 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12255:12257 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12234:12234 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12250:12253 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12246:12248 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12238:12240 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12242:12244 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12263:12265 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12289:12291 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12310:12312 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12336:12338 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 12370:12374 <> VGG_4
+R12379:12382 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12558:12560 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12383:12383 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12553:12556 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12549:12551 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12384:12384 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12544:12547 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12540:12542 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12532:12534 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12528:12530 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12385:12385 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12523:12526 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12519:12521 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12511:12513 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12507:12509 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12386:12386 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12502:12505 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12498:12500 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12490:12492 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12387:12387 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12485:12488 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12481:12483 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12388:12388 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12476:12479 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12472:12474 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12464:12466 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12460:12462 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12389:12389 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12455:12458 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12451:12453 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12443:12445 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12390:12390 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12438:12441 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12434:12436 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12391:12391 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12429:12432 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12425:12427 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12417:12419 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12413:12415 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12392:12392 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12408:12411 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12404:12406 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12396:12398 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12400:12402 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12421:12423 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12447:12449 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12468:12470 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12494:12496 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12515:12517 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12536:12538 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12562:12564 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 12596:12600 <> VGG_5
+R12605:12608 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12856:12858 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12609:12609 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12851:12854 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12847:12849 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12610:12610 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12842:12845 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12838:12840 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12830:12832 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12826:12828 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12611:12611 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12821:12824 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12817:12819 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12809:12811 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12805:12807 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12612:12612 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12800:12803 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12796:12798 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12788:12790 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12613:12613 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12783:12786 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12779:12781 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12614:12614 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12774:12777 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12770:12772 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12762:12764 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12758:12760 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12615:12615 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12753:12756 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12749:12751 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12741:12743 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12737:12739 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12616:12616 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12732:12735 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12728:12730 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12720:12722 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12617:12617 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12715:12718 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12711:12713 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12618:12618 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12706:12709 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12702:12704 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12694:12696 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12690:12692 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12619:12619 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12685:12688 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12681:12683 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12673:12675 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12620:12620 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12668:12671 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12664:12666 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12621:12621 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12659:12662 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12655:12657 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12647:12649 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12643:12645 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12622:12622 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12638:12641 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R12634:12636 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R12626:12628 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R12630:12632 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12651:12653 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12677:12679 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12698:12700 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12724:12726 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12745:12747 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12766:12768 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12792:12794 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12813:12815 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12834:12836 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R12860:12862 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+def 12901:12906 <> VGG_16
+R12913:12917 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R12923:12926 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R12965:12970 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R12927:12932 Ionia.NN.operation <> Conv4d def
+R12960:12964 Ionia.NN.model <> VGG_1 thm
+R12954:12958 Ionia.NN.model <> VGG_1 thm
+R12948:12952 Ionia.NN.model <> VGG.input var
+R12943:12946 Ionia.NN.model <> VGG.c1_w var
+R12938:12941 Ionia.NN.model <> VGG.c1_b var
+binder 12918:12922 <> conv1:307
+R12971:12975 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R12986:12989 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13002:13007 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R12990:12995 Ionia.NN.operation <> ReLU4d def
+R12997:13001 Ionia.NN.model <> conv1:307 var
+binder 12976:12985 <> conv1_relu:308
+R13008:13012 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13018:13021 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13071:13076 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13022:13027 Ionia.NN.operation <> Conv4d def
+R13063:13070 Ionia.Base.base <> nat_lem2 thm
+R13054:13061 Ionia.Base.base <> nat_lem2 thm
+R13043:13052 Ionia.NN.model <> conv1_relu:308 var
+R13038:13041 Ionia.NN.model <> VGG.c2_w var
+R13033:13036 Ionia.NN.model <> VGG.c2_b var
+binder 13013:13017 <> conv2:309
+R13077:13081 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13092:13095 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13108:13113 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13096:13101 Ionia.NN.operation <> ReLU4d def
+R13103:13107 Ionia.NN.model <> conv2:309 var
+binder 13082:13091 <> conv2_relu:310
+R13114:13118 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13124:13127 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13159:13194 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13128:13136 Ionia.NN.operation <> Maxpool4d def
+R13151:13158 Ionia.Base.base <> nat_lem5 thm
+R13140:13149 Ionia.NN.model <> conv2_relu:310 var
+binder 13119:13123 <> pool1:311
+R13195:13199 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13205:13208 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13247:13252 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13209:13214 Ionia.NN.operation <> Conv4d def
+R13242:13246 Ionia.NN.model <> VGG_2 thm
+R13236:13240 Ionia.NN.model <> VGG_2 thm
+R13230:13234 Ionia.NN.model <> pool1:311 var
+R13225:13228 Ionia.NN.model <> VGG.c3_w var
+R13220:13223 Ionia.NN.model <> VGG.c3_b var
+binder 13200:13204 <> conv3:312
+R13253:13257 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13268:13271 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13284:13289 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13272:13277 Ionia.NN.operation <> ReLU4d def
+R13279:13283 Ionia.NN.model <> conv3:312 var
+binder 13258:13267 <> conv3_relu:313
+R13290:13294 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13300:13303 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13353:13358 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13304:13309 Ionia.NN.operation <> Conv4d def
+R13345:13352 Ionia.Base.base <> nat_lem2 thm
+R13336:13343 Ionia.Base.base <> nat_lem2 thm
+R13325:13334 Ionia.NN.model <> conv3_relu:313 var
+R13320:13323 Ionia.NN.model <> VGG.c4_w var
+R13315:13318 Ionia.NN.model <> VGG.c4_b var
+binder 13295:13299 <> conv4:314
+R13359:13363 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13374:13377 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13390:13395 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13378:13383 Ionia.NN.operation <> ReLU4d def
+R13385:13389 Ionia.NN.model <> conv4:314 var
+binder 13364:13373 <> conv4_relu:315
+R13396:13400 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13406:13409 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13441:13474 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13410:13418 Ionia.NN.operation <> Maxpool4d def
+R13433:13440 Ionia.Base.base <> nat_lem5 thm
+R13422:13431 Ionia.NN.model <> conv4_relu:315 var
+binder 13401:13405 <> pool2:316
+R13475:13479 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13485:13488 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13527:13532 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13489:13494 Ionia.NN.operation <> Conv4d def
+R13522:13526 Ionia.NN.model <> VGG_3 thm
+R13516:13520 Ionia.NN.model <> VGG_3 thm
+R13510:13514 Ionia.NN.model <> pool2:316 var
+R13505:13508 Ionia.NN.model <> VGG.c5_w var
+R13500:13503 Ionia.NN.model <> VGG.c5_b var
+binder 13480:13484 <> conv5:317
+R13533:13537 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13548:13551 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13564:13569 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13552:13557 Ionia.NN.operation <> ReLU4d def
+R13559:13563 Ionia.NN.model <> conv5:317 var
+binder 13538:13547 <> conv5_relu:318
+R13570:13574 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13580:13583 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13633:13638 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13584:13589 Ionia.NN.operation <> Conv4d def
+R13625:13632 Ionia.Base.base <> nat_lem2 thm
+R13616:13623 Ionia.Base.base <> nat_lem2 thm
+R13605:13614 Ionia.NN.model <> conv5_relu:318 var
+R13600:13603 Ionia.NN.model <> VGG.c6_w var
+R13595:13598 Ionia.NN.model <> VGG.c6_b var
+binder 13575:13579 <> conv6:319
+R13639:13643 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13654:13657 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13670:13675 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13658:13663 Ionia.NN.operation <> ReLU4d def
+R13665:13669 Ionia.NN.model <> conv6:319 var
+binder 13644:13653 <> conv6_relu:320
+R13676:13680 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13686:13689 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13739:13744 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13690:13695 Ionia.NN.operation <> Conv4d def
+R13731:13738 Ionia.Base.base <> nat_lem2 thm
+R13722:13729 Ionia.Base.base <> nat_lem2 thm
+R13711:13720 Ionia.NN.model <> conv6_relu:320 var
+R13706:13709 Ionia.NN.model <> VGG.c7_w var
+R13701:13704 Ionia.NN.model <> VGG.c7_b var
+binder 13681:13685 <> conv7:321
+R13745:13749 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13760:13763 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13776:13781 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13764:13769 Ionia.NN.operation <> ReLU4d def
+R13771:13775 Ionia.NN.model <> conv7:321 var
+binder 13750:13759 <> conv7_relu:322
+R13782:13786 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13792:13795 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13827:13860 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13796:13804 Ionia.NN.operation <> Maxpool4d def
+R13819:13826 Ionia.Base.base <> nat_lem5 thm
+R13808:13817 Ionia.NN.model <> conv7_relu:322 var
+binder 13787:13791 <> pool3:323
+R13861:13865 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13871:13874 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13913:13918 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13875:13880 Ionia.NN.operation <> Conv4d def
+R13908:13912 Ionia.NN.model <> VGG_4 thm
+R13902:13906 Ionia.NN.model <> VGG_4 thm
+R13896:13900 Ionia.NN.model <> pool3:323 var
+R13891:13894 Ionia.NN.model <> VGG.c8_w var
+R13886:13889 Ionia.NN.model <> VGG.c8_b var
+binder 13866:13870 <> conv8:324
+R13919:13923 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13934:13937 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13950:13955 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13938:13943 Ionia.NN.operation <> ReLU4d def
+R13945:13949 Ionia.NN.model <> conv8:324 var
+binder 13924:13933 <> conv8_relu:325
+R13956:13960 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13966:13969 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14019:14024 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R13970:13975 Ionia.NN.operation <> Conv4d def
+R14011:14018 Ionia.Base.base <> nat_lem2 thm
+R14002:14009 Ionia.Base.base <> nat_lem2 thm
+R13991:14000 Ionia.NN.model <> conv8_relu:325 var
+R13986:13989 Ionia.NN.model <> VGG.c9_w var
+R13981:13984 Ionia.NN.model <> VGG.c9_b var
+binder 13961:13965 <> conv9:326
+R14025:14029 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14040:14043 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14056:14061 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14044:14049 Ionia.NN.operation <> ReLU4d def
+R14051:14055 Ionia.NN.model <> conv9:326 var
+binder 14030:14039 <> conv9_relu:327
+R14062:14066 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14073:14076 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14128:14133 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14077:14082 Ionia.NN.operation <> Conv4d def
+R14120:14127 Ionia.Base.base <> nat_lem2 thm
+R14111:14118 Ionia.Base.base <> nat_lem2 thm
+R14100:14109 Ionia.NN.model <> conv9_relu:327 var
+R14094:14098 Ionia.NN.model <> VGG.c10_w var
+R14088:14092 Ionia.NN.model <> VGG.c10_b var
+binder 14067:14072 <> conv10:328
+R14134:14138 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14150:14153 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14167:14172 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14154:14159 Ionia.NN.operation <> ReLU4d def
+R14161:14166 Ionia.NN.model <> conv10:328 var
+binder 14139:14149 <> conv10_relu:329
+R14173:14177 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14183:14186 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14219:14251 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14187:14195 Ionia.NN.operation <> Maxpool4d def
+R14211:14218 Ionia.Base.base <> nat_lem5 thm
+R14199:14209 Ionia.NN.model <> conv10_relu:329 var
+binder 14178:14182 <> pool4:330
+R14252:14256 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14263:14266 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14307:14312 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14267:14272 Ionia.NN.operation <> Conv4d def
+R14302:14306 Ionia.NN.model <> VGG_5 thm
+R14296:14300 Ionia.NN.model <> VGG_5 thm
+R14290:14294 Ionia.NN.model <> pool4:330 var
+R14284:14288 Ionia.NN.model <> VGG.c11_w var
+R14278:14282 Ionia.NN.model <> VGG.c11_b var
+binder 14257:14262 <> conv11:331
+R14313:14317 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14329:14332 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14346:14351 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14333:14338 Ionia.NN.operation <> ReLU4d def
+R14340:14345 Ionia.NN.model <> conv11:331 var
+binder 14318:14328 <> conv11_relu:332
+R14352:14356 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14363:14366 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14419:14424 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14367:14372 Ionia.NN.operation <> Conv4d def
+R14411:14418 Ionia.Base.base <> nat_lem2 thm
+R14402:14409 Ionia.Base.base <> nat_lem2 thm
+R14390:14400 Ionia.NN.model <> conv11_relu:332 var
+R14384:14388 Ionia.NN.model <> VGG.c12_w var
+R14378:14382 Ionia.NN.model <> VGG.c12_b var
+binder 14357:14362 <> conv12:333
+R14425:14429 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14441:14444 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14458:14463 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14445:14450 Ionia.NN.operation <> ReLU4d def
+R14452:14457 Ionia.NN.model <> conv12:333 var
+binder 14430:14440 <> conv12_relu:334
+R14464:14468 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14475:14478 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14531:14536 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14479:14484 Ionia.NN.operation <> Conv4d def
+R14523:14530 Ionia.Base.base <> nat_lem2 thm
+R14514:14521 Ionia.Base.base <> nat_lem2 thm
+R14502:14512 Ionia.NN.model <> conv12_relu:334 var
+R14496:14500 Ionia.NN.model <> VGG.c13_w var
+R14490:14494 Ionia.NN.model <> VGG.c13_b var
+binder 14469:14474 <> conv13:335
+R14537:14541 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14553:14556 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14570:14575 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14557:14562 Ionia.NN.operation <> ReLU4d def
+R14564:14569 Ionia.NN.model <> conv13:335 var
+binder 14542:14552 <> conv13_relu:336
+R14576:14580 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14586:14589 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14622:14653 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14590:14598 Ionia.NN.operation <> Maxpool4d def
+R14614:14621 Ionia.Base.base <> nat_lem5 thm
+R14602:14612 Ionia.NN.model <> conv13_relu:336 var
+binder 14581:14585 <> pool5:337
+R14654:14658 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14662:14665 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14702:14726 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14666:14673 Ionia.NN.operation <> Linear2d def
+R14686:14694 Ionia.NN.operation <> Flatten4d def
+R14696:14700 Ionia.NN.model <> pool5:337 var
+R14680:14683 Ionia.NN.model <> VGG.f1_b var
+R14675:14678 Ionia.NN.model <> VGG.f1_w var
+binder 14659:14661 <> fc1:338
+R14727:14731 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14740:14743 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14754:14760 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14744:14749 Ionia.NN.operation <> ReLU2d def
+R14751:14753 Ionia.NN.model <> fc1:338 var
+binder 14732:14739 <> fc1_relu:339
+R14761:14765 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14769:14772 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14800:14833 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14773:14780 Ionia.NN.operation <> Linear2d def
+R14792:14799 Ionia.NN.model <> fc1_relu:339 var
+R14787:14790 Ionia.NN.model <> VGG.f2_b var
+R14782:14785 Ionia.NN.model <> VGG.f2_w var
+binder 14766:14768 <> fc2:340
+R14834:14838 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14847:14850 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14861:14866 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14851:14856 Ionia.NN.operation <> ReLU2d def
+R14858:14860 Ionia.NN.model <> fc2:340 var
+binder 14839:14846 <> fc2_relu:341
+R14867:14871 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14875:14878 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14906:14939 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R14879:14886 Ionia.NN.operation <> Linear2d def
+R14898:14905 Ionia.NN.model <> fc2_relu:341 var
+R14893:14896 Ionia.NN.model <> VGG.f3_b var
+R14888:14891 Ionia.NN.model <> VGG.f3_w var
+binder 14872:14874 <> fc3:342
+R14940:14948 Ionia.NN.operation <> Softmax2d def
+R14950:14952 Ionia.NN.model <> fc3:342 var
+R14960:14962 Ionia.NN.model VGG <> sec
+sec 14974:14982 <> Inception
+var  14995:14999 Inception batch
+var  15001:15007 Inception channel
+var  15009:15010 Inception m1
+var  15012:15013 Inception m2
+R15017:15019 Coq.Init.Datatypes <> nat ind
+var 15034:15039 Inception c1_ch1
+var 15041:15046 Inception c2_ch1
+var 15048:15053 Inception c2_ch3
+var 15055:15060 Inception c3_ch1
+var 15062:15067 Inception c3_ch5
+var 15069:15074 Inception c4_ch1
+R15077:15079 Coq.Init.Datatypes <> nat ind
+var 15091:15095 Inception input
+R15098:15104 Ionia.NN.tensor <> Tensor4 def
+R15123:15124 Ionia.NN.model <> Inception.m2 var
+R15120:15121 Ionia.NN.model <> Inception.m1 var
+R15112:15118 Ionia.NN.model <> Inception.channel var
+R15106:15110 Ionia.NN.model <> Inception.batch var
+var 15139:15146 Inception Inc_hyp1
+R15151:15153 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R15154:15155 Ionia.NN.model <> Inception.m1 var
+var 15169:15176 Inception Inc_hyp2
+R15181:15183 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R15184:15185 Ionia.NN.model <> Inception.m2 var
+prf 15195:15202 <> Inc_lem1
+R15207:15210 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R15213:15215 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R15211:15212 Ionia.NN.model <> Inception.m1 var
+R15217:15219 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 15246:15253 <> Inc_lem2
+R15258:15261 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R15264:15266 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R15262:15263 Ionia.NN.model <> Inception.m2 var
+R15268:15270 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 15297:15304 <> Inc_lem3
+R15309:15312 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R15315:15317 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R15313:15314 Ionia.NN.model <> Inception.m1 var
+R15319:15321 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 15348:15355 <> Inc_lem4
+R15360:15363 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R15366:15368 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R15364:15365 Ionia.NN.model <> Inception.m2 var
+R15370:15372 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 15399:15406 <> Inc_lem5
+R15411:15414 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R15417:15419 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R15415:15416 Ionia.NN.model <> Inception.m1 var
+R15421:15423 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 15450:15457 <> Inc_lem6
+R15462:15465 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R15468:15470 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R15466:15467 Ionia.NN.model <> Inception.m2 var
+R15472:15474 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+def 15507:15515 <> Inception
+R15534:15542 Ionia.NN.tensor <> Default4d def
+R15551:15557 Ionia.NN.model <> Inception.channel var
+R15544:15549 Ionia.NN.model <> Inception.c1_ch1 var
+binder 15526:15529 <> c1_w:365
+R15580:15588 Ionia.NN.tensor <> Default1d def
+R15590:15595 Ionia.NN.model <> Inception.c1_ch1 var
+binder 15572:15575 <> c1_b:366
+R15615:15623 Ionia.NN.tensor <> Default4d def
+R15632:15638 Ionia.NN.model <> Inception.channel var
+R15625:15630 Ionia.NN.model <> Inception.c2_ch1 var
+binder 15606:15610 <> c2_w1:367
+R15662:15670 Ionia.NN.tensor <> Default1d def
+R15672:15677 Ionia.NN.model <> Inception.c2_ch1 var
+binder 15653:15657 <> c2_b1:368
+R15698:15706 Ionia.NN.tensor <> Default4d def
+R15715:15720 Ionia.NN.model <> Inception.c2_ch1 var
+R15708:15713 Ionia.NN.model <> Inception.c2_ch3 var
+binder 15689:15693 <> c2_w2:369
+R15744:15752 Ionia.NN.tensor <> Default1d def
+R15754:15759 Ionia.NN.model <> Inception.c2_ch3 var
+binder 15735:15739 <> c2_b2:370
+R15779:15787 Ionia.NN.tensor <> Default4d def
+R15796:15802 Ionia.NN.model <> Inception.channel var
+R15789:15794 Ionia.NN.model <> Inception.c3_ch1 var
+binder 15770:15774 <> c3_w1:371
+R15826:15834 Ionia.NN.tensor <> Default1d def
+R15836:15841 Ionia.NN.model <> Inception.c3_ch1 var
+binder 15817:15821 <> c3_b1:372
+R15862:15870 Ionia.NN.tensor <> Default4d def
+R15879:15884 Ionia.NN.model <> Inception.c3_ch1 var
+R15872:15877 Ionia.NN.model <> Inception.c3_ch5 var
+binder 15853:15857 <> c3_w2:373
+R15908:15916 Ionia.NN.tensor <> Default1d def
+R15918:15923 Ionia.NN.model <> Inception.c3_ch5 var
+binder 15899:15903 <> c3_b2:374
+R15942:15950 Ionia.NN.tensor <> Default4d def
+R15959:15965 Ionia.NN.model <> Inception.channel var
+R15952:15957 Ionia.NN.model <> Inception.c4_ch1 var
+binder 15934:15937 <> c4_w:375
+R15988:15996 Ionia.NN.tensor <> Default1d def
+R15998:16003 Ionia.NN.model <> Inception.c4_ch1 var
+binder 15980:15983 <> c4_b:376
+R16010:16014 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16019:16022 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16097:16102 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16023:16031 Ionia.NN.operation <> convert_1 def
+R16089:16096 Ionia.NN.model <> Inception.Inc_hyp2 var
+R16080:16087 Ionia.NN.model <> Inception.Inc_hyp1 var
+R16034:16039 Ionia.NN.operation <> Conv4d def
+R16070:16077 Ionia.NN.model <> Inc_lem2 thm
+R16061:16068 Ionia.NN.model <> Inc_lem1 thm
+R16055:16059 Ionia.NN.model <> Inception.input var
+R16050:16053 Ionia.NN.model <> c1_w:365 var
+R16045:16048 Ionia.NN.model <> c1_b:366 var
+binder 16015:16018 <> p1_1:377
+R16103:16107 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16112:16115 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16127:16132 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16116:16121 Ionia.NN.operation <> ReLU4d def
+R16123:16126 Ionia.NN.model <> p1_1:377 var
+binder 16108:16111 <> p1_2:378
+R16133:16137 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16142:16145 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16222:16227 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16146:16154 Ionia.NN.operation <> convert_1 def
+R16214:16221 Ionia.NN.model <> Inception.Inc_hyp2 var
+R16205:16212 Ionia.NN.model <> Inception.Inc_hyp1 var
+R16157:16162 Ionia.NN.operation <> Conv4d def
+R16195:16202 Ionia.NN.model <> Inc_lem2 thm
+R16186:16193 Ionia.NN.model <> Inc_lem1 thm
+R16180:16184 Ionia.NN.model <> Inception.input var
+R16174:16178 Ionia.NN.model <> c2_w1:367 var
+R16168:16172 Ionia.NN.model <> c2_b1:368 var
+binder 16138:16141 <> p2_1:379
+R16228:16232 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16237:16240 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16252:16257 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16241:16246 Ionia.NN.operation <> ReLU4d def
+R16248:16251 Ionia.NN.model <> p2_1:379 var
+binder 16233:16236 <> p2_2:380
+R16258:16262 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16267:16270 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16346:16351 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16271:16279 Ionia.NN.operation <> convert_2 def
+R16338:16345 Ionia.NN.model <> Inception.Inc_hyp2 var
+R16329:16336 Ionia.NN.model <> Inception.Inc_hyp1 var
+R16282:16287 Ionia.NN.operation <> Conv4d def
+R16319:16326 Ionia.NN.model <> Inc_lem4 thm
+R16310:16317 Ionia.NN.model <> Inc_lem3 thm
+R16305:16308 Ionia.NN.model <> p2_2:380 var
+R16299:16303 Ionia.NN.model <> c2_w2:369 var
+R16293:16297 Ionia.NN.model <> c2_b2:370 var
+binder 16263:16266 <> p2_3:381
+R16352:16356 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16361:16364 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16376:16381 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16365:16370 Ionia.NN.operation <> ReLU4d def
+R16372:16375 Ionia.NN.model <> p2_3:381 var
+binder 16357:16360 <> p2_4:382
+R16382:16386 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16391:16394 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16471:16476 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16395:16403 Ionia.NN.operation <> convert_1 def
+R16463:16470 Ionia.NN.model <> Inception.Inc_hyp2 var
+R16454:16461 Ionia.NN.model <> Inception.Inc_hyp1 var
+R16406:16411 Ionia.NN.operation <> Conv4d def
+R16444:16451 Ionia.NN.model <> Inc_lem2 thm
+R16435:16442 Ionia.NN.model <> Inc_lem1 thm
+R16429:16433 Ionia.NN.model <> Inception.input var
+R16423:16427 Ionia.NN.model <> c3_w1:371 var
+R16417:16421 Ionia.NN.model <> c3_b1:372 var
+binder 16387:16390 <> p3_1:383
+R16477:16481 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16486:16489 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16501:16506 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16490:16495 Ionia.NN.operation <> ReLU4d def
+R16497:16500 Ionia.NN.model <> p3_1:383 var
+binder 16482:16485 <> p3_2:384
+R16507:16511 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16516:16519 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16595:16600 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16520:16528 Ionia.NN.operation <> convert_3 def
+R16587:16594 Ionia.NN.model <> Inception.Inc_hyp2 var
+R16578:16585 Ionia.NN.model <> Inception.Inc_hyp1 var
+R16531:16536 Ionia.NN.operation <> Conv4d def
+R16568:16575 Ionia.NN.model <> Inc_lem6 thm
+R16559:16566 Ionia.NN.model <> Inc_lem5 thm
+R16554:16557 Ionia.NN.model <> p3_2:384 var
+R16548:16552 Ionia.NN.model <> c3_w2:373 var
+R16542:16546 Ionia.NN.model <> c3_b2:374 var
+binder 16512:16515 <> p3_3:385
+R16601:16605 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16610:16613 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16625:16630 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16614:16619 Ionia.NN.operation <> ReLU4d def
+R16621:16624 Ionia.NN.model <> p3_3:385 var
+binder 16606:16609 <> p3_4:386
+R16631:16635 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16640:16643 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16723:16728 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16644:16652 Ionia.NN.operation <> convert_2 def
+R16715:16722 Ionia.NN.model <> Inception.Inc_hyp2 var
+R16706:16713 Ionia.NN.model <> Inception.Inc_hyp1 var
+R16655:16667 Ionia.NN.operation <> Maxpool4d_pad def
+R16696:16703 Ionia.NN.model <> Inc_lem4 thm
+R16687:16694 Ionia.NN.model <> Inc_lem3 thm
+R16681:16685 Ionia.Progress.rule <> _0lt3 ex
+R16675:16679 Ionia.NN.model <> Inception.input var
+binder 16636:16639 <> p4_1:387
+R16729:16733 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16738:16741 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16815:16820 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16742:16750 Ionia.NN.operation <> convert_1 def
+R16807:16814 Ionia.NN.model <> Inception.Inc_hyp2 var
+R16798:16805 Ionia.NN.model <> Inception.Inc_hyp1 var
+R16753:16758 Ionia.NN.operation <> Conv4d def
+R16788:16795 Ionia.NN.model <> Inc_lem2 thm
+R16779:16786 Ionia.NN.model <> Inc_lem1 thm
+R16774:16777 Ionia.NN.model <> p4_1:387 var
+R16769:16772 Ionia.NN.model <> c4_w:375 var
+R16764:16767 Ionia.NN.model <> c4_b:376 var
+binder 16734:16737 <> p4_2:388
+R16821:16825 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16830:16833 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16845:16850 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R16834:16839 Ionia.NN.operation <> ReLU4d def
+R16841:16844 Ionia.NN.model <> p4_2:388 var
+binder 16826:16829 <> p4_3:389
+R16851:16858 Ionia.NN.operation <> Concat4d def
+R16897:16900 Ionia.NN.model <> p4_3:389 var
+R16861:16868 Ionia.NN.operation <> Concat4d def
+R16891:16894 Ionia.NN.model <> p3_4:386 var
+R16871:16878 Ionia.NN.operation <> Concat4d def
+R16885:16888 Ionia.NN.model <> p2_4:382 var
+R16880:16883 Ionia.NN.model <> p1_2:378 var
+R16908:16916 Ionia.NN.model Inception <> sec
+sec 16928:16936 <> GoogleNet
+var  16949:16953 GoogleNet batch
+var  16955:16961 GoogleNet channel
+var  16963:16964 GoogleNet m1
+var  16966:16967 GoogleNet m2
+R16971:16973 Coq.Init.Datatypes <> nat ind
+var 16989:16996 GoogleNet Goo_hyp1
+R17002:17005 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17006:17007 Ionia.NN.model <> GoogleNet.m1 var
+var 17021:17028 GoogleNet Goo_hyp2
+R17034:17037 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17038:17039 Ionia.NN.model <> GoogleNet.m2 var
+var 17052:17056 GoogleNet input
+R17059:17065 Ionia.NN.tensor <> Tensor4 def
+R17084:17085 Ionia.NN.model <> GoogleNet.m2 var
+R17081:17082 Ionia.NN.model <> GoogleNet.m1 var
+R17073:17079 Ionia.NN.model <> GoogleNet.channel var
+R17067:17071 Ionia.NN.model <> GoogleNet.batch var
+prf 17095:17102 <> Goo_lem1
+R17107:17110 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17113:17115 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17111:17112 Ionia.NN.model <> GoogleNet.m1 var
+R17117:17119 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 17146:17153 <> Goo_lem2
+R17158:17161 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17164:17166 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17162:17163 Ionia.NN.model <> GoogleNet.m2 var
+R17168:17170 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 17197:17204 <> Goo_lem3
+R17209:17212 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17237:17239 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17233:17235 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17213:17213 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17228:17231 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17224:17226 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17216:17218 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17214:17215 Ionia.NN.model <> GoogleNet.m1 var
+R17220:17222 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17241:17243 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 17287:17294 <> Goo_lem4
+R17299:17302 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17327:17329 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17323:17325 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17303:17303 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17318:17321 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17314:17316 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17306:17308 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17304:17305 Ionia.NN.model <> GoogleNet.m2 var
+R17310:17312 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17331:17333 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 17377:17384 <> Goo_lem5
+R17389:17392 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17483:17485 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17479:17481 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17393:17393 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17474:17477 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17470:17472 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17462:17464 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17458:17460 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17394:17394 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17453:17456 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17449:17451 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17441:17443 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17437:17439 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17395:17395 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17432:17435 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17428:17430 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17420:17422 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17416:17418 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17396:17396 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17411:17414 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17407:17409 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17399:17401 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17397:17398 Ionia.NN.model <> GoogleNet.m1 var
+R17403:17405 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17424:17426 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17445:17447 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17466:17468 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17487:17489 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 17533:17540 <> Goo_lem6
+R17545:17548 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17639:17641 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17635:17637 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17549:17549 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17630:17633 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17626:17628 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17618:17620 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17614:17616 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17550:17550 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17609:17612 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17605:17607 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17597:17599 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17593:17595 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17551:17551 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17588:17591 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17584:17586 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17576:17578 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17572:17574 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17552:17552 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17567:17570 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17563:17565 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17555:17557 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17553:17554 Ionia.NN.model <> GoogleNet.m2 var
+R17559:17561 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17580:17582 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17601:17603 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17622:17624 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17643:17645 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 17689:17696 <> Goo_lem7
+R17701:17704 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17817:17819 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17813:17815 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17705:17705 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17808:17811 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17804:17806 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17796:17798 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17792:17794 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17706:17706 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17787:17790 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17783:17785 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17775:17777 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17771:17773 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17707:17707 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17766:17769 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17762:17764 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17754:17756 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17750:17752 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17708:17708 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17745:17748 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17741:17743 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17733:17735 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17729:17731 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17709:17709 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17724:17727 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17720:17722 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17712:17714 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17710:17711 Ionia.NN.model <> GoogleNet.m1 var
+R17716:17718 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17737:17739 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17758:17760 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17779:17781 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17800:17802 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17821:17823 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 17867:17874 <> Goo_lem8
+R17879:17882 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17995:17997 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17991:17993 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17883:17883 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17986:17989 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17982:17984 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17974:17976 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17970:17972 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17884:17884 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17965:17968 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17961:17963 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17953:17955 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17949:17951 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17885:17885 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17944:17947 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17940:17942 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17932:17934 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17928:17930 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17886:17886 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17923:17926 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17919:17921 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17911:17913 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17907:17909 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17887:17887 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17902:17905 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R17898:17900 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R17890:17892 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R17888:17889 Ionia.NN.model <> GoogleNet.m2 var
+R17894:17896 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17915:17917 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17936:17938 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17957:17959 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17978:17980 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R17999:18001 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 18045:18052 <> Goo_lem9
+R18057:18058 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R18059:18059 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18194:18197 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18190:18192 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18060:18060 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18185:18188 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18181:18183 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R18173:18175 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18169:18171 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18061:18061 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18164:18167 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18160:18162 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R18152:18154 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18148:18150 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18062:18062 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18143:18146 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18139:18141 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R18131:18133 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18127:18129 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18063:18063 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18122:18125 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18118:18120 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R18110:18112 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18106:18108 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18064:18064 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18101:18104 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18097:18099 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R18089:18091 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18085:18087 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18065:18065 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18080:18083 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18076:18078 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R18068:18070 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18066:18067 Ionia.NN.model <> GoogleNet.m1 var
+R18072:18074 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R18093:18095 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R18114:18116 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R18135:18137 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R18156:18158 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R18177:18179 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 18241:18249 <> Goo_lem10
+R18254:18255 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R18256:18256 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18391:18394 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18387:18389 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18257:18257 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18382:18385 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18378:18380 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R18370:18372 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18366:18368 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18258:18258 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18361:18364 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18357:18359 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R18349:18351 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18345:18347 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18259:18259 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18340:18343 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18336:18338 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R18328:18330 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18324:18326 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18260:18260 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18319:18322 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18315:18317 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R18307:18309 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18303:18305 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18261:18261 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18298:18301 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18294:18296 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R18286:18288 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18282:18284 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18262:18262 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18277:18280 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R18273:18275 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R18265:18267 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R18263:18264 Ionia.NN.model <> GoogleNet.m2 var
+R18269:18271 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R18290:18292 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R18311:18313 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R18332:18334 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R18353:18355 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R18374:18376 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+def 18445:18453 <> GoogleNet
+R18472:18480 Ionia.NN.tensor <> Default4d def
+R18485:18491 Ionia.NN.model <> GoogleNet.channel var
+binder 18464:18467 <> b1_w:400
+R18514:18522 Ionia.NN.tensor <> Default1d def
+binder 18506:18509 <> b1_b:401
+R18545:18553 Ionia.NN.tensor <> Default4d def
+binder 18536:18540 <> b2_w1:402
+R18583:18591 Ionia.NN.tensor <> Default1d def
+binder 18574:18578 <> b2_b1:403
+R18614:18622 Ionia.NN.tensor <> Default4d def
+binder 18605:18609 <> b2_w2:404
+R18653:18661 Ionia.NN.tensor <> Default1d def
+binder 18644:18648 <> b2_b2:405
+R18683:18691 Ionia.NN.tensor <> Default2d def
+binder 18676:18678 <> f_w:406
+R18719:18727 Ionia.NN.tensor <> Default1d def
+binder 18712:18714 <> f_b:407
+R18739:18743 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R18751:18754 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R18799:18804 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R18755:18760 Ionia.NN.operation <> Conv4d def
+R18791:18798 Ionia.NN.model <> Goo_lem2 thm
+R18782:18789 Ionia.NN.model <> Goo_lem1 thm
+R18776:18780 Ionia.NN.model <> GoogleNet.input var
+R18771:18774 Ionia.NN.model <> b1_w:400 var
+R18766:18769 Ionia.NN.model <> b1_b:401 var
+binder 18744:18750 <> b1_conv:408
+R18805:18809 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R18817:18820 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R18835:18840 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R18821:18826 Ionia.NN.operation <> ReLU4d def
+R18828:18834 Ionia.NN.model <> b1_conv:408 var
+binder 18810:18816 <> b1_relu:409
+R18841:18845 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R18853:18856 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R18908:18935 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R18857:18869 Ionia.NN.operation <> Maxpool4d_pad def
+R18900:18907 Ionia.NN.model <> Goo_lem4 thm
+R18891:18898 Ionia.NN.model <> Goo_lem3 thm
+R18885:18889 Ionia.Progress.rule <> _0lt3 ex
+R18877:18883 Ionia.NN.model <> b1_relu:409 var
+binder 18846:18852 <> b1_pool:410
+R18936:18940 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R18949:18952 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19001:19006 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R18953:18958 Ionia.NN.operation <> Conv4d def
+R18993:19000 Ionia.Base.base <> nat_lem1 thm
+R18984:18991 Ionia.Base.base <> nat_lem1 thm
+R18976:18982 Ionia.NN.model <> b1_pool:410 var
+R18970:18974 Ionia.NN.model <> b2_w1:402 var
+R18964:18968 Ionia.NN.model <> b2_b1:403 var
+binder 18941:18948 <> b2_conv1:411
+R19007:19011 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19020:19023 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19039:19044 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19024:19029 Ionia.NN.operation <> ReLU4d def
+R19031:19038 Ionia.NN.model <> b2_conv1:411 var
+binder 19012:19019 <> b2_relu1:412
+R19045:19049 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19058:19061 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19111:19116 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19062:19067 Ionia.NN.operation <> Conv4d def
+R19103:19110 Ionia.Base.base <> nat_lem2 thm
+R19094:19101 Ionia.Base.base <> nat_lem2 thm
+R19085:19092 Ionia.NN.model <> b2_relu1:412 var
+R19079:19083 Ionia.NN.model <> b2_w2:404 var
+R19073:19077 Ionia.NN.model <> b2_b2:405 var
+binder 19050:19057 <> b2_conv2:413
+R19117:19121 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19130:19133 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19149:19154 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19134:19139 Ionia.NN.operation <> ReLU4d def
+R19141:19148 Ionia.NN.model <> b2_conv2:413 var
+binder 19122:19129 <> b2_relu2:414
+R19155:19159 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19167:19170 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19223:19252 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19171:19183 Ionia.NN.operation <> Maxpool4d_pad def
+R19215:19222 Ionia.NN.model <> Goo_lem6 thm
+R19206:19213 Ionia.NN.model <> Goo_lem5 thm
+R19200:19204 Ionia.Progress.rule <> _0lt3 ex
+R19191:19198 Ionia.NN.model <> b2_relu2:414 var
+binder 19160:19166 <> b2_pool:415
+R19253:19257 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19262:19265 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19322:19349 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19266:19274 Ionia.NN.model <> Inception def
+R19313:19321 Ionia.Base.base <> nat_lem4' thm
+R19303:19311 Ionia.Base.base <> nat_lem4' thm
+R19295:19301 Ionia.NN.model <> b2_pool:415 var
+binder 19258:19261 <> b3_1:416
+R19350:19354 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19359:19362 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19418:19446 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19363:19371 Ionia.NN.model <> Inception def
+R19409:19417 Ionia.Base.base <> nat_lem4' thm
+R19399:19407 Ionia.Base.base <> nat_lem4' thm
+R19394:19397 Ionia.NN.model <> b3_1:416 var
+binder 19355:19358 <> b3_2:417
+R19447:19451 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19459:19462 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19514:19551 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19463:19475 Ionia.NN.operation <> Maxpool4d_pad def
+R19506:19513 Ionia.NN.model <> Goo_lem8 thm
+R19497:19504 Ionia.NN.model <> Goo_lem7 thm
+R19488:19495 Ionia.Base.base <> nat_lem6 thm
+R19483:19486 Ionia.NN.model <> b3_2:417 var
+binder 19452:19458 <> b3_pool:418
+R19552:19556 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19561:19564 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19622:19653 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19565:19573 Ionia.NN.model <> Inception def
+R19613:19621 Ionia.Base.base <> nat_lem4' thm
+R19603:19611 Ionia.Base.base <> nat_lem4' thm
+R19595:19601 Ionia.NN.model <> b3_pool:418 var
+binder 19557:19560 <> b4_1:419
+R19654:19658 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19663:19666 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19722:19756 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19667:19675 Ionia.NN.model <> Inception def
+R19713:19721 Ionia.Base.base <> nat_lem4' thm
+R19703:19711 Ionia.Base.base <> nat_lem4' thm
+R19698:19701 Ionia.NN.model <> b3_1:416 var
+binder 19659:19662 <> b4_2:420
+R19757:19761 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19766:19769 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19828:19858 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19770:19778 Ionia.NN.model <> Inception def
+R19819:19827 Ionia.Base.base <> nat_lem4' thm
+R19809:19817 Ionia.Base.base <> nat_lem4' thm
+R19801:19807 Ionia.NN.model <> b3_pool:418 var
+binder 19762:19765 <> b4_3:421
+R19859:19863 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19868:19871 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19927:19960 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19872:19880 Ionia.NN.model <> Inception def
+R19918:19926 Ionia.Base.base <> nat_lem4' thm
+R19908:19916 Ionia.Base.base <> nat_lem4' thm
+R19903:19906 Ionia.NN.model <> b3_1:416 var
+binder 19864:19867 <> b4_4:422
+R19961:19965 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19970:19973 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20034:20062 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R19974:19982 Ionia.NN.model <> Inception def
+R20025:20033 Ionia.Base.base <> nat_lem4' thm
+R20015:20023 Ionia.Base.base <> nat_lem4' thm
+R20007:20013 Ionia.NN.model <> b3_pool:418 var
+binder 19966:19969 <> b4_5:423
+R20063:20067 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20075:20078 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20104:20151 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20079:20087 Ionia.NN.operation <> Maxpool4d def
+R20096:20103 Ionia.Base.base <> nat_lem5 thm
+R20091:20094 Ionia.NN.model <> b4_5:423 var
+binder 20068:20074 <> b4_pool:424
+R20152:20156 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20161:20164 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20224:20250 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20165:20173 Ionia.NN.model <> Inception def
+R20215:20223 Ionia.NN.model <> Goo_lem10 thm
+R20206:20213 Ionia.NN.model <> Goo_lem9 thm
+R20198:20204 Ionia.NN.model <> b4_pool:424 var
+binder 20157:20160 <> b5_1:425
+R20251:20255 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20260:20263 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20321:20352 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20264:20272 Ionia.NN.model <> Inception def
+R20312:20320 Ionia.Base.base <> nat_lem4' thm
+R20302:20310 Ionia.Base.base <> nat_lem4' thm
+R20297:20300 Ionia.NN.model <> b3_1:416 var
+binder 20256:20259 <> b5_2:426
+R20353:20357 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20362:20365 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20392:20433 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20366:20382 Ionia.NN.operation <> AdaptiveAvgPool4d def
+R20388:20391 Ionia.NN.model <> b5_2:426 var
+binder 20358:20361 <> b5_3:427
+R20434:20438 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20443:20446 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20461:20514 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20447:20455 Ionia.NN.operation <> Flatten4d def
+R20457:20460 Ionia.NN.model <> b5_3:427 var
+binder 20439:20442 <> b6_1:428
+R20515:20519 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20524:20527 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20548:20595 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R20528:20536 Ionia.NN.operation <> Dropout2d def
+R20538:20541 Ionia.NN.model <> b6_1:428 var
+binder 20520:20523 <> b6_2:429
+R20596:20603 Ionia.NN.operation <> Linear2d def
+R20613:20616 Ionia.NN.model <> b6_2:429 var
+R20609:20611 Ionia.NN.model <> f_b:407 var
+R20605:20607 Ionia.NN.model <> f_w:406 var
+R20675:20683 Ionia.NN.model GoogleNet <> sec
+sec 20711:20720 <> DenseLayer
+var  20733:20737 DenseLayer batch
+var  20739:20745 DenseLayer channel
+var  20747:20748 DenseLayer m1
+var  20750:20751 DenseLayer m2
+R20755:20757 Coq.Init.Datatypes <> nat ind
+var 20772:20778 DenseLayer bn_size
+var 20780:20790 DenseLayer growth_rate
+R20794:20796 Coq.Init.Datatypes <> nat ind
+var 20809:20817 DenseLayer drop_rate
+R20821:20823 Ionia.Progress.data <> exp def
+R20825:20827 Ionia.Progress.data <> num constr
+var 20840:20844 DenseLayer input
+R20848:20854 Ionia.NN.tensor <> Tensor4 def
+R20873:20874 Ionia.NN.model <> DenseLayer.m2 var
+R20870:20871 Ionia.NN.model <> DenseLayer.m1 var
+R20862:20868 Ionia.NN.model <> DenseLayer.channel var
+R20856:20860 Ionia.NN.model <> DenseLayer.batch var
+var 20889:20897 DenseLayer denl_hyp1
+R20902:20904 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R20905:20906 Ionia.NN.model <> DenseLayer.m1 var
+var 20920:20928 DenseLayer denl_hyp2
+R20933:20935 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R20936:20937 Ionia.NN.model <> DenseLayer.m2 var
+prf 20947:20955 <> denl_lem1
+R20960:20963 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R20966:20968 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R20964:20965 Ionia.NN.model <> DenseLayer.m1 var
+R20970:20972 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 20999:21007 <> denl_lem2
+R21012:21015 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R21018:21020 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R21016:21017 Ionia.NN.model <> DenseLayer.m2 var
+R21022:21024 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 21051:21059 <> denl_lem3
+R21064:21067 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R21070:21072 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R21068:21069 Ionia.NN.model <> DenseLayer.m1 var
+R21074:21076 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 21103:21111 <> denl_lem4
+R21116:21119 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R21122:21124 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R21120:21121 Ionia.NN.model <> DenseLayer.m2 var
+R21126:21128 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+def 21161:21170 <> DenseLayer
+R21189:21197 Ionia.NN.tensor <> Default4d def
+R21223:21229 Ionia.NN.model <> DenseLayer.channel var
+R21207:21209 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R21200:21206 Ionia.NN.model <> DenseLayer.bn_size var
+R21210:21220 Ionia.NN.model <> DenseLayer.growth_rate var
+binder 21181:21184 <> c1_w:446
+R21252:21260 Ionia.NN.tensor <> Default1d def
+R21270:21272 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R21263:21269 Ionia.NN.model <> DenseLayer.bn_size var
+R21273:21283 Ionia.NN.model <> DenseLayer.growth_rate var
+binder 21244:21247 <> c1_b:447
+R21303:21311 Ionia.NN.tensor <> Default4d def
+R21333:21335 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R21326:21332 Ionia.NN.model <> DenseLayer.bn_size var
+R21336:21346 Ionia.NN.model <> DenseLayer.growth_rate var
+R21313:21323 Ionia.NN.model <> DenseLayer.growth_rate var
+binder 21295:21298 <> c2_w:448
+R21370:21378 Ionia.NN.tensor <> Default1d def
+R21380:21390 Ionia.NN.model <> DenseLayer.growth_rate var
+binder 21362:21365 <> c2_b:449
+R21397:21401 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21407:21410 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21438:21443 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21411:21421 Ionia.NN.operation <> BatchNorm4d def
+R21434:21437 Ionia.Progress.rule <> zero def
+R21430:21432 Ionia.Progress.rule <> one def
+R21423:21427 Ionia.NN.model <> DenseLayer.input var
+binder 21402:21406 <> norm1:450
+R21444:21448 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21454:21457 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21470:21475 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21458:21463 Ionia.NN.operation <> ReLU4d def
+R21465:21469 Ionia.NN.model <> norm1:450 var
+binder 21449:21453 <> relu1:451
+R21476:21480 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21486:21489 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21568:21573 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21490:21498 Ionia.NN.operation <> convert_1 def
+R21559:21567 Ionia.NN.model <> DenseLayer.denl_hyp2 var
+R21549:21557 Ionia.NN.model <> DenseLayer.denl_hyp1 var
+R21501:21506 Ionia.NN.operation <> Conv4d def
+R21538:21546 Ionia.NN.model <> denl_lem2 thm
+R21528:21536 Ionia.NN.model <> denl_lem1 thm
+R21522:21526 Ionia.NN.model <> relu1:451 var
+R21517:21520 Ionia.NN.model <> c1_w:446 var
+R21512:21515 Ionia.NN.model <> c1_b:447 var
+binder 21481:21485 <> conv1:452
+R21574:21578 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21584:21587 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21615:21620 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21588:21598 Ionia.NN.operation <> BatchNorm4d def
+R21611:21614 Ionia.Progress.rule <> zero def
+R21607:21609 Ionia.Progress.rule <> one def
+R21600:21604 Ionia.NN.model <> conv1:452 var
+binder 21579:21583 <> norm2:453
+R21621:21625 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21631:21634 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21647:21652 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21635:21640 Ionia.NN.operation <> ReLU4d def
+R21642:21646 Ionia.NN.model <> norm2:453 var
+binder 21626:21630 <> relu2:454
+R21653:21657 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21663:21666 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21745:21750 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21667:21675 Ionia.NN.operation <> convert_2 def
+R21736:21744 Ionia.NN.model <> DenseLayer.denl_hyp2 var
+R21726:21734 Ionia.NN.model <> DenseLayer.denl_hyp1 var
+R21678:21683 Ionia.NN.operation <> Conv4d def
+R21715:21723 Ionia.NN.model <> denl_lem4 thm
+R21705:21713 Ionia.NN.model <> denl_lem3 thm
+R21699:21703 Ionia.NN.model <> relu2:454 var
+R21694:21697 Ionia.NN.model <> c2_w:448 var
+R21689:21692 Ionia.NN.model <> c2_b:449 var
+binder 21658:21662 <> conv2:455
+R21751:21755 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21768:21771 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21797:21802 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R21772:21780 Ionia.NN.operation <> Dropout4d def
+R21788:21796 Ionia.NN.model <> DenseLayer.drop_rate var
+R21782:21786 Ionia.NN.model <> conv2:455 var
+binder 21756:21767 <> new_features:456
+R21803:21810 Ionia.NN.operation <> Concat4d def
+R21818:21829 Ionia.NN.model <> new_features:456 var
+R21812:21816 Ionia.NN.model <> DenseLayer.input var
+R21837:21846 Ionia.NN.model DenseLayer <> sec
+sec 21858:21867 <> DenseBlock
+var  21880:21884 DenseBlock batch
+var  21886:21892 DenseBlock channel
+var  21894:21895 DenseBlock m1
+var  21897:21898 DenseBlock m2
+R21902:21904 Coq.Init.Datatypes <> nat ind
+def 21918:21927 <> DenseBlock
+binder 21930:21934 <> batch:461
+binder 21936:21942 <> channel:462
+binder 21944:21945 <> m1:463
+binder 21947:21948 <> m2:464
+R21984:21986 Coq.Init.Datatypes <> nat ind
+binder 21952:21958 <> bn_size:465
+binder 21960:21970 <> growth_rate:466
+binder 21972:21981 <> num_layers:467
+R22003:22005 Ionia.Progress.data <> exp def
+R22007:22009 Ionia.Progress.data <> num constr
+binder 21992:22000 <> drop_rate:468
+R22021:22027 Ionia.NN.tensor <> Tensor4 def
+R22046:22047 Ionia.NN.model <> m2:464 var
+R22043:22044 Ionia.NN.model <> m1:463 var
+R22035:22041 Ionia.NN.model <> channel:462 var
+R22029:22033 Ionia.NN.model <> batch:461 var
+binder 22013:22017 <> input:469
+R22064:22066 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R22067:22068 Ionia.NN.model <> m1:463 var
+binder 22051:22059 <> denb_hyp1:470
+R22087:22089 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R22090:22091 Ionia.NN.model <> m2:464 var
+binder 22074:22082 <> denb_hyp2:471
+R22096:22102 Ionia.NN.tensor <> Tensor4 def
+R22150:22151 Ionia.NN.model <> m2:464 var
+R22147:22148 Ionia.NN.model <> m1:463 var
+R22118:22120 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R22111:22117 Ionia.NN.model <> channel:462 var
+R22132:22134 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R22121:22131 Ionia.NN.model <> growth_rate:466 var
+R22135:22144 Ionia.NN.model <> num_layers:467 var
+R22104:22108 Ionia.NN.model <> batch:461 var
+R22164:22173 Ionia.NN.model <> num_layers:467 var
+R22184:22184 Coq.Init.Datatypes <> O constr
+R22189:22197 Ionia.NN.operation <> convert_4 def
+R22205:22211 Coq.Init.Logic <> eq_refl constr
+R22199:22203 Ionia.NN.model <> input:469 var
+R22217:22217 Coq.Init.Datatypes <> S constr
+R22225:22233 Ionia.NN.operation <> convert_5 def
+R22236:22245 Ionia.NN.model <> DenseLayer def
+R22364:22372 Ionia.NN.model <> denb_hyp2:471 var
+R22354:22362 Ionia.NN.model <> denb_hyp1:470 var
+R22283:22292 Ionia.NN.model <> DenseBlock:472 def
+R22343:22351 Ionia.NN.model <> denb_hyp2:471 var
+R22333:22341 Ionia.NN.model <> denb_hyp1:470 var
+R22327:22331 Ionia.NN.model <> input:469 var
+R22317:22325 Ionia.NN.model <> drop_rate:468 var
+R22302:22312 Ionia.NN.model <> growth_rate:466 var
+R22294:22300 Ionia.NN.model <> bn_size:465 var
+R22267:22275 Ionia.NN.model <> drop_rate:468 var
+R22255:22265 Ionia.NN.model <> growth_rate:466 var
+R22247:22253 Ionia.NN.model <> bn_size:465 var
+R22387:22396 Ionia.NN.model DenseBlock <> sec
+sec 22408:22417 <> Transition
+var  22430:22434 Transition batch
+var  22436:22442 Transition channel
+var  22444:22445 Transition m1
+var  22447:22448 Transition m2
+R22452:22454 Coq.Init.Datatypes <> nat ind
+var 22469:22479 Transition out_channel
+R22483:22485 Coq.Init.Datatypes <> nat ind
+var 22498:22502 Transition input
+R22505:22511 Ionia.NN.tensor <> Tensor4 def
+R22530:22531 Ionia.NN.model <> Transition.m2 var
+R22527:22528 Ionia.NN.model <> Transition.m1 var
+R22519:22525 Ionia.NN.model <> Transition.channel var
+R22513:22517 Ionia.NN.model <> Transition.batch var
+var 22546:22555 Transition trans_hyp1
+R22560:22562 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R22563:22564 Ionia.NN.model <> Transition.m1 var
+var 22578:22587 Transition trans_hyp2
+R22592:22594 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R22595:22596 Ionia.NN.model <> Transition.m2 var
+prf 22606:22615 <> trans_lem1
+R22620:22623 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R22626:22628 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R22624:22625 Ionia.NN.model <> Transition.m1 var
+R22630:22632 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 22659:22668 <> trans_lem2
+R22673:22676 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R22679:22681 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R22677:22678 Ionia.NN.model <> Transition.m2 var
+R22683:22685 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+def 22735:22744 <> Transition
+R22763:22771 Ionia.NN.tensor <> Default4d def
+R22785:22791 Ionia.NN.model <> Transition.channel var
+R22773:22783 Ionia.NN.model <> Transition.out_channel var
+binder 22755:22758 <> c1_w:486
+R22814:22822 Ionia.NN.tensor <> Default1d def
+R22824:22834 Ionia.NN.model <> Transition.out_channel var
+binder 22806:22809 <> c1_b:487
+R22841:22845 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R22850:22853 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R22880:22885 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R22854:22864 Ionia.NN.operation <> BatchNorm4d def
+R22876:22879 Ionia.Progress.rule <> zero def
+R22872:22874 Ionia.Progress.rule <> one def
+R22866:22870 Ionia.NN.model <> Transition.input var
+binder 22846:22849 <> norm:488
+R22886:22890 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R22895:22898 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R22910:22915 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R22899:22904 Ionia.NN.operation <> ReLU4d def
+R22906:22909 Ionia.NN.model <> norm:488 var
+binder 22891:22894 <> relu:489
+R22916:22920 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R22925:22928 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R22976:22981 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R22929:22934 Ionia.NN.operation <> Conv4d def
+R22966:22975 Ionia.NN.model <> trans_lem2 thm
+R22955:22964 Ionia.NN.model <> trans_lem1 thm
+R22950:22953 Ionia.NN.model <> relu:489 var
+R22945:22948 Ionia.NN.model <> c1_w:486 var
+R22940:22943 Ionia.NN.model <> c1_b:487 var
+binder 22921:22924 <> conv:490
+R22982:22990 Ionia.NN.operation <> Avgpool4d def
+R22994:22997 Ionia.NN.model <> conv:490 var
+R23005:23014 Ionia.NN.model Transition <> sec
+sec 23026:23037 <> DenseNet_121
+var  23050:23054 DenseNet_121 batch
+var  23056:23062 DenseNet_121 channel
+var  23064:23065 DenseNet_121 m1
+var  23067:23068 DenseNet_121 m2
+R23072:23074 Coq.Init.Datatypes <> nat ind
+var 23089:23095 DenseNet_121 bn_size
+var 23097:23107 DenseNet_121 growth_rate
+var 23109:23125 DenseNet_121 num_init_features
+var 23127:23142 DenseNet_121 compression_rate
+R23146:23148 Coq.Init.Datatypes <> nat ind
+var 23161:23169 DenseNet_121 drop_rate
+R23172:23174 Ionia.Progress.data <> exp def
+R23176:23178 Ionia.Progress.data <> num constr
+var 23191:23195 DenseNet_121 input
+R23199:23205 Ionia.NN.tensor <> Tensor4 def
+R23224:23225 Ionia.NN.model <> DenseNet_121.m2 var
+R23221:23222 Ionia.NN.model <> DenseNet_121.m1 var
+R23213:23219 Ionia.NN.model <> DenseNet_121.channel var
+R23207:23211 Ionia.NN.model <> DenseNet_121.batch var
+var 23240:23248 DenseNet_121 denn_hyp1
+R23254:23257 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R23258:23259 Ionia.NN.model <> DenseNet_121.m1 var
+var 23273:23281 DenseNet_121 denn_hyp2
+R23287:23290 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R23291:23292 Ionia.NN.model <> DenseNet_121.m2 var
+prf 23302:23310 <> denn_lem1
+R23315:23318 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R23321:23323 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23319:23320 Ionia.NN.model <> DenseNet_121.m1 var
+R23325:23327 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 23354:23362 <> denn_lem2
+R23367:23370 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R23373:23375 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23371:23372 Ionia.NN.model <> DenseNet_121.m2 var
+R23377:23379 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 23406:23414 <> denn_lem3
+R23419:23421 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R23422:23422 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23491:23494 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23487:23489 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23423:23423 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23482:23485 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23478:23480 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R23470:23472 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23466:23468 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23424:23424 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23461:23464 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23457:23459 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R23449:23451 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23445:23447 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23425:23425 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23440:23443 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23436:23438 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R23428:23430 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23426:23427 Ionia.NN.model <> DenseNet_121.m1 var
+R23432:23434 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R23453:23455 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R23474:23476 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R23511:23518 Ionia.Base.base <> nat_lem7 thm
+R23511:23518 Ionia.Base.base <> nat_lem7 thm
+prf 23554:23562 <> denn_lem4
+R23567:23569 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R23570:23570 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23639:23642 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23635:23637 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23571:23571 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23630:23633 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23626:23628 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R23618:23620 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23614:23616 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23572:23572 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23609:23612 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23605:23607 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R23597:23599 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23593:23595 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23573:23573 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23588:23591 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23584:23586 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R23576:23578 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23574:23575 Ionia.NN.model <> DenseNet_121.m2 var
+R23580:23582 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R23601:23603 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R23622:23624 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R23659:23666 Ionia.Base.base <> nat_lem7 thm
+R23659:23666 Ionia.Base.base <> nat_lem7 thm
+prf 23702:23710 <> denn_lem5
+R23715:23717 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R23718:23718 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23815:23818 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23811:23813 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23719:23719 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23806:23809 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23802:23804 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R23794:23796 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23720:23720 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23789:23792 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23785:23787 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23721:23721 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23780:23783 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23776:23778 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R23768:23770 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23764:23766 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23722:23722 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23759:23762 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23755:23757 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R23747:23749 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23743:23745 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23723:23723 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23738:23741 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23734:23736 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R23726:23728 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23724:23725 Ionia.NN.model <> DenseNet_121.m1 var
+R23730:23732 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R23751:23753 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R23772:23774 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R23798:23800 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R23835:23842 Ionia.Base.base <> nat_lem7 thm
+R23835:23842 Ionia.Base.base <> nat_lem7 thm
+prf 23878:23886 <> denn_lem6
+R23891:23893 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R23894:23894 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23991:23994 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23987:23989 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23895:23895 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23982:23985 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23978:23980 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R23970:23972 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23896:23896 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23965:23968 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23961:23963 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23897:23897 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23956:23959 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23952:23954 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R23944:23946 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23940:23942 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23898:23898 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23935:23938 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23931:23933 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R23923:23925 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23919:23921 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23899:23899 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23914:23917 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R23910:23912 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R23902:23904 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R23900:23901 Ionia.NN.model <> DenseNet_121.m2 var
+R23906:23908 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R23927:23929 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R23948:23950 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R23974:23976 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R24011:24018 Ionia.Base.base <> nat_lem7 thm
+R24011:24018 Ionia.Base.base <> nat_lem7 thm
+prf 24054:24062 <> denn_lem7
+R24067:24069 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R24070:24070 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24195:24198 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24191:24193 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24071:24071 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24186:24189 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24182:24184 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R24174:24176 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24072:24072 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24169:24172 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24165:24167 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24073:24073 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24160:24163 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24156:24158 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R24148:24150 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24074:24074 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24143:24146 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24139:24141 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24075:24075 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24134:24137 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24130:24132 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R24122:24124 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24118:24120 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24076:24076 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24113:24116 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24109:24111 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R24101:24103 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24097:24099 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24077:24077 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24092:24095 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24088:24090 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R24080:24082 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24078:24079 Ionia.NN.model <> DenseNet_121.m1 var
+R24084:24086 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R24105:24107 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R24126:24128 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R24152:24154 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R24178:24180 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R24215:24222 Ionia.Base.base <> nat_lem7 thm
+R24215:24222 Ionia.Base.base <> nat_lem7 thm
+prf 24258:24266 <> denn_lem8
+R24271:24273 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R24274:24274 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24399:24402 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24395:24397 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24275:24275 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24390:24393 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24386:24388 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R24378:24380 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24276:24276 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24373:24376 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24369:24371 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24277:24277 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24364:24367 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24360:24362 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R24352:24354 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24278:24278 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24347:24350 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24343:24345 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24279:24279 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24338:24341 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24334:24336 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R24326:24328 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24322:24324 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24280:24280 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24317:24320 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24313:24315 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R24305:24307 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24301:24303 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24281:24281 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24296:24299 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R24292:24294 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R24284:24286 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R24282:24283 Ionia.NN.model <> DenseNet_121.m2 var
+R24288:24290 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R24309:24311 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R24330:24332 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R24356:24358 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R24382:24384 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R24419:24426 Ionia.Base.base <> nat_lem7 thm
+R24419:24426 Ionia.Base.base <> nat_lem7 thm
+def 24468:24479 <> DenseNet_121
+R24498:24506 Ionia.NN.tensor <> Default4d def
+R24511:24517 Ionia.NN.model <> DenseNet_121.channel var
+binder 24490:24493 <> c1_w:511
+R24540:24548 Ionia.NN.tensor <> Default1d def
+binder 24532:24535 <> c1_b:512
+R24570:24578 Ionia.NN.tensor <> Default2d def
+binder 24562:24565 <> f1_w:513
+R24607:24615 Ionia.NN.tensor <> Default1d def
+binder 24599:24602 <> f1_b:514
+R24627:24631 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24637:24640 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24687:24692 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24641:24646 Ionia.NN.operation <> Conv4d def
+R24678:24686 Ionia.NN.model <> denn_lem2 thm
+R24668:24676 Ionia.NN.model <> denn_lem1 thm
+R24662:24666 Ionia.NN.model <> DenseNet_121.input var
+R24657:24660 Ionia.NN.model <> c1_w:511 var
+R24652:24655 Ionia.NN.model <> c1_b:512 var
+binder 24632:24636 <> conv0:515
+R24693:24697 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24703:24706 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24733:24738 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24707:24717 Ionia.NN.operation <> BatchNorm4d def
+R24729:24732 Ionia.Progress.rule <> zero def
+R24725:24727 Ionia.Progress.rule <> one def
+R24719:24723 Ionia.NN.model <> conv0:515 var
+binder 24698:24702 <> norm0:516
+R24739:24743 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24749:24752 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24765:24770 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24753:24758 Ionia.NN.operation <> ReLU4d def
+R24760:24764 Ionia.NN.model <> norm0:516 var
+binder 24744:24748 <> relu0:517
+R24771:24775 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24781:24784 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24837:24842 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24785:24797 Ionia.NN.operation <> Maxpool4d_pad def
+R24829:24836 Ionia.Base.base <> nat_lem2 thm
+R24820:24827 Ionia.Base.base <> nat_lem2 thm
+R24811:24818 Ionia.Base.base <> nat_lem6 thm
+R24805:24809 Ionia.NN.model <> relu0:517 var
+binder 24776:24780 <> pool0:518
+R24843:24847 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24851:24854 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24902:24907 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24855:24864 Ionia.NN.model <> DenseBlock def
+R24893:24901 Ionia.Base.base <> nat_lem4' thm
+R24883:24891 Ionia.Base.base <> nat_lem4' thm
+R24877:24881 Ionia.NN.model <> pool0:518 var
+binder 24848:24850 <> db1:519
+R24908:24912 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24919:24922 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24961:24966 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24923:24932 Ionia.NN.model <> Transition def
+R24952:24960 Ionia.Base.base <> nat_lem4' thm
+R24942:24950 Ionia.Base.base <> nat_lem4' thm
+R24938:24940 Ionia.NN.model <> db1:519 var
+binder 24913:24918 <> trans1:520
+R24967:24971 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24975:24978 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25028:25033 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R24979:24988 Ionia.NN.model <> DenseBlock def
+R25019:25027 Ionia.NN.model <> denn_lem4 thm
+R25009:25017 Ionia.NN.model <> denn_lem3 thm
+R25002:25007 Ionia.NN.model <> trans1:520 var
+binder 24972:24974 <> db2:521
+R25034:25038 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25045:25048 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25087:25092 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25049:25058 Ionia.NN.model <> Transition def
+R25078:25086 Ionia.NN.model <> denn_lem4 thm
+R25068:25076 Ionia.NN.model <> denn_lem3 thm
+R25064:25066 Ionia.NN.model <> db2:521 var
+binder 25039:25044 <> trans2:522
+R25093:25097 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25101:25104 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25154:25159 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25105:25114 Ionia.NN.model <> DenseBlock def
+R25145:25153 Ionia.NN.model <> denn_lem6 thm
+R25135:25143 Ionia.NN.model <> denn_lem5 thm
+R25128:25133 Ionia.NN.model <> trans2:522 var
+binder 25098:25100 <> db3:523
+R25160:25164 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25171:25174 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25213:25218 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25175:25184 Ionia.NN.model <> Transition def
+R25204:25212 Ionia.NN.model <> denn_lem6 thm
+R25194:25202 Ionia.NN.model <> denn_lem5 thm
+R25190:25192 Ionia.NN.model <> db3:523 var
+binder 25165:25170 <> trans3:524
+R25219:25223 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25227:25230 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25280:25285 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25231:25240 Ionia.NN.model <> DenseBlock def
+R25271:25279 Ionia.NN.model <> denn_lem8 thm
+R25261:25269 Ionia.NN.model <> denn_lem7 thm
+R25254:25259 Ionia.NN.model <> trans3:524 var
+binder 25224:25226 <> db4:525
+R25286:25290 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25296:25299 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25325:25330 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25300:25310 Ionia.NN.operation <> BatchNorm4d def
+R25321:25324 Ionia.Progress.rule <> zero def
+R25317:25319 Ionia.Progress.rule <> one def
+R25312:25314 Ionia.NN.model <> db4:525 var
+binder 25291:25295 <> norm5:526
+R25331:25335 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25341:25344 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25357:25362 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25345:25350 Ionia.NN.operation <> ReLU4d def
+R25352:25356 Ionia.NN.model <> norm5:526 var
+binder 25336:25340 <> relu5:527
+R25363:25367 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25373:25376 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25404:25409 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25377:25393 Ionia.NN.operation <> AdaptiveAvgPool4d def
+R25399:25403 Ionia.NN.model <> relu5:527 var
+binder 25368:25372 <> pool5:528
+R25410:25414 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25420:25423 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25439:25444 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25424:25432 Ionia.NN.operation <> Flatten4d def
+R25434:25438 Ionia.NN.model <> pool5:528 var
+binder 25415:25419 <> flatt:529
+R25445:25452 Ionia.NN.operation <> Linear2d def
+R25464:25468 Ionia.NN.model <> flatt:529 var
+R25459:25462 Ionia.NN.model <> f1_b:514 var
+R25454:25457 Ionia.NN.model <> f1_w:513 var
+R25476:25487 Ionia.NN.model DenseNet_121 <> sec
+sec 25499:25501 <> VAE
+def 25527:25529 <> VAE
+R25538:25544 Ionia.NN.tensor <> Tensor4 def
+binder 25531:25535 <> input:530
+R25569:25575 Ionia.NN.tensor <> Tensor2 def
+binder 25562:25566 <> fc1_w:531
+R25594:25600 Ionia.NN.tensor <> Tensor1 def
+binder 25587:25591 <> fc1_b:532
+R25618:25624 Ionia.NN.tensor <> Tensor2 def
+binder 25610:25615 <> fc21_w:533
+R25643:25649 Ionia.NN.tensor <> Tensor1 def
+binder 25635:25640 <> fc21_b:534
+R25666:25672 Ionia.NN.tensor <> Tensor2 def
+binder 25658:25663 <> fc22_w:535
+R25691:25697 Ionia.NN.tensor <> Tensor1 def
+binder 25683:25688 <> fc22_b:536
+R25713:25719 Ionia.NN.tensor <> Tensor2 def
+binder 25706:25710 <> fc3_w:537
+R25737:25743 Ionia.NN.tensor <> Tensor1 def
+binder 25730:25734 <> fc3_b:538
+R25760:25766 Ionia.NN.tensor <> Tensor2 def
+binder 25753:25757 <> fc4_w:539
+R25785:25791 Ionia.NN.tensor <> Tensor1 def
+binder 25778:25782 <> fc4_b:540
+R25820:25824 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25836:25839 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25855:25889 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25840:25848 Ionia.NN.operation <> Flatten4d def
+R25850:25854 Ionia.NN.model <> input:530 var
+binder 25825:25835 <> flatten_map:541
+R25890:25894 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25902:25905 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25938:25959 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25906:25913 Ionia.NN.operation <> Linear2d def
+R25927:25937 Ionia.NN.model <> flatten_map:541 var
+R25921:25925 Ionia.NN.model <> fc1_b:532 var
+R25915:25919 Ionia.NN.model <> fc1_w:531 var
+binder 25895:25901 <> fc1_map:542
+R25960:25964 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25974:25977 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25992:26029 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R25978:25983 Ionia.NN.operation <> ReLU2d def
+R25985:25991 Ionia.NN.model <> fc1_map:542 var
+binder 25965:25973 <> relu1_map:543
+R26030:26034 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26037:26040 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26073:26104 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26041:26048 Ionia.NN.operation <> Linear2d def
+R26064:26072 Ionia.NN.model <> relu1_map:543 var
+R26057:26062 Ionia.NN.model <> fc21_b:534 var
+R26050:26055 Ionia.NN.model <> fc21_w:533 var
+binder 26035:26036 <> mu:544
+R26105:26109 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26116:26119 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26152:26182 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26120:26127 Ionia.NN.operation <> Linear2d def
+R26143:26151 Ionia.NN.model <> relu1_map:543 var
+R26136:26141 Ionia.NN.model <> fc22_b:536 var
+R26129:26134 Ionia.NN.model <> fc22_w:535 var
+binder 26110:26115 <> logvar:545
+R26183:26187 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26191:26194 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26222:26251 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26195:26199 Ionia.NN.operation <> Exp2d def
+R26202:26207 Ionia.NN.operation <> Scal2d def
+R26215:26220 Ionia.NN.model <> logvar:545 var
+binder 26188:26190 <> std:546
+R26252:26256 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26260:26263 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26278:26323 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26264:26270 Ionia.NN.tensor <> Randn2d def
+binder 26257:26259 <> eps:547
+R26324:26328 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26330:26333 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26358:26410 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26334:26338 Ionia.NN.operation <> Add2d def
+R26356:26357 Ionia.NN.model <> mu:544 var
+R26341:26345 Ionia.NN.operation <> Mul2d def
+R26351:26353 Ionia.NN.model <> std:546 var
+R26347:26349 Ionia.NN.model <> eps:547 var
+binder 26329:26329 <> z:548
+R26411:26415 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26423:26426 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26449:26480 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26427:26434 Ionia.NN.operation <> Linear2d def
+R26448:26448 Ionia.NN.model <> z:548 var
+R26442:26446 Ionia.NN.model <> fc3_b:538 var
+R26436:26440 Ionia.NN.model <> fc3_w:537 var
+binder 26416:26422 <> fc3_map:549
+R26481:26485 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26495:26498 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26513:26550 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26499:26504 Ionia.NN.operation <> ReLU2d def
+R26506:26512 Ionia.NN.model <> fc3_map:549 var
+binder 26486:26494 <> relu3_map:550
+R26551:26555 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26563:26566 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26597:26620 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26567:26574 Ionia.NN.operation <> Linear2d def
+R26588:26596 Ionia.NN.model <> relu3_map:550 var
+R26582:26586 Ionia.NN.model <> fc4_b:540 var
+R26576:26580 Ionia.NN.model <> fc4_w:539 var
+binder 26556:26562 <> fc4_map:551
+R26621:26625 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26632:26635 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26653:26691 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26636:26644 Ionia.NN.operation <> Sigmoid2d def
+R26646:26652 Ionia.NN.model <> fc4_map:551 var
+binder 26626:26631 <> output:552
+R26692:26696 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26700:26703 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26732:26790 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26704:26712 Ionia.NN.operation <> BCELoss2d def
+R26721:26731 Ionia.NN.model <> flatten_map:541 var
+R26714:26719 Ionia.NN.model <> output:552 var
+binder 26697:26699 <> BCE:553
+R26791:26795 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26799:26802 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26896:26901 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R26803:26805 Ionia.Progress.rule <> mul def
+R26822:26826 Ionia.NN.operation <> Sum2d def
+R26829:26833 Ionia.NN.operation <> Sub2d def
+R26881:26885 Ionia.NN.operation <> Exp2d def
+R26887:26892 Ionia.NN.model <> logvar:545 var
+R26836:26840 Ionia.NN.operation <> Sub2d def
+R26866:26870 Ionia.NN.operation <> Mul2d def
+R26875:26876 Ionia.NN.model <> mu:544 var
+R26872:26873 Ionia.NN.model <> mu:544 var
+R26846:26851 Ionia.NN.operation <> Addc2d def
+R26857:26862 Ionia.NN.model <> logvar:545 var
+R26808:26813 Ionia.Progress.rule <> negate def
+binder 26796:26798 <> KLD:554
+R26902:26907 Ionia.NN.operation <> Addc2d def
+R26913:26915 Ionia.NN.model <> BCE:553 var
+R26909:26911 Ionia.NN.model <> KLD:554 var
+R26924:26926 Ionia.NN.model VAE <> sec
+sec 26938:26942 <> GCGAN
+var  26955:26956 GCGAN nz
+var  26958:26960 GCGAN ngf
+var  26962:26963 GCGAN nc
+R26965:26967 Coq.Init.Datatypes <> nat ind
+var 26981:26985 GCGAN input
+R26988:26994 Ionia.NN.tensor <> Tensor4 def
+R26999:27000 Ionia.NN.model <> GCGAN.nz var
+var 27016:27020 GCGAN ct1_w
+R27023:27029 Ionia.NN.tensor <> Tensor4 def
+R27039:27040 Ionia.NN.model <> GCGAN.nz var
+R27035:27035 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27032:27034 Ionia.NN.model <> GCGAN.ngf var
+var 27056:27060 GCGAN ct1_b
+R27063:27069 Ionia.NN.tensor <> Tensor1 def
+R27075:27075 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27072:27074 Ionia.NN.model <> GCGAN.ngf var
+var 27089:27093 GCGAN ct2_w
+R27096:27102 Ionia.NN.tensor <> Tensor4 def
+R27116:27116 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27113:27115 Ionia.NN.model <> GCGAN.ngf var
+R27108:27108 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27105:27107 Ionia.NN.model <> GCGAN.ngf var
+var 27134:27138 GCGAN ct2_b
+R27141:27147 Ionia.NN.tensor <> Tensor1 def
+R27153:27153 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27150:27152 Ionia.NN.model <> GCGAN.ngf var
+var 27167:27171 GCGAN ct3_w
+R27174:27180 Ionia.NN.tensor <> Tensor4 def
+R27194:27194 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27191:27193 Ionia.NN.model <> GCGAN.ngf var
+R27186:27186 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27183:27185 Ionia.NN.model <> GCGAN.ngf var
+var 27212:27216 GCGAN ct3_b
+R27219:27225 Ionia.NN.tensor <> Tensor1 def
+R27231:27231 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27228:27230 Ionia.NN.model <> GCGAN.ngf var
+var 27245:27249 GCGAN ct4_w
+R27252:27258 Ionia.NN.tensor <> Tensor4 def
+R27268:27268 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27265:27267 Ionia.NN.model <> GCGAN.ngf var
+R27260:27262 Ionia.NN.model <> GCGAN.ngf var
+var 27286:27290 GCGAN ct4_b
+R27293:27299 Ionia.NN.tensor <> Tensor1 def
+R27301:27303 Ionia.NN.model <> GCGAN.ngf var
+var 27315:27319 GCGAN ct5_w
+R27322:27328 Ionia.NN.tensor <> Tensor4 def
+R27333:27335 Ionia.NN.model <> GCGAN.ngf var
+R27330:27331 Ionia.NN.model <> GCGAN.nc var
+var 27351:27355 GCGAN ct5_b
+R27358:27364 Ionia.NN.tensor <> Tensor1 def
+R27366:27367 Ionia.NN.model <> GCGAN.nc var
+prf 27377:27386 <> GCCAN_lem1
+R27395:27398 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R27391:27393 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+prf 27425:27434 <> GCCAN_lem2
+R27439:27441 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R27457:27459 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27453:27455 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R27442:27442 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27448:27451 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27444:27446 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27461:27463 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 27490:27499 <> GCCAN_lem3
+R27508:27511 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R27504:27506 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+prf 27538:27547 <> GCCAN_lem4
+R27552:27554 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R27592:27594 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27588:27590 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R27555:27555 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27583:27586 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27579:27581 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27571:27573 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27567:27569 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R27556:27556 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27562:27565 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27558:27560 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27575:27577 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27596:27598 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 27625:27634 <> GCCAN_lem5
+R27639:27641 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R27701:27703 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27697:27699 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R27642:27642 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27692:27695 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27688:27690 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27680:27682 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27676:27678 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R27643:27643 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27671:27674 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27667:27669 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27659:27661 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27655:27657 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R27644:27644 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27650:27653 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27646:27648 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27663:27665 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27684:27686 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27705:27707 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 27734:27743 <> GCCAN_lem6
+R27748:27750 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R27832:27834 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27828:27830 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R27751:27751 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27823:27826 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27819:27821 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27811:27813 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27807:27809 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R27752:27752 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27802:27805 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27798:27800 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27790:27792 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27786:27788 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R27753:27753 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27781:27784 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27777:27779 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27769:27771 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27765:27767 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R27754:27754 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27760:27763 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27756:27758 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R27773:27775 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27794:27796 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27815:27817 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27836:27838 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+def 27883:27891 <> Generator
+R27898:27902 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R27916:27919 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R27997:28028 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R27920:27934 Ionia.NN.operation <> ConvTranspose4d def
+R27987:27996 Ionia.NN.model <> GCCAN_lem1 thm
+R27976:27985 Ionia.NN.model <> GCCAN_lem1 thm
+R27967:27974 Ionia.Base.base <> nat_lem4 thm
+R27958:27965 Ionia.Base.base <> nat_lem4 thm
+R27952:27956 Ionia.NN.model <> GCGAN.input var
+R27946:27950 Ionia.NN.model <> GCGAN.ct1_w var
+R27940:27944 Ionia.NN.model <> GCGAN.ct1_b var
+binder 27903:27915 <> feature_map_1:580
+R28029:28033 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28044:28047 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28082:28120 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28048:28058 Ionia.NN.operation <> BatchNorm4d def
+R28078:28081 Ionia.Progress.rule <> zero def
+R28074:28076 Ionia.Progress.rule <> one def
+R28060:28072 Ionia.NN.model <> feature_map_1:580 var
+binder 28034:28043 <> norm_map_1:581
+R28121:28125 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28136:28139 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28157:28211 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28140:28145 Ionia.NN.operation <> ReLU4d def
+R28147:28156 Ionia.NN.model <> norm_map_1:581 var
+binder 28126:28135 <> relu_map_1:582
+R28212:28216 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28230:28233 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28320:28346 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28234:28248 Ionia.NN.operation <> ConvTranspose4d def
+R28310:28319 Ionia.NN.model <> GCCAN_lem3 thm
+R28299:28308 Ionia.NN.model <> GCCAN_lem3 thm
+R28288:28297 Ionia.NN.model <> GCCAN_lem2 thm
+R28277:28286 Ionia.NN.model <> GCCAN_lem2 thm
+R28266:28275 Ionia.NN.model <> relu_map_1:582 var
+R28260:28264 Ionia.NN.model <> GCGAN.ct2_w var
+R28254:28258 Ionia.NN.model <> GCGAN.ct2_b var
+binder 28217:28229 <> feature_map_2:583
+R28347:28351 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28362:28365 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28401:28439 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28366:28376 Ionia.NN.operation <> BatchNorm4d def
+R28397:28400 Ionia.Progress.rule <> zero def
+R28393:28395 Ionia.Progress.rule <> one def
+R28378:28390 Ionia.NN.model <> feature_map_2:583 var
+binder 28352:28361 <> norm_map_2:584
+R28440:28444 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28455:28458 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28476:28530 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28459:28464 Ionia.NN.operation <> ReLU4d def
+R28466:28475 Ionia.NN.model <> norm_map_2:584 var
+binder 28445:28454 <> relu_map_2:585
+R28531:28535 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28549:28552 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28639:28667 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28553:28567 Ionia.NN.operation <> ConvTranspose4d def
+R28629:28638 Ionia.NN.model <> GCCAN_lem3 thm
+R28618:28627 Ionia.NN.model <> GCCAN_lem3 thm
+R28607:28616 Ionia.NN.model <> GCCAN_lem4 thm
+R28596:28605 Ionia.NN.model <> GCCAN_lem4 thm
+R28585:28594 Ionia.NN.model <> relu_map_2:585 var
+R28579:28583 Ionia.NN.model <> GCGAN.ct3_w var
+R28573:28577 Ionia.NN.model <> GCGAN.ct3_b var
+binder 28536:28548 <> feature_map_3:586
+R28668:28672 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28683:28686 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28721:28761 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28687:28697 Ionia.NN.operation <> BatchNorm4d def
+R28717:28720 Ionia.Progress.rule <> zero def
+R28713:28715 Ionia.Progress.rule <> one def
+R28699:28711 Ionia.NN.model <> feature_map_3:586 var
+binder 28673:28682 <> norm_map_3:587
+R28762:28766 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28777:28780 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28798:28854 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28781:28786 Ionia.NN.operation <> ReLU4d def
+R28788:28797 Ionia.NN.model <> norm_map_3:587 var
+binder 28767:28776 <> relu_map_3:588
+R28855:28859 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28873:28876 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28963:28989 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R28877:28891 Ionia.NN.operation <> ConvTranspose4d def
+R28953:28962 Ionia.NN.model <> GCCAN_lem3 thm
+R28942:28951 Ionia.NN.model <> GCCAN_lem3 thm
+R28931:28940 Ionia.NN.model <> GCCAN_lem5 thm
+R28920:28929 Ionia.NN.model <> GCCAN_lem5 thm
+R28909:28918 Ionia.NN.model <> relu_map_3:588 var
+R28903:28907 Ionia.NN.model <> GCGAN.ct4_w var
+R28897:28901 Ionia.NN.model <> GCGAN.ct4_b var
+binder 28860:28872 <> feature_map_4:589
+R28990:28994 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R29005:29008 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R29043:29085 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R29009:29019 Ionia.NN.operation <> BatchNorm4d def
+R29039:29042 Ionia.Progress.rule <> zero def
+R29035:29037 Ionia.Progress.rule <> one def
+R29021:29033 Ionia.NN.model <> feature_map_4:589 var
+binder 28995:29004 <> norm_map_4:590
+R29086:29090 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R29101:29104 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R29122:29176 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R29105:29110 Ionia.NN.operation <> ReLU4d def
+R29112:29121 Ionia.NN.model <> norm_map_4:590 var
+binder 29091:29100 <> relu_map_4:591
+R29177:29181 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R29195:29198 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R29285:29310 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R29199:29213 Ionia.NN.operation <> ConvTranspose4d def
+R29275:29284 Ionia.NN.model <> GCCAN_lem3 thm
+R29264:29273 Ionia.NN.model <> GCCAN_lem3 thm
+R29253:29262 Ionia.NN.model <> GCCAN_lem6 thm
+R29242:29251 Ionia.NN.model <> GCCAN_lem6 thm
+R29231:29240 Ionia.NN.model <> relu_map_4:591 var
+R29225:29229 Ionia.NN.model <> GCGAN.ct5_w var
+R29219:29223 Ionia.NN.model <> GCGAN.ct5_b var
+binder 29182:29194 <> feature_map_5:592
+R29311:29316 Ionia.NN.operation <> Tanh4d def
+R29318:29330 Ionia.NN.model <> feature_map_5:592 var
+R29405:29409 Ionia.NN.model GCGAN <> sec
+sec 29421:29433 <> Discriminator
+var  29446:29448 Discriminator ndf
+var  29450:29451 Discriminator nc
+R29453:29455 Coq.Init.Datatypes <> nat ind
+var 29469:29475 Discriminator D_input
+R29478:29484 Ionia.NN.tensor <> Tensor4 def
+R29489:29490 Ionia.NN.model <> Discriminator.nc var
+var 29508:29511 Discriminator c1_w
+R29514:29520 Ionia.NN.tensor <> Tensor4 def
+R29526:29527 Ionia.NN.model <> Discriminator.nc var
+R29522:29524 Ionia.NN.model <> Discriminator.ndf var
+var 29543:29546 Discriminator c1_b
+R29549:29555 Ionia.NN.tensor <> Tensor1 def
+R29557:29559 Ionia.NN.model <> Discriminator.ndf var
+var 29571:29574 Discriminator c2_w
+R29577:29583 Ionia.NN.tensor <> Tensor4 def
+R29593:29595 Ionia.NN.model <> Discriminator.ndf var
+R29589:29589 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R29586:29588 Ionia.NN.model <> Discriminator.ndf var
+var 29611:29614 Discriminator c2_b
+R29617:29623 Ionia.NN.tensor <> Tensor1 def
+R29629:29629 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R29626:29628 Ionia.NN.model <> Discriminator.ndf var
+var 29643:29646 Discriminator c3_w
+R29649:29655 Ionia.NN.tensor <> Tensor4 def
+R29669:29669 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R29666:29668 Ionia.NN.model <> Discriminator.ndf var
+R29661:29661 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R29658:29660 Ionia.NN.model <> Discriminator.ndf var
+var 29687:29690 Discriminator c3_b
+R29693:29699 Ionia.NN.tensor <> Tensor1 def
+R29705:29705 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R29702:29704 Ionia.NN.model <> Discriminator.ndf var
+var 29719:29722 Discriminator c4_w
+R29725:29731 Ionia.NN.tensor <> Tensor4 def
+R29745:29745 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R29742:29744 Ionia.NN.model <> Discriminator.ndf var
+R29737:29737 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R29734:29736 Ionia.NN.model <> Discriminator.ndf var
+var 29763:29766 Discriminator c4_b
+R29769:29775 Ionia.NN.tensor <> Tensor1 def
+R29781:29781 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R29778:29780 Ionia.NN.model <> Discriminator.ndf var
+var 29795:29798 Discriminator c5_w
+R29801:29807 Ionia.NN.tensor <> Tensor4 def
+R29815:29815 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R29812:29814 Ionia.NN.model <> Discriminator.ndf var
+var 29833:29836 Discriminator c5_b
+R29839:29845 Ionia.NN.tensor <> Tensor1 def
+prf 29857:29864 <> Dis_lem1
+R29869:29872 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R29875:29877 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R29879:29881 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 29908:29915 <> Dis_lem2
+R29920:29923 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R29948:29950 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R29944:29946 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R29924:29924 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R29939:29942 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R29935:29937 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R29927:29929 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R29931:29933 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R29952:29954 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 29986:29993 <> Dis_lem3
+R29998:30001 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R30048:30050 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30044:30046 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30002:30002 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R30039:30042 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R30035:30037 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R30027:30029 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30023:30025 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30003:30003 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R30018:30021 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R30014:30016 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R30006:30008 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30010:30012 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R30031:30033 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R30052:30054 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 30086:30093 <> Dis_lem4
+R30098:30101 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R30170:30172 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30166:30168 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30102:30102 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R30161:30164 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R30157:30159 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R30149:30151 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30145:30147 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30103:30103 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R30140:30143 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R30136:30138 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R30128:30130 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30124:30126 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30104:30104 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R30119:30122 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R30115:30117 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R30107:30109 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30111:30113 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R30132:30134 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R30153:30155 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R30174:30176 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+prf 30209:30216 <> Dis_lem5
+R30221:30224 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R30315:30317 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30311:30313 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30225:30225 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R30306:30309 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R30302:30304 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R30294:30296 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30290:30292 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30226:30226 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R30285:30288 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R30281:30283 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R30273:30275 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30269:30271 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30227:30227 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R30264:30267 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R30260:30262 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R30252:30254 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30248:30250 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30228:30228 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R30243:30246 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R30239:30241 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R30231:30233 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30235:30237 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R30256:30258 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R30277:30279 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R30298:30300 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R30319:30321 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+def 30359:30371 <> Discriminator
+R30378:30382 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30392:30395 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30442:30486 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30396:30401 Ionia.NN.operation <> Conv4d def
+R30434:30441 Ionia.NN.model <> Dis_lem1 thm
+R30425:30432 Ionia.NN.model <> Dis_lem1 thm
+R30417:30423 Ionia.NN.model <> Discriminator.D_input var
+R30412:30415 Ionia.NN.model <> Discriminator.c1_w var
+R30407:30410 Ionia.NN.model <> Discriminator.c1_b var
+binder 30383:30391 <> feature_1:617
+R30487:30491 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30498:30501 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30529:30577 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30502:30512 Ionia.NN.operation <> LeakyReLU4d def
+R30520:30528 Ionia.NN.model <> feature_1:617 var
+binder 30492:30497 <> relu_1:618
+R30578:30582 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30592:30595 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30641:30688 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30596:30601 Ionia.NN.operation <> Conv4d def
+R30633:30640 Ionia.NN.model <> Dis_lem2 thm
+R30624:30631 Ionia.NN.model <> Dis_lem2 thm
+R30617:30622 Ionia.NN.model <> relu_1:618 var
+R30612:30615 Ionia.NN.model <> Discriminator.c2_w var
+R30607:30610 Ionia.NN.model <> Discriminator.c2_b var
+binder 30583:30591 <> feature_2:619
+R30689:30693 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30700:30703 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30734:30782 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30704:30714 Ionia.NN.operation <> BatchNorm4d def
+R30730:30733 Ionia.Progress.rule <> zero def
+R30726:30728 Ionia.Progress.rule <> one def
+R30716:30724 Ionia.NN.model <> feature_2:619 var
+binder 30694:30699 <> norm_2:620
+R30783:30787 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30794:30797 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30822:30875 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30798:30808 Ionia.NN.operation <> LeakyReLU4d def
+R30816:30821 Ionia.NN.model <> norm_2:620 var
+binder 30788:30793 <> relu_2:621
+R30876:30880 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30890:30893 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30939:30984 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30894:30899 Ionia.NN.operation <> Conv4d def
+R30931:30938 Ionia.NN.model <> Dis_lem3 thm
+R30922:30929 Ionia.NN.model <> Dis_lem3 thm
+R30915:30920 Ionia.NN.model <> relu_2:621 var
+R30910:30913 Ionia.NN.model <> Discriminator.c3_w var
+R30905:30908 Ionia.NN.model <> Discriminator.c3_b var
+binder 30881:30889 <> feature_3:622
+R30985:30989 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R30996:30999 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R31030:31076 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R31000:31010 Ionia.NN.operation <> BatchNorm4d def
+R31026:31029 Ionia.Progress.rule <> zero def
+R31022:31024 Ionia.Progress.rule <> one def
+R31012:31020 Ionia.NN.model <> feature_3:622 var
+binder 30990:30995 <> norm_3:623
+R31077:31081 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R31088:31091 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R31116:31167 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R31092:31102 Ionia.NN.operation <> LeakyReLU4d def
+R31110:31115 Ionia.NN.model <> norm_3:623 var
+binder 31082:31087 <> relu_3:624
+R31168:31172 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R31182:31185 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R31231:31276 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R31186:31191 Ionia.NN.operation <> Conv4d def
+R31223:31230 Ionia.NN.model <> Dis_lem4 thm
+R31214:31221 Ionia.NN.model <> Dis_lem4 thm
+R31207:31212 Ionia.NN.model <> relu_3:624 var
+R31202:31205 Ionia.NN.model <> Discriminator.c4_w var
+R31197:31200 Ionia.NN.model <> Discriminator.c4_b var
+binder 31173:31181 <> feature_4:625
+R31277:31281 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R31288:31291 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R31322:31368 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R31292:31302 Ionia.NN.operation <> BatchNorm4d def
+R31318:31321 Ionia.Progress.rule <> zero def
+R31314:31316 Ionia.Progress.rule <> one def
+R31304:31312 Ionia.NN.model <> feature_4:625 var
+binder 31282:31287 <> norm_4:626
+R31369:31373 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R31380:31383 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R31408:31459 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R31384:31394 Ionia.NN.operation <> LeakyReLU4d def
+R31402:31407 Ionia.NN.model <> norm_4:626 var
+binder 31374:31379 <> relu_4:627
+R31460:31464 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R31474:31477 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R31523:31564 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R31478:31483 Ionia.NN.operation <> Conv4d def
+R31515:31522 Ionia.NN.model <> Dis_lem5 thm
+R31506:31513 Ionia.NN.model <> Dis_lem5 thm
+R31499:31504 Ionia.NN.model <> relu_4:627 var
+R31494:31497 Ionia.NN.model <> Discriminator.c5_w var
+R31489:31492 Ionia.NN.model <> Discriminator.c5_b var
+binder 31465:31473 <> feature_5:628
+R31565:31573 Ionia.NN.operation <> Flatten4d def
+R31576:31584 Ionia.NN.operation <> Sigmoid4d def
+R31586:31594 Ionia.NN.model <> feature_5:628 var
+R31640:31652 Ionia.NN.model Discriminator <> sec
+sec 31664:31668 <> DCGAN
+var  31681:31682 DCGAN nz
+var  31684:31686 DCGAN ngf
+var  31688:31690 DCGAN ndf
+var  31692:31693 DCGAN nc
+R31695:31697 Coq.Init.Datatypes <> nat ind
+var 31711:31717 DCGAN G_input
+R31720:31726 Ionia.NN.tensor <> Tensor4 def
+R31731:31732 Ionia.NN.model <> DCGAN.nz var
+var 31748:31759 DCGAN D_real_input
+R31762:31768 Ionia.NN.tensor <> Tensor4 def
+R31773:31774 Ionia.NN.model <> DCGAN.nc var
+var 31792:31796 DCGAN ct1_w
+R31799:31805 Ionia.NN.tensor <> Tensor4 def
+R31815:31816 Ionia.NN.model <> DCGAN.nz var
+R31811:31811 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R31808:31810 Ionia.NN.model <> DCGAN.ngf var
+var 31832:31836 DCGAN ct1_b
+R31839:31845 Ionia.NN.tensor <> Tensor1 def
+R31851:31851 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R31848:31850 Ionia.NN.model <> DCGAN.ngf var
+var 31865:31869 DCGAN ct2_w
+R31872:31878 Ionia.NN.tensor <> Tensor4 def
+R31892:31892 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R31889:31891 Ionia.NN.model <> DCGAN.ngf var
+R31884:31884 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R31881:31883 Ionia.NN.model <> DCGAN.ngf var
+var 31910:31914 DCGAN ct2_b
+R31917:31923 Ionia.NN.tensor <> Tensor1 def
+R31929:31929 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R31926:31928 Ionia.NN.model <> DCGAN.ngf var
+var 31943:31947 DCGAN ct3_w
+R31950:31956 Ionia.NN.tensor <> Tensor4 def
+R31970:31970 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R31967:31969 Ionia.NN.model <> DCGAN.ngf var
+R31962:31962 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R31959:31961 Ionia.NN.model <> DCGAN.ngf var
+var 31988:31992 DCGAN ct3_b
+R31995:32001 Ionia.NN.tensor <> Tensor1 def
+R32007:32007 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R32004:32006 Ionia.NN.model <> DCGAN.ngf var
+var 32021:32025 DCGAN ct4_w
+R32028:32034 Ionia.NN.tensor <> Tensor4 def
+R32044:32044 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R32041:32043 Ionia.NN.model <> DCGAN.ngf var
+R32036:32038 Ionia.NN.model <> DCGAN.ngf var
+var 32062:32066 DCGAN ct4_b
+R32069:32075 Ionia.NN.tensor <> Tensor1 def
+R32077:32079 Ionia.NN.model <> DCGAN.ngf var
+var 32091:32095 DCGAN ct5_w
+R32098:32104 Ionia.NN.tensor <> Tensor4 def
+R32109:32111 Ionia.NN.model <> DCGAN.ngf var
+R32106:32107 Ionia.NN.model <> DCGAN.nc var
+var 32127:32131 DCGAN ct5_b
+R32134:32140 Ionia.NN.tensor <> Tensor1 def
+R32142:32143 Ionia.NN.model <> DCGAN.nc var
+var 32155:32158 DCGAN c1_w
+R32161:32167 Ionia.NN.tensor <> Tensor4 def
+R32173:32174 Ionia.NN.model <> DCGAN.nc var
+R32169:32171 Ionia.NN.model <> DCGAN.ndf var
+var 32190:32193 DCGAN c1_b
+R32196:32202 Ionia.NN.tensor <> Tensor1 def
+R32204:32206 Ionia.NN.model <> DCGAN.ndf var
+var 32218:32221 DCGAN c2_w
+R32224:32230 Ionia.NN.tensor <> Tensor4 def
+R32240:32242 Ionia.NN.model <> DCGAN.ndf var
+R32236:32236 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R32233:32235 Ionia.NN.model <> DCGAN.ndf var
+var 32258:32261 DCGAN c2_b
+R32264:32270 Ionia.NN.tensor <> Tensor1 def
+R32276:32276 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R32273:32275 Ionia.NN.model <> DCGAN.ndf var
+var 32290:32293 DCGAN c3_w
+R32296:32302 Ionia.NN.tensor <> Tensor4 def
+R32316:32316 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R32313:32315 Ionia.NN.model <> DCGAN.ndf var
+R32308:32308 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R32305:32307 Ionia.NN.model <> DCGAN.ndf var
+var 32334:32337 DCGAN c3_b
+R32340:32346 Ionia.NN.tensor <> Tensor1 def
+R32352:32352 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R32349:32351 Ionia.NN.model <> DCGAN.ndf var
+var 32366:32369 DCGAN c4_w
+R32372:32378 Ionia.NN.tensor <> Tensor4 def
+R32392:32392 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R32389:32391 Ionia.NN.model <> DCGAN.ndf var
+R32384:32384 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R32381:32383 Ionia.NN.model <> DCGAN.ndf var
+var 32410:32413 DCGAN c4_b
+R32416:32422 Ionia.NN.tensor <> Tensor1 def
+R32428:32428 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R32425:32427 Ionia.NN.model <> DCGAN.ndf var
+var 32442:32445 DCGAN c5_w
+R32448:32454 Ionia.NN.tensor <> Tensor4 def
+R32462:32462 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R32459:32461 Ionia.NN.model <> DCGAN.ndf var
+var 32480:32483 DCGAN c5_b
+R32486:32492 Ionia.NN.tensor <> Tensor1 def
+var 32506:32515 DCGAN real_label
+R32518:32524 Ionia.NN.tensor <> Tensor2 def
+def 32544:32548 <> DCGAN
+R32555:32559 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R32573:32576 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R32658:32663 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R32577:32589 Ionia.NN.model <> Discriminator def
+R32654:32657 Ionia.NN.model <> DCGAN.c5_b var
+R32649:32652 Ionia.NN.model <> DCGAN.c5_w var
+R32644:32647 Ionia.NN.model <> DCGAN.c4_b var
+R32639:32642 Ionia.NN.model <> DCGAN.c4_w var
+R32634:32637 Ionia.NN.model <> DCGAN.c3_b var
+R32629:32632 Ionia.NN.model <> DCGAN.c3_w var
+R32624:32627 Ionia.NN.model <> DCGAN.c2_b var
+R32619:32622 Ionia.NN.model <> DCGAN.c2_w var
+R32614:32617 Ionia.NN.model <> DCGAN.c1_b var
+R32609:32612 Ionia.NN.model <> DCGAN.c1_w var
+R32591:32602 Ionia.NN.model <> DCGAN.D_real_input var
+binder 32560:32572 <> D_real_output:679
+R32664:32668 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R32678:32681 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R32716:32722 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R32682:32690 Ionia.NN.operation <> BCELoss2d def
+R32706:32715 Ionia.NN.model <> DCGAN.real_label var
+R32692:32704 Ionia.NN.model <> D_real_output:679 var
+binder 32669:32677 <> errD_real:680
+R32723:32727 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R32732:32735 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R32818:32823 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R32736:32744 Ionia.NN.model <> Generator def
+R32813:32817 Ionia.NN.model <> DCGAN.ct5_b var
+R32807:32811 Ionia.NN.model <> DCGAN.ct5_w var
+R32801:32805 Ionia.NN.model <> DCGAN.ct4_b var
+R32795:32799 Ionia.NN.model <> DCGAN.ct4_w var
+R32789:32793 Ionia.NN.model <> DCGAN.ct3_b var
+R32783:32787 Ionia.NN.model <> DCGAN.ct3_w var
+R32777:32781 Ionia.NN.model <> DCGAN.ct2_b var
+R32771:32775 Ionia.NN.model <> DCGAN.ct2_w var
+R32765:32769 Ionia.NN.model <> DCGAN.ct1_b var
+R32759:32763 Ionia.NN.model <> DCGAN.ct1_w var
+R32746:32752 Ionia.NN.model <> DCGAN.G_input var
+binder 32728:32731 <> fake:681
+R32824:32828 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R32842:32845 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R32919:32924 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R32846:32858 Ionia.NN.model <> Discriminator def
+R32915:32918 Ionia.NN.model <> DCGAN.c5_b var
+R32910:32913 Ionia.NN.model <> DCGAN.c5_w var
+R32905:32908 Ionia.NN.model <> DCGAN.c4_b var
+R32900:32903 Ionia.NN.model <> DCGAN.c4_w var
+R32895:32898 Ionia.NN.model <> DCGAN.c3_b var
+R32890:32893 Ionia.NN.model <> DCGAN.c3_w var
+R32885:32888 Ionia.NN.model <> DCGAN.c2_b var
+R32880:32883 Ionia.NN.model <> DCGAN.c2_w var
+R32875:32878 Ionia.NN.model <> DCGAN.c1_b var
+R32870:32873 Ionia.NN.model <> DCGAN.c1_w var
+R32860:32863 Ionia.NN.model <> fake:681 var
+binder 32829:32841 <> D_fake_output:682
+R32925:32929 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R32940:32943 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R32959:32977 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R32944:32949 Ionia.NN.tensor <> Fill2d def
+R32955:32958 Ionia.Progress.rule <> zero def
+binder 32930:32939 <> fake_label:683
+R32978:32982 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R32992:32995 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R33030:33035 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R32996:33004 Ionia.NN.operation <> BCELoss2d def
+R33020:33029 Ionia.NN.model <> fake_label:683 var
+R33006:33018 Ionia.NN.model <> D_fake_output:682 var
+binder 32983:32991 <> errD_fake:684
+R33036:33040 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R33046:33049 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R33064:33069 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R33050:33055 Ionia.NN.tensor <> Fill2d def
+R33061:33063 Ionia.Progress.rule <> one def
+binder 33041:33045 <> label:685
+R33070:33078 Ionia.NN.operation <> BCELoss2d def
+R33094:33098 Ionia.NN.model <> label:685 var
+R33080:33092 Ionia.NN.model <> D_fake_output:682 var
+R33106:33110 Ionia.NN.model DCGAN <> sec
+sec 34383:34386 <> LSTM
+var  34399:34408 LSTM seq_length
+var  34410:34410 LSTM n
+R34412:34414 Coq.Init.Datatypes <> nat ind
+var 34429:34429 LSTM d
+var 34431:34431 LSTM h
+R34433:34435 Coq.Init.Datatypes <> nat ind
+var 34447:34451 LSTM input
+R34455:34461 Ionia.NN.tensor <> Tensor3 def
+R34476:34476 Ionia.NN.model <> LSTM.d var
+R34474:34474 Ionia.NN.model <> LSTM.n var
+R34463:34472 Ionia.NN.model <> LSTM.seq_length var
+var 34489:34489 LSTM H
+var 34491:34491 LSTM C
+R34495:34501 Ionia.NN.tensor <> Tensor3 def
+R34507:34507 Ionia.NN.model <> LSTM.h var
+R34505:34505 Ionia.NN.model <> LSTM.n var
+def 34522:34525 <> LSTM
+R34544:34552 Ionia.NN.tensor <> Default2d def
+R34556:34556 Ionia.NN.model <> LSTM.h var
+R34554:34554 Ionia.NN.model <> LSTM.d var
+binder 34536:34539 <> W_xi:698
+R34575:34583 Ionia.NN.tensor <> Default2d def
+R34587:34587 Ionia.NN.model <> LSTM.h var
+R34585:34585 Ionia.NN.model <> LSTM.h var
+binder 34567:34570 <> W_hi:699
+R34605:34613 Ionia.NN.tensor <> Default1d def
+R34615:34615 Ionia.NN.model <> LSTM.h var
+binder 34598:34600 <> b_i:700
+R34634:34642 Ionia.NN.tensor <> Default2d def
+R34646:34646 Ionia.NN.model <> LSTM.h var
+R34644:34644 Ionia.NN.model <> LSTM.d var
+binder 34626:34629 <> W_xf:701
+R34665:34673 Ionia.NN.tensor <> Default2d def
+R34677:34677 Ionia.NN.model <> LSTM.h var
+R34675:34675 Ionia.NN.model <> LSTM.h var
+binder 34657:34660 <> W_hf:702
+R34695:34703 Ionia.NN.tensor <> Default1d def
+R34705:34705 Ionia.NN.model <> LSTM.h var
+binder 34688:34690 <> b_f:703
+R34724:34732 Ionia.NN.tensor <> Default2d def
+R34736:34736 Ionia.NN.model <> LSTM.h var
+R34734:34734 Ionia.NN.model <> LSTM.d var
+binder 34716:34719 <> W_xo:704
+R34755:34763 Ionia.NN.tensor <> Default2d def
+R34767:34767 Ionia.NN.model <> LSTM.h var
+R34765:34765 Ionia.NN.model <> LSTM.h var
+binder 34747:34750 <> W_ho:705
+R34785:34793 Ionia.NN.tensor <> Default1d def
+R34795:34795 Ionia.NN.model <> LSTM.h var
+binder 34778:34780 <> b_o:706
+R34814:34822 Ionia.NN.tensor <> Default2d def
+R34826:34826 Ionia.NN.model <> LSTM.h var
+R34824:34824 Ionia.NN.model <> LSTM.d var
+binder 34806:34809 <> W_xc:707
+R34845:34853 Ionia.NN.tensor <> Default2d def
+R34857:34857 Ionia.NN.model <> LSTM.h var
+R34855:34855 Ionia.NN.model <> LSTM.h var
+binder 34837:34840 <> W_hc:708
+R34875:34883 Ionia.NN.tensor <> Default1d def
+R34885:34885 Ionia.NN.model <> LSTM.h var
+binder 34868:34870 <> b_c:709
+R34892:34899 Ionia.Progress.data <> seq_make def
+R34908:34910 Ionia.Base.fin <> fin def
+R34912:34921 Ionia.NN.model <> LSTM.seq_length var
+binder 34906:34906 <> i:710
+R34929:34933 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R34935:34938 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R34999:35004 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R34939:34947 Ionia.NN.operation <> Sigmoid2d def
+R34950:34955 Ionia.NN.operation <> mm_mul def
+R34995:34997 Ionia.NN.model <> b_i:700 var
+R34990:34993 Ionia.NN.model <> W_hi:699 var
+R34972:34972 Ionia.NN.operation <> :::x_'['_x_']' not
+R34988:34988 Ionia.NN.operation <> :::x_'['_x_']' not
+R34971:34971 Ionia.NN.model <> LSTM.H var
+R34973:34978 Ionia.Base.fin <> fin_0H def
+R34980:34987 Ionia.Base.base <> nat_lem4 thm
+R34966:34969 Ionia.NN.model <> W_xi:698 var
+R34962:34962 Ionia.NN.operation <> :::x_'['_x_']' not
+R34964:34964 Ionia.NN.operation <> :::x_'['_x_']' not
+R34957:34961 Ionia.NN.model <> LSTM.input var
+R34963:34963 Ionia.NN.model <> i:710 var
+binder 34934:34934 <> I:711
+R35005:35009 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R35011:35014 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R35075:35080 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R35015:35023 Ionia.NN.operation <> Sigmoid2d def
+R35026:35031 Ionia.NN.operation <> mm_mul def
+R35071:35073 Ionia.NN.model <> b_f:703 var
+R35066:35069 Ionia.NN.model <> W_hf:702 var
+R35048:35048 Ionia.NN.operation <> :::x_'['_x_']' not
+R35064:35064 Ionia.NN.operation <> :::x_'['_x_']' not
+R35047:35047 Ionia.NN.model <> LSTM.H var
+R35049:35054 Ionia.Base.fin <> fin_0H def
+R35056:35063 Ionia.Base.base <> nat_lem4 thm
+R35042:35045 Ionia.NN.model <> W_xf:701 var
+R35038:35038 Ionia.NN.operation <> :::x_'['_x_']' not
+R35040:35040 Ionia.NN.operation <> :::x_'['_x_']' not
+R35033:35037 Ionia.NN.model <> LSTM.input var
+R35039:35039 Ionia.NN.model <> i:710 var
+binder 35010:35010 <> F:712
+R35081:35085 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R35087:35090 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R35151:35156 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R35091:35099 Ionia.NN.operation <> Sigmoid2d def
+R35102:35107 Ionia.NN.operation <> mm_mul def
+R35147:35149 Ionia.NN.model <> b_o:706 var
+R35142:35145 Ionia.NN.model <> W_ho:705 var
+R35124:35124 Ionia.NN.operation <> :::x_'['_x_']' not
+R35140:35140 Ionia.NN.operation <> :::x_'['_x_']' not
+R35123:35123 Ionia.NN.model <> LSTM.H var
+R35125:35130 Ionia.Base.fin <> fin_0H def
+R35132:35139 Ionia.Base.base <> nat_lem4 thm
+R35118:35121 Ionia.NN.model <> W_xo:704 var
+R35114:35114 Ionia.NN.operation <> :::x_'['_x_']' not
+R35116:35116 Ionia.NN.operation <> :::x_'['_x_']' not
+R35109:35113 Ionia.NN.model <> LSTM.input var
+R35115:35115 Ionia.NN.model <> i:710 var
+binder 35086:35086 <> O:713
+R35157:35161 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R35169:35172 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R35233:35238 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R35173:35181 Ionia.NN.operation <> Sigmoid2d def
+R35184:35189 Ionia.NN.operation <> mm_mul def
+R35229:35231 Ionia.NN.model <> b_c:709 var
+R35224:35227 Ionia.NN.model <> W_hc:708 var
+R35206:35206 Ionia.NN.operation <> :::x_'['_x_']' not
+R35222:35222 Ionia.NN.operation <> :::x_'['_x_']' not
+R35205:35205 Ionia.NN.model <> LSTM.H var
+R35207:35212 Ionia.Base.fin <> fin_0H def
+R35214:35221 Ionia.Base.base <> nat_lem4 thm
+R35200:35203 Ionia.NN.model <> W_xc:707 var
+R35196:35196 Ionia.NN.operation <> :::x_'['_x_']' not
+R35198:35198 Ionia.NN.operation <> :::x_'['_x_']' not
+R35191:35195 Ionia.NN.model <> LSTM.input var
+R35197:35197 Ionia.NN.model <> i:710 var
+binder 35162:35168 <> C_tilda:714
+R35239:35243 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R35247:35250 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R35303:35308 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R35251:35255 Ionia.NN.operation <> Add2d def
+R35287:35291 Ionia.NN.operation <> Mul2d def
+R35295:35301 Ionia.NN.model <> C_tilda:714 var
+R35293:35293 Ionia.NN.model <> I:711 var
+R35258:35262 Ionia.NN.operation <> Mul2d def
+R35267:35267 Ionia.NN.operation <> :::x_'['_x_']' not
+R35283:35283 Ionia.NN.operation <> :::x_'['_x_']' not
+R35266:35266 Ionia.NN.model <> LSTM.C var
+R35268:35273 Ionia.Base.fin <> fin_0H def
+R35275:35282 Ionia.Base.base <> nat_lem4 thm
+R35264:35264 Ionia.NN.model <> F:712 var
+binder 35244:35246 <> C_t:715
+R35309:35313 Ionia.NN.operation <> Mul2d def
+R35318:35323 Ionia.NN.operation <> Tanh2d def
+R35325:35327 Ionia.NN.model <> C_t:715 var
+R35315:35315 Ionia.NN.model <> O:713 var
+R35338:35341 Ionia.NN.model LSTM <> sec
