@@ -635,6 +635,31 @@ Definition Reshape3d_2d {batch n m} (k:nat) (input : Tensor3 batch n m)  :=
   seq_make(fun i : fin k => seq_make(fun j : fin ((batch*n*m)/k)=> 
     (Tensor1_unfold e')|[[i*((batch*n*m)/k)+j|fin_lem7 i j]])).
 
+(* a recursive function to calculate the length of inner lists in a nested list *)  
+Definition innerList_length {A : Type} (l : list (list A)) : nat :=  
+  match l with  
+  | nil => 0  
+  | cons inner_list tl => length inner_list
+  end. 
+
+(* Accessing elements at a specific position in a nested list. *)  
+Fixpoint nested_list_access {n} (l : list (list (fin n))) (i j : nat) (E: 0 < n): fin n :=  
+  match l with  
+  | nil => F[E]  
+  | cons inner_list tl =>  
+    match i with  
+    | 0 => nth j inner_list F[E]
+    | S i' => nested_list_access tl i' j E
+    end  
+  end.  
+
+Notation " l [ i ][ j ] | E " := (nested_list_access l i j E) (at level 2).
+Definition Embedding2d {n1 n2} (m1 m2: nat)
+  (input: list (list (fin n1)))(e: Tensor2 n1 n2) (E: 0 < n1):= 
+  seq_make (fun i:fin m1 => seq_make (fun j:fin m2 => 
+    seq_make (fun k: fin n2 => (Tensor2_unfold e)|[input[i][j]|E]|[k]))).
+
+
 (* Fixpoint ReshapeList2d (l: list (list nat))
   : list nat := 
   match l with

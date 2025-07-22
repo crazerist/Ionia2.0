@@ -1,4 +1,4 @@
-DIGEST 5d8adae55d1338c343e008ef038154f6
+DIGEST e1a7c1e3f53ea309fdb3057ed8c86fb8
 FIonia.NN.operation
 R15:20 Ionia.NN.tensor <> <> lib
 R34:40 Coq.Arith.PeanoNat Nat div def
@@ -7270,1431 +7270,1520 @@ R37342:37342 Ionia.NN.operation <> j:1049 var
 R37344:37351 Ionia.Base.finfle <> fin_lem7 thm
 R37355:37355 Ionia.NN.operation <> j:1049 var
 R37353:37353 Ionia.NN.operation <> i:1048 var
-def 37514:37518 <> m_nth
-binder 37521:37527 <> channel:1050
-binder 37529:37529 <> n:1051
-binder 37531:37531 <> m:1052
-R37543:37549 Ionia.NN.tensor <> Tensor3 def
-R37561:37561 Ionia.NN.operation <> m:1052 var
-R37559:37559 Ionia.NN.operation <> n:1051 var
-R37551:37557 Ionia.NN.operation <> channel:1050 var
-binder 37535:37539 <> input:1053
-R37568:37570 Ionia.Base.fin <> fin def
-R37572:37578 Ionia.NN.operation <> channel:1050 var
-binder 37565:37565 <> c:1054
-R37588:37595 Ionia.Progress.data <> seq_make def
-R37606:37608 Ionia.Base.fin <> fin def
-R37610:37610 Ionia.NN.operation <> n:1051 var
-binder 37602:37602 <> i:1055
-R37615:37622 Ionia.Progress.data <> seq_make def
-R37632:37634 Ionia.Base.fin <> fin def
-R37636:37636 Ionia.NN.operation <> m:1052 var
-binder 37628:37628 <> j:1056
-R37671:37672 Ionia.Progress.data <> :::x_'|['_x_']' not
-R37674:37674 Ionia.Progress.data <> :::x_'|['_x_']' not
-R37667:37668 Ionia.Progress.data <> :::x_'|['_x_']' not
-R37670:37670 Ionia.Progress.data <> :::x_'|['_x_']' not
-R37641:37641 Ionia.Progress.data <> :::x_'|['_x_']' not
-R37662:37664 Ionia.Progress.data <> :::x_'|['_x_']' not
-R37666:37666 Ionia.Progress.data <> :::x_'|['_x_']' not
-R37642:37655 Ionia.NN.tensor <> Tensor3_unfold def
-R37657:37661 Ionia.NN.operation <> input:1053 var
-R37665:37665 Ionia.NN.operation <> c:1054 var
-R37669:37669 Ionia.NN.operation <> i:1055 var
-R37673:37673 Ionia.NN.operation <> j:1056 var
-R37705:37709 Ionia.NN.operation <> m_nth def
-not 37689:37689 <> :::x_'['_x_']'
-def 37843:37846 <> loss
-binder 37849:37849 <> n:1057
-R37856:37862 Ionia.NN.tensor <> Tensor1 def
-R37864:37864 Ionia.NN.operation <> n:1057 var
-binder 37853:37853 <> p:1058
-R37873:37876 Ionia.Progress.rule <> divn def
-R37940:37940 Ionia.NN.operation <> n:1057 var
-R37879:37881 Ionia.Progress.rule <> sum def
-R37884:37891 Ionia.Progress.data <> seq_make def
-binder 37898:37898 <> i:1059
-R37902:37907 Ionia.Progress.rule <> negate def
-R37910:37911 Ionia.Progress.rule <> ln def
-R37913:37913 Ionia.Progress.data <> :::x_'|['_x_']' not
-R37930:37932 Ionia.Progress.data <> :::x_'|['_x_']' not
-R37934:37934 Ionia.Progress.data <> :::x_'|['_x_']' not
-R37914:37927 Ionia.NN.tensor <> Tensor1_unfold def
-R37929:37929 Ionia.NN.operation <> p:1058 var
-R37933:37933 Ionia.NN.operation <> i:1059 var
-def 37955:37966 <> Softmax_loss
-binder 37969:37969 <> n:1060
-R37976:37982 Ionia.NN.tensor <> Tensor1 def
-R37984:37984 Ionia.NN.operation <> n:1060 var
-binder 37973:37973 <> p:1061
-R37992:37996 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
-R38000:38003 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
-R38032:38035 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
-R38004:38012 Ionia.NN.operation <> Softmax1d def
-R38015:38028 Ionia.NN.tensor <> Tensor1_unfold def
-R38030:38030 Ionia.NN.operation <> p:1061 var
-binder 37997:37999 <> tmp:1062
-R38036:38043 Ionia.Progress.data <> seq_make def
-R38053:38055 Ionia.Base.fin <> fin def
-R38057:38057 Ionia.NN.operation <> n:1060 var
-binder 38050:38050 <> i:1063
-R38062:38067 Ionia.Progress.rule <> negate def
-R38070:38071 Ionia.Progress.rule <> ln def
-R38076:38077 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38079:38079 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38073:38075 Ionia.NN.operation <> tmp:1062 var
-R38078:38078 Ionia.NN.operation <> i:1063 var
-def 38096:38107 <> Softmax_Loss
-binder 38110:38110 <> n:1064
-R38117:38123 Ionia.NN.tensor <> Tensor1 def
-R38125:38125 Ionia.NN.operation <> n:1064 var
-binder 38114:38114 <> p:1065
-R38135:38137 Ionia.Base.fin <> fin def
-R38139:38139 Ionia.NN.operation <> n:1064 var
-binder 38129:38133 <> label:1066
-R38147:38151 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
-R38155:38158 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
-R38218:38223 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
-R38159:38161 Ionia.Progress.rule <> sum def
-R38164:38171 Ionia.Progress.data <> seq_make def
-R38180:38182 Ionia.Base.fin <> fin def
-R38184:38184 Ionia.NN.operation <> n:1064 var
-binder 38178:38178 <> i:1067
-R38189:38192 Ionia.Progress.rule <> epow def
-R38194:38194 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38211:38213 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38215:38215 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38195:38208 Ionia.NN.tensor <> Tensor1_unfold def
-R38210:38210 Ionia.NN.operation <> p:1065 var
-R38214:38214 Ionia.NN.operation <> i:1067 var
-binder 38152:38154 <> sum:1068
-R38224:38229 Ionia.Progress.rule <> negate def
-R38232:38233 Ionia.Progress.rule <> ln def
-R38236:38238 Ionia.Progress.rule <> div def
-R38274:38276 Ionia.NN.operation <> sum:1068 var
-R38241:38244 Ionia.Progress.rule <> epow def
+def 37459:37474 <> innerList_length
+binder 37477:37477 <> A:1050
+R37492:37495 Coq.Init.Datatypes <> list ind
+R37498:37501 Coq.Init.Datatypes <> list ind
+R37503:37503 Ionia.NN.operation <> A:1050 var
+binder 37488:37488 <> l:1051
+R37509:37511 Coq.Init.Datatypes <> nat ind
+R37526:37526 Ionia.NN.operation <> l:1051 var
+R37539:37541 Coq.Init.Datatypes <> nil constr
+R37554:37557 Coq.Init.Datatypes <> cons constr
+R37576:37581 Coq.Lists.List <> length abbrev
+def 37680:37697 <> nested_list_access
+binder 37700:37700 <> n:1053
+R37708:37711 Coq.Init.Datatypes <> list ind
+R37714:37717 Coq.Init.Datatypes <> list ind
+R37720:37722 Ionia.Base.fin <> fin def
+R37724:37724 Ionia.NN.operation <> n:1053 var
+binder 37704:37704 <> l:1054
+R37736:37738 Coq.Init.Datatypes <> nat ind
+binder 37730:37730 <> i:1055
+binder 37732:37732 <> j:1056
+R37746:37748 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R37749:37749 Ionia.NN.operation <> n:1053 var
+binder 37742:37742 <> E:1057
+R37753:37755 Ionia.Base.fin <> fin def
+R37757:37757 Ionia.NN.operation <> n:1053 var
+R37772:37772 Ionia.NN.operation <> l:1054 var
+R37785:37787 Coq.Init.Datatypes <> nil constr
+R37792:37793 Ionia.Base.fin <> :::'F['_x_']' not
+R37795:37795 Ionia.Base.fin <> :::'F['_x_']' not
+R37794:37794 Ionia.NN.operation <> E:1057 var
+R37803:37806 Coq.Init.Datatypes <> cons constr
+R37837:37837 Ionia.NN.operation <> i:1055 var
+R37857:37859 Coq.Lists.List <> nth def
+R37874:37875 Ionia.Base.fin <> :::'F['_x_']' not
+R37877:37877 Ionia.Base.fin <> :::'F['_x_']' not
+R37876:37876 Ionia.NN.operation <> E:1057 var
+R37861:37861 Ionia.NN.operation <> j:1056 var
+R37885:37885 Coq.Init.Datatypes <> S constr
+R37893:37910 Ionia.NN.operation <> nested_list_access:1058 def
+R37920:37920 Ionia.NN.operation <> E:1057 var
+R37918:37918 Ionia.NN.operation <> j:1056 var
+R37976:37993 Ionia.NN.operation <> nested_list_access def
+not 37951:37951 <> :::x_'['_x_']['_x_']'_'|'_x
+def 38029:38039 <> Embedding2d
+binder 38042:38043 <> n1:1061
+binder 38045:38046 <> n2:1062
+R38057:38059 Coq.Init.Datatypes <> nat ind
+binder 38050:38051 <> m1:1063
+binder 38053:38054 <> m2:1064
+R38072:38075 Coq.Init.Datatypes <> list ind
+R38078:38081 Coq.Init.Datatypes <> list ind
+R38084:38086 Ionia.Base.fin <> fin def
+R38088:38089 Ionia.NN.operation <> n1:1061 var
+binder 38065:38069 <> input:1065
+R38097:38103 Ionia.NN.tensor <> Tensor2 def
+R38108:38109 Ionia.NN.operation <> n2:1062 var
+R38105:38106 Ionia.NN.operation <> n1:1061 var
+binder 38094:38094 <> e:1066
+R38117:38119 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R38120:38121 Ionia.NN.operation <> n1:1061 var
+binder 38113:38113 <> E:1067
+R38129:38136 Ionia.Progress.data <> seq_make def
+R38145:38147 Ionia.Base.fin <> fin def
+R38149:38150 Ionia.NN.operation <> m1:1063 var
+binder 38143:38143 <> i:1068
+R38155:38162 Ionia.Progress.data <> seq_make def
+R38171:38173 Ionia.Base.fin <> fin def
+R38175:38176 Ionia.NN.operation <> m2:1064 var
+binder 38169:38169 <> j:1069
+R38186:38193 Ionia.Progress.data <> seq_make def
+R38203:38205 Ionia.Base.fin <> fin def
+R38207:38208 Ionia.NN.operation <> n2:1062 var
+binder 38200:38200 <> k:1070
+R38247:38248 Ionia.Progress.data <> :::x_'|['_x_']' not
+R38250:38250 Ionia.Progress.data <> :::x_'|['_x_']' not
+R38213:38213 Ionia.Progress.data <> :::x_'|['_x_']' not
+R38230:38232 Ionia.Progress.data <> :::x_'|['_x_']' not
 R38246:38246 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38263:38265 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38271:38271 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38247:38260 Ionia.NN.tensor <> Tensor1_unfold def
-R38262:38262 Ionia.NN.operation <> p:1065 var
-R38266:38270 Ionia.NN.operation <> label:1066 var
-def 38293:38312 <> SparseCateCross_Loss
-binder 38315:38315 <> m:1069
-binder 38317:38317 <> n:1070
-R38324:38330 Ionia.NN.tensor <> Tensor2 def
-R38334:38334 Ionia.NN.operation <> m:1069 var
-R38332:38332 Ionia.NN.operation <> n:1070 var
-binder 38321:38321 <> p:1071
-R38346:38352 Ionia.NN.tensor <> Tensor2 def
-R38356:38356 Ionia.NN.operation <> m:1069 var
-R38354:38354 Ionia.NN.operation <> n:1070 var
-binder 38338:38342 <> label:1072
-R38365:38370 Ionia.Progress.rule <> negate def
-R38373:38376 Ionia.Progress.rule <> divn def
-R38518:38518 Ionia.NN.operation <> n:1070 var
-R38379:38381 Ionia.Progress.rule <> sum def
-R38384:38391 Ionia.Progress.data <> seq_make def
-R38401:38403 Ionia.Base.fin <> fin def
-R38405:38405 Ionia.NN.operation <> n:1070 var
-binder 38398:38398 <> i:1073
-R38410:38412 Ionia.Progress.rule <> sum def
-R38415:38422 Ionia.Progress.data <> seq_make def
-R38432:38434 Ionia.Base.fin <> fin def
-R38436:38436 Ionia.NN.operation <> m:1069 var
-binder 38429:38429 <> j:1074
-R38446:38448 Ionia.Progress.rule <> mul def
-R38478:38479 Ionia.Progress.rule <> ln def
-R38507:38508 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38510:38510 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38481:38481 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38502:38504 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38506:38506 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38482:38495 Ionia.NN.tensor <> Tensor2_unfold def
-R38497:38501 Ionia.NN.operation <> label:1072 var
-R38505:38505 Ionia.NN.operation <> i:1073 var
-R38509:38509 Ionia.NN.operation <> j:1074 var
-R38472:38473 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38475:38475 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38450:38450 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38467:38469 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38471:38471 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38451:38464 Ionia.NN.tensor <> Tensor2_unfold def
-R38466:38466 Ionia.NN.operation <> p:1071 var
-R38470:38470 Ionia.NN.operation <> i:1073 var
-R38474:38474 Ionia.NN.operation <> j:1074 var
-def 38534:38541 <> MSE_loss
-binder 38544:38544 <> n:1075
-R38553:38559 Ionia.NN.tensor <> Tensor1 def
-R38561:38561 Ionia.NN.operation <> n:1075 var
-binder 38548:38548 <> x:1076
-binder 38550:38550 <> y:1077
-R38569:38572 Ionia.Progress.rule <> divn def
-R38722:38722 Ionia.NN.operation <> n:1075 var
-R38575:38577 Ionia.Progress.rule <> sum def
-R38580:38587 Ionia.Progress.data <> seq_make def
-R38597:38599 Ionia.Base.fin <> fin def
-R38601:38601 Ionia.NN.operation <> n:1075 var
-binder 38594:38594 <> i:1078
-R38606:38608 Ionia.Progress.rule <> mul def
-R38668:38670 Ionia.Progress.rule <> sub def
-R38695:38695 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38712:38714 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38716:38716 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38696:38709 Ionia.NN.tensor <> Tensor1_unfold def
-R38711:38711 Ionia.NN.operation <> y:1077 var
-R38715:38715 Ionia.NN.operation <> i:1078 var
-R38672:38672 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38689:38691 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38693:38693 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38673:38686 Ionia.NN.tensor <> Tensor1_unfold def
-R38688:38688 Ionia.NN.operation <> x:1076 var
-R38692:38692 Ionia.NN.operation <> i:1078 var
-R38611:38613 Ionia.Progress.rule <> sub def
-R38638:38638 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38655:38657 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38659:38659 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38639:38652 Ionia.NN.tensor <> Tensor1_unfold def
-R38654:38654 Ionia.NN.operation <> y:1077 var
-R38658:38658 Ionia.NN.operation <> i:1078 var
-R38615:38615 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38632:38634 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38636:38636 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38616:38629 Ionia.NN.tensor <> Tensor1_unfold def
-R38631:38631 Ionia.NN.operation <> x:1076 var
-R38635:38635 Ionia.NN.operation <> i:1078 var
-def 38737:38745 <> Relu_grad
-binder 38748:38748 <> n:1079
-binder 38750:38757 <> filernum:1080
-R38769:38775 Ionia.NN.tensor <> Tensor3 def
-R38788:38788 Ionia.NN.operation <> n:1079 var
-R38786:38786 Ionia.NN.operation <> n:1079 var
-R38777:38784 Ionia.NN.operation <> filernum:1080 var
-binder 38761:38765 <> input:1081
-R38796:38803 Ionia.Progress.data <> seq_make def
-R38815:38817 Ionia.Base.fin <> fin def
-R38819:38826 Ionia.NN.operation <> filernum:1080 var
-binder 38810:38812 <> num:1082
-R38831:38838 Ionia.Progress.data <> seq_make def
-R38847:38849 Ionia.Base.fin <> fin def
-R38851:38851 Ionia.NN.operation <> n:1079 var
-binder 38845:38845 <> i:1083
-R38856:38863 Ionia.Progress.data <> seq_make def
-R38872:38874 Ionia.Base.fin <> fin def
-R38876:38876 Ionia.NN.operation <> n:1079 var
-binder 38870:38870 <> j:1084
-R38888:38890 Ionia.Progress.rule <> leb def
-R38929:38932 Ionia.Progress.rule <> zero def
-R38924:38925 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38927:38927 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38920:38921 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38923:38923 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38892:38892 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38913:38915 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38919:38919 Ionia.Progress.data <> :::x_'|['_x_']' not
-R38893:38906 Ionia.NN.tensor <> Tensor3_unfold def
-R38908:38912 Ionia.NN.operation <> input:1081 var
-R38916:38918 Ionia.NN.operation <> num:1082 var
-R38922:38922 Ionia.NN.operation <> i:1083 var
-R38926:38926 Ionia.NN.operation <> j:1084 var
-R38950:38952 Ionia.Progress.rule <> one def
-R38940:38943 Ionia.Progress.rule <> zero def
-def 38971:38974 <> relu
-R38980:38982 Ionia.Progress.data <> exp def
-R38984:38986 Ionia.Progress.data <> num constr
-binder 38977:38977 <> e:1085
-R38995:38997 Ionia.Progress.rule <> leb def
-R39001:39004 Ionia.Progress.rule <> zero def
-R38999:38999 Ionia.NN.operation <> e:1085 var
-R39022:39022 Ionia.NN.operation <> e:1085 var
-R39012:39015 Ionia.Progress.rule <> zero def
-def 39037:39045 <> relu_grad
-R39051:39053 Ionia.Progress.data <> exp def
-R39055:39057 Ionia.Progress.data <> num constr
-binder 39048:39048 <> e:1086
-R39066:39068 Ionia.Progress.rule <> leb def
-R39072:39075 Ionia.Progress.rule <> zero def
-R39070:39070 Ionia.NN.operation <> e:1086 var
-R39093:39095 Ionia.Progress.rule <> one def
-R39083:39086 Ionia.Progress.rule <> zero def
-def 39111:39125 <> output_backward
-binder 39128:39128 <> n:1087
-R39137:39143 Ionia.NN.tensor <> Tensor1 def
-R39145:39145 Ionia.NN.operation <> n:1087 var
-binder 39132:39132 <> x:1088
-binder 39134:39134 <> y:1089
-R39154:39161 Ionia.Progress.data <> seq_make def
-R39172:39174 Ionia.Base.fin <> fin def
-R39176:39176 Ionia.NN.operation <> n:1087 var
-binder 39168:39168 <> i:1090
-R39181:39183 Ionia.Progress.rule <> sub def
-R39208:39208 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39225:39227 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39229:39229 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39209:39222 Ionia.NN.tensor <> Tensor1_unfold def
-R39224:39224 Ionia.NN.operation <> y:1089 var
-R39228:39228 Ionia.NN.operation <> i:1090 var
-R39185:39185 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39202:39204 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39206:39206 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39186:39199 Ionia.NN.tensor <> Tensor1_unfold def
-R39201:39201 Ionia.NN.operation <> x:1088 var
-R39205:39205 Ionia.NN.operation <> i:1090 var
-def 39245:39255 <> nn_backward
-binder 39257:39257 <> n:1091
-binder 39259:39259 <> m:1092
-R39268:39274 Ionia.NN.tensor <> Tensor1 def
-R39276:39276 Ionia.NN.operation <> n:1091 var
-binder 39263:39265 <> d_l:1093
-R39284:39290 Ionia.NN.tensor <> Tensor2 def
-R39294:39294 Ionia.NN.operation <> m:1092 var
-R39292:39292 Ionia.NN.operation <> n:1091 var
-binder 39280:39280 <> w:1094
-R39306:39312 Ionia.NN.tensor <> Tensor1 def
-R39314:39314 Ionia.NN.operation <> m:1092 var
-binder 39298:39302 <> z_l_1:1095
-R39322:39329 Ionia.Progress.data <> seq_make def
-R39338:39340 Ionia.Base.fin <> fin def
-R39342:39342 Ionia.NN.operation <> m:1092 var
-binder 39336:39336 <> i:1096
-R39347:39349 Ionia.Progress.rule <> mul def
-R39444:39452 Ionia.NN.operation <> relu_grad def
-R39454:39454 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39475:39477 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39479:39479 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39455:39468 Ionia.NN.tensor <> Tensor1_unfold def
-R39470:39474 Ionia.NN.operation <> z_l_1:1095 var
-R39478:39478 Ionia.NN.operation <> i:1096 var
-R39352:39354 Ionia.Progress.rule <> sum def
-R39357:39364 Ionia.Progress.data <> seq_make def
-R39373:39375 Ionia.Base.fin <> fin def
-R39377:39377 Ionia.NN.operation <> n:1091 var
-binder 39371:39371 <> j:1097
-R39385:39387 Ionia.Progress.rule <> mul def
-R39416:39416 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39435:39437 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39439:39439 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39417:39430 Ionia.NN.tensor <> Tensor1_unfold def
-R39432:39434 Ionia.NN.operation <> d_l:1093 var
-R39438:39438 Ionia.NN.operation <> j:1097 var
-R39411:39412 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39414:39414 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39389:39389 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39406:39408 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39410:39410 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39390:39403 Ionia.NN.tensor <> Tensor2_unfold def
-R39405:39405 Ionia.NN.operation <> w:1094 var
-R39409:39409 Ionia.NN.operation <> j:1097 var
-R39413:39413 Ionia.NN.operation <> i:1096 var
-def 39496:39516 <> average_pool_backward
-binder 39519:39519 <> n:1098
-binder 39521:39521 <> k:1099
-R39531:39537 Ionia.NN.tensor <> Tensor2 def
-R39541:39541 Ionia.NN.operation <> n:1098 var
-R39539:39539 Ionia.NN.operation <> n:1098 var
-binder 39525:39528 <> dout:1100
-R39553:39559 Ionia.NN.tensor <> Tensor2 def
-R39569:39569 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R39568:39568 Ionia.NN.operation <> k:1099 var
-R39570:39570 Ionia.NN.operation <> n:1098 var
-R39563:39563 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R39562:39562 Ionia.NN.operation <> k:1099 var
-R39564:39564 Ionia.NN.operation <> n:1098 var
-binder 39545:39549 <> z_l_1:1101
-R39579:39586 Ionia.Progress.data <> seq_make def
-R39595:39597 Ionia.Base.fin <> fin def
-R39601:39601 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R39600:39600 Ionia.NN.operation <> k:1099 var
-R39602:39602 Ionia.NN.operation <> n:1098 var
-binder 39593:39593 <> i:1102
-R39608:39615 Ionia.Progress.data <> seq_make def
-R39624:39626 Ionia.Base.fin <> fin def
-R39630:39630 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R39629:39629 Ionia.NN.operation <> k:1099 var
-R39631:39631 Ionia.NN.operation <> n:1098 var
-binder 39622:39622 <> j:1103
-R39640:39642 Ionia.Progress.rule <> mul def
-R39730:39731 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39733:39733 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39704:39704 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39725:39727 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39729:39729 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39705:39718 Ionia.NN.tensor <> Tensor2_unfold def
-R39720:39724 Ionia.NN.operation <> z_l_1:1101 var
-R39728:39728 Ionia.NN.operation <> i:1102 var
-R39732:39732 Ionia.NN.operation <> j:1103 var
-R39684:39685 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39702:39702 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39644:39644 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39664:39666 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39683:39683 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39645:39658 Ionia.NN.tensor <> Tensor2_unfold def
-R39660:39663 Ionia.NN.operation <> dout:1100 var
-R39667:39667 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R39671:39671 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R39682:39682 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R39669:39669 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R39668:39668 Ionia.NN.operation <> i:1102 var
-R39670:39670 Ionia.NN.operation <> k:1099 var
-R39672:39679 Ionia.Base.finfle <> fin_lem8 thm
-R39681:39681 Ionia.NN.operation <> i:1102 var
-R39686:39686 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R39690:39690 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R39701:39701 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R39688:39688 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R39687:39687 Ionia.NN.operation <> j:1103 var
-R39689:39689 Ionia.NN.operation <> k:1099 var
-R39691:39698 Ionia.Base.finfle <> fin_lem8 thm
-R39700:39700 Ionia.NN.operation <> j:1103 var
-def 39750:39769 <> averagepool_backward
-binder 39771:39771 <> n:1104
-R39781:39787 Ionia.NN.tensor <> Tensor2 def
-R39791:39791 Ionia.NN.operation <> n:1104 var
-R39789:39789 Ionia.NN.operation <> n:1104 var
-binder 39775:39778 <> dout:1105
-R39797:39799 Coq.Init.Datatypes <> nat ind
-binder 39795:39795 <> k:1106
-R39808:39815 Ionia.Progress.data <> seq_make def
-R39824:39826 Ionia.Base.fin <> fin def
-R39830:39830 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R39829:39829 Ionia.NN.operation <> k:1106 var
-R39831:39831 Ionia.NN.operation <> n:1104 var
-binder 39822:39822 <> i:1107
-R39837:39844 Ionia.Progress.data <> seq_make def
-R39853:39855 Ionia.Base.fin <> fin def
-R39859:39859 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R39858:39858 Ionia.NN.operation <> k:1106 var
-R39860:39860 Ionia.NN.operation <> n:1104 var
-binder 39851:39851 <> j:1108
-R39909:39910 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39927:39927 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39869:39869 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39889:39891 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39908:39908 Ionia.Progress.data <> :::x_'|['_x_']' not
-R39870:39883 Ionia.NN.tensor <> Tensor2_unfold def
-R39885:39888 Ionia.NN.operation <> dout:1105 var
-R39892:39892 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R39896:39896 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R39907:39907 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R39894:39894 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R39893:39893 Ionia.NN.operation <> i:1107 var
-R39895:39895 Ionia.NN.operation <> k:1106 var
-R39897:39904 Ionia.Base.finfle <> fin_lem8 thm
-R39906:39906 Ionia.NN.operation <> i:1107 var
-R39911:39911 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R39915:39915 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R39926:39926 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R39913:39913 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R39912:39912 Ionia.NN.operation <> j:1108 var
-R39914:39914 Ionia.NN.operation <> k:1106 var
-R39916:39923 Ionia.Base.finfle <> fin_lem8 thm
-R39925:39925 Ionia.NN.operation <> j:1108 var
-def 39944:39966 <> average_pool_backward_g
-binder 39969:39969 <> n:1109
-binder 39971:39977 <> channel:1110
-R39988:39994 Ionia.NN.tensor <> Tensor3 def
-R40006:40006 Ionia.NN.operation <> n:1109 var
-R40004:40004 Ionia.NN.operation <> n:1109 var
-R39996:40002 Ionia.NN.operation <> channel:1110 var
-binder 39981:39984 <> dout:1111
-R40016:40018 Coq.Init.Datatypes <> nat ind
-binder 40012:40012 <> k:1112
-R40029:40035 Ionia.NN.tensor <> Tensor3 def
-R40053:40053 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R40052:40052 Ionia.NN.operation <> k:1112 var
-R40054:40054 Ionia.NN.operation <> n:1109 var
-R40047:40047 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R40046:40046 Ionia.NN.operation <> k:1112 var
-R40048:40048 Ionia.NN.operation <> n:1109 var
-R40037:40043 Ionia.NN.operation <> channel:1110 var
-binder 40022:40026 <> z_l_1:1113
-R40063:40070 Ionia.Progress.data <> seq_make def
-R40079:40081 Ionia.Base.fin <> fin def
-R40083:40089 Ionia.NN.operation <> channel:1110 var
-binder 40077:40077 <> c:1114
-R40095:40102 Ionia.Progress.data <> seq_make def
-R40111:40113 Ionia.Base.fin <> fin def
-R40117:40117 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R40116:40116 Ionia.NN.operation <> k:1112 var
-R40118:40118 Ionia.NN.operation <> n:1109 var
-binder 40109:40109 <> i:1115
-R40124:40131 Ionia.Progress.data <> seq_make def
-R40140:40142 Ionia.Base.fin <> fin def
-R40146:40146 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R40145:40145 Ionia.NN.operation <> k:1112 var
-R40147:40147 Ionia.NN.operation <> n:1109 var
-binder 40138:40138 <> j:1116
-R40156:40158 Ionia.Progress.rule <> mul def
-R40254:40255 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40257:40257 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40250:40251 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40253:40253 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40224:40224 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40245:40247 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40249:40249 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40225:40238 Ionia.NN.tensor <> Tensor3_unfold def
-R40240:40244 Ionia.NN.operation <> z_l_1:1113 var
-R40248:40248 Ionia.NN.operation <> c:1114 var
-R40252:40252 Ionia.NN.operation <> i:1115 var
-R40256:40256 Ionia.NN.operation <> j:1116 var
-R40204:40205 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40222:40222 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40185:40186 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40203:40203 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40160:40160 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40180:40182 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40184:40184 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40161:40174 Ionia.NN.tensor <> Tensor3_unfold def
-R40176:40179 Ionia.NN.operation <> dout:1111 var
-R40183:40183 Ionia.NN.operation <> c:1114 var
-R40187:40187 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R40191:40191 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R40202:40202 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R40189:40189 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R40188:40188 Ionia.NN.operation <> i:1115 var
-R40190:40190 Ionia.NN.operation <> k:1112 var
-R40192:40199 Ionia.Base.finfle <> fin_lem8 thm
-R40201:40201 Ionia.NN.operation <> i:1115 var
-R40206:40206 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R40210:40210 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R40221:40221 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R40208:40208 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R40207:40207 Ionia.NN.operation <> j:1116 var
-R40209:40209 Ionia.NN.operation <> k:1112 var
-R40211:40218 Ionia.Base.finfle <> fin_lem8 thm
-R40220:40220 Ionia.NN.operation <> j:1116 var
-def 40276:40295 <> convolution_backward
-binder 40298:40298 <> n:1117
-binder 40300:40300 <> m:1118
-R40310:40316 Ionia.NN.tensor <> Tensor2 def
-R40320:40320 Ionia.NN.operation <> m:1118 var
-R40318:40318 Ionia.NN.operation <> m:1118 var
-binder 40304:40307 <> dout:1119
-R40328:40334 Ionia.NN.tensor <> Tensor2 def
-R40348:40348 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R40346:40346 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R40345:40345 Ionia.NN.operation <> m:1118 var
-R40347:40347 Ionia.NN.operation <> n:1117 var
-R40340:40340 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R40338:40338 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R40337:40337 Ionia.NN.operation <> m:1118 var
-R40339:40339 Ionia.NN.operation <> n:1117 var
-binder 40324:40324 <> p:1120
-R40360:40366 Ionia.NN.tensor <> Tensor2 def
-R40370:40370 Ionia.NN.operation <> n:1117 var
-R40368:40368 Ionia.NN.operation <> n:1117 var
-binder 40356:40356 <> w:1121
-R40378:40380 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
-R40381:40381 Ionia.NN.operation <> n:1117 var
-binder 40374:40374 <> E:1122
-R40390:40394 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
-R40403:40406 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
-R40427:40432 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
-R40407:40415 Ionia.NN.operation <> Padding2d def
-R40423:40426 Ionia.NN.operation <> dout:1119 var
-R40419:40419 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R40418:40418 Ionia.NN.operation <> n:1117 var
-binder 40395:40402 <> dout_pad:1123
-R40433:40440 Ionia.Progress.data <> seq_make def
-R40450:40452 Ionia.Base.fin <> fin def
-R40458:40458 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R40456:40456 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R40455:40455 Ionia.NN.operation <> m:1118 var
-R40457:40457 Ionia.NN.operation <> n:1117 var
-binder 40447:40448 <> i1:1124
-R40465:40472 Ionia.Progress.data <> seq_make def
-R40482:40484 Ionia.Base.fin <> fin def
-R40490:40490 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R40488:40488 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R40487:40487 Ionia.NN.operation <> m:1118 var
-R40489:40489 Ionia.NN.operation <> n:1117 var
-binder 40479:40480 <> j1:1125
-R40500:40502 Ionia.Progress.rule <> mul def
-R40725:40733 Ionia.NN.operation <> relu_grad def
-R40758:40759 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40762:40762 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40735:40735 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40752:40754 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40757:40757 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40736:40749 Ionia.NN.tensor <> Tensor2_unfold def
-R40751:40751 Ionia.NN.operation <> p:1120 var
-R40755:40756 Ionia.NN.operation <> i1:1124 var
-R40760:40761 Ionia.NN.operation <> j1:1125 var
-R40505:40507 Ionia.Progress.rule <> sum def
-R40510:40517 Ionia.Progress.data <> seq_make def
-R40527:40529 Ionia.Base.fin <> fin def
-R40531:40531 Ionia.NN.operation <> n:1117 var
-binder 40524:40525 <> i2:1126
-R40536:40538 Ionia.Progress.rule <> sum def
-R40541:40548 Ionia.Progress.data <> seq_make def
-R40560:40562 Ionia.Base.fin <> fin def
-R40564:40564 Ionia.NN.operation <> n:1117 var
-binder 40556:40557 <> j2:1127
-R40572:40574 Ionia.Progress.rule <> mul def
-R40690:40691 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40713:40713 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40648:40648 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40665:40667 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40689:40689 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40649:40662 Ionia.NN.tensor <> Tensor2_unfold def
-R40664:40664 Ionia.NN.operation <> w:1121 var
-R40668:40668 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R40675:40675 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R40688:40688 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R40672:40672 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R40670:40670 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R40669:40669 Ionia.NN.operation <> n:1117 var
-R40673:40674 Ionia.NN.operation <> i2:1126 var
-R40676:40684 Ionia.Base.finfle <> fin_lem10 thm
-R40686:40687 Ionia.NN.operation <> i2:1126 var
-R40692:40692 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R40699:40699 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R40712:40712 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R40696:40696 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R40694:40694 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R40693:40693 Ionia.NN.operation <> n:1117 var
-R40697:40698 Ionia.NN.operation <> j2:1127 var
-R40700:40708 Ionia.Base.finfle <> fin_lem10 thm
-R40710:40711 Ionia.NN.operation <> j2:1127 var
-R40613:40614 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40641:40641 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40584:40585 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40612:40612 Ionia.Progress.data <> :::x_'|['_x_']' not
-R40576:40583 Ionia.NN.operation <> dout_pad:1123 var
-R40586:40586 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R40594:40594 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R40611:40611 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R40589:40591 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R40587:40588 Ionia.NN.operation <> i1:1124 var
-R40592:40593 Ionia.NN.operation <> i2:1126 var
-R40595:40602 Ionia.Base.finfle <> fin_lem9 thm
-R40610:40610 Ionia.NN.operation <> E:1122 var
-R40607:40608 Ionia.NN.operation <> i2:1126 var
-R40604:40605 Ionia.NN.operation <> i1:1124 var
-R40615:40615 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R40623:40623 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R40640:40640 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R40618:40620 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R40616:40617 Ionia.NN.operation <> j1:1125 var
-R40621:40622 Ionia.NN.operation <> j2:1127 var
-R40624:40631 Ionia.Base.finfle <> fin_lem9 thm
-R40639:40639 Ionia.NN.operation <> E:1122 var
-R40636:40637 Ionia.NN.operation <> j2:1127 var
-R40633:40634 Ionia.NN.operation <> j1:1125 var
-def 40780:40801 <> convolution_backward_g
-binder 40804:40811 <> filernum:1128
-binder 40813:40819 <> channel:1129
-binder 40821:40821 <> m:1130
-binder 40823:40823 <> n:1131
-R40834:40840 Ionia.NN.tensor <> Tensor3 def
-R40853:40853 Ionia.NN.operation <> m:1130 var
-R40851:40851 Ionia.NN.operation <> m:1130 var
-R40842:40849 Ionia.NN.operation <> filernum:1128 var
-binder 40827:40830 <> dout:1132
-R40863:40869 Ionia.NN.tensor <> Tensor3 def
-R40891:40891 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R40889:40889 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R40888:40888 Ionia.NN.operation <> m:1130 var
-R40890:40890 Ionia.NN.operation <> n:1131 var
-R40883:40883 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R40881:40881 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R40880:40880 Ionia.NN.operation <> m:1130 var
-R40882:40882 Ionia.NN.operation <> n:1131 var
-R40871:40877 Ionia.NN.operation <> channel:1129 var
-binder 40859:40859 <> p:1133
-R40900:40906 Ionia.NN.tensor <> Tensor4 def
-R40927:40927 Ionia.NN.operation <> n:1131 var
-R40925:40925 Ionia.NN.operation <> n:1131 var
-R40917:40923 Ionia.NN.operation <> channel:1129 var
-R40908:40915 Ionia.NN.operation <> filernum:1128 var
-binder 40897:40897 <> w:1134
-R40936:40938 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
-R40939:40939 Ionia.NN.operation <> n:1131 var
-binder 40933:40933 <> E:1135
-R40948:40952 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
-R40961:40964 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
-R40985:40990 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
-R40965:40973 Ionia.NN.operation <> Padding3d def
-R40981:40984 Ionia.NN.operation <> dout:1132 var
-R40977:40977 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R40976:40976 Ionia.NN.operation <> n:1131 var
-binder 40953:40960 <> dout_pad:1136
-R40991:40998 Ionia.Progress.data <> seq_make def
-R41007:41009 Ionia.Base.fin <> fin def
-R41011:41017 Ionia.NN.operation <> channel:1129 var
-binder 41005:41005 <> c:1137
-R41022:41029 Ionia.Progress.data <> seq_make def
-R41039:41041 Ionia.Base.fin <> fin def
-R41047:41047 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R41045:41045 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R41044:41044 Ionia.NN.operation <> m:1130 var
-R41046:41046 Ionia.NN.operation <> n:1131 var
-binder 41036:41037 <> i1:1138
-R41054:41061 Ionia.Progress.data <> seq_make def
-R41071:41073 Ionia.Base.fin <> fin def
-R41079:41079 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R41077:41077 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R41076:41076 Ionia.NN.operation <> m:1130 var
-R41078:41078 Ionia.NN.operation <> n:1131 var
-binder 41068:41069 <> j1:1139
-R41089:41091 Ionia.Progress.rule <> mul def
-R41374:41382 Ionia.NN.operation <> relu_grad def
-R41411:41412 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41415:41415 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41406:41407 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41410:41410 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41384:41384 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41401:41403 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41405:41405 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41385:41398 Ionia.NN.tensor <> Tensor3_unfold def
-R41400:41400 Ionia.NN.operation <> p:1133 var
-R41404:41404 Ionia.NN.operation <> c:1137 var
-R41408:41409 Ionia.NN.operation <> i1:1138 var
-R41413:41414 Ionia.NN.operation <> j1:1139 var
-R41094:41096 Ionia.Progress.rule <> sum def
-R41099:41106 Ionia.Progress.data <> seq_make def
-R41118:41120 Ionia.Base.fin <> fin def
-R41122:41129 Ionia.NN.operation <> filernum:1128 var
-binder 41113:41115 <> num:1140
-R41134:41136 Ionia.Progress.rule <> sum def
-R41139:41146 Ionia.Progress.data <> seq_make def
-R41156:41158 Ionia.Base.fin <> fin def
-R41160:41160 Ionia.NN.operation <> n:1131 var
-binder 41153:41154 <> i2:1141
-R41168:41170 Ionia.Progress.rule <> sum def
-R41173:41180 Ionia.Progress.data <> seq_make def
-R41191:41193 Ionia.Base.fin <> fin def
-R41195:41195 Ionia.NN.operation <> n:1131 var
-binder 41187:41188 <> j2:1142
-R41203:41205 Ionia.Progress.rule <> mul def
-R41337:41338 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41360:41360 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41313:41314 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41336:41336 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41309:41310 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41312:41312 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41285:41285 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41302:41304 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41308:41308 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41286:41299 Ionia.NN.tensor <> Tensor4_unfold def
-R41301:41301 Ionia.NN.operation <> w:1134 var
-R41305:41307 Ionia.NN.operation <> num:1140 var
-R41311:41311 Ionia.NN.operation <> c:1137 var
-R41315:41315 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R41322:41322 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R41335:41335 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R41319:41319 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R41317:41317 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R41316:41316 Ionia.NN.operation <> n:1131 var
-R41320:41321 Ionia.NN.operation <> i2:1141 var
-R41323:41331 Ionia.Base.finfle <> fin_lem10 thm
-R41333:41334 Ionia.NN.operation <> i2:1141 var
-R41339:41339 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R41346:41346 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R41359:41359 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R41343:41343 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R41341:41341 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R41340:41340 Ionia.NN.operation <> n:1131 var
-R41344:41345 Ionia.NN.operation <> j2:1142 var
-R41347:41355 Ionia.Base.finfle <> fin_lem10 thm
-R41357:41358 Ionia.NN.operation <> j2:1142 var
-R41250:41251 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41278:41278 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41221:41222 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41249:41249 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41215:41216 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41220:41220 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41207:41214 Ionia.NN.operation <> dout_pad:1136 var
-R41217:41219 Ionia.NN.operation <> num:1140 var
-R41223:41223 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R41231:41231 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R41248:41248 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R41226:41228 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R41224:41225 Ionia.NN.operation <> i1:1138 var
-R41229:41230 Ionia.NN.operation <> i2:1141 var
-R41232:41239 Ionia.Base.finfle <> fin_lem9 thm
-R41247:41247 Ionia.NN.operation <> E:1135 var
-R41244:41245 Ionia.NN.operation <> i2:1141 var
-R41241:41242 Ionia.NN.operation <> i1:1138 var
-R41252:41252 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R41260:41260 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R41277:41277 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R41255:41257 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R41253:41254 Ionia.NN.operation <> j1:1139 var
-R41258:41259 Ionia.NN.operation <> j2:1142 var
-R41261:41268 Ionia.Base.finfle <> fin_lem9 thm
-R41276:41276 Ionia.NN.operation <> E:1135 var
-R41273:41274 Ionia.NN.operation <> j2:1142 var
-R41270:41271 Ionia.NN.operation <> j1:1139 var
-def 41434:41455 <> convolution_backward_w
-binder 41458:41458 <> m:1143
-binder 41460:41460 <> n:1144
-R41471:41477 Ionia.NN.tensor <> Tensor2 def
-R41481:41481 Ionia.NN.operation <> m:1143 var
-R41479:41479 Ionia.NN.operation <> m:1143 var
-binder 41464:41467 <> dout:1145
-R41491:41497 Ionia.NN.tensor <> Tensor2 def
-R41511:41511 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R41509:41509 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R41508:41508 Ionia.NN.operation <> m:1143 var
-R41510:41510 Ionia.NN.operation <> n:1144 var
-R41503:41503 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R41501:41501 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R41500:41500 Ionia.NN.operation <> m:1143 var
-R41502:41502 Ionia.NN.operation <> n:1144 var
-binder 41487:41487 <> p:1146
-R41520:41520 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
-R41521:41521 Ionia.NN.operation <> n:1144 var
-binder 41517:41517 <> E:1147
-R41528:41535 Ionia.Progress.data <> seq_make def
-R41545:41547 Ionia.Base.fin <> fin def
-R41549:41549 Ionia.NN.operation <> n:1144 var
-binder 41542:41543 <> i1:1148
-R41554:41561 Ionia.Progress.data <> seq_make def
-R41571:41573 Ionia.Base.fin <> fin def
-R41575:41575 Ionia.NN.operation <> n:1144 var
-binder 41568:41569 <> j1:1149
-R41583:41585 Ionia.Progress.rule <> sum def
-R41588:41595 Ionia.Progress.data <> seq_make def
-R41605:41607 Ionia.Base.fin <> fin def
-R41609:41609 Ionia.NN.operation <> m:1143 var
-binder 41602:41603 <> i2:1150
-R41614:41616 Ionia.Progress.rule <> sum def
-R41619:41626 Ionia.Progress.data <> seq_make def
-R41638:41640 Ionia.Base.fin <> fin def
-R41642:41642 Ionia.NN.operation <> m:1143 var
-binder 41634:41635 <> j2:1151
-R41650:41652 Ionia.Progress.rule <> mul def
-R41760:41761 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41764:41764 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41734:41734 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41754:41756 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41759:41759 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41735:41748 Ionia.NN.tensor <> Tensor2_unfold def
-R41750:41753 Ionia.NN.operation <> dout:1145 var
-R41757:41758 Ionia.NN.operation <> i2:1150 var
-R41762:41763 Ionia.NN.operation <> j2:1151 var
-R41700:41701 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41727:41727 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41654:41654 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41671:41673 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41699:41699 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41655:41668 Ionia.NN.tensor <> Tensor2_unfold def
-R41670:41670 Ionia.NN.operation <> p:1146 var
-R41674:41674 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R41682:41682 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R41698:41698 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R41677:41679 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R41675:41676 Ionia.NN.operation <> i1:1148 var
-R41680:41681 Ionia.NN.operation <> i2:1150 var
-R41683:41691 Ionia.Base.finfle <> fin_lem11 thm
-R41696:41697 Ionia.NN.operation <> i2:1150 var
-R41693:41694 Ionia.NN.operation <> i1:1148 var
-R41702:41702 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R41710:41710 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R41726:41726 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R41705:41707 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R41703:41704 Ionia.NN.operation <> j1:1149 var
-R41708:41709 Ionia.NN.operation <> j2:1151 var
-R41711:41719 Ionia.Base.finfle <> fin_lem11 thm
-R41724:41725 Ionia.NN.operation <> j2:1151 var
-R41721:41722 Ionia.NN.operation <> j1:1149 var
-def 41785:41806 <> convolution_backward_b
-binder 41809:41809 <> n:1152
-R41819:41825 Ionia.NN.tensor <> Tensor2 def
-R41829:41829 Ionia.NN.operation <> n:1152 var
-R41827:41827 Ionia.NN.operation <> n:1152 var
-binder 41813:41816 <> dout:1153
-R41838:41840 Ionia.Progress.rule <> sum def
-R41843:41850 Ionia.Progress.data <> seq_make def
-R41859:41861 Ionia.Base.fin <> fin def
-R41863:41863 Ionia.NN.operation <> n:1152 var
-binder 41857:41857 <> i:1154
-R41868:41870 Ionia.Progress.rule <> sum def
-R41873:41880 Ionia.Progress.data <> seq_make def
-R41890:41892 Ionia.Base.fin <> fin def
-R41894:41894 Ionia.NN.operation <> n:1152 var
-binder 41887:41887 <> j:1155
-R41924:41925 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41927:41927 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41899:41899 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41919:41921 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41923:41923 Ionia.Progress.data <> :::x_'|['_x_']' not
-R41900:41913 Ionia.NN.tensor <> Tensor2_unfold def
-R41915:41918 Ionia.NN.operation <> dout:1153 var
-R41922:41922 Ionia.NN.operation <> i:1154 var
-R41926:41926 Ionia.NN.operation <> j:1155 var
-def 41946:41969 <> convolution_backward_w_g
-binder 41972:41979 <> filernum:1156
-binder 41981:41987 <> channel:1157
-binder 41989:41989 <> m:1158
-binder 41991:41991 <> n:1159
-R42002:42008 Ionia.NN.tensor <> Tensor3 def
-R42031:42031 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R42029:42029 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R42028:42028 Ionia.NN.operation <> m:1158 var
-R42030:42030 Ionia.NN.operation <> n:1159 var
-R42023:42023 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R42021:42021 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R42020:42020 Ionia.NN.operation <> m:1158 var
-R42022:42022 Ionia.NN.operation <> n:1159 var
-R42010:42017 Ionia.NN.operation <> filernum:1156 var
-binder 41995:41998 <> dout:1160
-R42043:42049 Ionia.NN.tensor <> Tensor3 def
-R42061:42061 Ionia.NN.operation <> m:1158 var
-R42059:42059 Ionia.NN.operation <> m:1158 var
-R42051:42057 Ionia.NN.operation <> channel:1157 var
-binder 42039:42039 <> p:1161
-R42070:42077 Ionia.Progress.data <> seq_make def
-R42087:42089 Ionia.Base.fin <> fin def
-R42091:42098 Ionia.NN.operation <> filernum:1156 var
-binder 42083:42085 <> num:1162
-R42103:42110 Ionia.Progress.data <> seq_make def
-R42119:42121 Ionia.Base.fin <> fin def
-R42123:42129 Ionia.NN.operation <> channel:1157 var
-binder 42117:42117 <> c:1163
-R42134:42141 Ionia.Progress.data <> seq_make def
-R42151:42153 Ionia.Base.fin <> fin def
-R42155:42155 Ionia.NN.operation <> n:1159 var
-binder 42148:42149 <> i1:1164
-R42162:42169 Ionia.Progress.data <> seq_make def
-R42179:42181 Ionia.Base.fin <> fin def
-R42183:42183 Ionia.NN.operation <> n:1159 var
-binder 42176:42177 <> j1:1165
-R42188:42190 Ionia.Progress.rule <> sum def
-R42193:42200 Ionia.Progress.data <> seq_make def
-R42210:42212 Ionia.Base.fin <> fin def
-R42214:42214 Ionia.NN.operation <> m:1158 var
-binder 42207:42208 <> i2:1166
-R42220:42222 Ionia.Progress.rule <> sum def
-R42225:42232 Ionia.Progress.data <> seq_make def
-R42244:42246 Ionia.Base.fin <> fin def
-R42248:42248 Ionia.NN.operation <> m:1158 var
-binder 42240:42241 <> j2:1167
-R42258:42260 Ionia.Progress.rule <> mul def
-R42373:42374 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42377:42377 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42368:42369 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42372:42372 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42346:42346 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42363:42365 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42367:42367 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42347:42360 Ionia.NN.tensor <> Tensor3_unfold def
-R42362:42362 Ionia.NN.operation <> p:1161 var
-R42366:42366 Ionia.NN.operation <> c:1163 var
-R42370:42371 Ionia.NN.operation <> i2:1166 var
-R42375:42376 Ionia.NN.operation <> j2:1167 var
-R42317:42318 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42344:42344 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42289:42290 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42316:42316 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42262:42262 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42282:42284 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42288:42288 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42263:42276 Ionia.NN.tensor <> Tensor3_unfold def
-R42278:42281 Ionia.NN.operation <> dout:1160 var
-R42285:42287 Ionia.NN.operation <> num:1162 var
-R42291:42291 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R42299:42299 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R42315:42315 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R42294:42296 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R42292:42293 Ionia.NN.operation <> i1:1164 var
-R42297:42298 Ionia.NN.operation <> i2:1166 var
-R42300:42308 Ionia.Base.finfle <> fin_lem11 thm
-R42313:42314 Ionia.NN.operation <> i2:1166 var
-R42310:42311 Ionia.NN.operation <> i1:1164 var
-R42319:42319 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R42327:42327 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R42343:42343 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R42322:42324 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R42320:42321 Ionia.NN.operation <> j1:1165 var
-R42325:42326 Ionia.NN.operation <> j2:1167 var
-R42328:42336 Ionia.Base.finfle <> fin_lem11 thm
-R42341:42342 Ionia.NN.operation <> j2:1167 var
-R42338:42339 Ionia.NN.operation <> j1:1165 var
-def 42400:42423 <> convolution_backward_b_g
-binder 42426:42433 <> filernum:1168
-binder 42435:42435 <> m:1169
-binder 42437:42437 <> n:1170
-R42451:42457 Ionia.NN.tensor <> Tensor3 def
-R42480:42480 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R42478:42478 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R42477:42477 Ionia.NN.operation <> m:1169 var
-R42479:42479 Ionia.NN.operation <> n:1170 var
-R42472:42472 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R42470:42470 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R42469:42469 Ionia.NN.operation <> m:1169 var
-R42471:42471 Ionia.NN.operation <> n:1170 var
-R42459:42466 Ionia.NN.operation <> filernum:1168 var
-binder 42444:42447 <> dout:1171
-R42491:42498 Ionia.Progress.data <> seq_make def
-R42508:42510 Ionia.Base.fin <> fin def
-R42512:42519 Ionia.NN.operation <> filernum:1168 var
-binder 42504:42506 <> num:1172
-R42524:42526 Ionia.Progress.rule <> sum def
-R42529:42536 Ionia.Progress.data <> seq_make def
-R42545:42547 Ionia.Base.fin <> fin def
-R42553:42553 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R42551:42551 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R42550:42550 Ionia.NN.operation <> m:1169 var
-R42552:42552 Ionia.NN.operation <> n:1170 var
-binder 42543:42543 <> i:1173
-R42562:42564 Ionia.Progress.rule <> sum def
-R42567:42574 Ionia.Progress.data <> seq_make def
-R42584:42586 Ionia.Base.fin <> fin def
-R42592:42592 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R42590:42590 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R42589:42589 Ionia.NN.operation <> m:1169 var
-R42591:42591 Ionia.NN.operation <> n:1170 var
-binder 42581:42581 <> j:1174
-R42630:42631 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42633:42633 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42626:42627 Ionia.Progress.data <> :::x_'|['_x_']' not
+R38214:38227 Ionia.NN.tensor <> Tensor2_unfold def
+R38229:38229 Ionia.NN.operation <> e:1066 var
+R38238:38238 Ionia.NN.operation <> :::x_'['_x_']['_x_']'_'|'_x not
+R38240:38241 Ionia.NN.operation <> :::x_'['_x_']['_x_']'_'|'_x not
+R38243:38244 Ionia.NN.operation <> :::x_'['_x_']['_x_']'_'|'_x not
+R38233:38237 Ionia.NN.operation <> input:1065 var
+R38239:38239 Ionia.NN.operation <> i:1068 var
+R38242:38242 Ionia.NN.operation <> j:1069 var
+R38245:38245 Ionia.NN.operation <> E:1067 var
+R38249:38249 Ionia.NN.operation <> k:1070 var
+def 38409:38413 <> m_nth
+binder 38416:38422 <> channel:1071
+binder 38424:38424 <> n:1072
+binder 38426:38426 <> m:1073
+R38438:38444 Ionia.NN.tensor <> Tensor3 def
+R38456:38456 Ionia.NN.operation <> m:1073 var
+R38454:38454 Ionia.NN.operation <> n:1072 var
+R38446:38452 Ionia.NN.operation <> channel:1071 var
+binder 38430:38434 <> input:1074
+R38463:38465 Ionia.Base.fin <> fin def
+R38467:38473 Ionia.NN.operation <> channel:1071 var
+binder 38460:38460 <> c:1075
+R38483:38490 Ionia.Progress.data <> seq_make def
+R38501:38503 Ionia.Base.fin <> fin def
+R38505:38505 Ionia.NN.operation <> n:1072 var
+binder 38497:38497 <> i:1076
+R38510:38517 Ionia.Progress.data <> seq_make def
+R38527:38529 Ionia.Base.fin <> fin def
+R38531:38531 Ionia.NN.operation <> m:1073 var
+binder 38523:38523 <> j:1077
+R38566:38567 Ionia.Progress.data <> :::x_'|['_x_']' not
+R38569:38569 Ionia.Progress.data <> :::x_'|['_x_']' not
+R38562:38563 Ionia.Progress.data <> :::x_'|['_x_']' not
+R38565:38565 Ionia.Progress.data <> :::x_'|['_x_']' not
+R38536:38536 Ionia.Progress.data <> :::x_'|['_x_']' not
+R38557:38559 Ionia.Progress.data <> :::x_'|['_x_']' not
+R38561:38561 Ionia.Progress.data <> :::x_'|['_x_']' not
+R38537:38550 Ionia.NN.tensor <> Tensor3_unfold def
+R38552:38556 Ionia.NN.operation <> input:1074 var
+R38560:38560 Ionia.NN.operation <> c:1075 var
+R38564:38564 Ionia.NN.operation <> i:1076 var
+R38568:38568 Ionia.NN.operation <> j:1077 var
+R38600:38604 Ionia.NN.operation <> m_nth def
+not 38584:38584 <> :::x_'['_x_']'
+def 38738:38741 <> loss
+binder 38744:38744 <> n:1078
+R38751:38757 Ionia.NN.tensor <> Tensor1 def
+R38759:38759 Ionia.NN.operation <> n:1078 var
+binder 38748:38748 <> p:1079
+R38768:38771 Ionia.Progress.rule <> divn def
+R38835:38835 Ionia.NN.operation <> n:1078 var
+R38774:38776 Ionia.Progress.rule <> sum def
+R38779:38786 Ionia.Progress.data <> seq_make def
+binder 38793:38793 <> i:1080
+R38797:38802 Ionia.Progress.rule <> negate def
+R38805:38806 Ionia.Progress.rule <> ln def
+R38808:38808 Ionia.Progress.data <> :::x_'|['_x_']' not
+R38825:38827 Ionia.Progress.data <> :::x_'|['_x_']' not
+R38829:38829 Ionia.Progress.data <> :::x_'|['_x_']' not
+R38809:38822 Ionia.NN.tensor <> Tensor1_unfold def
+R38824:38824 Ionia.NN.operation <> p:1079 var
+R38828:38828 Ionia.NN.operation <> i:1080 var
+def 38850:38861 <> Softmax_loss
+binder 38864:38864 <> n:1081
+R38871:38877 Ionia.NN.tensor <> Tensor1 def
+R38879:38879 Ionia.NN.operation <> n:1081 var
+binder 38868:38868 <> p:1082
+R38887:38891 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R38895:38898 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R38927:38930 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R38899:38907 Ionia.NN.operation <> Softmax1d def
+R38910:38923 Ionia.NN.tensor <> Tensor1_unfold def
+R38925:38925 Ionia.NN.operation <> p:1082 var
+binder 38892:38894 <> tmp:1083
+R38931:38938 Ionia.Progress.data <> seq_make def
+R38948:38950 Ionia.Base.fin <> fin def
+R38952:38952 Ionia.NN.operation <> n:1081 var
+binder 38945:38945 <> i:1084
+R38957:38962 Ionia.Progress.rule <> negate def
+R38965:38966 Ionia.Progress.rule <> ln def
+R38971:38972 Ionia.Progress.data <> :::x_'|['_x_']' not
+R38974:38974 Ionia.Progress.data <> :::x_'|['_x_']' not
+R38968:38970 Ionia.NN.operation <> tmp:1083 var
+R38973:38973 Ionia.NN.operation <> i:1084 var
+def 38991:39002 <> Softmax_Loss
+binder 39005:39005 <> n:1085
+R39012:39018 Ionia.NN.tensor <> Tensor1 def
+R39020:39020 Ionia.NN.operation <> n:1085 var
+binder 39009:39009 <> p:1086
+R39030:39032 Ionia.Base.fin <> fin def
+R39034:39034 Ionia.NN.operation <> n:1085 var
+binder 39024:39028 <> label:1087
+R39042:39046 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R39050:39053 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R39113:39118 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R39054:39056 Ionia.Progress.rule <> sum def
+R39059:39066 Ionia.Progress.data <> seq_make def
+R39075:39077 Ionia.Base.fin <> fin def
+R39079:39079 Ionia.NN.operation <> n:1085 var
+binder 39073:39073 <> i:1088
+R39084:39087 Ionia.Progress.rule <> epow def
+R39089:39089 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39106:39108 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39110:39110 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39090:39103 Ionia.NN.tensor <> Tensor1_unfold def
+R39105:39105 Ionia.NN.operation <> p:1086 var
+R39109:39109 Ionia.NN.operation <> i:1088 var
+binder 39047:39049 <> sum:1089
+R39119:39124 Ionia.Progress.rule <> negate def
+R39127:39128 Ionia.Progress.rule <> ln def
+R39131:39133 Ionia.Progress.rule <> div def
+R39169:39171 Ionia.NN.operation <> sum:1089 var
+R39136:39139 Ionia.Progress.rule <> epow def
+R39141:39141 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39158:39160 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39166:39166 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39142:39155 Ionia.NN.tensor <> Tensor1_unfold def
+R39157:39157 Ionia.NN.operation <> p:1086 var
+R39161:39165 Ionia.NN.operation <> label:1087 var
+def 39188:39207 <> SparseCateCross_Loss
+binder 39210:39210 <> m:1090
+binder 39212:39212 <> n:1091
+R39219:39225 Ionia.NN.tensor <> Tensor2 def
+R39229:39229 Ionia.NN.operation <> m:1090 var
+R39227:39227 Ionia.NN.operation <> n:1091 var
+binder 39216:39216 <> p:1092
+R39241:39247 Ionia.NN.tensor <> Tensor2 def
+R39251:39251 Ionia.NN.operation <> m:1090 var
+R39249:39249 Ionia.NN.operation <> n:1091 var
+binder 39233:39237 <> label:1093
+R39260:39265 Ionia.Progress.rule <> negate def
+R39268:39271 Ionia.Progress.rule <> divn def
+R39413:39413 Ionia.NN.operation <> n:1091 var
+R39274:39276 Ionia.Progress.rule <> sum def
+R39279:39286 Ionia.Progress.data <> seq_make def
+R39296:39298 Ionia.Base.fin <> fin def
+R39300:39300 Ionia.NN.operation <> n:1091 var
+binder 39293:39293 <> i:1094
+R39305:39307 Ionia.Progress.rule <> sum def
+R39310:39317 Ionia.Progress.data <> seq_make def
+R39327:39329 Ionia.Base.fin <> fin def
+R39331:39331 Ionia.NN.operation <> m:1090 var
+binder 39324:39324 <> j:1095
+R39341:39343 Ionia.Progress.rule <> mul def
+R39373:39374 Ionia.Progress.rule <> ln def
+R39402:39403 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39405:39405 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39376:39376 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39397:39399 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39401:39401 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39377:39390 Ionia.NN.tensor <> Tensor2_unfold def
+R39392:39396 Ionia.NN.operation <> label:1093 var
+R39400:39400 Ionia.NN.operation <> i:1094 var
+R39404:39404 Ionia.NN.operation <> j:1095 var
+R39367:39368 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39370:39370 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39345:39345 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39362:39364 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39366:39366 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39346:39359 Ionia.NN.tensor <> Tensor2_unfold def
+R39361:39361 Ionia.NN.operation <> p:1092 var
+R39365:39365 Ionia.NN.operation <> i:1094 var
+R39369:39369 Ionia.NN.operation <> j:1095 var
+def 39429:39436 <> MSE_loss
+binder 39439:39439 <> n:1096
+R39448:39454 Ionia.NN.tensor <> Tensor1 def
+R39456:39456 Ionia.NN.operation <> n:1096 var
+binder 39443:39443 <> x:1097
+binder 39445:39445 <> y:1098
+R39464:39467 Ionia.Progress.rule <> divn def
+R39617:39617 Ionia.NN.operation <> n:1096 var
+R39470:39472 Ionia.Progress.rule <> sum def
+R39475:39482 Ionia.Progress.data <> seq_make def
+R39492:39494 Ionia.Base.fin <> fin def
+R39496:39496 Ionia.NN.operation <> n:1096 var
+binder 39489:39489 <> i:1099
+R39501:39503 Ionia.Progress.rule <> mul def
+R39563:39565 Ionia.Progress.rule <> sub def
+R39590:39590 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39607:39609 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39611:39611 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39591:39604 Ionia.NN.tensor <> Tensor1_unfold def
+R39606:39606 Ionia.NN.operation <> y:1098 var
+R39610:39610 Ionia.NN.operation <> i:1099 var
+R39567:39567 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39584:39586 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39588:39588 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39568:39581 Ionia.NN.tensor <> Tensor1_unfold def
+R39583:39583 Ionia.NN.operation <> x:1097 var
+R39587:39587 Ionia.NN.operation <> i:1099 var
+R39506:39508 Ionia.Progress.rule <> sub def
+R39533:39533 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39550:39552 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39554:39554 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39534:39547 Ionia.NN.tensor <> Tensor1_unfold def
+R39549:39549 Ionia.NN.operation <> y:1098 var
+R39553:39553 Ionia.NN.operation <> i:1099 var
+R39510:39510 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39527:39529 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39531:39531 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39511:39524 Ionia.NN.tensor <> Tensor1_unfold def
+R39526:39526 Ionia.NN.operation <> x:1097 var
+R39530:39530 Ionia.NN.operation <> i:1099 var
+def 39632:39640 <> Relu_grad
+binder 39643:39643 <> n:1100
+binder 39645:39652 <> filernum:1101
+R39664:39670 Ionia.NN.tensor <> Tensor3 def
+R39683:39683 Ionia.NN.operation <> n:1100 var
+R39681:39681 Ionia.NN.operation <> n:1100 var
+R39672:39679 Ionia.NN.operation <> filernum:1101 var
+binder 39656:39660 <> input:1102
+R39691:39698 Ionia.Progress.data <> seq_make def
+R39710:39712 Ionia.Base.fin <> fin def
+R39714:39721 Ionia.NN.operation <> filernum:1101 var
+binder 39705:39707 <> num:1103
+R39726:39733 Ionia.Progress.data <> seq_make def
+R39742:39744 Ionia.Base.fin <> fin def
+R39746:39746 Ionia.NN.operation <> n:1100 var
+binder 39740:39740 <> i:1104
+R39751:39758 Ionia.Progress.data <> seq_make def
+R39767:39769 Ionia.Base.fin <> fin def
+R39771:39771 Ionia.NN.operation <> n:1100 var
+binder 39765:39765 <> j:1105
+R39783:39785 Ionia.Progress.rule <> leb def
+R39824:39827 Ionia.Progress.rule <> zero def
+R39819:39820 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39822:39822 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39815:39816 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39818:39818 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39787:39787 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39808:39810 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39814:39814 Ionia.Progress.data <> :::x_'|['_x_']' not
+R39788:39801 Ionia.NN.tensor <> Tensor3_unfold def
+R39803:39807 Ionia.NN.operation <> input:1102 var
+R39811:39813 Ionia.NN.operation <> num:1103 var
+R39817:39817 Ionia.NN.operation <> i:1104 var
+R39821:39821 Ionia.NN.operation <> j:1105 var
+R39845:39847 Ionia.Progress.rule <> one def
+R39835:39838 Ionia.Progress.rule <> zero def
+def 39866:39869 <> relu
+R39875:39877 Ionia.Progress.data <> exp def
+R39879:39881 Ionia.Progress.data <> num constr
+binder 39872:39872 <> e:1106
+R39890:39892 Ionia.Progress.rule <> leb def
+R39896:39899 Ionia.Progress.rule <> zero def
+R39894:39894 Ionia.NN.operation <> e:1106 var
+R39917:39917 Ionia.NN.operation <> e:1106 var
+R39907:39910 Ionia.Progress.rule <> zero def
+def 39932:39940 <> relu_grad
+R39946:39948 Ionia.Progress.data <> exp def
+R39950:39952 Ionia.Progress.data <> num constr
+binder 39943:39943 <> e:1107
+R39961:39963 Ionia.Progress.rule <> leb def
+R39967:39970 Ionia.Progress.rule <> zero def
+R39965:39965 Ionia.NN.operation <> e:1107 var
+R39988:39990 Ionia.Progress.rule <> one def
+R39978:39981 Ionia.Progress.rule <> zero def
+def 40006:40020 <> output_backward
+binder 40023:40023 <> n:1108
+R40032:40038 Ionia.NN.tensor <> Tensor1 def
+R40040:40040 Ionia.NN.operation <> n:1108 var
+binder 40027:40027 <> x:1109
+binder 40029:40029 <> y:1110
+R40049:40056 Ionia.Progress.data <> seq_make def
+R40067:40069 Ionia.Base.fin <> fin def
+R40071:40071 Ionia.NN.operation <> n:1108 var
+binder 40063:40063 <> i:1111
+R40076:40078 Ionia.Progress.rule <> sub def
+R40103:40103 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40120:40122 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40124:40124 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40104:40117 Ionia.NN.tensor <> Tensor1_unfold def
+R40119:40119 Ionia.NN.operation <> y:1110 var
+R40123:40123 Ionia.NN.operation <> i:1111 var
+R40080:40080 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40097:40099 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40101:40101 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40081:40094 Ionia.NN.tensor <> Tensor1_unfold def
+R40096:40096 Ionia.NN.operation <> x:1109 var
+R40100:40100 Ionia.NN.operation <> i:1111 var
+def 40140:40150 <> nn_backward
+binder 40152:40152 <> n:1112
+binder 40154:40154 <> m:1113
+R40163:40169 Ionia.NN.tensor <> Tensor1 def
+R40171:40171 Ionia.NN.operation <> n:1112 var
+binder 40158:40160 <> d_l:1114
+R40179:40185 Ionia.NN.tensor <> Tensor2 def
+R40189:40189 Ionia.NN.operation <> m:1113 var
+R40187:40187 Ionia.NN.operation <> n:1112 var
+binder 40175:40175 <> w:1115
+R40201:40207 Ionia.NN.tensor <> Tensor1 def
+R40209:40209 Ionia.NN.operation <> m:1113 var
+binder 40193:40197 <> z_l_1:1116
+R40217:40224 Ionia.Progress.data <> seq_make def
+R40233:40235 Ionia.Base.fin <> fin def
+R40237:40237 Ionia.NN.operation <> m:1113 var
+binder 40231:40231 <> i:1117
+R40242:40244 Ionia.Progress.rule <> mul def
+R40339:40347 Ionia.NN.operation <> relu_grad def
+R40349:40349 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40370:40372 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40374:40374 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40350:40363 Ionia.NN.tensor <> Tensor1_unfold def
+R40365:40369 Ionia.NN.operation <> z_l_1:1116 var
+R40373:40373 Ionia.NN.operation <> i:1117 var
+R40247:40249 Ionia.Progress.rule <> sum def
+R40252:40259 Ionia.Progress.data <> seq_make def
+R40268:40270 Ionia.Base.fin <> fin def
+R40272:40272 Ionia.NN.operation <> n:1112 var
+binder 40266:40266 <> j:1118
+R40280:40282 Ionia.Progress.rule <> mul def
+R40311:40311 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40330:40332 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40334:40334 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40312:40325 Ionia.NN.tensor <> Tensor1_unfold def
+R40327:40329 Ionia.NN.operation <> d_l:1114 var
+R40333:40333 Ionia.NN.operation <> j:1118 var
+R40306:40307 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40309:40309 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40284:40284 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40301:40303 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40305:40305 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40285:40298 Ionia.NN.tensor <> Tensor2_unfold def
+R40300:40300 Ionia.NN.operation <> w:1115 var
+R40304:40304 Ionia.NN.operation <> j:1118 var
+R40308:40308 Ionia.NN.operation <> i:1117 var
+def 40391:40411 <> average_pool_backward
+binder 40414:40414 <> n:1119
+binder 40416:40416 <> k:1120
+R40426:40432 Ionia.NN.tensor <> Tensor2 def
+R40436:40436 Ionia.NN.operation <> n:1119 var
+R40434:40434 Ionia.NN.operation <> n:1119 var
+binder 40420:40423 <> dout:1121
+R40448:40454 Ionia.NN.tensor <> Tensor2 def
+R40464:40464 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R40463:40463 Ionia.NN.operation <> k:1120 var
+R40465:40465 Ionia.NN.operation <> n:1119 var
+R40458:40458 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R40457:40457 Ionia.NN.operation <> k:1120 var
+R40459:40459 Ionia.NN.operation <> n:1119 var
+binder 40440:40444 <> z_l_1:1122
+R40474:40481 Ionia.Progress.data <> seq_make def
+R40490:40492 Ionia.Base.fin <> fin def
+R40496:40496 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R40495:40495 Ionia.NN.operation <> k:1120 var
+R40497:40497 Ionia.NN.operation <> n:1119 var
+binder 40488:40488 <> i:1123
+R40503:40510 Ionia.Progress.data <> seq_make def
+R40519:40521 Ionia.Base.fin <> fin def
+R40525:40525 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R40524:40524 Ionia.NN.operation <> k:1120 var
+R40526:40526 Ionia.NN.operation <> n:1119 var
+binder 40517:40517 <> j:1124
+R40535:40537 Ionia.Progress.rule <> mul def
+R40625:40626 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40628:40628 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40599:40599 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40620:40622 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40624:40624 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40600:40613 Ionia.NN.tensor <> Tensor2_unfold def
+R40615:40619 Ionia.NN.operation <> z_l_1:1122 var
+R40623:40623 Ionia.NN.operation <> i:1123 var
+R40627:40627 Ionia.NN.operation <> j:1124 var
+R40579:40580 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40597:40597 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40539:40539 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40559:40561 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40578:40578 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40540:40553 Ionia.NN.tensor <> Tensor2_unfold def
+R40555:40558 Ionia.NN.operation <> dout:1121 var
+R40562:40562 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R40566:40566 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R40577:40577 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R40564:40564 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R40563:40563 Ionia.NN.operation <> i:1123 var
+R40565:40565 Ionia.NN.operation <> k:1120 var
+R40567:40574 Ionia.Base.finfle <> fin_lem8 thm
+R40576:40576 Ionia.NN.operation <> i:1123 var
+R40581:40581 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R40585:40585 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R40596:40596 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R40583:40583 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R40582:40582 Ionia.NN.operation <> j:1124 var
+R40584:40584 Ionia.NN.operation <> k:1120 var
+R40586:40593 Ionia.Base.finfle <> fin_lem8 thm
+R40595:40595 Ionia.NN.operation <> j:1124 var
+def 40645:40664 <> averagepool_backward
+binder 40666:40666 <> n:1125
+R40676:40682 Ionia.NN.tensor <> Tensor2 def
+R40686:40686 Ionia.NN.operation <> n:1125 var
+R40684:40684 Ionia.NN.operation <> n:1125 var
+binder 40670:40673 <> dout:1126
+R40692:40694 Coq.Init.Datatypes <> nat ind
+binder 40690:40690 <> k:1127
+R40703:40710 Ionia.Progress.data <> seq_make def
+R40719:40721 Ionia.Base.fin <> fin def
+R40725:40725 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R40724:40724 Ionia.NN.operation <> k:1127 var
+R40726:40726 Ionia.NN.operation <> n:1125 var
+binder 40717:40717 <> i:1128
+R40732:40739 Ionia.Progress.data <> seq_make def
+R40748:40750 Ionia.Base.fin <> fin def
+R40754:40754 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R40753:40753 Ionia.NN.operation <> k:1127 var
+R40755:40755 Ionia.NN.operation <> n:1125 var
+binder 40746:40746 <> j:1129
+R40804:40805 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40822:40822 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40764:40764 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40784:40786 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40803:40803 Ionia.Progress.data <> :::x_'|['_x_']' not
+R40765:40778 Ionia.NN.tensor <> Tensor2_unfold def
+R40780:40783 Ionia.NN.operation <> dout:1126 var
+R40787:40787 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R40791:40791 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R40802:40802 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R40789:40789 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R40788:40788 Ionia.NN.operation <> i:1128 var
+R40790:40790 Ionia.NN.operation <> k:1127 var
+R40792:40799 Ionia.Base.finfle <> fin_lem8 thm
+R40801:40801 Ionia.NN.operation <> i:1128 var
+R40806:40806 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R40810:40810 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R40821:40821 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R40808:40808 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R40807:40807 Ionia.NN.operation <> j:1129 var
+R40809:40809 Ionia.NN.operation <> k:1127 var
+R40811:40818 Ionia.Base.finfle <> fin_lem8 thm
+R40820:40820 Ionia.NN.operation <> j:1129 var
+def 40839:40861 <> average_pool_backward_g
+binder 40864:40864 <> n:1130
+binder 40866:40872 <> channel:1131
+R40883:40889 Ionia.NN.tensor <> Tensor3 def
+R40901:40901 Ionia.NN.operation <> n:1130 var
+R40899:40899 Ionia.NN.operation <> n:1130 var
+R40891:40897 Ionia.NN.operation <> channel:1131 var
+binder 40876:40879 <> dout:1132
+R40911:40913 Coq.Init.Datatypes <> nat ind
+binder 40907:40907 <> k:1133
+R40924:40930 Ionia.NN.tensor <> Tensor3 def
+R40948:40948 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R40947:40947 Ionia.NN.operation <> k:1133 var
+R40949:40949 Ionia.NN.operation <> n:1130 var
+R40942:40942 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R40941:40941 Ionia.NN.operation <> k:1133 var
+R40943:40943 Ionia.NN.operation <> n:1130 var
+R40932:40938 Ionia.NN.operation <> channel:1131 var
+binder 40917:40921 <> z_l_1:1134
+R40958:40965 Ionia.Progress.data <> seq_make def
+R40974:40976 Ionia.Base.fin <> fin def
+R40978:40984 Ionia.NN.operation <> channel:1131 var
+binder 40972:40972 <> c:1135
+R40990:40997 Ionia.Progress.data <> seq_make def
+R41006:41008 Ionia.Base.fin <> fin def
+R41012:41012 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R41011:41011 Ionia.NN.operation <> k:1133 var
+R41013:41013 Ionia.NN.operation <> n:1130 var
+binder 41004:41004 <> i:1136
+R41019:41026 Ionia.Progress.data <> seq_make def
+R41035:41037 Ionia.Base.fin <> fin def
+R41041:41041 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R41040:41040 Ionia.NN.operation <> k:1133 var
+R41042:41042 Ionia.NN.operation <> n:1130 var
+binder 41033:41033 <> j:1137
+R41051:41053 Ionia.Progress.rule <> mul def
+R41149:41150 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41152:41152 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41145:41146 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41148:41148 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41119:41119 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41140:41142 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41144:41144 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41120:41133 Ionia.NN.tensor <> Tensor3_unfold def
+R41135:41139 Ionia.NN.operation <> z_l_1:1134 var
+R41143:41143 Ionia.NN.operation <> c:1135 var
+R41147:41147 Ionia.NN.operation <> i:1136 var
+R41151:41151 Ionia.NN.operation <> j:1137 var
+R41099:41100 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41117:41117 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41080:41081 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41098:41098 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41055:41055 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41075:41077 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41079:41079 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41056:41069 Ionia.NN.tensor <> Tensor3_unfold def
+R41071:41074 Ionia.NN.operation <> dout:1132 var
+R41078:41078 Ionia.NN.operation <> c:1135 var
+R41082:41082 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R41086:41086 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R41097:41097 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R41084:41084 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R41083:41083 Ionia.NN.operation <> i:1136 var
+R41085:41085 Ionia.NN.operation <> k:1133 var
+R41087:41094 Ionia.Base.finfle <> fin_lem8 thm
+R41096:41096 Ionia.NN.operation <> i:1136 var
+R41101:41101 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R41105:41105 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R41116:41116 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R41103:41103 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R41102:41102 Ionia.NN.operation <> j:1137 var
+R41104:41104 Ionia.NN.operation <> k:1133 var
+R41106:41113 Ionia.Base.finfle <> fin_lem8 thm
+R41115:41115 Ionia.NN.operation <> j:1137 var
+def 41171:41190 <> convolution_backward
+binder 41193:41193 <> n:1138
+binder 41195:41195 <> m:1139
+R41205:41211 Ionia.NN.tensor <> Tensor2 def
+R41215:41215 Ionia.NN.operation <> m:1139 var
+R41213:41213 Ionia.NN.operation <> m:1139 var
+binder 41199:41202 <> dout:1140
+R41223:41229 Ionia.NN.tensor <> Tensor2 def
+R41243:41243 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R41241:41241 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R41240:41240 Ionia.NN.operation <> m:1139 var
+R41242:41242 Ionia.NN.operation <> n:1138 var
+R41235:41235 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R41233:41233 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R41232:41232 Ionia.NN.operation <> m:1139 var
+R41234:41234 Ionia.NN.operation <> n:1138 var
+binder 41219:41219 <> p:1141
+R41255:41261 Ionia.NN.tensor <> Tensor2 def
+R41265:41265 Ionia.NN.operation <> n:1138 var
+R41263:41263 Ionia.NN.operation <> n:1138 var
+binder 41251:41251 <> w:1142
+R41273:41275 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R41276:41276 Ionia.NN.operation <> n:1138 var
+binder 41269:41269 <> E:1143
+R41285:41289 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R41298:41301 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R41322:41327 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R41302:41310 Ionia.NN.operation <> Padding2d def
+R41318:41321 Ionia.NN.operation <> dout:1140 var
+R41314:41314 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R41313:41313 Ionia.NN.operation <> n:1138 var
+binder 41290:41297 <> dout_pad:1144
+R41328:41335 Ionia.Progress.data <> seq_make def
+R41345:41347 Ionia.Base.fin <> fin def
+R41353:41353 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R41351:41351 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R41350:41350 Ionia.NN.operation <> m:1139 var
+R41352:41352 Ionia.NN.operation <> n:1138 var
+binder 41342:41343 <> i1:1145
+R41360:41367 Ionia.Progress.data <> seq_make def
+R41377:41379 Ionia.Base.fin <> fin def
+R41385:41385 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R41383:41383 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R41382:41382 Ionia.NN.operation <> m:1139 var
+R41384:41384 Ionia.NN.operation <> n:1138 var
+binder 41374:41375 <> j1:1146
+R41395:41397 Ionia.Progress.rule <> mul def
+R41620:41628 Ionia.NN.operation <> relu_grad def
+R41653:41654 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41657:41657 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41630:41630 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41647:41649 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41652:41652 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41631:41644 Ionia.NN.tensor <> Tensor2_unfold def
+R41646:41646 Ionia.NN.operation <> p:1141 var
+R41650:41651 Ionia.NN.operation <> i1:1145 var
+R41655:41656 Ionia.NN.operation <> j1:1146 var
+R41400:41402 Ionia.Progress.rule <> sum def
+R41405:41412 Ionia.Progress.data <> seq_make def
+R41422:41424 Ionia.Base.fin <> fin def
+R41426:41426 Ionia.NN.operation <> n:1138 var
+binder 41419:41420 <> i2:1147
+R41431:41433 Ionia.Progress.rule <> sum def
+R41436:41443 Ionia.Progress.data <> seq_make def
+R41455:41457 Ionia.Base.fin <> fin def
+R41459:41459 Ionia.NN.operation <> n:1138 var
+binder 41451:41452 <> j2:1148
+R41467:41469 Ionia.Progress.rule <> mul def
+R41585:41586 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41608:41608 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41543:41543 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41560:41562 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41584:41584 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41544:41557 Ionia.NN.tensor <> Tensor2_unfold def
+R41559:41559 Ionia.NN.operation <> w:1142 var
+R41563:41563 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R41570:41570 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R41583:41583 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R41567:41567 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R41565:41565 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R41564:41564 Ionia.NN.operation <> n:1138 var
+R41568:41569 Ionia.NN.operation <> i2:1147 var
+R41571:41579 Ionia.Base.finfle <> fin_lem10 thm
+R41581:41582 Ionia.NN.operation <> i2:1147 var
+R41587:41587 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R41594:41594 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R41607:41607 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R41591:41591 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R41589:41589 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R41588:41588 Ionia.NN.operation <> n:1138 var
+R41592:41593 Ionia.NN.operation <> j2:1148 var
+R41595:41603 Ionia.Base.finfle <> fin_lem10 thm
+R41605:41606 Ionia.NN.operation <> j2:1148 var
+R41508:41509 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41536:41536 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41479:41480 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41507:41507 Ionia.Progress.data <> :::x_'|['_x_']' not
+R41471:41478 Ionia.NN.operation <> dout_pad:1144 var
+R41481:41481 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R41489:41489 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R41506:41506 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R41484:41486 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R41482:41483 Ionia.NN.operation <> i1:1145 var
+R41487:41488 Ionia.NN.operation <> i2:1147 var
+R41490:41497 Ionia.Base.finfle <> fin_lem9 thm
+R41505:41505 Ionia.NN.operation <> E:1143 var
+R41502:41503 Ionia.NN.operation <> i2:1147 var
+R41499:41500 Ionia.NN.operation <> i1:1145 var
+R41510:41510 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R41518:41518 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R41535:41535 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R41513:41515 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R41511:41512 Ionia.NN.operation <> j1:1146 var
+R41516:41517 Ionia.NN.operation <> j2:1148 var
+R41519:41526 Ionia.Base.finfle <> fin_lem9 thm
+R41534:41534 Ionia.NN.operation <> E:1143 var
+R41531:41532 Ionia.NN.operation <> j2:1148 var
+R41528:41529 Ionia.NN.operation <> j1:1146 var
+def 41675:41696 <> convolution_backward_g
+binder 41699:41706 <> filernum:1149
+binder 41708:41714 <> channel:1150
+binder 41716:41716 <> m:1151
+binder 41718:41718 <> n:1152
+R41729:41735 Ionia.NN.tensor <> Tensor3 def
+R41748:41748 Ionia.NN.operation <> m:1151 var
+R41746:41746 Ionia.NN.operation <> m:1151 var
+R41737:41744 Ionia.NN.operation <> filernum:1149 var
+binder 41722:41725 <> dout:1153
+R41758:41764 Ionia.NN.tensor <> Tensor3 def
+R41786:41786 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R41784:41784 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R41783:41783 Ionia.NN.operation <> m:1151 var
+R41785:41785 Ionia.NN.operation <> n:1152 var
+R41778:41778 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R41776:41776 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R41775:41775 Ionia.NN.operation <> m:1151 var
+R41777:41777 Ionia.NN.operation <> n:1152 var
+R41766:41772 Ionia.NN.operation <> channel:1150 var
+binder 41754:41754 <> p:1154
+R41795:41801 Ionia.NN.tensor <> Tensor4 def
+R41822:41822 Ionia.NN.operation <> n:1152 var
+R41820:41820 Ionia.NN.operation <> n:1152 var
+R41812:41818 Ionia.NN.operation <> channel:1150 var
+R41803:41810 Ionia.NN.operation <> filernum:1149 var
+binder 41792:41792 <> w:1155
+R41831:41833 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R41834:41834 Ionia.NN.operation <> n:1152 var
+binder 41828:41828 <> E:1156
+R41843:41847 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R41856:41859 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R41880:41885 Ionia.Progress.rule <> :::'tlet'_x_':='_x_'in'_x not
+R41860:41868 Ionia.NN.operation <> Padding3d def
+R41876:41879 Ionia.NN.operation <> dout:1153 var
+R41872:41872 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R41871:41871 Ionia.NN.operation <> n:1152 var
+binder 41848:41855 <> dout_pad:1157
+R41886:41893 Ionia.Progress.data <> seq_make def
+R41902:41904 Ionia.Base.fin <> fin def
+R41906:41912 Ionia.NN.operation <> channel:1150 var
+binder 41900:41900 <> c:1158
+R41917:41924 Ionia.Progress.data <> seq_make def
+R41934:41936 Ionia.Base.fin <> fin def
+R41942:41942 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R41940:41940 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R41939:41939 Ionia.NN.operation <> m:1151 var
+R41941:41941 Ionia.NN.operation <> n:1152 var
+binder 41931:41932 <> i1:1159
+R41949:41956 Ionia.Progress.data <> seq_make def
+R41966:41968 Ionia.Base.fin <> fin def
+R41974:41974 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R41972:41972 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R41971:41971 Ionia.NN.operation <> m:1151 var
+R41973:41973 Ionia.NN.operation <> n:1152 var
+binder 41963:41964 <> j1:1160
+R41984:41986 Ionia.Progress.rule <> mul def
+R42269:42277 Ionia.NN.operation <> relu_grad def
+R42306:42307 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42310:42310 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42301:42302 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42305:42305 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42279:42279 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42296:42298 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42300:42300 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42280:42293 Ionia.NN.tensor <> Tensor3_unfold def
+R42295:42295 Ionia.NN.operation <> p:1154 var
+R42299:42299 Ionia.NN.operation <> c:1158 var
+R42303:42304 Ionia.NN.operation <> i1:1159 var
+R42308:42309 Ionia.NN.operation <> j1:1160 var
+R41989:41991 Ionia.Progress.rule <> sum def
+R41994:42001 Ionia.Progress.data <> seq_make def
+R42013:42015 Ionia.Base.fin <> fin def
+R42017:42024 Ionia.NN.operation <> filernum:1149 var
+binder 42008:42010 <> num:1161
+R42029:42031 Ionia.Progress.rule <> sum def
+R42034:42041 Ionia.Progress.data <> seq_make def
+R42051:42053 Ionia.Base.fin <> fin def
+R42055:42055 Ionia.NN.operation <> n:1152 var
+binder 42048:42049 <> i2:1162
+R42063:42065 Ionia.Progress.rule <> sum def
+R42068:42075 Ionia.Progress.data <> seq_make def
+R42086:42088 Ionia.Base.fin <> fin def
+R42090:42090 Ionia.NN.operation <> n:1152 var
+binder 42082:42083 <> j2:1163
+R42098:42100 Ionia.Progress.rule <> mul def
+R42232:42233 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42255:42255 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42208:42209 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42231:42231 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42204:42205 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42207:42207 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42180:42180 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42197:42199 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42203:42203 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42181:42194 Ionia.NN.tensor <> Tensor4_unfold def
+R42196:42196 Ionia.NN.operation <> w:1155 var
+R42200:42202 Ionia.NN.operation <> num:1161 var
+R42206:42206 Ionia.NN.operation <> c:1158 var
+R42210:42210 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R42217:42217 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R42230:42230 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R42214:42214 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R42212:42212 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R42211:42211 Ionia.NN.operation <> n:1152 var
+R42215:42216 Ionia.NN.operation <> i2:1162 var
+R42218:42226 Ionia.Base.finfle <> fin_lem10 thm
+R42228:42229 Ionia.NN.operation <> i2:1162 var
+R42234:42234 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R42241:42241 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R42254:42254 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R42238:42238 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R42236:42236 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R42235:42235 Ionia.NN.operation <> n:1152 var
+R42239:42240 Ionia.NN.operation <> j2:1163 var
+R42242:42250 Ionia.Base.finfle <> fin_lem10 thm
+R42252:42253 Ionia.NN.operation <> j2:1163 var
+R42145:42146 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42173:42173 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42116:42117 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42144:42144 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42110:42111 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42115:42115 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42102:42109 Ionia.NN.operation <> dout_pad:1157 var
+R42112:42114 Ionia.NN.operation <> num:1161 var
+R42118:42118 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R42126:42126 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R42143:42143 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R42121:42123 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R42119:42120 Ionia.NN.operation <> i1:1159 var
+R42124:42125 Ionia.NN.operation <> i2:1162 var
+R42127:42134 Ionia.Base.finfle <> fin_lem9 thm
+R42142:42142 Ionia.NN.operation <> E:1156 var
+R42139:42140 Ionia.NN.operation <> i2:1162 var
+R42136:42137 Ionia.NN.operation <> i1:1159 var
+R42147:42147 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R42155:42155 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R42172:42172 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R42150:42152 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R42148:42149 Ionia.NN.operation <> j1:1160 var
+R42153:42154 Ionia.NN.operation <> j2:1163 var
+R42156:42163 Ionia.Base.finfle <> fin_lem9 thm
+R42171:42171 Ionia.NN.operation <> E:1156 var
+R42168:42169 Ionia.NN.operation <> j2:1163 var
+R42165:42166 Ionia.NN.operation <> j1:1160 var
+def 42329:42350 <> convolution_backward_w
+binder 42353:42353 <> m:1164
+binder 42355:42355 <> n:1165
+R42366:42372 Ionia.NN.tensor <> Tensor2 def
+R42376:42376 Ionia.NN.operation <> m:1164 var
+R42374:42374 Ionia.NN.operation <> m:1164 var
+binder 42359:42362 <> dout:1166
+R42386:42392 Ionia.NN.tensor <> Tensor2 def
+R42406:42406 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R42404:42404 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R42403:42403 Ionia.NN.operation <> m:1164 var
+R42405:42405 Ionia.NN.operation <> n:1165 var
+R42398:42398 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R42396:42396 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R42395:42395 Ionia.NN.operation <> m:1164 var
+R42397:42397 Ionia.NN.operation <> n:1165 var
+binder 42382:42382 <> p:1167
+R42415:42415 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R42416:42416 Ionia.NN.operation <> n:1165 var
+binder 42412:42412 <> E:1168
+R42423:42430 Ionia.Progress.data <> seq_make def
+R42440:42442 Ionia.Base.fin <> fin def
+R42444:42444 Ionia.NN.operation <> n:1165 var
+binder 42437:42438 <> i1:1169
+R42449:42456 Ionia.Progress.data <> seq_make def
+R42466:42468 Ionia.Base.fin <> fin def
+R42470:42470 Ionia.NN.operation <> n:1165 var
+binder 42463:42464 <> j1:1170
+R42478:42480 Ionia.Progress.rule <> sum def
+R42483:42490 Ionia.Progress.data <> seq_make def
+R42500:42502 Ionia.Base.fin <> fin def
+R42504:42504 Ionia.NN.operation <> m:1164 var
+binder 42497:42498 <> i2:1171
+R42509:42511 Ionia.Progress.rule <> sum def
+R42514:42521 Ionia.Progress.data <> seq_make def
+R42533:42535 Ionia.Base.fin <> fin def
+R42537:42537 Ionia.NN.operation <> m:1164 var
+binder 42529:42530 <> j2:1172
+R42545:42547 Ionia.Progress.rule <> mul def
+R42655:42656 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42659:42659 Ionia.Progress.data <> :::x_'|['_x_']' not
 R42629:42629 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42599:42599 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42619:42621 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42625:42625 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42600:42613 Ionia.NN.tensor <> Tensor3_unfold def
-R42615:42618 Ionia.NN.operation <> dout:1171 var
-R42622:42624 Ionia.NN.operation <> num:1172 var
-R42628:42628 Ionia.NN.operation <> i:1173 var
-R42632:42632 Ionia.NN.operation <> j:1174 var
-def 42653:42665 <> nn_backward_w
-binder 42667:42667 <> m:1175
-binder 42669:42669 <> n:1176
-R42678:42684 Ionia.NN.tensor <> Tensor1 def
-R42686:42686 Ionia.NN.operation <> n:1176 var
-binder 42672:42675 <> dout:1177
-R42697:42703 Ionia.NN.tensor <> Tensor1 def
-R42705:42705 Ionia.NN.operation <> m:1175 var
-binder 42690:42694 <> a_l_1:1178
-R42713:42720 Ionia.Progress.data <> seq_make def
-R42729:42731 Ionia.Base.fin <> fin def
-R42733:42733 Ionia.NN.operation <> n:1176 var
-binder 42727:42727 <> i:1179
+R42649:42651 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42654:42654 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42630:42643 Ionia.NN.tensor <> Tensor2_unfold def
+R42645:42648 Ionia.NN.operation <> dout:1166 var
+R42652:42653 Ionia.NN.operation <> i2:1171 var
+R42657:42658 Ionia.NN.operation <> j2:1172 var
+R42595:42596 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42622:42622 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42549:42549 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42566:42568 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42594:42594 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42550:42563 Ionia.NN.tensor <> Tensor2_unfold def
+R42565:42565 Ionia.NN.operation <> p:1167 var
+R42569:42569 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R42577:42577 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R42593:42593 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R42572:42574 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R42570:42571 Ionia.NN.operation <> i1:1169 var
+R42575:42576 Ionia.NN.operation <> i2:1171 var
+R42578:42586 Ionia.Base.finfle <> fin_lem11 thm
+R42591:42592 Ionia.NN.operation <> i2:1171 var
+R42588:42589 Ionia.NN.operation <> i1:1169 var
+R42597:42597 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R42605:42605 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R42621:42621 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R42600:42602 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R42598:42599 Ionia.NN.operation <> j1:1170 var
+R42603:42604 Ionia.NN.operation <> j2:1172 var
+R42606:42614 Ionia.Base.finfle <> fin_lem11 thm
+R42619:42620 Ionia.NN.operation <> j2:1172 var
+R42616:42617 Ionia.NN.operation <> j1:1170 var
+def 42680:42701 <> convolution_backward_b
+binder 42704:42704 <> n:1173
+R42714:42720 Ionia.NN.tensor <> Tensor2 def
+R42724:42724 Ionia.NN.operation <> n:1173 var
+R42722:42722 Ionia.NN.operation <> n:1173 var
+binder 42708:42711 <> dout:1174
+R42733:42735 Ionia.Progress.rule <> sum def
 R42738:42745 Ionia.Progress.data <> seq_make def
 R42754:42756 Ionia.Base.fin <> fin def
-R42758:42758 Ionia.NN.operation <> m:1175 var
-binder 42752:42752 <> j:1180
-R42766:42768 Ionia.Progress.rule <> mul def
-R42796:42796 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42817:42819 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42821:42821 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42797:42810 Ionia.NN.tensor <> Tensor1_unfold def
-R42812:42816 Ionia.NN.operation <> a_l_1:1178 var
-R42820:42820 Ionia.NN.operation <> j:1180 var
-R42770:42770 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42790:42792 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42758:42758 Ionia.NN.operation <> n:1173 var
+binder 42752:42752 <> i:1175
+R42763:42765 Ionia.Progress.rule <> sum def
+R42768:42775 Ionia.Progress.data <> seq_make def
+R42785:42787 Ionia.Base.fin <> fin def
+R42789:42789 Ionia.NN.operation <> n:1173 var
+binder 42782:42782 <> j:1176
+R42819:42820 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42822:42822 Ionia.Progress.data <> :::x_'|['_x_']' not
 R42794:42794 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42771:42784 Ionia.NN.tensor <> Tensor1_unfold def
-R42786:42789 Ionia.NN.operation <> dout:1177 var
-R42793:42793 Ionia.NN.operation <> i:1179 var
-def 42838:42850 <> nn_backward_b
-binder 42852:42852 <> n:1181
-R42861:42867 Ionia.NN.tensor <> Tensor1 def
-R42869:42869 Ionia.NN.operation <> n:1181 var
-binder 42855:42858 <> dout:1182
-R42878:42885 Ionia.Progress.data <> seq_make def
-R42894:42896 Ionia.Base.fin <> fin def
-R42898:42898 Ionia.NN.operation <> n:1181 var
-binder 42892:42892 <> i:1183
-R42903:42903 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42923:42925 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42927:42927 Ionia.Progress.data <> :::x_'|['_x_']' not
-R42904:42917 Ionia.NN.tensor <> Tensor1_unfold def
-R42919:42922 Ionia.NN.operation <> dout:1182 var
-R42926:42926 Ionia.NN.operation <> i:1183 var
-def 42943:42952 <> convert_in
-binder 42955:42959 <> batch:1184
-binder 42961:42971 <> out_channel:1185
-binder 42973:42982 <> in_channel:1186
-binder 42984:42985 <> m1:1187
-binder 42987:42988 <> m2:1188
-R42996:42998 Coq.Init.Datatypes <> nat ind
-binder 42992:42992 <> s:1189
-R43010:43016 Ionia.NN.tensor <> Tensor4 def
-R43038:43039 Ionia.NN.operation <> m2:1188 var
-R43035:43036 Ionia.NN.operation <> m1:1187 var
-R43024:43033 Ionia.NN.operation <> in_channel:1186 var
-R43018:43022 Ionia.NN.operation <> batch:1184 var
-binder 43002:43006 <> input:1190
-R43060:43063 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
-R43049:43059 Ionia.NN.operation <> out_channel:1185 var
-R43064:43073 Ionia.NN.operation <> in_channel:1186 var
-binder 43045:43046 <> Ec:1191
-R43081:43081 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
-R43082:43083 Ionia.NN.operation <> m1:1187 var
-binder 43077:43078 <> E1:1192
-R43091:43091 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
-R43092:43093 Ionia.NN.operation <> m2:1188 var
-binder 43087:43088 <> E2:1193
-R43101:43108 Ionia.Progress.data <> seq_make def
-R43117:43119 Ionia.Base.fin <> fin def
-R43121:43125 Ionia.NN.operation <> batch:1184 var
-binder 43115:43115 <> b:1194
-R43130:43137 Ionia.Progress.data <> seq_make def
-R43147:43149 Ionia.Base.fin <> fin def
-R43151:43161 Ionia.NN.operation <> out_channel:1185 var
-binder 43144:43144 <> c:1195
-R43169:43176 Ionia.Progress.data <> seq_make def
-R43186:43188 Ionia.Base.fin <> fin def
-R43203:43203 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43191:43191 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43200:43201 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43198:43198 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R43194:43194 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43192:43193 Ionia.NN.operation <> m1:1187 var
-R43196:43196 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R43202:43202 Ionia.NN.operation <> s:1189 var
-binder 43183:43183 <> i:1196
-R43209:43216 Ionia.Progress.data <> seq_make def
-R43226:43228 Ionia.Base.fin <> fin def
-R43243:43243 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43231:43231 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43240:43241 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43238:43238 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R43234:43234 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43232:43233 Ionia.NN.operation <> m2:1188 var
-R43236:43236 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R43242:43242 Ionia.NN.operation <> s:1189 var
-binder 43223:43223 <> j:1197
-R43336:43337 Ionia.Progress.data <> :::x_'|['_x_']' not
-R43364:43364 Ionia.Progress.data <> :::x_'|['_x_']' not
-R43307:43308 Ionia.Progress.data <> :::x_'|['_x_']' not
-R43335:43335 Ionia.Progress.data <> :::x_'|['_x_']' not
-R43281:43282 Ionia.Progress.data <> :::x_'|['_x_']' not
-R43306:43306 Ionia.Progress.data <> :::x_'|['_x_']' not
-R43255:43255 Ionia.Progress.data <> :::x_'|['_x_']' not
-R43276:43278 Ionia.Progress.data <> :::x_'|['_x_']' not
-R43280:43280 Ionia.Progress.data <> :::x_'|['_x_']' not
-R43256:43269 Ionia.NN.tensor <> Tensor4_unfold def
-R43271:43275 Ionia.NN.operation <> input:1190 var
-R43279:43279 Ionia.NN.operation <> b:1194 var
-R43283:43283 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R43293:43293 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R43305:43305 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R43284:43290 Ionia.Base.fin <> fin2nat def
-R43292:43292 Ionia.NN.operation <> c:1195 var
-R43294:43299 Ionia.Base.fin <> fin_lt thm
-R43303:43304 Ionia.NN.operation <> Ec:1191 var
-R43301:43301 Ionia.NN.operation <> c:1195 var
-R43309:43309 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R43319:43319 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R43334:43334 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R43310:43316 Ionia.Base.fin <> fin2nat def
-R43318:43318 Ionia.NN.operation <> i:1196 var
-R43320:43328 Ionia.Base.finfle <> fin_lem12 thm
-R43332:43333 Ionia.NN.operation <> E1:1192 var
-R43330:43330 Ionia.NN.operation <> i:1196 var
-R43338:43338 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R43348:43348 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R43363:43363 Ionia.Base.base <> :::'['_x_'|'_x_']' not
-R43339:43345 Ionia.Base.fin <> fin2nat def
-R43347:43347 Ionia.NN.operation <> j:1197 var
-R43349:43357 Ionia.Base.finfle <> fin_lem12 thm
-R43361:43362 Ionia.NN.operation <> E2:1193 var
-R43359:43359 Ionia.NN.operation <> j:1197 var
-prf 43378:43390 <> convert_1_aux
-binder 43401:43401 <> n:1198
-R43409:43412 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R43405:43407 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
-R43408:43408 Ionia.NN.operation <> n:1198 var
-R43430:43432 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R43426:43428 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43413:43413 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43423:43424 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43419:43421 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R43415:43417 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43414:43414 Ionia.NN.operation <> n:1198 var
-R43433:43433 Ionia.NN.operation <> n:1198 var
-R43459:43469 Coq.Arith.PeanoNat Nat div_1_r def
-R43459:43469 Coq.Arith.PeanoNat Nat div_1_r def
-R43459:43469 Coq.Arith.PeanoNat Nat div_1_r def
-def 43494:43502 <> convert_1
-binder 43504:43508 <> batch:1199
-binder 43510:43516 <> channel:1200
-binder 43518:43519 <> m1:1201
-binder 43521:43522 <> m2:1202
-R43534:43540 Ionia.NN.tensor <> Tensor4 def
-R43586:43586 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43574:43574 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43583:43584 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43581:43581 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R43577:43577 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43575:43576 Ionia.NN.operation <> m2:1202 var
-R43579:43579 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R43569:43569 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43557:43557 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43566:43567 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43564:43564 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R43560:43560 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43558:43559 Ionia.NN.operation <> m1:1201 var
-R43562:43562 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R43548:43554 Ionia.NN.operation <> channel:1200 var
-R43542:43546 Ionia.NN.operation <> batch:1199 var
-binder 43526:43530 <> input:1203
-R43600:43602 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
-R43603:43604 Ionia.NN.operation <> m1:1201 var
-binder 43594:43595 <> E1:1204
-R43614:43616 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
-R43617:43618 Ionia.NN.operation <> m2:1202 var
-binder 43608:43609 <> E2:1205
-R43623:43629 Ionia.NN.tensor <> Tensor4 def
-R43648:43649 Ionia.NN.operation <> m2:1202 var
-R43645:43646 Ionia.NN.operation <> m1:1201 var
-R43637:43643 Ionia.NN.operation <> channel:1200 var
-R43631:43635 Ionia.NN.operation <> batch:1199 var
-R43698:43700 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43682:43682 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43693:43696 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43689:43691 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R43685:43687 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43741:43753 Ionia.NN.operation <> convert_1_aux thm
-R43698:43700 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43682:43682 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43693:43696 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43689:43691 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R43685:43687 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43741:43753 Ionia.NN.operation <> convert_1_aux thm
-R43790:43792 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43774:43774 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43785:43788 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43781:43783 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R43777:43779 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43833:43845 Ionia.NN.operation <> convert_1_aux thm
-R43790:43792 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43774:43774 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43785:43788 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43781:43783 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R43777:43779 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43833:43845 Ionia.NN.operation <> convert_1_aux thm
-prf 43882:43894 <> convert_2_aux
-binder 43905:43905 <> n:1206
-R43913:43916 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R43909:43911 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
-R43912:43912 Ionia.NN.operation <> n:1206 var
-R43934:43936 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R43930:43932 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43917:43917 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43927:43928 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R43923:43925 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R43919:43921 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R43918:43918 Ionia.NN.operation <> n:1206 var
-R43937:43937 Ionia.NN.operation <> n:1206 var
-R43963:43973 Coq.Arith.PeanoNat Nat div_1_r def
-R43963:43973 Coq.Arith.PeanoNat Nat div_1_r def
-R43963:43973 Coq.Arith.PeanoNat Nat div_1_r def
-def 43998:44006 <> convert_2
-binder 44008:44012 <> batch:1207
-binder 44014:44020 <> channel:1208
-binder 44022:44023 <> m1:1209
-binder 44025:44026 <> m2:1210
-R44037:44043 Ionia.NN.tensor <> Tensor4 def
+R42814:42816 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42818:42818 Ionia.Progress.data <> :::x_'|['_x_']' not
+R42795:42808 Ionia.NN.tensor <> Tensor2_unfold def
+R42810:42813 Ionia.NN.operation <> dout:1174 var
+R42817:42817 Ionia.NN.operation <> i:1175 var
+R42821:42821 Ionia.NN.operation <> j:1176 var
+def 42841:42864 <> convolution_backward_w_g
+binder 42867:42874 <> filernum:1177
+binder 42876:42882 <> channel:1178
+binder 42884:42884 <> m:1179
+binder 42886:42886 <> n:1180
+R42897:42903 Ionia.NN.tensor <> Tensor3 def
+R42926:42926 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R42924:42924 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R42923:42923 Ionia.NN.operation <> m:1179 var
+R42925:42925 Ionia.NN.operation <> n:1180 var
+R42918:42918 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R42916:42916 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R42915:42915 Ionia.NN.operation <> m:1179 var
+R42917:42917 Ionia.NN.operation <> n:1180 var
+R42905:42912 Ionia.NN.operation <> filernum:1177 var
+binder 42890:42893 <> dout:1181
+R42938:42944 Ionia.NN.tensor <> Tensor3 def
+R42956:42956 Ionia.NN.operation <> m:1179 var
+R42954:42954 Ionia.NN.operation <> m:1179 var
+R42946:42952 Ionia.NN.operation <> channel:1178 var
+binder 42934:42934 <> p:1182
+R42965:42972 Ionia.Progress.data <> seq_make def
+R42982:42984 Ionia.Base.fin <> fin def
+R42986:42993 Ionia.NN.operation <> filernum:1177 var
+binder 42978:42980 <> num:1183
+R42998:43005 Ionia.Progress.data <> seq_make def
+R43014:43016 Ionia.Base.fin <> fin def
+R43018:43024 Ionia.NN.operation <> channel:1178 var
+binder 43012:43012 <> c:1184
+R43029:43036 Ionia.Progress.data <> seq_make def
+R43046:43048 Ionia.Base.fin <> fin def
+R43050:43050 Ionia.NN.operation <> n:1180 var
+binder 43043:43044 <> i1:1185
+R43057:43064 Ionia.Progress.data <> seq_make def
+R43074:43076 Ionia.Base.fin <> fin def
+R43078:43078 Ionia.NN.operation <> n:1180 var
+binder 43071:43072 <> j1:1186
+R43083:43085 Ionia.Progress.rule <> sum def
+R43088:43095 Ionia.Progress.data <> seq_make def
+R43105:43107 Ionia.Base.fin <> fin def
+R43109:43109 Ionia.NN.operation <> m:1179 var
+binder 43102:43103 <> i2:1187
+R43115:43117 Ionia.Progress.rule <> sum def
+R43120:43127 Ionia.Progress.data <> seq_make def
+R43139:43141 Ionia.Base.fin <> fin def
+R43143:43143 Ionia.NN.operation <> m:1179 var
+binder 43135:43136 <> j2:1188
+R43153:43155 Ionia.Progress.rule <> mul def
+R43268:43269 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43272:43272 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43263:43264 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43267:43267 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43241:43241 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43258:43260 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43262:43262 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43242:43255 Ionia.NN.tensor <> Tensor3_unfold def
+R43257:43257 Ionia.NN.operation <> p:1182 var
+R43261:43261 Ionia.NN.operation <> c:1184 var
+R43265:43266 Ionia.NN.operation <> i2:1187 var
+R43270:43271 Ionia.NN.operation <> j2:1188 var
+R43212:43213 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43239:43239 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43184:43185 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43211:43211 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43157:43157 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43177:43179 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43183:43183 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43158:43171 Ionia.NN.tensor <> Tensor3_unfold def
+R43173:43176 Ionia.NN.operation <> dout:1181 var
+R43180:43182 Ionia.NN.operation <> num:1183 var
+R43186:43186 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R43194:43194 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R43210:43210 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R43189:43191 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R43187:43188 Ionia.NN.operation <> i1:1185 var
+R43192:43193 Ionia.NN.operation <> i2:1187 var
+R43195:43203 Ionia.Base.finfle <> fin_lem11 thm
+R43208:43209 Ionia.NN.operation <> i2:1187 var
+R43205:43206 Ionia.NN.operation <> i1:1185 var
+R43214:43214 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R43222:43222 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R43238:43238 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R43217:43219 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R43215:43216 Ionia.NN.operation <> j1:1186 var
+R43220:43221 Ionia.NN.operation <> j2:1188 var
+R43223:43231 Ionia.Base.finfle <> fin_lem11 thm
+R43236:43237 Ionia.NN.operation <> j2:1188 var
+R43233:43234 Ionia.NN.operation <> j1:1186 var
+def 43295:43318 <> convolution_backward_b_g
+binder 43321:43328 <> filernum:1189
+binder 43330:43330 <> m:1190
+binder 43332:43332 <> n:1191
+R43346:43352 Ionia.NN.tensor <> Tensor3 def
+R43375:43375 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R43373:43373 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R43372:43372 Ionia.NN.operation <> m:1190 var
+R43374:43374 Ionia.NN.operation <> n:1191 var
+R43367:43367 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R43365:43365 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R43364:43364 Ionia.NN.operation <> m:1190 var
+R43366:43366 Ionia.NN.operation <> n:1191 var
+R43354:43361 Ionia.NN.operation <> filernum:1189 var
+binder 43339:43342 <> dout:1192
+R43386:43393 Ionia.Progress.data <> seq_make def
+R43403:43405 Ionia.Base.fin <> fin def
+R43407:43414 Ionia.NN.operation <> filernum:1189 var
+binder 43399:43401 <> num:1193
+R43419:43421 Ionia.Progress.rule <> sum def
+R43424:43431 Ionia.Progress.data <> seq_make def
+R43440:43442 Ionia.Base.fin <> fin def
+R43448:43448 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R43446:43446 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R43445:43445 Ionia.NN.operation <> m:1190 var
+R43447:43447 Ionia.NN.operation <> n:1191 var
+binder 43438:43438 <> i:1194
+R43457:43459 Ionia.Progress.rule <> sum def
+R43462:43469 Ionia.Progress.data <> seq_make def
+R43479:43481 Ionia.Base.fin <> fin def
+R43487:43487 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R43485:43485 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R43484:43484 Ionia.NN.operation <> m:1190 var
+R43486:43486 Ionia.NN.operation <> n:1191 var
+binder 43476:43476 <> j:1195
+R43525:43526 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43528:43528 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43521:43522 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43524:43524 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43494:43494 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43514:43516 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43520:43520 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43495:43508 Ionia.NN.tensor <> Tensor3_unfold def
+R43510:43513 Ionia.NN.operation <> dout:1192 var
+R43517:43519 Ionia.NN.operation <> num:1193 var
+R43523:43523 Ionia.NN.operation <> i:1194 var
+R43527:43527 Ionia.NN.operation <> j:1195 var
+def 43548:43560 <> nn_backward_w
+binder 43562:43562 <> m:1196
+binder 43564:43564 <> n:1197
+R43573:43579 Ionia.NN.tensor <> Tensor1 def
+R43581:43581 Ionia.NN.operation <> n:1197 var
+binder 43567:43570 <> dout:1198
+R43592:43598 Ionia.NN.tensor <> Tensor1 def
+R43600:43600 Ionia.NN.operation <> m:1196 var
+binder 43585:43589 <> a_l_1:1199
+R43608:43615 Ionia.Progress.data <> seq_make def
+R43624:43626 Ionia.Base.fin <> fin def
+R43628:43628 Ionia.NN.operation <> n:1197 var
+binder 43622:43622 <> i:1200
+R43633:43640 Ionia.Progress.data <> seq_make def
+R43649:43651 Ionia.Base.fin <> fin def
+R43653:43653 Ionia.NN.operation <> m:1196 var
+binder 43647:43647 <> j:1201
+R43661:43663 Ionia.Progress.rule <> mul def
+R43691:43691 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43712:43714 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43716:43716 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43692:43705 Ionia.NN.tensor <> Tensor1_unfold def
+R43707:43711 Ionia.NN.operation <> a_l_1:1199 var
+R43715:43715 Ionia.NN.operation <> j:1201 var
+R43665:43665 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43685:43687 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43689:43689 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43666:43679 Ionia.NN.tensor <> Tensor1_unfold def
+R43681:43684 Ionia.NN.operation <> dout:1198 var
+R43688:43688 Ionia.NN.operation <> i:1200 var
+def 43733:43745 <> nn_backward_b
+binder 43747:43747 <> n:1202
+R43756:43762 Ionia.NN.tensor <> Tensor1 def
+R43764:43764 Ionia.NN.operation <> n:1202 var
+binder 43750:43753 <> dout:1203
+R43773:43780 Ionia.Progress.data <> seq_make def
+R43789:43791 Ionia.Base.fin <> fin def
+R43793:43793 Ionia.NN.operation <> n:1202 var
+binder 43787:43787 <> i:1204
+R43798:43798 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43818:43820 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43822:43822 Ionia.Progress.data <> :::x_'|['_x_']' not
+R43799:43812 Ionia.NN.tensor <> Tensor1_unfold def
+R43814:43817 Ionia.NN.operation <> dout:1203 var
+R43821:43821 Ionia.NN.operation <> i:1204 var
+def 43838:43847 <> convert_in
+binder 43850:43854 <> batch:1205
+binder 43856:43866 <> out_channel:1206
+binder 43868:43877 <> in_channel:1207
+binder 43879:43880 <> m1:1208
+binder 43882:43883 <> m2:1209
+R43891:43893 Coq.Init.Datatypes <> nat ind
+binder 43887:43887 <> s:1210
+R43905:43911 Ionia.NN.tensor <> Tensor4 def
+R43933:43934 Ionia.NN.operation <> m2:1209 var
+R43930:43931 Ionia.NN.operation <> m1:1208 var
+R43919:43928 Ionia.NN.operation <> in_channel:1207 var
+R43913:43917 Ionia.NN.operation <> batch:1205 var
+binder 43897:43901 <> input:1211
+R43955:43958 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R43944:43954 Ionia.NN.operation <> out_channel:1206 var
+R43959:43968 Ionia.NN.operation <> in_channel:1207 var
+binder 43940:43941 <> Ec:1212
+R43976:43976 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R43977:43978 Ionia.NN.operation <> m1:1208 var
+binder 43972:43973 <> E1:1213
+R43986:43986 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R43987:43988 Ionia.NN.operation <> m2:1209 var
+binder 43982:43983 <> E2:1214
+R43996:44003 Ionia.Progress.data <> seq_make def
+R44012:44014 Ionia.Base.fin <> fin def
+R44016:44020 Ionia.NN.operation <> batch:1205 var
+binder 44010:44010 <> b:1215
+R44025:44032 Ionia.Progress.data <> seq_make def
+R44042:44044 Ionia.Base.fin <> fin def
+R44046:44056 Ionia.NN.operation <> out_channel:1206 var
+binder 44039:44039 <> c:1216
+R44064:44071 Ionia.Progress.data <> seq_make def
+R44081:44083 Ionia.Base.fin <> fin def
+R44098:44098 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44086:44086 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44095:44096 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44093:44093 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
 R44089:44089 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44077:44077 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44086:44087 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44084:44084 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R44080:44080 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44078:44079 Ionia.NN.operation <> m2:1210 var
-R44082:44082 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R44072:44072 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44060:44060 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44069:44070 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44067:44067 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R44063:44063 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44061:44062 Ionia.NN.operation <> m1:1209 var
-R44065:44065 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R44051:44057 Ionia.NN.operation <> channel:1208 var
-R44045:44049 Ionia.NN.operation <> batch:1207 var
-binder 44029:44033 <> input:1211
-R44103:44105 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
-R44106:44107 Ionia.NN.operation <> m1:1209 var
-binder 44097:44098 <> E1:1212
-R44117:44119 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
-R44120:44121 Ionia.NN.operation <> m2:1210 var
-binder 44111:44112 <> E2:1213
-R44126:44132 Ionia.NN.tensor <> Tensor4 def
-R44151:44152 Ionia.NN.operation <> m2:1210 var
-R44148:44149 Ionia.NN.operation <> m1:1209 var
-R44140:44146 Ionia.NN.operation <> channel:1208 var
-R44134:44138 Ionia.NN.operation <> batch:1207 var
-R44200:44202 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44184:44184 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44195:44198 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44191:44193 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R44187:44189 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44243:44255 Ionia.NN.operation <> convert_2_aux thm
-R44200:44202 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44184:44184 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44195:44198 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44191:44193 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R44187:44189 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44243:44255 Ionia.NN.operation <> convert_2_aux thm
-R44291:44293 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44275:44275 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44286:44289 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44282:44284 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R44278:44280 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44334:44346 Ionia.NN.operation <> convert_2_aux thm
-R44291:44293 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44275:44275 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44286:44289 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44282:44284 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R44278:44280 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44334:44346 Ionia.NN.operation <> convert_2_aux thm
-prf 44382:44394 <> convert_3_aux
-binder 44405:44405 <> n:1214
-R44413:44416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R44409:44411 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
-R44412:44412 Ionia.NN.operation <> n:1214 var
-R44434:44436 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R44430:44432 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44417:44417 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44427:44428 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44423:44425 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R44419:44421 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44418:44418 Ionia.NN.operation <> n:1214 var
-R44437:44437 Ionia.NN.operation <> n:1214 var
-R44463:44473 Coq.Arith.PeanoNat Nat div_1_r def
-R44463:44473 Coq.Arith.PeanoNat Nat div_1_r def
-R44463:44473 Coq.Arith.PeanoNat Nat div_1_r def
-def 44498:44506 <> convert_3
-binder 44508:44512 <> batch:1215
-binder 44514:44520 <> channel:1216
-binder 44522:44523 <> m1:1217
-binder 44525:44526 <> m2:1218
-R44537:44543 Ionia.NN.tensor <> Tensor4 def
-R44589:44589 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44087:44088 Ionia.NN.operation <> m1:1208 var
+R44091:44091 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R44097:44097 Ionia.NN.operation <> s:1210 var
+binder 44078:44078 <> i:1217
+R44104:44111 Ionia.Progress.data <> seq_make def
+R44121:44123 Ionia.Base.fin <> fin def
+R44138:44138 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44126:44126 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44135:44136 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44133:44133 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R44129:44129 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44127:44128 Ionia.NN.operation <> m2:1209 var
+R44131:44131 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R44137:44137 Ionia.NN.operation <> s:1210 var
+binder 44118:44118 <> j:1218
+R44231:44232 Ionia.Progress.data <> :::x_'|['_x_']' not
+R44259:44259 Ionia.Progress.data <> :::x_'|['_x_']' not
+R44202:44203 Ionia.Progress.data <> :::x_'|['_x_']' not
+R44230:44230 Ionia.Progress.data <> :::x_'|['_x_']' not
+R44176:44177 Ionia.Progress.data <> :::x_'|['_x_']' not
+R44201:44201 Ionia.Progress.data <> :::x_'|['_x_']' not
+R44150:44150 Ionia.Progress.data <> :::x_'|['_x_']' not
+R44171:44173 Ionia.Progress.data <> :::x_'|['_x_']' not
+R44175:44175 Ionia.Progress.data <> :::x_'|['_x_']' not
+R44151:44164 Ionia.NN.tensor <> Tensor4_unfold def
+R44166:44170 Ionia.NN.operation <> input:1211 var
+R44174:44174 Ionia.NN.operation <> b:1215 var
+R44178:44178 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R44188:44188 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R44200:44200 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R44179:44185 Ionia.Base.fin <> fin2nat def
+R44187:44187 Ionia.NN.operation <> c:1216 var
+R44189:44194 Ionia.Base.fin <> fin_lt thm
+R44198:44199 Ionia.NN.operation <> Ec:1212 var
+R44196:44196 Ionia.NN.operation <> c:1216 var
+R44204:44204 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R44214:44214 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R44229:44229 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R44205:44211 Ionia.Base.fin <> fin2nat def
+R44213:44213 Ionia.NN.operation <> i:1217 var
+R44215:44223 Ionia.Base.finfle <> fin_lem12 thm
+R44227:44228 Ionia.NN.operation <> E1:1213 var
+R44225:44225 Ionia.NN.operation <> i:1217 var
+R44233:44233 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R44243:44243 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R44258:44258 Ionia.Base.base <> :::'['_x_'|'_x_']' not
+R44234:44240 Ionia.Base.fin <> fin2nat def
+R44242:44242 Ionia.NN.operation <> j:1218 var
+R44244:44252 Ionia.Base.finfle <> fin_lem12 thm
+R44256:44257 Ionia.NN.operation <> E2:1214 var
+R44254:44254 Ionia.NN.operation <> j:1218 var
+prf 44273:44285 <> convert_1_aux
+binder 44296:44296 <> n:1219
+R44304:44307 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R44300:44302 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R44303:44303 Ionia.NN.operation <> n:1219 var
+R44325:44327 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R44321:44323 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44308:44308 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44318:44319 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44314:44316 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R44310:44312 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44309:44309 Ionia.NN.operation <> n:1219 var
+R44328:44328 Ionia.NN.operation <> n:1219 var
+R44354:44364 Coq.Arith.PeanoNat Nat div_1_r def
+R44354:44364 Coq.Arith.PeanoNat Nat div_1_r def
+R44354:44364 Coq.Arith.PeanoNat Nat div_1_r def
+def 44389:44397 <> convert_1
+binder 44399:44403 <> batch:1220
+binder 44405:44411 <> channel:1221
+binder 44413:44414 <> m1:1222
+binder 44416:44417 <> m2:1223
+R44429:44435 Ionia.NN.tensor <> Tensor4 def
+R44481:44481 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44469:44469 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44478:44479 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44476:44476 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R44472:44472 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44470:44471 Ionia.NN.operation <> m2:1223 var
+R44474:44474 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R44464:44464 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44452:44452 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44461:44462 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44459:44459 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R44455:44455 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44453:44454 Ionia.NN.operation <> m1:1222 var
+R44457:44457 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R44443:44449 Ionia.NN.operation <> channel:1221 var
+R44437:44441 Ionia.NN.operation <> batch:1220 var
+binder 44421:44425 <> input:1224
+R44495:44497 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R44498:44499 Ionia.NN.operation <> m1:1222 var
+binder 44489:44490 <> E1:1225
+R44509:44511 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R44512:44513 Ionia.NN.operation <> m2:1223 var
+binder 44503:44504 <> E2:1226
+R44518:44524 Ionia.NN.tensor <> Tensor4 def
+R44543:44544 Ionia.NN.operation <> m2:1223 var
+R44540:44541 Ionia.NN.operation <> m1:1222 var
+R44532:44538 Ionia.NN.operation <> channel:1221 var
+R44526:44530 Ionia.NN.operation <> batch:1220 var
+R44593:44595 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
 R44577:44577 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44586:44587 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44584:44584 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R44580:44580 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44578:44579 Ionia.NN.operation <> m2:1218 var
-R44582:44582 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R44572:44572 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44560:44560 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44569:44570 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44567:44567 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R44563:44563 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44561:44562 Ionia.NN.operation <> m1:1217 var
-R44565:44565 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R44551:44557 Ionia.NN.operation <> channel:1216 var
-R44545:44549 Ionia.NN.operation <> batch:1215 var
-binder 44529:44533 <> input:1219
-R44603:44605 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
-R44606:44607 Ionia.NN.operation <> m1:1217 var
-binder 44597:44598 <> E1:1220
-R44617:44619 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
-R44620:44621 Ionia.NN.operation <> m2:1218 var
-binder 44611:44612 <> E2:1221
-R44626:44632 Ionia.NN.tensor <> Tensor4 def
-R44651:44652 Ionia.NN.operation <> m2:1218 var
-R44648:44649 Ionia.NN.operation <> m1:1217 var
-R44640:44646 Ionia.NN.operation <> channel:1216 var
-R44634:44638 Ionia.NN.operation <> batch:1215 var
-R44700:44702 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44684:44684 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44695:44698 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44691:44693 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R44687:44689 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44743:44755 Ionia.NN.operation <> convert_3_aux thm
-R44700:44702 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44684:44684 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44695:44698 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44691:44693 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R44687:44689 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44743:44755 Ionia.NN.operation <> convert_3_aux thm
-R44791:44793 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44775:44775 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44786:44789 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44782:44784 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R44778:44780 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44834:44846 Ionia.NN.operation <> convert_3_aux thm
-R44791:44793 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44775:44775 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44786:44789 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
-R44782:44784 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
-R44778:44780 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R44834:44846 Ionia.NN.operation <> convert_3_aux thm
-def 44887:44895 <> convert_4
-binder 44898:44902 <> batch:1222
-binder 44904:44910 <> channel:1223
-binder 44912:44913 <> m1:1224
-binder 44915:44916 <> m2:1225
-binder 44918:44928 <> growth_rate:1226
-binder 44930:44939 <> num_layers:1227
-R44952:44958 Ionia.NN.tensor <> Tensor4 def
-R44977:44978 Ionia.NN.operation <> m2:1225 var
-R44974:44975 Ionia.NN.operation <> m1:1224 var
-R44966:44972 Ionia.NN.operation <> channel:1223 var
-R44960:44964 Ionia.NN.operation <> batch:1222 var
-binder 44945:44949 <> input:1228
-R44994:44996 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R44984:44993 Ionia.NN.operation <> num_layers:1227 var
-binder 44982:44982 <> E:1229
-R45005:45011 Ionia.NN.tensor <> Tensor4 def
-R45059:45060 Ionia.NN.operation <> m2:1225 var
-R45056:45057 Ionia.NN.operation <> m1:1224 var
-R45027:45029 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R45020:45026 Ionia.NN.operation <> channel:1223 var
-R45041:45043 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R45030:45040 Ionia.NN.operation <> growth_rate:1226 var
-R45044:45053 Ionia.NN.operation <> num_layers:1227 var
-R45013:45017 Ionia.NN.operation <> batch:1222 var
-R45103:45113 Coq.Arith.PeanoNat Nat mul_0_r thm
-R45103:45113 Coq.Arith.PeanoNat Nat mul_0_r thm
-R45103:45113 Coq.Arith.PeanoNat Nat mul_0_r thm
-R45124:45134 Coq.Arith.PeanoNat Nat add_0_r thm
-R45124:45134 Coq.Arith.PeanoNat Nat add_0_r thm
-R45124:45134 Coq.Arith.PeanoNat Nat add_0_r thm
-prf 45162:45174 <> convert_5_aux
-binder 45185:45185 <> a:1230
-binder 45187:45187 <> b:1231
-binder 45189:45189 <> c:1232
-R45203:45205 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R45193:45195 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R45192:45192 Ionia.NN.operation <> a:1230 var
-R45197:45199 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R45196:45196 Ionia.NN.operation <> b:1231 var
-R45200:45200 Coq.Init.Datatypes <> S constr
-R45202:45202 Ionia.NN.operation <> c:1232 var
-R45215:45217 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R45207:45209 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R45206:45206 Ionia.NN.operation <> a:1230 var
-R45211:45213 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R45210:45210 Ionia.NN.operation <> b:1231 var
-R45214:45214 Ionia.NN.operation <> c:1232 var
-R45218:45218 Ionia.NN.operation <> b:1231 var
-def 45258:45266 <> convert_5
-binder 45269:45273 <> batch:1233
-binder 45275:45281 <> channel:1234
-binder 45283:45284 <> m1:1235
-binder 45286:45287 <> m2:1236
-binder 45289:45299 <> growth_rate:1237
-binder 45301:45302 <> p':1238
-R45316:45322 Ionia.NN.tensor <> Tensor4 def
-R45376:45377 Ionia.NN.operation <> m2:1236 var
-R45373:45374 Ionia.NN.operation <> m1:1235 var
-R45357:45359 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R45338:45340 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R45331:45337 Ionia.NN.operation <> channel:1234 var
-R45352:45354 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R45341:45351 Ionia.NN.operation <> growth_rate:1237 var
-R45355:45356 Ionia.NN.operation <> p':1238 var
-R45360:45370 Ionia.NN.operation <> growth_rate:1237 var
-R45324:45328 Ionia.NN.operation <> batch:1233 var
-binder 45308:45312 <> input:1239
-R45384:45390 Ionia.NN.tensor <> Tensor4 def
-R45434:45435 Ionia.NN.operation <> m2:1236 var
-R45431:45432 Ionia.NN.operation <> m1:1235 var
-R45406:45408 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
-R45399:45405 Ionia.NN.operation <> channel:1234 var
-R45420:45423 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R45428:45428 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
-R45409:45419 Ionia.NN.operation <> growth_rate:1237 var
-R45424:45424 Coq.Init.Datatypes <> S constr
-R45426:45427 Ionia.NN.operation <> p':1238 var
-R45392:45396 Ionia.NN.operation <> batch:1233 var
-R45465:45477 Ionia.NN.operation <> convert_5_aux thm
-R45465:45477 Ionia.NN.operation <> convert_5_aux thm
-R45465:45477 Ionia.NN.operation <> convert_5_aux thm
+R44588:44591 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44584:44586 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R44580:44582 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44636:44648 Ionia.NN.operation <> convert_1_aux thm
+R44593:44595 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44577:44577 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44588:44591 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44584:44586 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R44580:44582 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44636:44648 Ionia.NN.operation <> convert_1_aux thm
+R44685:44687 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44669:44669 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44680:44683 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44676:44678 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R44672:44674 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44728:44740 Ionia.NN.operation <> convert_1_aux thm
+R44685:44687 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44669:44669 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44680:44683 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44676:44678 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R44672:44674 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44728:44740 Ionia.NN.operation <> convert_1_aux thm
+prf 44777:44789 <> convert_2_aux
+binder 44800:44800 <> n:1227
+R44808:44811 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R44804:44806 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R44807:44807 Ionia.NN.operation <> n:1227 var
+R44829:44831 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R44825:44827 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44812:44812 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44822:44823 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44818:44820 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R44814:44816 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44813:44813 Ionia.NN.operation <> n:1227 var
+R44832:44832 Ionia.NN.operation <> n:1227 var
+R44858:44868 Coq.Arith.PeanoNat Nat div_1_r def
+R44858:44868 Coq.Arith.PeanoNat Nat div_1_r def
+R44858:44868 Coq.Arith.PeanoNat Nat div_1_r def
+def 44893:44901 <> convert_2
+binder 44903:44907 <> batch:1228
+binder 44909:44915 <> channel:1229
+binder 44917:44918 <> m1:1230
+binder 44920:44921 <> m2:1231
+R44932:44938 Ionia.NN.tensor <> Tensor4 def
+R44984:44984 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44972:44972 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44981:44982 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44979:44979 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R44975:44975 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44973:44974 Ionia.NN.operation <> m2:1231 var
+R44977:44977 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R44967:44967 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44955:44955 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44964:44965 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R44962:44962 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R44958:44958 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R44956:44957 Ionia.NN.operation <> m1:1230 var
+R44960:44960 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R44946:44952 Ionia.NN.operation <> channel:1229 var
+R44940:44944 Ionia.NN.operation <> batch:1228 var
+binder 44924:44928 <> input:1232
+R44998:45000 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R45001:45002 Ionia.NN.operation <> m1:1230 var
+binder 44992:44993 <> E1:1233
+R45012:45014 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R45015:45016 Ionia.NN.operation <> m2:1231 var
+binder 45006:45007 <> E2:1234
+R45021:45027 Ionia.NN.tensor <> Tensor4 def
+R45046:45047 Ionia.NN.operation <> m2:1231 var
+R45043:45044 Ionia.NN.operation <> m1:1230 var
+R45035:45041 Ionia.NN.operation <> channel:1229 var
+R45029:45033 Ionia.NN.operation <> batch:1228 var
+R45095:45097 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45079:45079 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45090:45093 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45086:45088 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R45082:45084 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45138:45150 Ionia.NN.operation <> convert_2_aux thm
+R45095:45097 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45079:45079 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45090:45093 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45086:45088 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R45082:45084 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45138:45150 Ionia.NN.operation <> convert_2_aux thm
+R45186:45188 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45170:45170 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45181:45184 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45177:45179 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R45173:45175 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45229:45241 Ionia.NN.operation <> convert_2_aux thm
+R45186:45188 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45170:45170 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45181:45184 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45177:45179 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R45173:45175 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45229:45241 Ionia.NN.operation <> convert_2_aux thm
+prf 45277:45289 <> convert_3_aux
+binder 45300:45300 <> n:1235
+R45308:45311 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R45304:45306 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R45307:45307 Ionia.NN.operation <> n:1235 var
+R45329:45331 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45325:45327 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45312:45312 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45322:45323 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45318:45320 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R45314:45316 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45313:45313 Ionia.NN.operation <> n:1235 var
+R45332:45332 Ionia.NN.operation <> n:1235 var
+R45358:45368 Coq.Arith.PeanoNat Nat div_1_r def
+R45358:45368 Coq.Arith.PeanoNat Nat div_1_r def
+R45358:45368 Coq.Arith.PeanoNat Nat div_1_r def
+def 45393:45401 <> convert_3
+binder 45403:45407 <> batch:1236
+binder 45409:45415 <> channel:1237
+binder 45417:45418 <> m1:1238
+binder 45420:45421 <> m2:1239
+R45432:45438 Ionia.NN.tensor <> Tensor4 def
+R45484:45484 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45472:45472 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45481:45482 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45479:45479 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R45475:45475 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45473:45474 Ionia.NN.operation <> m2:1239 var
+R45477:45477 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R45467:45467 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45455:45455 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45464:45465 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45462:45462 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R45458:45458 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45456:45457 Ionia.NN.operation <> m1:1238 var
+R45460:45460 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R45446:45452 Ionia.NN.operation <> channel:1237 var
+R45440:45444 Ionia.NN.operation <> batch:1236 var
+binder 45424:45428 <> input:1240
+R45498:45500 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R45501:45502 Ionia.NN.operation <> m1:1238 var
+binder 45492:45493 <> E1:1241
+R45512:45514 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R45515:45516 Ionia.NN.operation <> m2:1239 var
+binder 45506:45507 <> E2:1242
+R45521:45527 Ionia.NN.tensor <> Tensor4 def
+R45546:45547 Ionia.NN.operation <> m2:1239 var
+R45543:45544 Ionia.NN.operation <> m1:1238 var
+R45535:45541 Ionia.NN.operation <> channel:1237 var
+R45529:45533 Ionia.NN.operation <> batch:1236 var
+R45595:45597 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45579:45579 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45590:45593 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45586:45588 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R45582:45584 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45638:45650 Ionia.NN.operation <> convert_3_aux thm
+R45595:45597 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45579:45579 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45590:45593 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45586:45588 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R45582:45584 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45638:45650 Ionia.NN.operation <> convert_3_aux thm
+R45686:45688 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45670:45670 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45681:45684 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45677:45679 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R45673:45675 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45729:45741 Ionia.NN.operation <> convert_3_aux thm
+R45686:45688 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45670:45670 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45681:45684 Coq.Init.Nat <> ::nat_scope:x_'/'_x not
+R45677:45679 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R45673:45675 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45729:45741 Ionia.NN.operation <> convert_3_aux thm
+def 45782:45790 <> convert_4
+binder 45793:45797 <> batch:1243
+binder 45799:45805 <> channel:1244
+binder 45807:45808 <> m1:1245
+binder 45810:45811 <> m2:1246
+binder 45813:45823 <> growth_rate:1247
+binder 45825:45834 <> num_layers:1248
+R45847:45853 Ionia.NN.tensor <> Tensor4 def
+R45872:45873 Ionia.NN.operation <> m2:1246 var
+R45869:45870 Ionia.NN.operation <> m1:1245 var
+R45861:45867 Ionia.NN.operation <> channel:1244 var
+R45855:45859 Ionia.NN.operation <> batch:1243 var
+binder 45840:45844 <> input:1249
+R45889:45891 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45879:45888 Ionia.NN.operation <> num_layers:1248 var
+binder 45877:45877 <> E:1250
+R45900:45906 Ionia.NN.tensor <> Tensor4 def
+R45954:45955 Ionia.NN.operation <> m2:1246 var
+R45951:45952 Ionia.NN.operation <> m1:1245 var
+R45922:45924 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R45915:45921 Ionia.NN.operation <> channel:1244 var
+R45936:45938 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R45925:45935 Ionia.NN.operation <> growth_rate:1247 var
+R45939:45948 Ionia.NN.operation <> num_layers:1248 var
+R45908:45912 Ionia.NN.operation <> batch:1243 var
+R45998:46008 Coq.Arith.PeanoNat Nat mul_0_r thm
+R45998:46008 Coq.Arith.PeanoNat Nat mul_0_r thm
+R45998:46008 Coq.Arith.PeanoNat Nat mul_0_r thm
+R46019:46029 Coq.Arith.PeanoNat Nat add_0_r thm
+R46019:46029 Coq.Arith.PeanoNat Nat add_0_r thm
+R46019:46029 Coq.Arith.PeanoNat Nat add_0_r thm
+prf 46057:46069 <> convert_5_aux
+binder 46080:46080 <> a:1251
+binder 46082:46082 <> b:1252
+binder 46084:46084 <> c:1253
+R46098:46100 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R46088:46090 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R46087:46087 Ionia.NN.operation <> a:1251 var
+R46092:46094 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R46091:46091 Ionia.NN.operation <> b:1252 var
+R46095:46095 Coq.Init.Datatypes <> S constr
+R46097:46097 Ionia.NN.operation <> c:1253 var
+R46110:46112 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R46102:46104 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R46101:46101 Ionia.NN.operation <> a:1251 var
+R46106:46108 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R46105:46105 Ionia.NN.operation <> b:1252 var
+R46109:46109 Ionia.NN.operation <> c:1253 var
+R46113:46113 Ionia.NN.operation <> b:1252 var
+def 46153:46161 <> convert_5
+binder 46164:46168 <> batch:1254
+binder 46170:46176 <> channel:1255
+binder 46178:46179 <> m1:1256
+binder 46181:46182 <> m2:1257
+binder 46184:46194 <> growth_rate:1258
+binder 46196:46197 <> p':1259
+R46211:46217 Ionia.NN.tensor <> Tensor4 def
+R46271:46272 Ionia.NN.operation <> m2:1257 var
+R46268:46269 Ionia.NN.operation <> m1:1256 var
+R46252:46254 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R46233:46235 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R46226:46232 Ionia.NN.operation <> channel:1255 var
+R46247:46249 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R46236:46246 Ionia.NN.operation <> growth_rate:1258 var
+R46250:46251 Ionia.NN.operation <> p':1259 var
+R46255:46265 Ionia.NN.operation <> growth_rate:1258 var
+R46219:46223 Ionia.NN.operation <> batch:1254 var
+binder 46203:46207 <> input:1260
+R46279:46285 Ionia.NN.tensor <> Tensor4 def
+R46329:46330 Ionia.NN.operation <> m2:1257 var
+R46326:46327 Ionia.NN.operation <> m1:1256 var
+R46301:46303 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R46294:46300 Ionia.NN.operation <> channel:1255 var
+R46315:46318 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R46323:46323 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R46304:46314 Ionia.NN.operation <> growth_rate:1258 var
+R46319:46319 Coq.Init.Datatypes <> S constr
+R46321:46322 Ionia.NN.operation <> p':1259 var
+R46287:46291 Ionia.NN.operation <> batch:1254 var
+R46360:46372 Ionia.NN.operation <> convert_5_aux thm
+R46360:46372 Ionia.NN.operation <> convert_5_aux thm
+R46360:46372 Ionia.NN.operation <> convert_5_aux thm
